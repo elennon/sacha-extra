@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Extras.Views.NewExtra"
+             Title="Add..">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save quote"
+                     Clicked="OnSaveButtonClicked" />
+    </ContentPage.ToolbarItems>
+    <!-- Layout children vertically -->
+    <ScrollView>
+        <StackLayout Margin="20">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Name" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Employee name" x:Name="lugName" HeightRequest="60" 
+                        HorizontalOptions="CenterAndExpand" WidthRequest="200"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Date" HeightRequest="60" VerticalTextAlignment="Center" />
+                <DatePicker MinimumDate="01/01/2020" x:Name="exDate" HeightRequest="60" HorizontalOptions="CenterAndExpand"
+                    MaximumDate="12/31/2023" WidthRequest="200"
+                    Date="{Binding}" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HeightRequest="200">
+                <Label Text="Desc." HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="description" x:Name="description" HeightRequest="60" WidthRequest="200"
+                        AutoSize="TextChanges" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Hours" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Hours" x:Name="hours" HeightRequest="60" WidthRequest="200"
+                        HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Rate" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Rate" x:Name="rate" HeightRequest="60" WidthRequest="200" HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+
+            <StackLayout Margin="20,35,20,20">
+                <Label Text="Photo Picker"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+                <Button Text="Pick Photo"
+                    Clicked="OnPickPhotoButtonClicked" />
+                <Image x:Name="image" />
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
