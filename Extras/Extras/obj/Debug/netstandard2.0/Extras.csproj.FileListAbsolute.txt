@@ -16,3 +16,5 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\bin\Debug\netstandard2.
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\bin\Debug\netstandard2.0\Extras.pdb
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\ref\Extras.dll
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\ExportingEPage.xaml.g.cs
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\ExportingExcelPage.xaml.g.cs

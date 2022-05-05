@@ -1,8 +1,8 @@
 	.section	.rodata.map_aname.0,"aMS",@progbits,1
 	.type	.L.map_aname.0, @object
 .L.map_aname.0:
-	.asciz	"Xamarin.Essentials"
-	.size	.L.map_aname.0, 19
+	.asciz	"Extras.Android"
+	.size	.L.map_aname.0, 15
 
 	.section	.rodata.map_aname.1,"aMS",@progbits,1
 	.type	.L.map_aname.1, @object
@@ -49,8 +49,8 @@
 	.section	.rodata.map_aname.8,"aMS",@progbits,1
 	.type	.L.map_aname.8, @object
 .L.map_aname.8:
-	.asciz	"Xamarin.AndroidX.Core"
-	.size	.L.map_aname.8, 22
+	.asciz	"Xamarin.Essentials"
+	.size	.L.map_aname.8, 19
 
 	.section	.rodata.map_aname.9,"aMS",@progbits,1
 	.type	.L.map_aname.9, @object
@@ -85,50 +85,50 @@
 	.section	.rodata.map_aname.14,"aMS",@progbits,1
 	.type	.L.map_aname.14, @object
 .L.map_aname.14:
-	.asciz	"Extras.Android"
-	.size	.L.map_aname.14, 15
+	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.size	.L.map_aname.14, 30
 
 	.section	.rodata.map_aname.15,"aMS",@progbits,1
 	.type	.L.map_aname.15, @object
 .L.map_aname.15:
-	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.asciz	"Xamarin.AndroidX.RecyclerView"
 	.size	.L.map_aname.15, 30
 
 	.section	.rodata.map_aname.16,"aMS",@progbits,1
 	.type	.L.map_aname.16, @object
 .L.map_aname.16:
-	.asciz	"Xamarin.AndroidX.RecyclerView"
-	.size	.L.map_aname.16, 30
+	.asciz	"Xamarin.AndroidX.Core"
+	.size	.L.map_aname.16, 22
 
 	.section	.rodata.map_aname.17,"aMS",@progbits,1
 	.type	.L.map_aname.17, @object
 .L.map_aname.17:
-	.asciz	"Xamarin.AndroidX.AppCompat"
-	.size	.L.map_aname.17, 27
+	.asciz	"Mono.Android"
+	.size	.L.map_aname.17, 13
 
 	.section	.rodata.map_aname.18,"aMS",@progbits,1
 	.type	.L.map_aname.18, @object
 .L.map_aname.18:
-	.asciz	"FormsViewGroup"
-	.size	.L.map_aname.18, 15
+	.asciz	"Xamarin.AndroidX.AppCompat"
+	.size	.L.map_aname.18, 27
 
 	.section	.rodata.map_aname.19,"aMS",@progbits,1
 	.type	.L.map_aname.19, @object
 .L.map_aname.19:
-	.asciz	"Xamarin.Google.Guava.ListenableFuture"
-	.size	.L.map_aname.19, 38
+	.asciz	"FormsViewGroup"
+	.size	.L.map_aname.19, 15
 
 	.section	.rodata.map_aname.20,"aMS",@progbits,1
 	.type	.L.map_aname.20, @object
 .L.map_aname.20:
-	.asciz	"Xamarin.AndroidX.CustomView"
-	.size	.L.map_aname.20, 28
+	.asciz	"Xamarin.Google.Guava.ListenableFuture"
+	.size	.L.map_aname.20, 38
 
 	.section	.rodata.map_aname.21,"aMS",@progbits,1
 	.type	.L.map_aname.21, @object
 .L.map_aname.21:
-	.asciz	"Mono.Android"
-	.size	.L.map_aname.21, 13
+	.asciz	"Xamarin.AndroidX.CustomView"
+	.size	.L.map_aname.21, 28
 
 	.section	.rodata.map_aname.22,"aMS",@progbits,1
 	.type	.L.map_aname.22, @object

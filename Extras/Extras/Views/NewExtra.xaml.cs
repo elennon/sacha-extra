@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,16 +15,21 @@ namespace Extras.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NewExtra : ContentPage
     {
+        private MemoryStream ms = new MemoryStream();
+        private byte[] bytes;
         public NewExtra()
         {
             InitializeComponent();
             BindingContext = new Extra();
+            
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            exDate.Date = DateTime.Today;            
+            exDate.Date = DateTime.Today;
+            //var beachImage = new Image { Aspect = Aspect.AspectFit };
+            image2.Source = ImageSource.FromFile("Extras.mice.jpg");
         }
 
         async void OnPickPhotoButtonClicked(object sender, EventArgs e)
@@ -34,41 +40,36 @@ namespace Extras.Views
             if (stream != null)
             {
                 image.Source = ImageSource.FromStream(() => stream);
+                await copyPic(stream);
             }
 
             (sender as Button).IsEnabled = true;
         }
 
+        private async Task copyPic(Stream stream)
+        {
+            await stream.CopyToAsync(ms);
+            bytes = ms.ToArray();
+        }
+
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
+            
             var ext = (Extra)BindingContext;
             ext.Name = lugName.Text;
             ext.Description = description.Text;
             ext.Date = exDate.Date;
             ext.Hours = Convert.ToDouble(hours.Text);
             ext.Rate = Convert.ToDouble(rate.Text);
-
-            ImageSource fg = image.Source;
-            var byt = ImageSourceToBytes(fg);
-
-            ext.Image.Add(byt);
-
+            
+            ext.Image = bytes;
+            //var assembly = IntrospectionExtensions.GetTypeInfo(typeof(AboutPage)).Assembly;
+            //image.SetValue = assembly.GetManifestResourceStream("Extras.mice.jpg");
+            
             await App.Database.SaveExtraAsync(ext);
             await DisplayAlert("Alert", "Saved receipt", "OK");
             //// Navigate backwards
             //await Shell.Current.GoToAsync("..");
-        }
-
-        public byte[] ImageSourceToBytes(ImageSource imageSource)
-        {
-            StreamImageSource streamImageSource = (StreamImageSource)imageSource;
-            System.Threading.CancellationToken cancellationToken =
-            System.Threading.CancellationToken.None;
-            Task<Stream> task = streamImageSource.Stream(cancellationToken);
-            Stream stream = task.Result;
-            byte[] bytesAvailable = new byte[stream.Length];
-            stream.Read(bytesAvailable, 0, bytesAvailable.Length);
-            return bytesAvailable;
         }
     }
 }

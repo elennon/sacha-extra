@@ -69,3 +69,5 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Ex
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.csproj.CopyComplete
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.exe
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.pdb
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\System.IO.Packaging.dll

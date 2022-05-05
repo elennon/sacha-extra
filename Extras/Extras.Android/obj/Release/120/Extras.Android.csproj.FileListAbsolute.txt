@@ -470,3 +470,10 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\assets\DocumentFormat.OpenXml.dll
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\assets\System.IO.Compression.dll
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\assets\System.IO.Compression.pdb
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\assets\System.IO.Packaging.dll
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\assets\System.Xml.Linq.dll
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\assets\System.Xml.Linq.pdb
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\src\xamarin\essentials\fileProvider.java

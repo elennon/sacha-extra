@@ -5,14 +5,24 @@
        Title="Extras"
        x:Class="Extras.AppShell">
 
-    <FlyoutItem Title="Veiw all">
+    <FlyoutItem Title="Home">
         <Tab>
-            <ShellContent ContentTemplate="{DataTemplate local:NewExtra}" />
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="New extra">
         <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:NewExtra}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Veiw all">
+        <Tab>
             <ShellContent ContentTemplate="{DataTemplate local:VeiwAll}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Veiw all">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:ExportingEPage}" />
         </Tab>
     </FlyoutItem>
 

@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Extras.Android.dll" comes first in this list. */
 		"Extras.Android.dll",
+		"DocumentFormat.OpenXml.dll",
 		"Extras.dll",
 		"FormsViewGroup.dll",
 		"SQLite-net.dll",
@@ -10,6 +11,7 @@ public class MonoPackageManager_Resources {
 		"SQLitePCLRaw.core.dll",
 		"SQLitePCLRaw.lib.e_sqlite3.android.dll",
 		"SQLitePCLRaw.provider.e_sqlite3.dll",
+		"System.IO.Packaging.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.AppCompat.AppCompatResources.dll",
 		"Xamarin.AndroidX.AppCompat.dll",

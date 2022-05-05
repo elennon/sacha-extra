@@ -4,7 +4,6 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\a
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\Extras.Android.csproj.AssemblyReference.cache
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\stamp\_BuildLibraryImportsCache.stamp
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\res.flag
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\53\jl\files.cache
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\54\jl\files.cache
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\61\jl\files.cache
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\62\jl\files.cache
@@ -638,3 +637,6 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\s
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\55\jl\files.cache
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\assets\DocumentFormat.OpenXml.dll
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\assets\System.IO.Packaging.dll

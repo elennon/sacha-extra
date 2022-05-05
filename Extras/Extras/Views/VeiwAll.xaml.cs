@@ -1,5 +1,10 @@
-﻿using System;
+﻿using DocumentFormat.OpenXml;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Spreadsheet;
+using Extras.Models;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,7 +24,13 @@ namespace Extras.Views
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            collectionView.ItemsSource = await App.Database.GetExtrasAsync();
+            var h = await App.Database.GetExtrasAsync();
+            collectionView.ItemsSource = h;
+            pic.Source = ImageSource.FromStream(() => new MemoryStream(h.FirstOrDefault().Image));
+
         }
+        
     }
+
+    
 }

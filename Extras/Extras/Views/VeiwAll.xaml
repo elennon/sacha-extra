@@ -4,6 +4,7 @@
              x:Class="Extras.Views.VeiwAll">
     <ContentPage.Content>
         <StackLayout>
+            <Image x:Name="pic" />
             <CollectionView x:Name="collectionView" SelectionMode="Single"
                     Margin="20">
 
@@ -15,7 +16,9 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout Orientation="Horizontal">
-                            <Label Text="{Binding}" FontSize="Small"/>
+                            <Label Text="{Binding Name}" FontSize="Small"/>
+                            <Label Text="{Binding Date}" FontSize="Small"/>
+                            <Label Text="{Binding LaborCost}" FontSize="Small"/>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
