@@ -5,7 +5,7 @@
              xmlns:vm="clr-namespace:Extras.Views"
              Title="About">
     <StackLayout>
-        <Label Text="Welcome to Xamarin.Forms!"
+        <Label Text="words words"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
     </StackLayout>

@@ -9,6 +9,7 @@ namespace Extras.Models
     {
         [PrimaryKey, AutoIncrement]
         public int id { get; set; }
+        public string JobSite { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public double Hours { get; set; }

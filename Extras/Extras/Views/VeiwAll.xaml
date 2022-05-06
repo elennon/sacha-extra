@@ -1,11 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Extras.Views.VeiwAll">
+             x:Class="Extras.Views.VeiwAll"
+             Title="all">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="send exel email"
+                     Clicked="sendAsEmailClicked" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
-            <Image x:Name="pic" />
-            <CollectionView x:Name="collectionView" SelectionMode="Single"
+            <StackLayout Orientation="Horizontal">
+                <Label Text="send to email" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Enter email" x:Name="emailto" HeightRequest="60" WidthRequest="200" 
+                        HorizontalOptions="CenterAndExpand" Text="eee_lennon@yahoo.com" />
+            </StackLayout>
+            <CollectionView x:Name="collectionView" SelectionMode="Multiple" 
                     Margin="20">
 
                 <CollectionView.ItemsLayout>
@@ -16,6 +25,7 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding id}" IsVisible="false"  FontSize="Small"/>
                             <Label Text="{Binding Name}" FontSize="Small"/>
                             <Label Text="{Binding Date}" FontSize="Small"/>
                             <Label Text="{Binding LaborCost}" FontSize="Small"/>
@@ -23,6 +33,7 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

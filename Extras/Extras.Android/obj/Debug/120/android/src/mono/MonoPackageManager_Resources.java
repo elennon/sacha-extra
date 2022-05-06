@@ -6,6 +6,7 @@ public class MonoPackageManager_Resources {
 		"DocumentFormat.OpenXml.dll",
 		"Extras.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",

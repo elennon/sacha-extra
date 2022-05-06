@@ -28,22 +28,27 @@ namespace Extras.Views
         {
             base.OnAppearing();
             exDate.Date = DateTime.Today;
-            //var beachImage = new Image { Aspect = Aspect.AspectFit };
-            image2.Source = ImageSource.FromFile("Extras.mice.jpg");
         }
 
         async void OnPickPhotoButtonClicked(object sender, EventArgs e)
         {
-            (sender as Button).IsEnabled = false;
+            try
+            {           
+                (sender as Button).IsEnabled = false;
 
-            Stream stream = await DependencyService.Get<IPhotoPickerService>().GetImageStreamAsync();
-            if (stream != null)
+                Stream stream = await DependencyService.Get<IPhotoPickerService>().GetImageStreamAsync();
+                if (stream != null)
+                {
+                    image.Source = ImageSource.FromStream(() => stream);
+                    //await copyPic(stream);
+                }
+
+                    (sender as Button).IsEnabled = true;
+                }
+            catch (Exception)
             {
-                image.Source = ImageSource.FromStream(() => stream);
-                await copyPic(stream);
+                await DisplayAlert("Alert", "Exception: " + e.ToString() , "OK");
             }
-
-            (sender as Button).IsEnabled = true;
         }
 
         private async Task copyPic(Stream stream)
@@ -54,22 +59,28 @@ namespace Extras.Views
 
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
+            try
+            {
+                var ext = (Extra)BindingContext;
+                ext.Name = lugName.Text;
+                ext.Description = description.Text;
+                ext.Date = exDate.Date;
+                ext.Hours = Convert.ToDouble(hours.Text);
+                ext.Rate = Convert.ToDouble(rate.Text);
             
-            var ext = (Extra)BindingContext;
-            ext.Name = lugName.Text;
-            ext.Description = description.Text;
-            ext.Date = exDate.Date;
-            ext.Hours = Convert.ToDouble(hours.Text);
-            ext.Rate = Convert.ToDouble(rate.Text);
+                ext.Image = bytes;
+                //var assembly = IntrospectionExtensions.GetTypeInfo(typeof(AboutPage)).Assembly;
+                //image.SetValue = assembly.GetManifestResourceStream("Extras.mice.jpg");
             
-            ext.Image = bytes;
-            //var assembly = IntrospectionExtensions.GetTypeInfo(typeof(AboutPage)).Assembly;
-            //image.SetValue = assembly.GetManifestResourceStream("Extras.mice.jpg");
-            
-            await App.Database.SaveExtraAsync(ext);
-            await DisplayAlert("Alert", "Saved receipt", "OK");
-            //// Navigate backwards
-            //await Shell.Current.GoToAsync("..");
+                await App.Database.SaveExtraAsync(ext);
+                await DisplayAlert("Alert", "Saved receipt", "OK");
+                //// Navigate backwards
+                //await Shell.Current.GoToAsync("..");
+            }
+            catch (Exception)
+            {
+                await DisplayAlert("Alert", "Exception: " + e.ToString(), "OK");
+            }
         }
     }
 }

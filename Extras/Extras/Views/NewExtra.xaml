@@ -10,10 +10,14 @@
     <!-- Layout children vertically -->
     <ScrollView>
         <StackLayout Margin="20">
-            <Image x:Name="image2" Margin="10,10,10,10"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Site" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Job site" x:Name="siteName" HeightRequest="60" 
+                        HorizontalOptions="CenterAndExpand" Text="Intel"  WidthRequest="200"/>
+            </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Name" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Employee name" x:Name="lugName" HeightRequest="60" Text="gg"
+                <Editor Placeholder="Employee name" x:Name="lugName" HeightRequest="60" Text="joe slob"
                         HorizontalOptions="CenterAndExpand" WidthRequest="200"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
@@ -23,8 +27,8 @@
                     Date="{Binding}" />
             </StackLayout>
             <StackLayout Orientation="Horizontal" HeightRequest="200">
-                <Label Text="Desc." HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="description" x:Name="description" HeightRequest="60" WidthRequest="200" Text="gg"
+                <Label Text="Desc." HeightRequest="60" VerticalTextAlignment="Start" />
+                <Editor Placeholder="description" x:Name="description" HeightRequest="60" WidthRequest="200" Text="Joe laid an egg"
                         AutoSize="TextChanges" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
@@ -35,7 +39,7 @@
             <StackLayout Orientation="Horizontal">
                 <Label Text="Rate" HeightRequest="60" VerticalTextAlignment="Center" />
                 <Editor Placeholder="Rate" x:Name="rate" HeightRequest="60" WidthRequest="200" 
-                        HorizontalOptions="CenterAndExpand" Text="5" />
+                        HorizontalOptions="CenterAndExpand" Text="18" />
             </StackLayout>
 
             <StackLayout Margin="20,35,20,20">
