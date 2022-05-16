@@ -73,10 +73,7 @@ namespace Extras.Views
                     //});
                     MessagingCenter.Unsubscribe<App, List<string>>(this, "ImagesSelectedAndroid");
                     MessagingCenter.Subscribe<App, List<string>>(this, "ImagesSelectedAndroid", (s, images) =>
-                    {
-                        InfoText.IsVisible = true; //InfoText is optional
-                        InfoText.Text = "poo and plop";
-                        //If we have selected images, put them into the carousel view.
+                    {                       
                         if (images.Count > 0)
                         {
                             ImgCarouselView.ItemsSource = images;

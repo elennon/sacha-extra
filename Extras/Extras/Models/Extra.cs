@@ -17,7 +17,7 @@ namespace Extras.Models
         public double Rate { get; set; }
         public Nullable<System.DateTime> Date { get; set; }
 
-        public byte[] Image { get; set; }
+        public List<byte[]> Image { get; set; }
 
         public double LaborCost
         {
