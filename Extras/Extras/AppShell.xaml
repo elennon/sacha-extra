@@ -20,11 +20,12 @@
             <ShellContent ContentTemplate="{DataTemplate local:VeiwAll}" />
         </Tab>
     </FlyoutItem>
-    <FlyoutItem Title="Import excel">
+    <FlyoutItem Title=" images">
         <Tab>
-            <ShellContent ContentTemplate="{DataTemplate local:ExportingEPage}" />
+            <ShellContent ContentTemplate="{DataTemplate local:pics}" />
         </Tab>
     </FlyoutItem>
+    
 
 
 </Shell>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using DocumentFormat.OpenXml;
@@ -20,7 +21,7 @@ namespace Extras.Services
                  DataType = new EnumValue<CellValues>(dataTypes)
             };
 
-        public string GenerateExcel(String fileName)
+        public string GenerateExcel(String fileName, List<string> shtNames)
         {
             Environment.SetEnvironmentVariable("MONO_URI_DOTNETRELATIVEORABSOLUTE", "true");
 
@@ -33,21 +34,16 @@ namespace Extras.Services
 
             var part = wbPart.AddNewPart<WorksheetPart>();
             part.Worksheet = new Worksheet(new SheetData());
-
-            //  Here are created the sheets, you can add all the child sheets that you need.
-            var sheets = wbPart.Workbook.AppendChild
-                (
-                   new Sheets(
-                            new Sheet()
-                            {
-                                Id = wbPart.GetIdOfPart(part),
-                                SheetId = 1,
-                                Name = "Contacts"
-                            }
-                        )
-                );
-
-
+            var sheets = wbPart.Workbook.AppendChild(new Sheets());
+            foreach (var item in shtNames)
+            {
+                sheets.AddChild(new Sheet()
+                {
+                    Id = wbPart.GetIdOfPart(part),
+                    SheetId = 1,
+                    Name = item
+                });
+            }                      
             // Just save and close you Excel file
             wbPart.Workbook.Save();
             document.Close();
@@ -62,17 +58,17 @@ namespace Extras.Services
             using (var document = SpreadsheetDocument.Open(fileName, true))
             {
                 var wbPart = document.WorkbookPart;
-                var sheets = wbPart.Workbook.GetFirstChild<Sheets>().
-                             Elements<Sheet>().FirstOrDefault().
-                             Name = sheetName;
+                // sheets = wbPart.Workbook.GetFirstChild<Sheets>().
+                             //Elements<Sheet>().FirstOrDefault().
+                             //Name = sheetName;
 
                 var part = wbPart.WorksheetParts.First();
-                var sheetData = part.Worksheet.Elements<SheetData>().First();
-
+                var sheetData = part.Worksheet.Elements<SheetData>().ToList().Where(x => x.XName == sheetName).FirstOrDefault();
+                //var sheetData = sheetDatas.First();
                 var row = sheetData.AppendChild(new Row());
 
                 foreach (var header in data.Headers)
-                { 
+                {
                     row.Append(ConstructCell(header, CellValues.String));
                 }
 
@@ -81,12 +77,48 @@ namespace Extras.Services
                     var dataRow = sheetData.AppendChild(new Row());
 
                     foreach (var dataElement in value)
-                    { 
+                    {
                         dataRow.Append(ConstructCell(dataElement, CellValues.String));
                     }
-                } 
+                }
+                sheetData.GetFirstChild<DocumentFormat.OpenXml.Spreadsheet.NumberingFormats>().InsertAt<DocumentFormat.OpenXml.Spreadsheet.NumberingFormat>(
+                      new DocumentFormat.OpenXml.Spreadsheet.NumberingFormat()
+                      {
+                          NumberFormatId = 164,
+                          FormatCode = "\"" + System.Globalization.CultureInfo.CurrentUICulture.NumberFormat.CurrencySymbol + "\"\\ " + "#,##0.00"
+                      }, 0);
+
                 wbPart.Workbook.Save(); 
             }
+        }
+
+        public string ExportToExcel(List<Extra> sleected)
+        {
+            var fileName = $"Extras-{Guid.NewGuid()}.xlsx";
+            var grpBy = sleected.GroupBy(x => x.SiteArea);
+            List<string> names = new List<string>();
+            foreach (var area in grpBy)
+            {
+                names.Add(area.Key);
+            }
+            string filepath = GenerateExcel(fileName, names);
+            var data = new ExcelStructure
+            {
+                Headers = new List<string>() { "Date", "Description", "Men", "Hours", "Rate", "LaborCost", }
+            };
+            
+            foreach (var area in grpBy)
+            {
+                foreach (var extr in area)
+                {
+                    data.Values.Add(new List<string>() {extr.Date.ToString(), extr.Description,
+                    extr.Men.ToString(), extr.Hours.ToString(), extr.Rate.ToString(), extr.LaborCost.ToString() });
+                }
+                InsertDataIntoSheet(filepath, area.Key, data);
+                
+            }
+
+            return filepath;
         }
     }
 }

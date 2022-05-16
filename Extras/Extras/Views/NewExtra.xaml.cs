@@ -61,13 +61,14 @@ namespace Extras.Views
         {
             try
             {
-                var ext = (Extra)BindingContext;
-                ext.Name = lugName.Text;
+                var ext = new Extra();// = (Extra)BindingContext;
+                ext.Men = Convert.ToInt16(menNo.Text);
                 ext.Description = description.Text;
-                ext.Date = exDate.Date;
+                ext.Date =  exDate.Date;
                 ext.Hours = Convert.ToDouble(hours.Text);
                 ext.Rate = Convert.ToDouble(rate.Text);
-            
+                ext.JobSite = siteName.Text;
+                ext.SiteArea = siteArea.Text;
                 ext.Image = bytes;
                 //var assembly = IntrospectionExtensions.GetTypeInfo(typeof(AboutPage)).Assembly;
                 //image.SetValue = assembly.GetManifestResourceStream("Extras.mice.jpg");

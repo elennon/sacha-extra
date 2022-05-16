@@ -3,13 +3,9 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Extras.ViewModels;
 using Extras.Services;
 using Extras.Models;
 
@@ -41,7 +37,7 @@ namespace Extras.Views
                 
                 List<string> toAddress = new List<string>();
                 toAddress.Add("elennon@outlook.ie");
-                await SendEmail("this a sublect", "tuna bod", toAddress, fileName);
+                await SendEmail("Extras excel attached", "please find attached a copy of the excel file", toAddress, fileName);
             }
             catch (Exception ex)
             {
@@ -80,31 +76,12 @@ namespace Extras.Views
             {
                 h.Add((Extra)item);
             }
-            var exfile = ExportToExcel(h);
+            var exfile = excelService.ExportToExcel(h);
             List<string> toAddress = new List<string>();
             toAddress.Add(emailto.Text);
-            await SendEmail("this a sublect", "tuna bod", toAddress, exfile);
+            await SendEmail("Extras excel attached", "please find attached a copy of the excel file", toAddress, exfile);
         }
-        private string ExportToExcel(List<Extra> sleected)
-        {
-            var fileName = $"Extras-{Guid.NewGuid()}.xlsx";
-            string filepath = excelService.GenerateExcel(fileName);
-
-            var data = new ExcelStructure
-            {
-                Headers = new List<string>() { "Job Site", "Employee", "Description", "Hours", "Rate", "LaborCost", "Date" }
-            };
-
-            foreach (var item in sleected)
-            {
-                data.Values.Add(new List<string>() {item.JobSite, item.Name, item.Description, item.Hours.ToString(), 
-                    item.Rate.ToString(), item.LaborCost.ToString(), item.Date.ToString() });
-            }
-
-            excelService.InsertDataIntoSheet(filepath, "Contacts", data);
-
-            return filepath;
-        }
+        
 
     }
 }

@@ -11,9 +11,10 @@
         <StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="send to email" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Enter email" x:Name="emailto" HeightRequest="60" WidthRequest="200" 
-                        HorizontalOptions="CenterAndExpand" Text="eee_lennon@yahoo.com" />
+                <Editor Placeholder="Enter email" x:Name="emailto" HeightRequest="60" WidthRequest="200" FontSize="Small"
+                        HorizontalOptions="CenterAndExpand" Text="eee_lennon@yahoo.com" VerticalOptions="CenterAndExpand" />
             </StackLayout>
+            
             <CollectionView x:Name="collectionView" SelectionMode="Multiple" 
                     Margin="20">
 
@@ -26,9 +27,10 @@
                     <DataTemplate>
                         <StackLayout Orientation="Horizontal">
                             <Label Text="{Binding id}" IsVisible="false"  FontSize="Small"/>
-                            <Label Text="{Binding Name}" FontSize="Small"/>
-                            <Label Text="{Binding Date}" FontSize="Small"/>
-                            <Label Text="{Binding LaborCost}" FontSize="Small"/>
+                            <Label Text="{Binding SiteArea}" FontSize="Small"/>
+                            <Label Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}" FontSize="Small"/>
+                            <Label Text="{Binding Description}" FontSize="Small"/>
+                            <Label Text="{Binding LaborCost, StringFormat='€ {0:F2}' }" FontSize="Small"/>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

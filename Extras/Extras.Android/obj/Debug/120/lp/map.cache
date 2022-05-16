@@ -1,4 +1,12 @@
+CarouselView.FormsPlugin.Droid.dll
+Com.Android.DeskClock.dll
+Com.ViewPagerIndicator.dll
+FFImageLoading.Forms.Platform.dll
+FFImageLoading.Platform.dll
 FormsViewGroup.dll
+Plugin.CurrentActivity.dll
+Plugin.Media.dll
+Plugin.Permissions.dll
 SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll

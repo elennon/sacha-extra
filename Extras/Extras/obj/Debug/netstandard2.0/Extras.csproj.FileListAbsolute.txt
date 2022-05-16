@@ -6,9 +6,8 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\ExportingEPage.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\ExportingExcelPage.xaml.g.cs
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\NewExtra.xaml.g.cs
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\pics.xaml.g.cs
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\VeiwAll.xaml.g.cs
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.AssemblyInfoInputs.cache
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.AssemblyInfo.cs

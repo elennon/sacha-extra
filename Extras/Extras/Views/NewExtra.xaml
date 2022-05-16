@@ -16,15 +16,20 @@
                         HorizontalOptions="CenterAndExpand" Text="Intel"  WidthRequest="200"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Name" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Employee name" x:Name="lugName" HeightRequest="60" Text="joe slob"
-                        HorizontalOptions="CenterAndExpand" WidthRequest="200"/>
+                <Label Text="Area" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Site area" x:Name="siteArea" HeightRequest="60" 
+                        HorizontalOptions="CenterAndExpand" Text="Roof"  WidthRequest="200"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Date" HeightRequest="60" VerticalTextAlignment="Center" />
                 <DatePicker MinimumDate="01/01/2020" x:Name="exDate" HeightRequest="60" HorizontalOptions="CenterAndExpand"
                     MaximumDate="12/31/2023" WidthRequest="200"
                     Date="{Binding}" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Men" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Number of men" x:Name="menNo" HeightRequest="60" Text="2"
+                        HorizontalOptions="CenterAndExpand" WidthRequest="200"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HeightRequest="200">
                 <Label Text="Desc." HeightRequest="60" VerticalTextAlignment="Start" />
@@ -48,7 +53,7 @@
                    HorizontalOptions="Center" />
                 <Button Text="Pick Photo"
                     Clicked="OnPickPhotoButtonClicked" />
-                <Image x:Name="image" />
+                <Image x:Name="image" VerticalOptions="CenterAndExpand" />
             </StackLayout>
 
         </StackLayout>

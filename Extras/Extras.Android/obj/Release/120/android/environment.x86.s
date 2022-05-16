@@ -37,7 +37,7 @@ application_config:
 	/* system_property_count */
 	.long	0
 	/* number_of_assemblies_in_apk */
-	.long	53
+	.long	64
 	/* bundled_assembly_name_width */
 	.long	0
 	/* number_of_assembly_store_files */
@@ -84,7 +84,7 @@ mono_aot_mode_name:
 	.section	.rodata.env.str.8,"aMS",@progbits,1
 	.type	.L.env.str.8, @object
 .L.env.str.8:
-	.asciz	"32538279-2692-4434-b6dd-54cabc3f0d76"
+	.asciz	"60235612-c61a-4885-a966-3a8344c38d4c"
 	.size	.L.env.str.8, 37
 	.section	.rodata.env.str.9,"aMS",@progbits,1
 	.type	.L.env.str.9, @object
@@ -635,7 +635,106 @@ assembly_store_bundled_assemblies:
 	/* descriptor */
 	.long	0
 
-	.size	assembly_store_bundled_assemblies, 848
+	/* image_data */
+	.long	0
+	/* debug_info_data */
+	.long	0
+	/* config_data */
+	.long	0
+	/* descriptor */
+	.long	0
+
+	/* image_data */
+	.long	0
+	/* debug_info_data */
+	.long	0
+	/* config_data */
+	.long	0
+	/* descriptor */
+	.long	0
+
+	/* image_data */
+	.long	0
+	/* debug_info_data */
+	.long	0
+	/* config_data */
+	.long	0
+	/* descriptor */
+	.long	0
+
+	/* image_data */
+	.long	0
+	/* debug_info_data */
+	.long	0
+	/* config_data */
+	.long	0
+	/* descriptor */
+	.long	0
+
+	/* image_data */
+	.long	0
+	/* debug_info_data */
+	.long	0
+	/* config_data */
+	.long	0
+	/* descriptor */
+	.long	0
+
+	/* image_data */
+	.long	0
+	/* debug_info_data */
+	.long	0
+	/* config_data */
+	.long	0
+	/* descriptor */
+	.long	0
+
+	/* image_data */
+	.long	0
+	/* debug_info_data */
+	.long	0
+	/* config_data */
+	.long	0
+	/* descriptor */
+	.long	0
+
+	/* image_data */
+	.long	0
+	/* debug_info_data */
+	.long	0
+	/* config_data */
+	.long	0
+	/* descriptor */
+	.long	0
+
+	/* image_data */
+	.long	0
+	/* debug_info_data */
+	.long	0
+	/* config_data */
+	.long	0
+	/* descriptor */
+	.long	0
+
+	/* image_data */
+	.long	0
+	/* debug_info_data */
+	.long	0
+	/* config_data */
+	.long	0
+	/* descriptor */
+	.long	0
+
+	/* image_data */
+	.long	0
+	/* debug_info_data */
+	.long	0
+	/* config_data */
+	.long	0
+	/* descriptor */
+	.long	0
+
+	.size	assembly_store_bundled_assemblies, 1024
 
 	/* Assembly store data */
 	.section	.data.assembly_stores,"aw",@progbits

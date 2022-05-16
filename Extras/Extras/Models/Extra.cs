@@ -10,7 +10,8 @@ namespace Extras.Models
         [PrimaryKey, AutoIncrement]
         public int id { get; set; }
         public string JobSite { get; set; }
-        public string Name { get; set; }
+        public string SiteArea { get; set; }
+        public int Men { get; set; }
         public string Description { get; set; }
         public double Hours { get; set; }
         public double Rate { get; set; }
@@ -22,7 +23,7 @@ namespace Extras.Models
         {
             get
             {
-                return this.Hours * this.Rate;
+                return this.Hours * this.Rate * this.Men;
             }
         }
     }
