@@ -17,3 +17,4 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\refint\Extras.dll
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.pdb
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\ref\Extras.dll
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\CloseUp.xaml.g.cs

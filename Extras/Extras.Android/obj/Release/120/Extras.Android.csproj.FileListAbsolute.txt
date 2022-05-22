@@ -522,3 +522,6 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\src\crc64e18a7d9a87d4f5ff\VerticalViewPager_VerticalPageTransformer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\src\ffimageloading\cross\MvxCachedImageView.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\src\ffimageloading\views\ImageViewAsync.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\assets\Java.Interop.pdb
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\assets\SQLiteNetExtensions.dll
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Release\120\android\assets\SQLiteNetExtensions.pdb

@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Extras.Services;
 using Extras.Models;
+using System.Linq;
 
 namespace Extras.Views
 {
@@ -18,6 +19,7 @@ namespace Extras.Views
         public VeiwAll()
         {
             InitializeComponent();
+            BindingContext = new Extra();
         }
         protected override async void OnAppearing()
         {
@@ -81,7 +83,16 @@ namespace Extras.Views
             toAddress.Add(emailto.Text);
             await SendEmail("Extras excel attached", "please find attached a copy of the excel file", toAddress, exfile);
         }
-        
 
+        private async void collectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (e.CurrentSelection != null)
+            {
+                // Navigate to the NoteEntryPage, passing the ID as a query parameter.
+                Extra qt = (Extra)e.CurrentSelection.FirstOrDefault();
+                await Shell.Current.GoToAsync($"{nameof(CloseUp)}?{nameof(CloseUp.ID)}={qt.ID.ToString()}");
+                //await Shell.Current.GoToAsync($"{nameof(UpdatePage)}?{nameof(UpdatePage.ID)}={qt.ID.ToString()}");
+            }
+        }
     }
 }

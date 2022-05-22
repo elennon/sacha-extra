@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:CV="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             xmlns:FFImage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:FFImageCache="clr-namespace:FFImageLoading.Cache;assembly=FFImageLoading"
+             mc:Ignorable="d"
+             x:Class="Extras.Views.CloseUp">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="CarouselViewStyle" TargetType="CV:CarouselViewControl">
+                <Setter Property="ShowIndicators" Value="True" />
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="AnimateTransition" Value="False" />
+            </Style>
+
+            <OnPlatform x:Key="cacheType" x:TypeArguments="FFImageCache:CacheType"
+                    iOS="All"
+                    Android="Memory"/>
+            <OnPlatform x:Key="downsampleWidth" x:TypeArguments="x:Double"
+                    iOS="576"
+                    Android="896"/>
+            <OnPlatform x:Key="imageHeight" x:TypeArguments="x:Double"
+                        iOS="275"
+                        Android="325"/>
+
+            <Style x:Key="CarouselViewPictureStyle" TargetType="FFImage:CachedImage">
+                <Setter Property="Source" Value="{Binding .}" />
+                <Setter Property="IsOpaque" Value="True" />
+                <Setter Property="InputTransparent" Value="False" />
+                <Setter Property="CacheType" Value="{StaticResource cacheType}" />
+                <Setter Property="Aspect" Value="AspectFill" />
+                <Setter Property="DownsampleWidth" Value="{StaticResource downsampleWidth}" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <!-- Layout children vertically -->
+    <ScrollView>
+        <StackLayout Margin="20">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Site" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Job site" x:Name="siteName" HeightRequest="60" 
+                        HorizontalOptions="CenterAndExpand" Text="Intel"  WidthRequest="200"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Area" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Site area" x:Name="siteArea" HeightRequest="60" 
+                        HorizontalOptions="CenterAndExpand" Text="Roof"  WidthRequest="200"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Date" HeightRequest="60" VerticalTextAlignment="Center" />
+                <DatePicker MinimumDate="01/01/2020" x:Name="exDate" HeightRequest="60" HorizontalOptions="CenterAndExpand"
+                    MaximumDate="12/31/2023" WidthRequest="200"
+                    Date="{Binding}" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Men" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Number of men" x:Name="menNo" HeightRequest="60" Text="2"
+                        HorizontalOptions="CenterAndExpand" WidthRequest="200"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HeightRequest="200">
+                <Label Text="Desc." HeightRequest="60" VerticalTextAlignment="Start" />
+                <Editor Placeholder="description" x:Name="description" HeightRequest="60" WidthRequest="200" Text="Joe laid an egg"
+                        AutoSize="TextChanges" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Hours" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Hours" x:Name="hours" HeightRequest="60" WidthRequest="200" Text="6"
+                        HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Rate" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Rate" x:Name="rate" HeightRequest="60" WidthRequest="200" 
+                        HorizontalOptions="CenterAndExpand" Text="18" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Total" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Hours" x:Name="total" HeightRequest="60" WidthRequest="200" Text="6"
+                        HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Photos"
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="Black"
+                   FontSize="Large"
+                   FontAttributes="Bold" />
+                
+                <!-- The CarouselView inside of a StackLayout. -->
+                <StackLayout Margin="0,0,0,20" >
+                    <CV:CarouselViewControl x:Name="ImgCarouselView" Style="{StaticResource CarouselViewStyle}" 
+                                            HeightRequest="{StaticResource imageHeight}">
+                        <CV:CarouselViewControl.ItemTemplate>
+                            <DataTemplate>
+                                <FFImage:CachedImage Style="{StaticResource CarouselViewPictureStyle}"/>
+                            </DataTemplate>
+                        </CV:CarouselViewControl.ItemTemplate>
+                    </CV:CarouselViewControl>
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

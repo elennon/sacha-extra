@@ -8,7 +8,7 @@ namespace Extras.Models
     public partial class Extra
     {
         [PrimaryKey, AutoIncrement]
-        public int id { get; set; }
+        public int ID { get; set; }
         public string JobSite { get; set; }
         public string SiteArea { get; set; }
         public int Men { get; set; }
@@ -17,7 +17,7 @@ namespace Extras.Models
         public double Rate { get; set; }
         public Nullable<System.DateTime> Date { get; set; }
 
-        public List<byte[]> Image { get; set; }
+        //public List<string> Images { get; set; }
 
         public double LaborCost
         {

@@ -14,6 +14,7 @@
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
           "Plugin.Permissions": "6.0.1",
+          "SQLiteNetExtensions": "2.1.0",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
@@ -76,6 +77,18 @@
           "lib/netstandard2.0/SQLite-net.dll": {
             "assemblyVersion": "1.8.116.0",
             "fileVersion": "1.8.116.0"
+          }
+        }
+      },
+      "SQLiteNetExtensions/2.1.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "sqlite-net-pcl": "1.8.116"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLiteNetExtensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -278,6 +291,13 @@
       "sha512": "sha512-W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
       "path": "sqlite-net-pcl/1.8.116",
       "hashPath": "sqlite-net-pcl.1.8.116.nupkg.sha512"
+    },
+    "SQLiteNetExtensions/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oiyhVxCi7M2nr3tI6h05jdHGT0HKW6GxMNKUiO04zWAxv42MHtX12c4tW67w6VqGwcnXj1bwyTpq9P0W8QoGYQ==",
+      "path": "sqlitenetextensions/2.1.0",
+      "hashPath": "sqlitenetextensions.2.1.0.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_green/2.0.4": {
       "type": "package",

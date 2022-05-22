@@ -16,8 +16,8 @@
             </StackLayout>
             
             <CollectionView x:Name="collectionView" SelectionMode="Multiple" 
-                    Margin="20">
-
+                    Margin="20" SelectionChanged="collectionView_SelectionChanged">
+                    
                 <CollectionView.ItemsLayout>
                     <LinearItemsLayout Orientation="Vertical"
                                ItemSpacing="10" />

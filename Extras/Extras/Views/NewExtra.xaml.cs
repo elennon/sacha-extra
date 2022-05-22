@@ -42,14 +42,25 @@ namespace Extras.Views
                 ext.Rate = Convert.ToDouble(rate.Text);
                 ext.JobSite = siteName.Text;
                 ext.SiteArea = siteArea.Text;
-
+                
+                var iid = App.Database.SaveExtraAsync(ext);
+                var ex = App.Database.GetExtraAsync(ext.ID);
                 // kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
                 if (Pics != null)
                 {
-                    ext.Image = getPics(Pics);
+                    var piks = getPics(Pics);
+                    int counter = 0;
+                    foreach (var pik in piks.Item1)
+                    {
+                        Pics pc = new Pics();
+                        pc.Pic = pik;
+                        pc.ExtraId = ext.ID;
+                        pc.FileName = piks.Item2[counter];
+                        await App.Database.SavePicAsync(pc);
+                    }
                 }
             
-                await App.Database.SaveExtraAsync(ext);
+                
                 await DisplayAlert("Alert", "Saved receipt", "OK");
                 //// Navigate backwards
                 //await Shell.Current.GoToAsync("..");
@@ -60,14 +71,16 @@ namespace Extras.Views
             }
         }
 
-        private List<byte[]> getPics(List<string> pics)
+        private (List<byte[]>, List<string>) getPics(List<string> pics)
         {
+            List<string> fnames = new List<string>();
             List<byte[]> bts = new List<byte[]>();
             foreach (var item in pics)
             {
+                fnames.Add(item.ToString());
                 bts.Add(File.ReadAllBytes(item));
             }
-            return bts;
+            return (bts, fnames) ;
         }
 
         private async void SelectImagesButton_Clicked(object sender, EventArgs e)

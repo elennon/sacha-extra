@@ -698,3 +698,7 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\s
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\assets\SQLiteNetExtensions.dll
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\assets\SQLiteNetExtensions.pdb
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\assets\System.Linq.Expressions.dll
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\assets\Java.Interop.pdb

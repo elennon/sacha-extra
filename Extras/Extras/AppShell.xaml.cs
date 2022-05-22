@@ -1,4 +1,5 @@
 ﻿
+using Extras.Views;
 using Xamarin.Forms;
 
 namespace Extras
@@ -9,6 +10,7 @@ namespace Extras
         public AppShell()
         {
             InitializeComponent();
+            Routing.RegisterRoute(nameof(CloseUp), typeof(CloseUp));
         }
 
     }
