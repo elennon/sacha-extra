@@ -6,8 +6,8 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\CloseUp.xaml.g.cs
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\NewExtra.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\pics.xaml.g.cs
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\VeiwAll.xaml.g.cs
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.AssemblyInfoInputs.cache
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.AssemblyInfo.cs
@@ -17,4 +17,3 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\refint\Extras.dll
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.pdb
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\ref\Extras.dll
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\CloseUp.xaml.g.cs

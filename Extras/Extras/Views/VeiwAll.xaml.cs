@@ -16,6 +16,7 @@ namespace Extras.Views
     public partial class VeiwAll : ContentPage
     {
         private ExcelService excelService;
+        private List<Extra> extrs = new List<Extra>();
         public VeiwAll()
         {
             InitializeComponent();
@@ -24,8 +25,8 @@ namespace Extras.Views
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            var h = await App.Database.GetExtrasAsync();
-            collectionView.ItemsSource = h;
+            extrs = await App.Database.GetExtrasAsync();
+            collectionView.ItemsSource = extrs;
             excelService = new ExcelService();
         }
         async void OnBackupButtonClicked(object sender, EventArgs e)
@@ -72,16 +73,10 @@ namespace Extras.Views
 
         private async void sendAsEmailClicked(object sender, EventArgs e)
         {
-            var dg = collectionView.SelectedItems;
-            List<Extra> h = new List<Extra>();
-            foreach (var item in dg)
-            {
-                h.Add((Extra)item);
-            }
-            var exfile = excelService.ExportToExcel(h);
+            var exfile = excelService.ExportToExcel(extrs);
             List<string> toAddress = new List<string>();
             toAddress.Add(emailto.Text);
-            await SendEmail("Extras excel attached", "please find attached a copy of the excel file", toAddress, exfile);
+            await SendEmail(subject.Text, body.Text, toAddress, exfile);
         }
 
         private async void collectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)

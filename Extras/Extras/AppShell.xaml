@@ -20,12 +20,5 @@
             <ShellContent ContentTemplate="{DataTemplate local:VeiwAll}" />
         </Tab>
     </FlyoutItem>
-    <FlyoutItem Title=" images">
-        <Tab>
-            <ShellContent ContentTemplate="{DataTemplate local:pics}" />
-        </Tab>
-    </FlyoutItem>
-    
-
 
 </Shell>

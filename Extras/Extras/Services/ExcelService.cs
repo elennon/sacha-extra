@@ -32,18 +32,29 @@ namespace Extras.Services
             var wbPart = document.AddWorkbookPart();
             wbPart.Workbook = new Workbook();
 
+            //kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
             var part = wbPart.AddNewPart<WorksheetPart>();
             part.Worksheet = new Worksheet(new SheetData());
-            var sheets = wbPart.Workbook.AppendChild(new Sheets());
+            UInt32Value cnt = 1;
             foreach (var item in shtNames)
             {
-                sheets.AddChild(new Sheet()
-                {
-                    Id = wbPart.GetIdOfPart(part),
-                    SheetId = 1,
-                    Name = item
-                });
-            }                      
+                
+
+                //  Here are created the sheets, you can add all the child sheets that you need.
+                var sheets = wbPart.Workbook.AppendChild
+                    (
+                       new Sheets(
+                                new Sheet()
+                                {
+                                    Id = wbPart.GetIdOfPart(part),
+                                    SheetId = 1,
+                                    Name = item
+                                }
+                            )
+                    );
+                cnt++;
+            }
+        
             // Just save and close you Excel file
             wbPart.Workbook.Save();
             document.Close();
@@ -58,14 +69,12 @@ namespace Extras.Services
             using (var document = SpreadsheetDocument.Open(fileName, true))
             {
                 var wbPart = document.WorkbookPart;
-                // sheets = wbPart.Workbook.GetFirstChild<Sheets>().
-                             //Elements<Sheet>().FirstOrDefault().
-                             //Name = sheetName;
-
-                var part = wbPart.WorksheetParts.First();
-                var sheetData = part.Worksheet.Elements<SheetData>().ToList().Where(x => x.XName == sheetName).FirstOrDefault();
-                //var sheetData = sheetDatas.First();
-                var row = sheetData.AppendChild(new Row());
+                
+                DocumentFormat.OpenXml.Spreadsheet.Workbook workbook = wbPart.Workbook;
+                DocumentFormat.OpenXml.Spreadsheet.Sheet s = workbook.Descendants<DocumentFormat.OpenXml.Spreadsheet.Sheet>().Where(sht => sht.Name == sheetName).FirstOrDefault();
+                WorksheetPart wsPart = (WorksheetPart)wbPart.GetPartById(s.Id);
+                DocumentFormat.OpenXml.Spreadsheet.SheetData sheetdata = wsPart.Worksheet.Elements<DocumentFormat.OpenXml.Spreadsheet.SheetData>().FirstOrDefault();
+                var row = sheetdata.AppendChild(new Row());
 
                 foreach (var header in data.Headers)
                 {
@@ -74,21 +83,15 @@ namespace Extras.Services
 
                 foreach (var value in data.Values)
                 {
-                    var dataRow = sheetData.AppendChild(new Row());
+                    var dataRow = sheetdata.AppendChild(new Row());
 
                     foreach (var dataElement in value)
                     {
                         dataRow.Append(ConstructCell(dataElement, CellValues.String));
                     }
                 }
-                sheetData.GetFirstChild<DocumentFormat.OpenXml.Spreadsheet.NumberingFormats>().InsertAt<DocumentFormat.OpenXml.Spreadsheet.NumberingFormat>(
-                      new DocumentFormat.OpenXml.Spreadsheet.NumberingFormat()
-                      {
-                          NumberFormatId = 164,
-                          FormatCode = "\"" + System.Globalization.CultureInfo.CurrentUICulture.NumberFormat.CurrencySymbol + "\"\\ " + "#,##0.00"
-                      }, 0);
 
-                wbPart.Workbook.Save(); 
+                wbPart.Workbook.Save();
             }
         }
 

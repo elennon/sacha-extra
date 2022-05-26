@@ -14,7 +14,16 @@
                 <Editor Placeholder="Enter email" x:Name="emailto" HeightRequest="60" WidthRequest="200" FontSize="Small"
                         HorizontalOptions="CenterAndExpand" Text="eee_lennon@yahoo.com" VerticalOptions="CenterAndExpand" />
             </StackLayout>
-            
+            <StackLayout Orientation="Horizontal">
+                <Label Text="email subject" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Email subject" x:Name="subject" HeightRequest="60" WidthRequest="200" FontSize="Small"
+                        HorizontalOptions="CenterAndExpand" Text="Extras excel attached with photos" VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="email body" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Email body" x:Name="body" HeightRequest="60" WidthRequest="200" FontSize="Small"
+                        HorizontalOptions="CenterAndExpand" Text="please find attached a copy of the excel file and photo zip file. ta very much" VerticalOptions="CenterAndExpand" />
+            </StackLayout>
             <CollectionView x:Name="collectionView" SelectionMode="Multiple" 
                     Margin="20" SelectionChanged="collectionView_SelectionChanged">
                     
