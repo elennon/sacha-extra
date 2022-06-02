@@ -3,6 +3,7 @@ using Plugin.Permissions;
 using Plugin.Permissions.Abstractions;
 using System;
 using System.ComponentModel;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -14,7 +15,7 @@ namespace Extras.Views
     {
         public AboutPage()
         {
-            InitializeComponent();
+            InitializeComponent();         
         }
 
 

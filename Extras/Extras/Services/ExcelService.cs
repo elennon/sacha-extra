@@ -38,8 +38,6 @@ namespace Extras.Services
             UInt32Value cnt = 1;
             foreach (var item in shtNames)
             {
-                
-
                 //  Here are created the sheets, you can add all the child sheets that you need.
                 var sheets = wbPart.Workbook.AppendChild
                     (

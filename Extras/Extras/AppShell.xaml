@@ -7,17 +7,17 @@
 
     <FlyoutItem Title="Home">
         <Tab>
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
-        </Tab>
-    </FlyoutItem>
-    <FlyoutItem Title="New extra">
-        <Tab>
             <ShellContent ContentTemplate="{DataTemplate local:NewExtra}" />
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="Veiw all">
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate local:VeiwAll}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="About">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
     </FlyoutItem>
 

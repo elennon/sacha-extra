@@ -52,10 +52,12 @@ namespace Extras.Views
                     int counter = 0;
                     foreach (var pik in piks.Item1)
                     {
-                        Pics pc = new Pics();
-                        pc.Pic = pik;
-                        pc.ExtraId = ext.ID;
-                        pc.FileName = piks.Item2[counter];
+                        Pics pc = new Pics
+                        {
+                            Pic = pik,
+                            ExtraId = ext.ID,
+                            FileName = piks.Item2[counter]
+                        };
                         await App.Database.SavePicAsync(pc);
                     }
                 }

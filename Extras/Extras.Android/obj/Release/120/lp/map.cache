@@ -7,6 +7,9 @@ FormsViewGroup.dll
 Plugin.CurrentActivity.dll
 Plugin.Media.dll
 Plugin.Permissions.dll
+SkiaSharp.dll
+SkiaSharp.Views.Android.dll
+SkiaSharp.Views.Forms.dll
 SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll

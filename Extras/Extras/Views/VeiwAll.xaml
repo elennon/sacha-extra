@@ -21,7 +21,7 @@
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="email body" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Email body" x:Name="body" HeightRequest="60" WidthRequest="200" FontSize="Small"
+                <Editor Placeholder="Email body" x:Name="body" HeightRequest="60" WidthRequest="200" FontSize="Small" AutoSize="TextChanges"
                         HorizontalOptions="CenterAndExpand" Text="please find attached a copy of the excel file and photo zip file. ta very much" VerticalOptions="CenterAndExpand" />
             </StackLayout>
             <CollectionView x:Name="collectionView" SelectionMode="Multiple" 

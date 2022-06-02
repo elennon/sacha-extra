@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.4, )"
+            },
             "DocumentFormat.OpenXml": {
               "target": "Package",
               "version": "[2.16.0, )"
@@ -61,6 +65,14 @@
             "SQLiteNetExtensions": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[2.88.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Xam.Plugin.Media": {
               "target": "Package",
@@ -130,6 +142,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.4, )"
+            },
             "DocumentFormat.OpenXml": {
               "target": "Package",
               "version": "[2.16.0, )"
@@ -151,6 +167,14 @@
             "SQLiteNetExtensions": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[2.88.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Xam.Plugin.Media": {
               "target": "Package",
