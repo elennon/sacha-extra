@@ -12,8 +12,9 @@ namespace Extras.Data
         public ExtrasDatabase(string dbPath)
         {
             database = new SQLiteAsyncConnection(dbPath);
-            //database.DropTableAsync<Extra>().Wait();
-            //database.DropTableAsync<Pics>().Wait();
+            
+            database.DropTableAsync<Extra>().Wait();
+            database.DropTableAsync<Pics>().Wait();
             database.CreateTableAsync<Extra>().Wait();
             database.CreateTableAsync<Pics>().Wait();
         }
@@ -53,7 +54,7 @@ namespace Extras.Data
             return database.DeleteAsync(note);
         }
 
-        public Task<List<Pics>> GetPicsAsync(int extraId)
+        public Task<List<Pics>> GetPicsAsync(string extraId)
         {
             //Get all Quote.
             return database.Table<Pics>().Where(x => x.ExtraId == extraId).ToListAsync();
@@ -79,6 +80,12 @@ namespace Extras.Data
                 // Save a new note.
                 return database.InsertAsync(note);
             }
+        }
+
+        public Task<int> DeletePicAsync(Pics note)
+        {
+            // Delete a note.
+            return database.DeleteAsync(note);
         }
     }
 }

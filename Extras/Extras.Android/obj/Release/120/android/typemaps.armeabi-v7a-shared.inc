@@ -7,43 +7,43 @@ map_aname.0:
 
 	.type	map_aname.1, %object
 map_aname.1:
-	.asciz	"Xamarin.AndroidX.Fragment"
-	.size	map_aname.1, 26
+	.asciz	"Extras.Android"
+	.size	map_aname.1, 15
 
 	.type	map_aname.2, %object
 map_aname.2:
-	.asciz	"Plugin.CurrentActivity"
-	.size	map_aname.2, 23
+	.asciz	"Xamarin.AndroidX.Fragment"
+	.size	map_aname.2, 26
 
 	.type	map_aname.3, %object
 map_aname.3:
-	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
-	.size	map_aname.3, 37
+	.asciz	"Plugin.CurrentActivity"
+	.size	map_aname.3, 23
 
 	.type	map_aname.4, %object
 map_aname.4:
-	.asciz	"Xamarin.AndroidX.CardView"
-	.size	map_aname.4, 26
+	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
+	.size	map_aname.4, 37
 
 	.type	map_aname.5, %object
 map_aname.5:
-	.asciz	"CarouselView.FormsPlugin.Droid"
-	.size	map_aname.5, 31
+	.asciz	"Xamarin.AndroidX.CardView"
+	.size	map_aname.5, 26
 
 	.type	map_aname.6, %object
 map_aname.6:
-	.asciz	"Xamarin.AndroidX.SwipeRefreshLayout"
-	.size	map_aname.6, 36
+	.asciz	"CarouselView.FormsPlugin.Droid"
+	.size	map_aname.6, 31
 
 	.type	map_aname.7, %object
 map_aname.7:
-	.asciz	"Xamarin.AndroidX.Loader"
-	.size	map_aname.7, 24
+	.asciz	"Xamarin.AndroidX.SwipeRefreshLayout"
+	.size	map_aname.7, 36
 
 	.type	map_aname.8, %object
 map_aname.8:
-	.asciz	"Extras.Android"
-	.size	map_aname.8, 15
+	.asciz	"Xamarin.AndroidX.Loader"
+	.size	map_aname.8, 24
 
 	.type	map_aname.9, %object
 map_aname.9:

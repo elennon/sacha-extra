@@ -21,62 +21,54 @@ namespace Extras.Services
 
 		public async Task<string> Export(List<Extra> extrs)
 		{
-			var fileName = $"Extras-{Guid.NewGuid()}.xlsx";
-			Environment.SetEnvironmentVariable("MONO_URI_DOTNETRELATIVEORABSOLUTE", "true");
+            var fileName = $"Extras-{Guid.NewGuid()}.xlsx";
+            Environment.SetEnvironmentVariable("MONO_URI_DOTNETRELATIVEORABSOLUTE", "true");
 
-			var filePath = Path.Combine(AppFolder, fileName);
+            var filePath = Path.Combine(AppFolder, fileName);
+            //string[] files = Directory.GetFiles(AppFolder);
 
-			//List<ExcelExtra> excellers = new List<ExcelExtra>();
-			//foreach (var tim in extrs)
+   //         var assembly = IntrospectionExtensions.GetTypeInfo(typeof(VeiwAll)).Assembly;
+			//string fileNime = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "poopoo.xlsx");
+
+			//if (!File.Exists(fileName))
 			//{
-			//	excellers.Add(new ExcelExtra(tim.JobSite, tim.SiteArea, tim.Men, tim.Description, tim.Hours, tim.Rate, tim.Date.Value.ToShortDateString()));
+			//	var f = "f";
 			//}
 
 			var grpBy = extrs.GroupBy(x => x.SiteArea);
-			
-			//using (IXLWorkbook workbook = new XLWorkbook())
-			//{
-			//	foreach (var area in grpBy)
-			//	{
-			//		List<ExcelExtra> excellers = new List<ExcelExtra>();
-			//		foreach (var tim in area)
-			//		{
-			//			excellers.Add(new ExcelExtra(tim.JobSite, tim.Men, tim.Description, tim.Hours, tim.Rate, tim.Date.Value.ToShortDateString()));
-			//		}
-			//		IXLWorksheet ws = workbook.AddWorksheet(area.Key);
-			//		var table = ws.FirstCell().InsertTable<ExcelExtra>(excellers, false);
 
+            using (IXLWorkbook workbook = new XLWorkbook())
+            {
+                foreach (var area in grpBy)
+                {
+                    List<ExcelExtra> excellers = new List<ExcelExtra>();
+                    foreach (var tim in area)
+                    {
+                        excellers.Add(new ExcelExtra(tim.JobSite, tim.Men, tim.Description, tim.Hours, tim.Rate, tim.Date.Value.ToShortDateString()));
+                    }
+                    IXLWorksheet ws = workbook.AddWorksheet(area.Key);
+                    var table = ws.FirstCell().InsertTable<ExcelExtra>(excellers, false);
 
+                    var total = area.Sum(x => x.LaborCost);                   
+                    table.ShowTotalsRow = true;
+					table.TotalsRow().Cell(7).Value = total;
+					table.TotalsRow().Cell(7).Style.NumberFormat.Format = "€   #,##0.00";
 
-			//		//ws.Columns().Width = 100;
-			//		ws.Rows().Style.Alignment.WrapText = true;					
-			//		//ws.Rows().AdjustToContents();
-			//		ws.Rows().ForEach(x => x.ClearHeight());  //uncomment this to get it work
-
-
-			//		var c = ws.Columns();//.AdjustToContents();
-			//		//c.AdjustToContents();
-			//		var total = area.Sum(x => x.LaborCost);
-			//		ws.Row(area.Count() + 1).Cell(7).SetValue(total);
-			//		ws.Row(area.Count() + 2).Cell(7).Style.NumberFormat.Format = "€   #,##0.00";
-
-			//		table.ShowTotalsRow = true;
-
-   //                 //var field = table.Fields.Select(x => x).Where(n => n.Name == "LaborCost").FirstOrDefault();
-   //                 //field.TotalsRowFunction = XLTotalsRowFunction.Sum;
-
-   //                 for (int i = 0; i < area.Count(); i++)
-   //                 {
-			//			ws.Row(i + 2).Cell(4).Style.NumberFormat.Format = "€   #,##0.00";
-			//			ws.Row(i+2).Cell(7).Style.NumberFormat.Format = "€   #,##0.00";
-			//		}
-			//		table.Field(0).TotalsRowLabel = "Total";		
 					
-			//	}
-			//	workbook.SaveAs(filePath);
+
+					for (int i = 0; i < area.Count(); i++)
+                    {
+                        ws.Row(i + 2).Cell(4).Style.NumberFormat.Format = "€   #,##0.00";
+                        ws.Row(i + 2).Cell(7).Style.NumberFormat.Format = "€   #,##0.00";
+                    }
+                    table.Field(0).TotalsRowLabel = "Total";
+					//ws.Columns().AdjustToContents();
+                }
 				
-			//}
-			await addPics(extrs, filePath);
+                workbook.SaveAs(filePath);
+
+            }
+            //await addPics(extrs, filePath);
 			return filePath;
 		}
 

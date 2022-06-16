@@ -2,6 +2,7 @@
 using Extras.Data;
 using System;
 using System.IO;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Extras
@@ -28,10 +29,27 @@ namespace Extras
         {
             InitializeComponent();
             MainPage = new AppShell();
+            
         }
-        protected override void OnStart()
+        protected  override void OnStart()
         {
+            //await clearDb();
         }
+
+        //private async Task clearDb()
+        //{
+        //    var extrs = await database.GetExtrasAsync();
+        //    foreach (var item in extrs)
+        //    {
+        //        await database.DeleteExtraAsync(item);
+        //        var pics = await database.GetPicsAsync(item.ID);
+        //        foreach (var pic in pics)
+        //        {
+        //            await database.DeletePicAsync(pic);
+        //        }
+        //    }
+            
+        //}
 
         protected override void OnSleep()
         {

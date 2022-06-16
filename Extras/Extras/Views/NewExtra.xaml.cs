@@ -9,13 +9,23 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Extras.Services;
 using Plugin.Permissions.Abstractions;
-
+using System.Reflection;
 
 namespace Extras.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NewExtra : ContentPage
     {
+#if __IOS__
+		public static string ResourcePrefix = "XamFormsImageResize.iOS.";
+#endif
+#if __ANDROID__
+		public static string ResourcePrefix = "XamFormsImageResize.Android.";
+#endif
+#if WINDOWS_UWP
+        public static string ResourcePrefix = "XamFormsImageResize.UWP.";
+#endif
+        private ClosedExcelService excelService;
         public List<string> Pics { get; set; }
         public NewExtra()
         {
@@ -24,10 +34,12 @@ namespace Extras.Views
             Device.BeginInvokeOnMainThread(async () => await AskForPermissions());
         }
 
-        protected override void OnAppearing()
+        protected async override void OnAppearing()
         {
             base.OnAppearing();
             exDate.Date = DateTime.Today;
+            excelService = new ClosedExcelService();
+            var exfile = excelService.Export(await App.Database.GetExtrasAsync());
         }
         
         async void OnSaveButtonClicked(object sender, EventArgs e)
@@ -35,6 +47,7 @@ namespace Extras.Views
             try
             {
                 var ext = new Extra();// = (Extra)BindingContext;
+                ext.MyId = Guid.NewGuid().ToString();
                 ext.Men = Convert.ToInt16(menNo.Text);
                 ext.Description = description.Text;
                 ext.Date =  exDate.Date;
@@ -55,15 +68,14 @@ namespace Extras.Views
                         Pics pc = new Pics
                         {
                             Pic = pik,
-                            ExtraId = ext.ID,
+                            ExtraId = ext.MyId,
                             FileName = piks.Item2[counter]
                         };
                         await App.Database.SavePicAsync(pc);
+                        counter++;
                     }
-                }
-            
-                
-                await DisplayAlert("Alert", "Saved receipt", "OK");
+                }               
+                await DisplayAlert("Saved", "", "OK");
                 //// Navigate backwards
                 //await Shell.Current.GoToAsync("..");
             }
@@ -112,9 +124,10 @@ namespace Extras.Views
                         //If we have selected images, put them into the carousel view.
                         if (images.Count > 0)
                         {
-                            Pics = images;
-                            ImgCarouselView.ItemsSource = images;
-                            //InfoText.IsVisible = true; //InfoText is optional
+                            //Pics = images;
+                            var compressed = CompressAllImages(images);
+                            Pics = compressed;
+                            ImgCarouselView.ItemsSource = compressed;
                         }
                     });
                 }
@@ -127,10 +140,9 @@ namespace Extras.Views
                     {
                         if (images.Count > 0)
                         {
-                            Pics = images;
-                            ImgCarouselView.ItemsSource = images;
-                            InfoText.IsVisible = true; //InfoText is optional
-                            InfoText.Text = "poo and plop";
+                            var compressed = CompressAllImages(images);
+                            Pics = compressed;
+                            ImgCarouselView.ItemsSource = compressed;
                         }
                     });
                 }
@@ -141,6 +153,19 @@ namespace Extras.Views
             }
         }
 
+        private long checkImageSize(List<string> images)
+        {
+            long allBytees = 0;
+            foreach (var fPath in images)
+            {
+                FileInfo fi = new FileInfo(fPath);
+                if (fi.Exists)
+                {
+                    allBytees += fi.Length;
+                }
+            }
+            return allBytees;
+        }
         //private async void UploadImagesButton_Clicked(object sender, EventArgs e)
         //{
         //    // Get the list of images we have selected.
@@ -214,8 +239,38 @@ namespace Extras.Views
                 compressedImages.Add(DependencyService.Get<ICompressImages>().CompressImage(path));
                 displayCount++;
             }
+            for (int i = 0; i < totalImages.Count; i++)
+            {
+                var ext = totalImages[i].Split('.');
+                System.IO.FileInfo fi = new System.IO.FileInfo(compressedImages[i]);
+                // Check if file is there  
+                if (fi.Exists)
+                {
+                    // Move file with a new name. Hence renamed.  
+                    fi.MoveTo(compressedImages[i] + "." + ext[ext.Length - 1]);
+                }
+                //System.IO.File.Move(compressedImages[i], compressedImages[i] + ext[ext.Length -1]);
+                compressedImages[i] = compressedImages[i] + "." +  ext[ext.Length - 1];
+            }
             return compressedImages;
         }
+
+        //protected async void ResizeImage()
+        //{
+        //    var assembly = typeof(NewExtra).GetTypeInfo().Assembly;
+        //    byte[] imageData;
+
+        //    Stream stream = assembly.GetManifestResourceStream(ResourcePrefix + "OriginalImage.JPG");
+        //    using (MemoryStream ms = new MemoryStream())
+        //    {
+        //        stream.CopyTo(ms);
+        //        imageData = ms.ToArray();
+        //    }
+
+        //    byte[] resizedImage = await ImageResizer.ResizeImage(imageData, 400, 400);
+
+        //    this._photo.Source = ImageSource.FromStream(() => new MemoryStream(resizedImage));
+        //}
 
         /// <summary>
         ///     Make sure Permissions are given to the users storage.

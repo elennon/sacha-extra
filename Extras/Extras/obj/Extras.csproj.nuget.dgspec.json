@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[2.16.0, )"
             },
+            "GemBox.Spreadsheet": {
+              "target": "Package",
+              "version": "[49.0.1039, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

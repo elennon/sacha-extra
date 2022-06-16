@@ -9,8 +9,8 @@
                      Clicked="ToolbarItem_Clicked" />
     </ContentPage.ToolbarItems>
     <StackLayout>
-        <Label Text="words words"
-                VerticalOptions="CenterAndExpand" 
+        <Label Text="This an app to record any extras that build up on a job site. &#10;Photos can be added to the extra. When you want to send them off fill in an email address, subject and email body. &#10;Click send and an excel sheet along with a zip file of the photos will be sent to that email."
+                VerticalOptions="StartAndExpand"  FontSize="Medium" Margin="40" 
                 HorizontalOptions="CenterAndExpand" />
         
     </StackLayout>

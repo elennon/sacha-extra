@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[2.5.1, )"
             },
+            "GemBox.Spreadsheet": {
+              "target": "Package",
+              "version": "[49.0.1039, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
@@ -160,6 +164,10 @@
             "DocumentFormat.OpenXml": {
               "target": "Package",
               "version": "[2.16.0, )"
+            },
+            "GemBox.Spreadsheet": {
+              "target": "Package",
+              "version": "[49.0.1039, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

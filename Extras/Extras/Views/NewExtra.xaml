@@ -39,7 +39,7 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Save quote"
+        <ToolbarItem Text="Save Extra"
                      Clicked="OnSaveButtonClicked" />
     </ContentPage.ToolbarItems>
     <!-- Layout children vertically -->
@@ -102,17 +102,7 @@
                         </CV:CarouselViewControl.ItemTemplate>
                     </CV:CarouselViewControl>
                 </StackLayout>
-                <!--<Button Text="Upload Images"
-                    Clicked="UploadImagesButton_Clicked"></Button>
-            -->
-
-                <Label x:Name="InfoText"
-                   IsVisible="False"
-                   
-                   HorizontalOptions="CenterAndExpand"
-                   TextColor="Black"
-                   FontSize="Large"
-                   FontAttributes="Bold" />
+                
             </StackLayout>
 
         </StackLayout>

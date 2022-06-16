@@ -11,7 +11,7 @@ namespace Extras.Models
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         [ForeignKey(typeof(Extra))]
-        public int ExtraId { get; set; }
+        public string ExtraId { get; set; }
         public string FileName { get; set; }
         public byte[] Pic { get; set; }
     }

@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Extras.Android.dll" comes first in this list. */
 		"Extras.Android.dll",
+		"BouncyCastle.Crypto.dll",
 		"CarouselView.FormsPlugin.Abstractions.dll",
 		"CarouselView.FormsPlugin.Droid.dll",
 		"ClosedXML.dll",
@@ -16,6 +17,7 @@ public class MonoPackageManager_Resources {
 		"FFImageLoading.Forms.Platform.dll",
 		"FFImageLoading.Platform.dll",
 		"FormsViewGroup.dll",
+		"GemBox.Spreadsheet.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Media.dll",

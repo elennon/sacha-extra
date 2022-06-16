@@ -7,7 +7,7 @@
 
   
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <None Remove="mice.jpg" />
 	<None Remove="poopoo.xlsx" />
   </ItemGroup>
@@ -16,12 +16,13 @@
 	<EmbeddedResource Include="mice.jpg" />
     
 	<EmbeddedResource Include="poopoo.xlsx" />
-  </ItemGroup>
+  </ItemGroup>-->
 
   <ItemGroup>
     <PackageReference Include="CarouselView.FormsPlugin" Version="6.0.0" />
     <PackageReference Include="ClosedXML" Version="0.95.4" />
     <PackageReference Include="DocumentFormat.OpenXml" Version="2.16.0" />
+    <PackageReference Include="GemBox.Spreadsheet" Version="49.0.1039" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Plugin.Permissions" Version="6.0.1" />
     <PackageReference Include="SkiaSharp.Views.Forms" Version="2.88.0" />

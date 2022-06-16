@@ -5,7 +5,7 @@
        Title="Extras"
        x:Class="Extras.AppShell">
 
-    <FlyoutItem Title="Home">
+    <FlyoutItem Title="New Extra">
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate local:NewExtra}" />
         </Tab>

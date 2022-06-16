@@ -12,6 +12,7 @@
           "CarouselView.FormsPlugin": "6.0.0",
           "ClosedXML": "0.95.4",
           "DocumentFormat.OpenXml": "2.16.0",
+          "GemBox.Spreadsheet": "49.0.1039",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
           "Plugin.Permissions": "6.0.1",
@@ -69,6 +70,19 @@
           }
         }
       },
+      "GemBox.Spreadsheet/49.0.1039": {
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.9",
+          "System.Drawing.Common": "6.0.0",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GemBox.Spreadsheet.dll": {
+            "assemblyVersion": "49.0.0.1039",
+            "fileVersion": "49.0.200.1039"
+          }
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.CSharp.dll": {
@@ -99,6 +113,14 @@
           "lib/netstandard2.0/Plugin.Permissions.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.8.9": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.9.0",
+            "fileVersion": "1.8.9.1"
           }
         }
       },
@@ -210,7 +232,7 @@
         "dependencies": {
           "System.Buffers": "4.4.0",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/System.Memory.dll": {
@@ -227,11 +249,22 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
         "runtime": {
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "assemblyVersion": "4.0.4.1",
-            "fileVersion": "4.6.26919.2"
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/5.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
           }
         }
       },
@@ -333,6 +366,13 @@
       "path": "excelnumberformat/1.0.10",
       "hashPath": "excelnumberformat.1.0.10.nupkg.sha512"
     },
+    "GemBox.Spreadsheet/49.0.1039": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s0AJgI3GcH3UrOwjAU2t5JAr/gWfcUz++k3WtiJCbhMJl+n+mbsO5NyaOaesB3BOkoObmwbvLYfre+g0yZLx/A==",
+      "path": "gembox.spreadsheet/49.0.1039",
+      "hashPath": "gembox.spreadsheet.49.0.1039.nupkg.sha512"
+    },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -367,6 +407,13 @@
       "sha512": "sha512-na/0FNhyKmSicANWZMLSM0y/FW2AvLoawX3lsvBpELwP15sdJRyuBhRKk1OQjRoNrmTIewcON1tJFyydjMGWcA==",
       "path": "plugin.permissions/6.0.1",
       "hashPath": "plugin.permissions.6.0.1.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.8.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wlJo8aFoeyl+W93iFXTK5ShzDYk5WBqoUPjTNEM0Xv9kn1H+4hmuCjF0/n8HLm9Nnp1aY6KNndWqQTNk+NGgRQ==",
+      "path": "portable.bouncycastle/1.8.9",
+      "hashPath": "portable.bouncycastle.1.8.9.nupkg.sha512"
     },
     "SkiaSharp/2.88.0": {
       "type": "package",
@@ -473,12 +520,19 @@
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
-      "path": "system.runtime.compilerservices.unsafe/4.5.2",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NyscU59xX6Uo91qvhOs2Ccho3AR2TnZPomo1Z0K6YpyztBPM/A5VbkzOO19sy3A3i1TtEnTxA7bCe3Us+r5MWg==",
+      "path": "system.text.encoding.codepages/5.0.0",
+      "hashPath": "system.text.encoding.codepages.5.0.0.nupkg.sha512"
     },
     "Xam.Plugin.Media/5.0.1": {
       "type": "package",

@@ -40,10 +40,12 @@ namespace Extras.Views
                 hours.Text = qt.Hours.ToString();
                 rate.Text = qt.Rate.ToString();
                 total.Text = qt.LaborCost.ToString();
-                var hj = await App.Database.GetPicsAsync(qt.ID);
+                var hj = await App.Database.GetPicsAsync(qt.MyId);
                 //var gy = (System.Collections.IEnumerable)App.Database.GetPicsAsync(qt.ID);
-               // var fttt = hj.Select(x => x.Pic).ToList();
-                ImgCarouselView.ItemsSource = hj.Select(x => x.FileName).ToList();
+                // var fttt = hj.Select(x => x.Pic).ToList();
+                var df = hj.Select(x => x.FileName).ToList();
+                ImgCarouselView.ItemsSource = df;
+                
             }
             catch (Exception)
             {
