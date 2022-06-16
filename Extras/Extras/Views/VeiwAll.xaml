@@ -35,7 +35,7 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout Orientation="Horizontal">
-                            <Label Text="{Binding id}" IsVisible="false"  FontSize="Small"/>
+                            <Label Text="{Binding MyId}" IsVisible="false"  FontSize="Small"/>
                             <Label Text="{Binding SiteArea}" FontSize="Small"/>
                             <Label Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}" FontSize="Small"/>
                             <Label Text="{Binding Description}" FontSize="Small"/>

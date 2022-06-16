@@ -25,11 +25,11 @@ namespace Extras.Data
             return database.Table<Extra>().ToListAsync();
         }
 
-        public Task<Extra> GetExtraAsync(int id)
+        public Task<Extra> GetExtraAsync(string myid)
         {
             // Get a specific note.
             return database.Table<Extra>()
-                            .Where(i => i.ID == id)
+                            .Where(i => i.MyId == myid)
                             .FirstOrDefaultAsync();
         }
 

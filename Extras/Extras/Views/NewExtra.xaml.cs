@@ -16,16 +16,8 @@ namespace Extras.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NewExtra : ContentPage
     {
-#if __IOS__
-		public static string ResourcePrefix = "XamFormsImageResize.iOS.";
-#endif
-#if __ANDROID__
-		public static string ResourcePrefix = "XamFormsImageResize.Android.";
-#endif
-#if WINDOWS_UWP
-        public static string ResourcePrefix = "XamFormsImageResize.UWP.";
-#endif
-        private ClosedExcelService excelService;
+
+        //private ClosedExcelService excelService;
         public List<string> Pics { get; set; }
         public NewExtra()
         {
@@ -38,8 +30,8 @@ namespace Extras.Views
         {
             base.OnAppearing();
             exDate.Date = DateTime.Today;
-            excelService = new ClosedExcelService();
-            var exfile = excelService.Export(await App.Database.GetExtrasAsync());
+            //excelService = new ClosedExcelService();
+           // var exfile = excelService.Export(await App.Database.GetExtrasAsync());
         }
         
         async void OnSaveButtonClicked(object sender, EventArgs e)
@@ -57,7 +49,7 @@ namespace Extras.Views
                 ext.SiteArea = siteArea.Text;
                 
                 var iid = App.Database.SaveExtraAsync(ext);
-                var ex = App.Database.GetExtraAsync(ext.ID);
+                //var ex = App.Database.GetExtraAsync(ext.ID);
                 // kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
                 if (Pics != null)
                 {

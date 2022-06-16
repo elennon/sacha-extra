@@ -7,83 +7,83 @@ map_aname.0:
 
 	.type	map_aname.1, %object
 map_aname.1:
-	.asciz	"Extras.Android"
-	.size	map_aname.1, 15
+	.asciz	"Xamarin.AndroidX.Fragment"
+	.size	map_aname.1, 26
 
 	.type	map_aname.2, %object
 map_aname.2:
-	.asciz	"Xamarin.AndroidX.Fragment"
-	.size	map_aname.2, 26
+	.asciz	"Plugin.CurrentActivity"
+	.size	map_aname.2, 23
 
 	.type	map_aname.3, %object
 map_aname.3:
-	.asciz	"Plugin.CurrentActivity"
-	.size	map_aname.3, 23
+	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
+	.size	map_aname.3, 37
 
 	.type	map_aname.4, %object
 map_aname.4:
-	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
-	.size	map_aname.4, 37
+	.asciz	"Xamarin.AndroidX.CardView"
+	.size	map_aname.4, 26
 
 	.type	map_aname.5, %object
 map_aname.5:
-	.asciz	"Xamarin.AndroidX.CardView"
-	.size	map_aname.5, 26
+	.asciz	"CarouselView.FormsPlugin.Droid"
+	.size	map_aname.5, 31
 
 	.type	map_aname.6, %object
 map_aname.6:
-	.asciz	"CarouselView.FormsPlugin.Droid"
-	.size	map_aname.6, 31
+	.asciz	"Xamarin.AndroidX.SwipeRefreshLayout"
+	.size	map_aname.6, 36
 
 	.type	map_aname.7, %object
 map_aname.7:
-	.asciz	"Xamarin.AndroidX.SwipeRefreshLayout"
-	.size	map_aname.7, 36
+	.asciz	"Xamarin.AndroidX.Loader"
+	.size	map_aname.7, 24
 
 	.type	map_aname.8, %object
 map_aname.8:
-	.asciz	"Xamarin.AndroidX.Loader"
-	.size	map_aname.8, 24
+	.asciz	"Plugin.Media"
+	.size	map_aname.8, 13
 
 	.type	map_aname.9, %object
 map_aname.9:
-	.asciz	"Plugin.Media"
-	.size	map_aname.9, 13
+	.asciz	"Xamarin.AndroidX.Activity"
+	.size	map_aname.9, 26
 
 	.type	map_aname.10, %object
 map_aname.10:
-	.asciz	"Xamarin.AndroidX.Activity"
-	.size	map_aname.10, 26
+	.asciz	"SkiaSharp.Views.Forms"
+	.size	map_aname.10, 22
 
 	.type	map_aname.11, %object
 map_aname.11:
-	.asciz	"SkiaSharp.Views.Forms"
-	.size	map_aname.11, 22
+	.asciz	"Xamarin.AndroidX.AppCompat.AppCompatResources"
+	.size	map_aname.11, 46
 
 	.type	map_aname.12, %object
 map_aname.12:
-	.asciz	"Xamarin.AndroidX.AppCompat.AppCompatResources"
-	.size	map_aname.12, 46
+	.asciz	"FFImageLoading.Forms.Platform"
+	.size	map_aname.12, 30
 
 	.type	map_aname.13, %object
 map_aname.13:
-	.asciz	"FFImageLoading.Forms.Platform"
-	.size	map_aname.13, 30
+	.asciz	"FFImageLoading.Platform"
+	.size	map_aname.13, 24
 
 	.type	map_aname.14, %object
 map_aname.14:
-	.asciz	"FFImageLoading.Platform"
-	.size	map_aname.14, 24
+	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
+	.size	map_aname.14, 41
 
 	.type	map_aname.15, %object
 map_aname.15:
-	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
-	.size	map_aname.15, 41
+	.asciz	"Com.Android.DeskClock"
+	.size	map_aname.15, 22
 
 	.type	map_aname.16, %object
 map_aname.16:
-	.asciz	"Com.Android.DeskClock"
-	.size	map_aname.16, 22
+	.asciz	"Extras.Android"
+	.size	map_aname.16, 15
 
 	.type	map_aname.17, %object
 map_aname.17:

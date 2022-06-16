@@ -29,8 +29,8 @@ namespace Extras.Views
         {
             try
             {
-                int id = Convert.ToInt32(ID);
-                Extra qt = await App.Database.GetExtraAsync(id);
+                //int id = Convert.ToInt32(ID);
+                Extra qt = await App.Database.GetExtraAsync(ID);
                 BindingContext = qt;
                 siteName.Text = qt.JobSite;
                 siteArea.Text = qt.SiteArea;

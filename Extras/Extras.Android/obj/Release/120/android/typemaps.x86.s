@@ -54,22 +54,12 @@ map_modules:
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
 
-	.byte	0x12, 0x13, 0x80, 0xd4, 0x1e, 0xa7, 0xf6, 0x48, 0x96, 0x87, 0x4b, 0xaf, 0x4, 0xa0, 0x52, 0x44	# module_uuid: d4801312-a71e-48f6-9687-4baf04a05244
-	.long	0x2	# entry_count
-	.long	0x0	# duplicate_count
-	.long	.L.module1_managed_to_java	# map
-	.long	0	# duplicate_map
-	.long	map_aname.1	# assembly_name: Extras.Android
-	.long	0x0	# image
-	.long	0x0	# java_name_width
-	.long	0x0	# java_map
-
 	.byte	0x15, 0xf0, 0x6c, 0x42, 0x49, 0xb0, 0xf6, 0x4b, 0x97, 0xfe, 0xb9, 0xb, 0x14, 0xd5, 0x17, 0xd3	# module_uuid: 426cf015-b049-4bf6-97fe-b90b14d517d3
 	.long	0xf	# entry_count
 	.long	0x9	# duplicate_count
-	.long	.L.module2_managed_to_java	# map
-	.long	.L.module2_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.2	# assembly_name: Xamarin.AndroidX.Fragment
+	.long	.L.module1_managed_to_java	# map
+	.long	.L.module1_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.1	# assembly_name: Xamarin.AndroidX.Fragment
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -77,9 +67,9 @@ map_modules:
 	.byte	0x17, 0xa, 0x58, 0x63, 0x8, 0x2d, 0xb9, 0x49, 0xa0, 0xca, 0x0, 0xe6, 0x13, 0x12, 0xcd, 0x54	# module_uuid: 63580a17-2d08-49b9-a0ca-00e61312cd54
 	.long	0x1	# entry_count
 	.long	0x0	# duplicate_count
-	.long	.L.module3_managed_to_java	# map
+	.long	.L.module2_managed_to_java	# map
 	.long	0	# duplicate_map
-	.long	map_aname.3	# assembly_name: Plugin.CurrentActivity
+	.long	map_aname.2	# assembly_name: Plugin.CurrentActivity
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -87,9 +77,9 @@ map_modules:
 	.byte	0x20, 0x7, 0xf6, 0x1e, 0x72, 0x28, 0x73, 0x49, 0x9a, 0x3f, 0xe8, 0x1, 0xe9, 0xe9, 0x9c, 0x67	# module_uuid: 1ef60720-2872-4973-9a3f-e801e9e99c67
 	.long	0x5	# entry_count
 	.long	0x3	# duplicate_count
-	.long	.L.module4_managed_to_java	# map
-	.long	.L.module4_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.4	# assembly_name: Xamarin.AndroidX.Lifecycle.ViewModel
+	.long	.L.module3_managed_to_java	# map
+	.long	.L.module3_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.3	# assembly_name: Xamarin.AndroidX.Lifecycle.ViewModel
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -97,9 +87,9 @@ map_modules:
 	.byte	0x2b, 0x15, 0xf0, 0xe7, 0x83, 0x1d, 0x2f, 0x41, 0xa0, 0x13, 0xf9, 0x3d, 0xe5, 0x81, 0xd9, 0xda	# module_uuid: e7f0152b-1d83-412f-a013-f93de581d9da
 	.long	0x1	# entry_count
 	.long	0x0	# duplicate_count
-	.long	.L.module5_managed_to_java	# map
+	.long	.L.module4_managed_to_java	# map
 	.long	0	# duplicate_map
-	.long	map_aname.5	# assembly_name: Xamarin.AndroidX.CardView
+	.long	map_aname.4	# assembly_name: Xamarin.AndroidX.CardView
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -107,9 +97,9 @@ map_modules:
 	.byte	0x2e, 0xde, 0x73, 0xc0, 0x5c, 0xea, 0x71, 0x4c, 0x96, 0xf, 0xf6, 0xac, 0x3f, 0xff, 0x50, 0xfa	# module_uuid: c073de2e-ea5c-4c71-960f-f6ac3fff50fa
 	.long	0x6	# entry_count
 	.long	0x0	# duplicate_count
-	.long	.L.module6_managed_to_java	# map
+	.long	.L.module5_managed_to_java	# map
 	.long	0	# duplicate_map
-	.long	map_aname.6	# assembly_name: CarouselView.FormsPlugin.Droid
+	.long	map_aname.5	# assembly_name: CarouselView.FormsPlugin.Droid
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -117,9 +107,9 @@ map_modules:
 	.byte	0x2f, 0xdb, 0x24, 0xe8, 0x54, 0x7d, 0x4c, 0x4f, 0xa1, 0x58, 0x6c, 0x8f, 0x8e, 0xda, 0x44, 0xcf	# module_uuid: e824db2f-7d54-4f4c-a158-6c8f8eda44cf
 	.long	0x4	# entry_count
 	.long	0x2	# duplicate_count
-	.long	.L.module7_managed_to_java	# map
-	.long	.L.module7_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.7	# assembly_name: Xamarin.AndroidX.SwipeRefreshLayout
+	.long	.L.module6_managed_to_java	# map
+	.long	.L.module6_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.6	# assembly_name: Xamarin.AndroidX.SwipeRefreshLayout
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -127,9 +117,9 @@ map_modules:
 	.byte	0x31, 0xd4, 0xac, 0xc0, 0xa7, 0x3a, 0x33, 0x41, 0xa3, 0x40, 0x6f, 0x1d, 0xbd, 0x90, 0xe2, 0xa	# module_uuid: c0acd431-3aa7-4133-a340-6f1dbd90e20a
 	.long	0x5	# entry_count
 	.long	0x4	# duplicate_count
-	.long	.L.module8_managed_to_java	# map
-	.long	.L.module8_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.8	# assembly_name: Xamarin.AndroidX.Loader
+	.long	.L.module7_managed_to_java	# map
+	.long	.L.module7_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.7	# assembly_name: Xamarin.AndroidX.Loader
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -137,9 +127,9 @@ map_modules:
 	.byte	0x44, 0x37, 0x57, 0x2e, 0xa1, 0x47, 0x20, 0x4d, 0x8e, 0x73, 0x92, 0x71, 0x73, 0x9c, 0x1d, 0x8f	# module_uuid: 2e573744-47a1-4d20-8e73-9271739c1d8f
 	.long	0x1	# entry_count
 	.long	0x0	# duplicate_count
-	.long	.L.module9_managed_to_java	# map
+	.long	.L.module8_managed_to_java	# map
 	.long	0	# duplicate_map
-	.long	map_aname.9	# assembly_name: Plugin.Media
+	.long	map_aname.8	# assembly_name: Plugin.Media
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -147,9 +137,9 @@ map_modules:
 	.byte	0x4a, 0xd3, 0xc0, 0xe2, 0x41, 0xdd, 0xd1, 0x46, 0x85, 0xa7, 0xe1, 0xda, 0xca, 0x93, 0x6d, 0x88	# module_uuid: e2c0d34a-dd41-46d1-85a7-e1daca936d88
 	.long	0xe	# entry_count
 	.long	0xa	# duplicate_count
-	.long	.L.module10_managed_to_java	# map
-	.long	.L.module10_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.10	# assembly_name: Xamarin.AndroidX.Activity
+	.long	.L.module9_managed_to_java	# map
+	.long	.L.module9_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.9	# assembly_name: Xamarin.AndroidX.Activity
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -157,9 +147,9 @@ map_modules:
 	.byte	0x57, 0xf5, 0x48, 0x83, 0x24, 0xd9, 0x27, 0x4f, 0xa1, 0x25, 0xdf, 0x7d, 0x3d, 0xa6, 0x2d, 0xe7	# module_uuid: 8348f557-d924-4f27-a125-df7d3da62de7
 	.long	0x4	# entry_count
 	.long	0x0	# duplicate_count
-	.long	.L.module11_managed_to_java	# map
+	.long	.L.module10_managed_to_java	# map
 	.long	0	# duplicate_map
-	.long	map_aname.11	# assembly_name: SkiaSharp.Views.Forms
+	.long	map_aname.10	# assembly_name: SkiaSharp.Views.Forms
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -167,9 +157,9 @@ map_modules:
 	.byte	0x67, 0x31, 0xb3, 0x45, 0xa9, 0x3c, 0xbd, 0x4d, 0xbf, 0x22, 0x8a, 0x27, 0x98, 0x57, 0x26, 0x2d	# module_uuid: 45b33167-3ca9-4dbd-bf22-8a279857262d
 	.long	0x2	# entry_count
 	.long	0x0	# duplicate_count
-	.long	.L.module12_managed_to_java	# map
+	.long	.L.module11_managed_to_java	# map
 	.long	0	# duplicate_map
-	.long	map_aname.12	# assembly_name: Xamarin.AndroidX.AppCompat.AppCompatResources
+	.long	map_aname.11	# assembly_name: Xamarin.AndroidX.AppCompat.AppCompatResources
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -177,9 +167,9 @@ map_modules:
 	.byte	0x71, 0xa8, 0x78, 0x2e, 0x12, 0x8b, 0xb5, 0x48, 0x8c, 0x88, 0x79, 0x12, 0xda, 0xcc, 0x1a, 0xe5	# module_uuid: 2e78a871-8b12-48b5-8c88-7912dacc1ae5
 	.long	0x3	# entry_count
 	.long	0x0	# duplicate_count
-	.long	.L.module13_managed_to_java	# map
+	.long	.L.module12_managed_to_java	# map
 	.long	0	# duplicate_map
-	.long	map_aname.13	# assembly_name: FFImageLoading.Forms.Platform
+	.long	map_aname.12	# assembly_name: FFImageLoading.Forms.Platform
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -187,9 +177,9 @@ map_modules:
 	.byte	0x79, 0x86, 0xa6, 0xe4, 0xa4, 0xa2, 0x46, 0x4c, 0x94, 0xe0, 0x41, 0x40, 0xbb, 0x60, 0x9f, 0x9a	# module_uuid: e4a68679-a2a4-4c46-94e0-4140bb609f9a
 	.long	0x6	# entry_count
 	.long	0x0	# duplicate_count
-	.long	.L.module14_managed_to_java	# map
+	.long	.L.module13_managed_to_java	# map
 	.long	0	# duplicate_map
-	.long	map_aname.14	# assembly_name: FFImageLoading.Platform
+	.long	map_aname.13	# assembly_name: FFImageLoading.Platform
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -197,9 +187,9 @@ map_modules:
 	.byte	0x7d, 0xa, 0x95, 0x12, 0x77, 0xee, 0x74, 0x4c, 0x8f, 0xf2, 0xa8, 0x6c, 0x7e, 0x61, 0x21, 0xfc	# module_uuid: 12950a7d-ee77-4c74-8ff2-a86c7e6121fc
 	.long	0x2	# entry_count
 	.long	0x2	# duplicate_count
-	.long	.L.module15_managed_to_java	# map
-	.long	.L.module15_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.15	# assembly_name: Xamarin.AndroidX.Lifecycle.LiveData.Core
+	.long	.L.module14_managed_to_java	# map
+	.long	.L.module14_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.14	# assembly_name: Xamarin.AndroidX.Lifecycle.LiveData.Core
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -207,9 +197,19 @@ map_modules:
 	.byte	0x7f, 0x61, 0xcc, 0x69, 0x26, 0x85, 0x8, 0x4b, 0xb2, 0x34, 0xcc, 0x15, 0x14, 0xd3, 0x98, 0x36	# module_uuid: 69cc617f-8526-4b08-b234-cc1514d39836
 	.long	0x2	# entry_count
 	.long	0x0	# duplicate_count
+	.long	.L.module15_managed_to_java	# map
+	.long	0	# duplicate_map
+	.long	map_aname.15	# assembly_name: Com.Android.DeskClock
+	.long	0x0	# image
+	.long	0x0	# java_name_width
+	.long	0x0	# java_map
+
+	.byte	0x89, 0xee, 0x6f, 0x2e, 0x39, 0x8a, 0x81, 0x48, 0xa7, 0x3c, 0x1d, 0x5a, 0xbd, 0x2a, 0xb7, 0xb9	# module_uuid: 2e6fee89-8a39-4881-a73c-1d5abd2ab7b9
+	.long	0x2	# entry_count
+	.long	0x0	# duplicate_count
 	.long	.L.module16_managed_to_java	# map
 	.long	0	# duplicate_map
-	.long	map_aname.16	# assembly_name: Com.Android.DeskClock
+	.long	map_aname.16	# assembly_name: Extras.Android
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -2573,79 +2573,79 @@ map_java:
 	.zero	77	# byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x200000a	# type_token_id
 	.ascii	"androidx/activity/ComponentActivity"	# java_name
 	.zero	66	# byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x200000f	# type_token_id
 	.ascii	"androidx/activity/OnBackPressedCallback"	# java_name
 	.zero	62	# byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x2000011	# type_token_id
 	.ascii	"androidx/activity/OnBackPressedDispatcher"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/activity/OnBackPressedDispatcherOwner"	# java_name
 	.zero	55	# byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/activity/contextaware/ContextAware"	# java_name
 	.zero	58	# byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/activity/contextaware/OnContextAvailableListener"	# java_name
 	.zero	44	# byteCount == 57; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/activity/result/ActivityResultCallback"	# java_name
 	.zero	54	# byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/activity/result/ActivityResultCaller"	# java_name
 	.zero	56	# byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x2000018	# type_token_id
 	.ascii	"androidx/activity/result/ActivityResultLauncher"	# java_name
 	.zero	54	# byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x200001a	# type_token_id
 	.ascii	"androidx/activity/result/ActivityResultRegistry"	# java_name
 	.zero	54	# byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/activity/result/ActivityResultRegistryOwner"	# java_name
 	.zero	49	# byteCount == 52; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x2000023	# type_token_id
 	.ascii	"androidx/activity/result/contract/ActivityResultContract"	# java_name
 	.zero	45	# byteCount == 56; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x2000024	# type_token_id
 	.ascii	"androidx/activity/result/contract/ActivityResultContract$SynchronousResult"	# java_name
 	.zero	27	# byteCount == 74; fixedWidth == 101; returned size == 101
@@ -2759,13 +2759,13 @@ map_java:
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xc	# module_index
+	.long	0xb	# module_index
 	.long	0x2000009	# type_token_id
 	.ascii	"androidx/appcompat/content/res/AppCompatResources"	# java_name
 	.zero	52	# byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xc	# module_index
+	.long	0xb	# module_index
 	.long	0x2000008	# type_token_id
 	.ascii	"androidx/appcompat/graphics/drawable/DrawableWrapper"	# java_name
 	.zero	49	# byteCount == 52; fixedWidth == 101; returned size == 101
@@ -2921,7 +2921,7 @@ map_java:
 	.zero	35	# byteCount == 66; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x5	# module_index
+	.long	0x4	# module_index
 	.long	0x200000b	# type_token_id
 	.ascii	"androidx/cardview/widget/CardView"	# java_name
 	.zero	68	# byteCount == 33; fixedWidth == 101; returned size == 101
@@ -3443,79 +3443,79 @@ map_java:
 	.zero	47	# byteCount == 54; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x2000025	# type_token_id
 	.ascii	"androidx/fragment/app/Fragment"	# java_name
 	.zero	71	# byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x2000026	# type_token_id
 	.ascii	"androidx/fragment/app/Fragment$SavedState"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x2000024	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentActivity"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x2000027	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentFactory"	# java_name
 	.zero	64	# byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x2000028	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentManager"	# java_name
 	.zero	64	# byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentManager$BackStackEntry"	# java_name
 	.zero	49	# byteCount == 52; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x200002b	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks"	# java_name
 	.zero	37	# byteCount == 64; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentManager$OnBackStackChangedListener"	# java_name
 	.zero	37	# byteCount == 64; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentOnAttachListener"	# java_name
 	.zero	55	# byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x2000035	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentPagerAdapter"	# java_name
 	.zero	59	# byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentResultListener"	# java_name
 	.zero	57	# byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentResultOwner"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x2000037	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentTransaction"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
@@ -3527,7 +3527,7 @@ map_java:
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x4	# module_index
+	.long	0x3	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/lifecycle/HasDefaultViewModelProviderFactory"	# java_name
 	.zero	48	# byteCount == 53; fixedWidth == 101; returned size == 101
@@ -3557,67 +3557,67 @@ map_java:
 	.zero	68	# byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xf	# module_index
+	.long	0xe	# module_index
 	.long	0x2000009	# type_token_id
 	.ascii	"androidx/lifecycle/LiveData"	# java_name
 	.zero	74	# byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xf	# module_index
+	.long	0xe	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/lifecycle/Observer"	# java_name
 	.zero	74	# byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x4	# module_index
+	.long	0x3	# module_index
 	.long	0x2000009	# type_token_id
 	.ascii	"androidx/lifecycle/ViewModelProvider"	# java_name
 	.zero	65	# byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x4	# module_index
+	.long	0x3	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/lifecycle/ViewModelProvider$Factory"	# java_name
 	.zero	57	# byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x4	# module_index
+	.long	0x3	# module_index
 	.long	0x200000c	# type_token_id
 	.ascii	"androidx/lifecycle/ViewModelStore"	# java_name
 	.zero	68	# byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x4	# module_index
+	.long	0x3	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/lifecycle/ViewModelStoreOwner"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x8	# module_index
+	.long	0x7	# module_index
 	.long	0x2000014	# type_token_id
 	.ascii	"androidx/loader/app/LoaderManager"	# java_name
 	.zero	68	# byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x8	# module_index
+	.long	0x7	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/loader/app/LoaderManager$LoaderCallbacks"	# java_name
 	.zero	52	# byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x8	# module_index
+	.long	0x7	# module_index
 	.long	0x200000f	# type_token_id
 	.ascii	"androidx/loader/content/Loader"	# java_name
 	.zero	71	# byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x8	# module_index
+	.long	0x7	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/loader/content/Loader$OnLoadCanceledListener"	# java_name
 	.zero	48	# byteCount == 53; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x8	# module_index
+	.long	0x7	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/loader/content/Loader$OnLoadCompleteListener"	# java_name
 	.zero	48	# byteCount == 53; fixedWidth == 101; returned size == 101
@@ -3887,19 +3887,19 @@ map_java:
 	.zero	58	# byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x7	# module_index
+	.long	0x6	# module_index
 	.long	0x2000018	# type_token_id
 	.ascii	"androidx/swiperefreshlayout/widget/SwipeRefreshLayout"	# java_name
 	.zero	48	# byteCount == 53; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x7	# module_index
+	.long	0x6	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/swiperefreshlayout/widget/SwipeRefreshLayout$OnChildScrollUpCallback"	# java_name
 	.zero	24	# byteCount == 77; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x7	# module_index
+	.long	0x6	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/swiperefreshlayout/widget/SwipeRefreshLayout$OnRefreshListener"	# java_name
 	.zero	30	# byteCount == 71; fixedWidth == 101; returned size == 101
@@ -4151,19 +4151,19 @@ map_java:
 	.zero	51	# byteCount == 50; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xd	# module_index
+	.long	0xc	# module_index
 	.long	0x2000005	# type_token_id
 	.ascii	"crc6414fa209700c2b9f3/CachedImageFastRenderer"	# java_name
 	.zero	56	# byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xd	# module_index
+	.long	0xc	# module_index
 	.long	0x2000002	# type_token_id
 	.ascii	"crc6414fa209700c2b9f3/CachedImageRenderer"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xd	# module_index
+	.long	0xc	# module_index
 	.long	0x2000003	# type_token_id
 	.ascii	"crc6414fa209700c2b9f3/CachedImageView"	# java_name
 	.zero	64	# byteCount == 37; fixedWidth == 101; returned size == 101
@@ -5315,31 +5315,31 @@ map_java:
 	.zero	47	# byteCount == 54; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x3	# module_index
+	.long	0x2	# module_index
 	.long	0x2000006	# type_token_id
 	.ascii	"crc64435a5ac349fa9fda/ActivityLifecycleContextListener"	# java_name
 	.zero	47	# byteCount == 54; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xe	# module_index
+	.long	0xd	# module_index
 	.long	0x2000017	# type_token_id
 	.ascii	"crc644bcdcf6d99873ace/FFAnimatedDrawable"	# java_name
 	.zero	61	# byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xe	# module_index
+	.long	0xd	# module_index
 	.long	0x2000015	# type_token_id
 	.ascii	"crc644bcdcf6d99873ace/FFBitmapDrawable"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xe	# module_index
+	.long	0xd	# module_index
 	.long	0x2000014	# type_token_id
 	.ascii	"crc644bcdcf6d99873ace/SelfDisposingBitmapDrawable"	# java_name
 	.zero	52	# byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x9	# module_index
+	.long	0x8	# module_index
 	.long	0x2000016	# type_token_id
 	.ascii	"crc646957603ea1820544/MediaPickerActivity"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
@@ -5465,13 +5465,13 @@ map_java:
 	.zero	65	# byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1	# module_index
+	.long	0x10	# module_index
 	.long	0x2000002	# type_token_id
 	.ascii	"crc648004318c24f327ca/MainActivity"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1	# module_index
+	.long	0x10	# module_index
 	.long	0x2000003	# type_token_id
 	.ascii	"crc648004318c24f327ca/MediaService"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
@@ -5543,79 +5543,79 @@ map_java:
 	.zero	47	# byteCount == 54; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xe	# module_index
+	.long	0xd	# module_index
 	.long	0x2000027	# type_token_id
 	.ascii	"crc64b75d9ddab39d6c30/LRUCache"	# java_name
 	.zero	71	# byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xb	# module_index
+	.long	0xa	# module_index
 	.long	0x2000006	# type_token_id
 	.ascii	"crc64bb223c2be3a01e03/SKCanvasViewRenderer"	# java_name
 	.zero	59	# byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xb	# module_index
+	.long	0xa	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"crc64bb223c2be3a01e03/SKCanvasViewRendererBase_2"	# java_name
 	.zero	53	# byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xb	# module_index
+	.long	0xa	# module_index
 	.long	0x2000007	# type_token_id
 	.ascii	"crc64bb223c2be3a01e03/SKGLViewRenderer"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xb	# module_index
+	.long	0xa	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"crc64bb223c2be3a01e03/SKGLViewRendererBase_2"	# java_name
 	.zero	57	# byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x6	# module_index
+	.long	0x5	# module_index
 	.long	0x2000002	# type_token_id
 	.ascii	"crc64bd9b40afd0203ad3/CarouselViewRenderer"	# java_name
 	.zero	59	# byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x6	# module_index
+	.long	0x5	# module_index
 	.long	0x2000003	# type_token_id
 	.ascii	"crc64bd9b40afd0203ad3/CarouselViewRenderer_PageAdapter"	# java_name
 	.zero	47	# byteCount == 54; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x6	# module_index
+	.long	0x5	# module_index
 	.long	0x200001b	# type_token_id
 	.ascii	"crc64bd9b40afd0203ad3/GlobalLayoutListener"	# java_name
 	.zero	59	# byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x6	# module_index
+	.long	0x5	# module_index
 	.long	0x2000018	# type_token_id
 	.ascii	"crc64bd9b40afd0203ad3/HorizontalViewPager"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x6	# module_index
+	.long	0x5	# module_index
 	.long	0x200001a	# type_token_id
 	.ascii	"crc64bd9b40afd0203ad3/Tag"	# java_name
 	.zero	76	# byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x6	# module_index
+	.long	0x5	# module_index
 	.long	0x2000021	# type_token_id
 	.ascii	"crc64bd9b40afd0203ad3/VerticalViewPager"	# java_name
 	.zero	62	# byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x10	# module_index
+	.long	0xf	# module_index
 	.long	0x200000d	# type_token_id
 	.ascii	"crc64e18a7d9a87d4f5ff/VerticalViewPager"	# java_name
 	.zero	62	# byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x10	# module_index
+	.long	0xf	# module_index
 	.long	0x200000e	# type_token_id
 	.ascii	"crc64e18a7d9a87d4f5ff/VerticalViewPager_VerticalPageTransformer"	# java_name
 	.zero	38	# byteCount == 63; fixedWidth == 101; returned size == 101
@@ -5645,13 +5645,13 @@ map_java:
 	.zero	66	# byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xe	# module_index
+	.long	0xd	# module_index
 	.long	0x2000020	# type_token_id
 	.ascii	"ffimageloading/cross/MvxCachedImageView"	# java_name
 	.zero	62	# byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xe	# module_index
+	.long	0xd	# module_index
 	.long	0x200001e	# type_token_id
 	.ascii	"ffimageloading/views/ImageViewAsync"	# java_name
 	.zero	66	# byteCount == 35; fixedWidth == 101; returned size == 101
@@ -6719,7 +6719,7 @@ map_java:
 	.zero	39	# byteCount == 62; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0xa	# module_index
+	.long	0x9	# module_index
 	.long	0x2000017	# type_token_id
 	.ascii	"mono/androidx/activity/contextaware/OnContextAvailableListenerImplementor"	# java_name
 	.zero	28	# byteCount == 73; fixedWidth == 101; returned size == 101
@@ -6767,13 +6767,13 @@ map_java:
 	.zero	29	# byteCount == 72; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x200002f	# type_token_id
 	.ascii	"mono/androidx/fragment/app/FragmentManager_OnBackStackChangedListenerImplementor"	# java_name
 	.zero	21	# byteCount == 80; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x2	# module_index
+	.long	0x1	# module_index
 	.long	0x200003c	# type_token_id
 	.ascii	"mono/androidx/fragment/app/FragmentOnAttachListenerImplementor"	# java_name
 	.zero	39	# byteCount == 62; fixedWidth == 101; returned size == 101
@@ -6797,7 +6797,7 @@ map_java:
 	.zero	27	# byteCount == 74; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x7	# module_index
+	.long	0x6	# module_index
 	.long	0x200001d	# type_token_id
 	.ascii	"mono/androidx/swiperefreshlayout/widget/SwipeRefreshLayout_OnRefreshListenerImplementor"	# java_name
 	.zero	14	# byteCount == 87; fixedWidth == 101; returned size == 101

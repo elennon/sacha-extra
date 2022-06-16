@@ -17,7 +17,7 @@ namespace Extras.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class VeiwAll : ContentPage
     {
-        private ClosedExcelService excelService;
+        //private ClosedExcelService excelService;
         private List<Extra> extrs = new List<Extra>();
         private Gemmers gemmer;
         private string AppFolder => Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
@@ -31,7 +31,7 @@ namespace Extras.Views
             base.OnAppearing();
             extrs = await App.Database.GetExtrasAsync();
             collectionView.ItemsSource = extrs;
-            excelService = new ClosedExcelService();
+            //excelService = new ClosedExcelService();
             gemmer = new Gemmers();
             
         }
@@ -152,7 +152,7 @@ namespace Extras.Views
                 
                 // Navigate to the NoteEntryPage, passing the ID as a query parameter.
                 Extra qt = (Extra)e.CurrentSelection.FirstOrDefault();
-                await Shell.Current.GoToAsync($"{nameof(CloseUp)}?{nameof(CloseUp.ID)}={qt.ID.ToString()}");
+                await Shell.Current.GoToAsync($"{nameof(CloseUp)}?{nameof(CloseUp.ID)}={qt.MyId}");
             }
         }
     }
