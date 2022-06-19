@@ -17,7 +17,7 @@ namespace Extras.Services
             {
                 SpreadsheetInfo.SetLicense("FREE-LIMITED-KEY");
 
-                var fileName = $"Extras-{Guid.NewGuid()}.xlsx";
+                var fileName = $"Extras-" +App.Database.GetCurrentProjectAsync().Result + ".xlsx";
                 Environment.SetEnvironmentVariable("MONO_URI_DOTNETRELATIVEORABSOLUTE", "true");
                 var filePath = Path.Combine(AppFolder, fileName);
                 var workbook = new ExcelFile();
@@ -46,7 +46,8 @@ namespace Extras.Services
             // Write title to Excel cell.
             var range = worksheet.Cells.GetSubrange("A1:F1");
             range.Merged = true;
-            range.Value = "Dayworks";
+
+            range.Value = App.Database.GetCurrentProjectAsync().Result.ProjectName +  " - Dayworks";
             range.Style.HorizontalAlignment = HorizontalAlignmentStyle.Center;
             //range.Style.Font.Size = 20;
             worksheet.Cells["A1"].Style.FillPattern.SetPattern(FillPatternStyle.Solid, SpreadsheetColor.FromName(ColorName.Accent5Lighter60Pct),

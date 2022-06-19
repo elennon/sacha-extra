@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Extras.Views.ProjectsPage"
+             Title="Projects">
+   
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save Project"
+                     Clicked="OnSaveButtonClicked" />
+        <ToolbarItem Text="Logout" Clicked="OnLogoutButtonClicked" />
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor"
+                                        Value="LightGray" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+    <ScrollView>
+        <StackLayout Margin="20">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Select a Project from this list to set as your current project. This will set that project as the one the app will work with." HeightRequest="80" HorizontalOptions="Center" FontSize="Medium" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HeightRequest="200">
+                <Frame >
+                    <CollectionView ItemsSource="{Binding .}" x:Name="prjsView"
+                                SelectedItem="{Binding CostumerSelected}"
+                                SelectionMode="Single">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Padding="10">
+                                    <StackLayout Orientation="Horizontal">
+                                        <CheckBox IsChecked="{Binding IsChecked}" />
+                                        <Label Text="{Binding ProjectName}"
+                                       VerticalOptions="Center" />
+                                    </StackLayout>
+                                </Grid>
+
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Add new Project" HeightRequest="60" HorizontalOptions="Center" FontSize="Medium" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Site" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Project Name" x:Name="siteName" HeightRequest="60" 
+                        HorizontalOptions="CenterAndExpand" Text="Intel"  WidthRequest="200"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Address" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Editor Placeholder="Site area" x:Name="siteAddress" HeightRequest="60" 
+                        HorizontalOptions="CenterAndExpand" Text="Roof"  WidthRequest="200"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Set as current Project" HeightRequest="60" VerticalTextAlignment="Center" />
+                <CheckBox  x:Name="ckbCurrent" />
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

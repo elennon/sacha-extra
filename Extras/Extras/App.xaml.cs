@@ -1,5 +1,7 @@
 ﻿
 using Extras.Data;
+using Extras.Models;
+using Extras.Views;
 using System;
 using System.IO;
 using System.Threading.Tasks;
@@ -10,7 +12,8 @@ namespace Extras
     public partial class App : Application
     {
         static ExtrasDatabase database;
-        //static ReceiptsDatabase rdb;
+        //public static bool IsUserLoggedIn { get; set; }
+        //Application.Current.Properties["IsLoggedIn"] = Boolean.TrueString;
 
         // Create the database connection as a singleton.
         public static ExtrasDatabase Database
@@ -24,12 +27,21 @@ namespace Extras
                 return database;
             }
         }
-
+        
         public App()
         {
             InitializeComponent();
-            MainPage = new AppShell();
-            
+            bool IsUserLoggedIn = Current.Properties.ContainsKey("IsLoggedIn") ? Convert.ToBoolean(Current.Properties["IsLoggedIn"]) : false;
+
+            if (!IsUserLoggedIn)
+            {
+                MainPage = new NavigationPage(new LoginPage());
+            }
+            else
+            {
+                //MainPage = new NavigationPage(new Extras.ProjectsPage());
+                MainPage = new AppShell();
+            }
         }
         protected  override void OnStart()
         {

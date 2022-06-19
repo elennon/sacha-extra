@@ -53,7 +53,7 @@
 	.zero	3
 	.long	.L.compressed_assembly_data.8	# data
 
-	.long	0x14800	# uncompressed_file_size
+	.long	0x14600	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.9	# data

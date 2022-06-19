@@ -12,17 +12,20 @@ namespace Extras.Data
         public ExtrasDatabase(string dbPath)
         {
             database = new SQLiteAsyncConnection(dbPath);
-            
+
             database.DropTableAsync<Extra>().Wait();
             database.DropTableAsync<Pics>().Wait();
+            database.DropTableAsync<Project>().Wait();
+
             database.CreateTableAsync<Extra>().Wait();
             database.CreateTableAsync<Pics>().Wait();
+            database.CreateTableAsync<Project>().Wait();
         }
 
-        public Task<List<Extra>> GetExtrasAsync()
+        public Task<List<Extra>> GetExtrasAsync(string prjId)
         {
             //Get all Quote.
-            return database.Table<Extra>().ToListAsync();
+            return database.Table<Extra>().Where(x => x.ProjectId == prjId).ToListAsync();
         }
 
         public Task<Extra> GetExtraAsync(string myid)
@@ -81,8 +84,49 @@ namespace Extras.Data
                 return database.InsertAsync(note);
             }
         }
-
         public Task<int> DeletePicAsync(Pics note)
+        {
+            // Delete a note.
+            return database.DeleteAsync(note);
+        }
+        public Task<List<Project>> GetProjectsAsync()
+        {
+            //Get all Quote.
+            return database.Table<Project>().ToListAsync();
+        }
+
+        public Task<Project> GetProjectAsync(string myid)
+        {
+            // Get a specific note.
+            return database.Table<Project>()
+                            .Where(i => i.MyId == myid)
+                            .FirstOrDefaultAsync();
+        }
+
+        public Task<Project> GetCurrentProjectAsync()
+        {
+            // Get a specific note.
+            return database.Table<Project>()
+                            .Where(i => i.IsCurrent == true)
+                            .FirstOrDefaultAsync();
+        }
+
+        public int SaveProjectAsync(Project note)
+        {
+            if (note.ID != 0)
+            {
+                // Update an existing note.
+                database.UpdateAsync(note);
+            }
+            else
+            {
+                // Save a new note.
+                database.InsertAsync(note);
+            }
+            return note.ID;
+        }
+
+        public Task<int> DeleteProjectAsync(Project note)
         {
             // Delete a note.
             return database.DeleteAsync(note);

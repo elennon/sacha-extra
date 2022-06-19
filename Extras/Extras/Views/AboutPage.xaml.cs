@@ -21,7 +21,7 @@ namespace Extras.Views
 
         private async void ToolbarItem_Clicked(object sender, EventArgs e)
         {
-            var all = await App.Database.GetExtrasAsync();
+            var all = await App.Database.GetExtrasAsync(App.Database.GetCurrentProjectAsync().Result.MyId);
             foreach (var item in all)
             {
                 await App.Database.DeleteExtraAsync(item);

@@ -47,10 +47,9 @@ namespace Extras.Views
                 ext.Rate = Convert.ToDouble(rate.Text);
                 ext.JobSite = siteName.Text;
                 ext.SiteArea = siteArea.Text;
-                
+                ext.ProjectId = App.Database.GetCurrentProjectAsync().Result.MyId;
+
                 var iid = App.Database.SaveExtraAsync(ext);
-                //var ex = App.Database.GetExtraAsync(ext.ID);
-                // kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
                 if (Pics != null)
                 {
                     var piks = getPics(Pics);
@@ -68,8 +67,6 @@ namespace Extras.Views
                     }
                 }               
                 await DisplayAlert("Saved", "", "OK");
-                //// Navigate backwards
-                //await Shell.Current.GoToAsync("..");
             }
             catch (Exception)
             {

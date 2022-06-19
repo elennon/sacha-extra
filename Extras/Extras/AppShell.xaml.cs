@@ -11,6 +11,8 @@ namespace Extras
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(CloseUp), typeof(CloseUp));
+            Routing.RegisterRoute(nameof(ProjectsPage), typeof(ProjectsPage));
+            Routing.RegisterRoute(nameof(SignUpPage), typeof(SignUpPage));
         }
 
     }
