@@ -569,6 +569,14 @@ app_system_properties:
 .L.env.buf.132:
 	.zero	63
 	.size	.L.env.buf.132, 63
+	.type	.L.env.buf.133, @object
+.L.env.buf.133:
+	.zero	63
+	.size	.L.env.buf.133, 63
+	.type	.L.env.buf.134, @object
+.L.env.buf.134:
+	.zero	63
+	.size	.L.env.buf.134, 63
 	// Bundled assemblies data
 
 	.type	bundled_assemblies, @object
@@ -1774,7 +1782,25 @@ bundled_assemblies:
 	.zero	4
 	.xword	.L.env.buf.132	// name
 
-	.size	bundled_assemblies, 5320
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.133	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.134	// name
+
+	.size	bundled_assemblies, 5400
 	// Assembly store individual assembly data
 	.type	assembly_store_bundled_assemblies, @object
 	.global	assembly_store_bundled_assemblies
@@ -2011,7 +2037,7 @@ dso_cache:
 	.size	dso_cache, 1152
 
 	//
-	// Generated from instance of: Xamarin.Android.Tasks.ApplicationConfig, Xamarin.Android.Build.Tasks, Version=12.3.0.26, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
+	// Generated from instance of: Xamarin.Android.Tasks.ApplicationConfig, Xamarin.Android.Build.Tasks, Version=12.3.3.31, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
 	//
 	.type	application_config, @object
 	.global	application_config
@@ -2033,7 +2059,7 @@ application_config:
 	.word	0x3	// package_naming_policy
 	.word	0xc	// environment_variable_count
 	.word	0x0	// system_property_count
-	.word	0x85	// number_of_assemblies_in_apk
+	.word	0x87	// number_of_assemblies_in_apk
 	.word	0x3f	// bundled_assembly_name_width
 	.word	0x2	// number_of_assembly_store_files
 	.word	0x24	// number_of_dso_cache_entries
@@ -2076,7 +2102,7 @@ application_config:
 
 	.type	.L.autostr.6, @object
 .L.autostr.6:
-	.asciz	"ffc653a7-f1de-4364-8a36-068c74a07f82"
+	.asciz	"d4d185d2-27fa-4b28-be45-e90af15860b2"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, @object
@@ -2295,4 +2321,4 @@ application_config:
 	.size	.L.autostr.49, 23
 
 
-	.ident	"Xamarin.Android remotes/origin/d17-2 @ bbba5a21f3b649a761b22d83959758b4d30df672"
+	.ident	"Xamarin.Android remotes/origin/d17-2 @ 4e061b739747f624ccb03c98940d8900548a98ad"

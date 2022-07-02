@@ -19,6 +19,8 @@ namespace Extras.Views
     {
         private List<Extra> extrs = new List<Extra>();
         private Gemmers gemmer;
+        private Batch batch = new Batch();
+        private Project currentProject = new Project();
         private string AppFolder => Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
         public VeiwAll()
         {
@@ -28,10 +30,17 @@ namespace Extras.Views
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            var prj = App.Database.GetCurrentProjectAsync().Result.MyId;
-            extrs = await App.Database.GetExtrasAsync(prj);
-            collectionView.ItemsSource = extrs;
-            gemmer = new Gemmers();
+            currentProject = await App.Database.GetCurrentProjectAsync();
+            if(currentProject != null)
+            {
+                extrs = await App.Database.GetExtrasAsync(currentProject.MyId);
+                collectionView.ItemsSource = extrs;
+                gemmer = new Gemmers();
+            }
+            else
+            {
+                await DisplayAlert("Alert", "There is no project selected as current project. Please add a project and set it as current project.", "OK");
+            }
             
         }
         async void OnBackupButtonClicked(object sender, EventArgs e)
@@ -102,11 +111,16 @@ namespace Extras.Views
                 await DisplayAlert("Alert", "Exception: " + ex.Message, "OK");
             }
         }
-
         private async void sendAsEmailClicked(object sender, EventArgs e)
         {
             if (extrs.Count != 0)
             {
+
+                batch.ProjectName = currentProject.ProjectName;
+                batch.DateSent = DateTime.Now;
+                batch.BatchId = new Guid().ToString();
+                var b = App.Database.SaveBatchAsync(batch);
+                extrs.ForEach(x => x.BatchId = batch.BatchId);
                 var exfile = gemmer.GetGemmer(extrs);
                 List<string> toAddress = new List<string>();
                 toAddress.Add(emailto.Text);

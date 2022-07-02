@@ -53,7 +53,7 @@
 	.zero	3
 	.long	.L.compressed_assembly_data.8	# data
 
-	.long	0x14600	# uncompressed_file_size
+	.long	0x1c000	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.9	# data
@@ -98,7 +98,7 @@
 	.zero	3
 	.long	.L.compressed_assembly_data.17	# data
 
-	.long	0x24a400	# uncompressed_file_size
+	.long	0x254a00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.18	# data
@@ -128,22 +128,22 @@
 	.zero	3
 	.long	.L.compressed_assembly_data.23	# data
 
-	.long	0x18800	# uncompressed_file_size
+	.long	0x1400	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.24	# data
 
-	.long	0x9000	# uncompressed_file_size
+	.long	0x2e00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.25	# data
 
-	.long	0x1400	# uncompressed_file_size
+	.long	0x18800	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.26	# data
 
-	.long	0xb400	# uncompressed_file_size
+	.long	0x9000	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.27	# data
@@ -153,237 +153,247 @@
 	.zero	3
 	.long	.L.compressed_assembly_data.28	# data
 
-	.long	0x8a00	# uncompressed_file_size
+	.long	0xb400	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.29	# data
 
-	.long	0xa800	# uncompressed_file_size
+	.long	0x1400	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.30	# data
 
-	.long	0x25600	# uncompressed_file_size
+	.long	0x8a00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.31	# data
 
-	.long	0x69190	# uncompressed_file_size
+	.long	0xa800	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.32	# data
 
-	.long	0x3990	# uncompressed_file_size
+	.long	0x25600	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.33	# data
 
-	.long	0x106200	# uncompressed_file_size
+	.long	0x69190	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.34	# data
 
-	.long	0xb6a00	# uncompressed_file_size
+	.long	0x3990	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.35	# data
 
-	.long	0xe400	# uncompressed_file_size
+	.long	0x106200	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.36	# data
 
-	.long	0x1a00	# uncompressed_file_size
+	.long	0xb6a00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.37	# data
 
-	.long	0x13600	# uncompressed_file_size
+	.long	0xe400	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.38	# data
 
-	.long	0x1a800	# uncompressed_file_size
+	.long	0x1a00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.39	# data
 
-	.long	0x35600	# uncompressed_file_size
+	.long	0x13600	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.40	# data
 
-	.long	0x9800	# uncompressed_file_size
+	.long	0x1a800	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.41	# data
 
-	.long	0x1c00	# uncompressed_file_size
+	.long	0x35600	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.42	# data
 
-	.long	0x66a00	# uncompressed_file_size
+	.long	0x9800	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.43	# data
 
-	.long	0xda00	# uncompressed_file_size
+	.long	0x1c00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.44	# data
 
-	.long	0x1400	# uncompressed_file_size
+	.long	0x66a00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.45	# data
 
-	.long	0x10e00	# uncompressed_file_size
+	.long	0xda00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.46	# data
 
-	.long	0x165200	# uncompressed_file_size
+	.long	0x1400	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.47	# data
 
-	.long	0xe1800	# uncompressed_file_size
+	.long	0x10e00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.48	# data
 
-	.long	0xd000	# uncompressed_file_size
+	.long	0x165200	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.49	# data
 
-	.long	0x4200	# uncompressed_file_size
+	.long	0xe1800	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.50	# data
 
-	.long	0x71200	# uncompressed_file_size
+	.long	0xd000	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.51	# data
 
-	.long	0x4600	# uncompressed_file_size
+	.long	0x4200	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.52	# data
 
-	.long	0x13600	# uncompressed_file_size
+	.long	0x71200	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.53	# data
 
-	.long	0x91a00	# uncompressed_file_size
+	.long	0x4600	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.54	# data
 
-	.long	0x2400	# uncompressed_file_size
+	.long	0x13600	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.55	# data
 
-	.long	0xac00	# uncompressed_file_size
+	.long	0x91a00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.56	# data
 
-	.long	0x2ac00	# uncompressed_file_size
+	.long	0x2400	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.57	# data
 
-	.long	0x3e00	# uncompressed_file_size
+	.long	0xac00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.58	# data
 
-	.long	0x3c00	# uncompressed_file_size
+	.long	0x2ac00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.59	# data
 
-	.long	0x4000	# uncompressed_file_size
+	.long	0x3e00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.60	# data
 
-	.long	0x4400	# uncompressed_file_size
+	.long	0x3c00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.61	# data
 
-	.long	0x9000	# uncompressed_file_size
+	.long	0x4000	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.62	# data
 
-	.long	0x67a00	# uncompressed_file_size
+	.long	0x4400	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.63	# data
 
-	.long	0x3400	# uncompressed_file_size
+	.long	0x9000	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.64	# data
 
-	.long	0x9e00	# uncompressed_file_size
+	.long	0x67a00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.65	# data
 
-	.long	0xe400	# uncompressed_file_size
+	.long	0x3400	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.66	# data
 
-	.long	0x9600	# uncompressed_file_size
+	.long	0x9e00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.67	# data
 
-	.long	0x126c00	# uncompressed_file_size
+	.long	0xe400	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.68	# data
 
-	.long	0xe4400	# uncompressed_file_size
+	.long	0xb000	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.69	# data
 
-	.long	0x40380	# uncompressed_file_size
+	.long	0x126c00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.70	# data
 
-	.long	0x19400	# uncompressed_file_size
+	.long	0xe4400	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.71	# data
 
-	.long	0x3f000	# uncompressed_file_size
+	.long	0x40380	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.72	# data
 
-	.long	0x4698	# uncompressed_file_size
+	.long	0x19400	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.73	# data
 
-	.long	0x229000	# uncompressed_file_size
+	.long	0x3f000	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.long	.L.compressed_assembly_data.74	# data
 
-	.size	.L.compressed_assembly_descriptors.0, 900
+	.long	0x4698	# uncompressed_file_size
+	.byte	0x0	# loaded
+	.zero	3
+	.long	.L.compressed_assembly_data.75	# data
+
+	.long	0x229000	# uncompressed_file_size
+	.byte	0x0	# loaded
+	.zero	3
+	.long	.L.compressed_assembly_data.76	# data
+
+	.size	.L.compressed_assembly_descriptors.0, 924
 
 	.section	.data, "aw", @progbits
 
@@ -396,7 +406,7 @@
 	.section	.data, "aw", @progbits
 	.p2align	2
 compressed_assemblies:
-	.long	0x4b	# count
+	.long	0x4d	# count
 	.long	.L.compressed_assembly_descriptors.0	# descriptors
 	.size	compressed_assemblies, 8
 

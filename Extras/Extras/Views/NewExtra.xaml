@@ -48,7 +48,7 @@
             <StackLayout Orientation="Horizontal">
                 <Label Text="Site" HeightRequest="60" VerticalTextAlignment="Center" />
                 <Editor Placeholder="Job site" x:Name="siteName" HeightRequest="60" 
-                        HorizontalOptions="CenterAndExpand" Text="Intel"  WidthRequest="200"/>
+                        HorizontalOptions="CenterAndExpand" WidthRequest="200" IsEnabled="False"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Area" HeightRequest="60" VerticalTextAlignment="Center" />

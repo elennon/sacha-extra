@@ -1,10 +1,11 @@
 ﻿
 using Extras.Data;
-using Extras.Models;
+using Extras.Helpers;
 using Extras.Views;
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace Extras
@@ -31,16 +32,48 @@ namespace Extras
         public App()
         {
             InitializeComponent();
-            bool IsUserLoggedIn = Current.Properties.ContainsKey("IsLoggedIn") ? Convert.ToBoolean(Current.Properties["IsLoggedIn"]) : false;
+            var Foo = UserSettings.IsLoggedIn;
 
-            if (!IsUserLoggedIn)
+            if (Foo == Boolean.FalseString)
             {
-                MainPage = new NavigationPage(new LoginPage());
+                MainPage = new AppShell();
+                GoToLogin();
+                //MainPage = new NavigationPage(new UserLogin());
             }
             else
             {
-                //MainPage = new NavigationPage(new Extras.ProjectsPage());
                 MainPage = new AppShell();
+                //MainPage = new NavigationPage(new UserLogin());
+            }
+        }
+
+        private async void GoToLogin()
+        {
+            await Shell.Current.GoToAsync($"{nameof(UserLogin)}");
+        }
+
+        private async Task<string> GetPw(string key)
+        {
+            string oauthToken = null;
+            try
+            {
+                oauthToken = await SecureStorage.GetAsync(key);
+            }
+            catch (Exception ex)
+            {
+                // Possible that device doesn't support secure storage on device.
+            }
+            return oauthToken;
+        }
+        private async Task SetPw(string key, string value)
+        {
+            try
+            {
+                await SecureStorage.SetAsync(key, value);
+            }
+            catch (Exception ex)
+            {
+                // Possible that device doesn't support secure storage on device.
             }
         }
         protected  override void OnStart()

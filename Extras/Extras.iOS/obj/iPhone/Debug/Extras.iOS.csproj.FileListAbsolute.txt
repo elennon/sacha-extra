@@ -34,6 +34,9 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Sy
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\WebP.Touch.dll
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Plugin.Media.dll
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Plugin.Media.pdb
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Plugin.Settings.Abstractions.dll
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Plugin.Settings.Abstractions.pdb
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Plugin.Settings.dll
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\FFImageLoading.Platform.dll
@@ -87,6 +90,11 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\zh
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Extras.dll
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Extras.pdb
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.csproj.AssemblyReference.cache
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.csproj.CopyComplete
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.exe
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.pdb
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
@@ -98,8 +106,3 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\co
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\optimized\
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.csproj.AssemblyReference.cache
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.csproj.CoreCompileInputs.cache
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.csproj.CopyComplete
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.exe
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.pdb

@@ -10,9 +10,10 @@ namespace Extras
         public AppShell()
         {
             InitializeComponent();
+
             Routing.RegisterRoute(nameof(CloseUp), typeof(CloseUp));
             Routing.RegisterRoute(nameof(ProjectsPage), typeof(ProjectsPage));
-            Routing.RegisterRoute(nameof(SignUpPage), typeof(SignUpPage));
+            Routing.RegisterRoute(nameof(UserLogin), typeof(UserLogin));
         }
 
     }

@@ -22,6 +22,8 @@ public class MonoPackageManager_Resources {
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Media.dll",
 		"Plugin.Permissions.dll",
+		"Plugin.Settings.Abstractions.dll",
+		"Plugin.Settings.dll",
 		"SkiaSharp.dll",
 		"SkiaSharp.Views.Android.dll",
 		"SkiaSharp.Views.Forms.dll",

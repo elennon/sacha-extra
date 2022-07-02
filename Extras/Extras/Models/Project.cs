@@ -29,7 +29,19 @@ namespace Extras.Models
         }
         public string Address { get; set; }
 
-        public bool IsCurrent { get; set; }
+        private Boolean _IsCurrent;
+        public Boolean IsCurrent
+        {
+            get => _IsCurrent;
+            set
+            {
+                if (_IsCurrent != value)
+                {
+                    _IsCurrent = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
 
         private Boolean _Checked;
         public Boolean IsChecked
@@ -54,10 +66,7 @@ namespace Extras.Models
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
-
-        
     }
-
 
     public class Projects : ObservableCollection<Project>, INotifyPropertyChanged
     {
@@ -68,6 +77,7 @@ namespace Extras.Models
                 this.Add(item);
             }
         }
+        public Projects() { }
 
         private Project _CostumerSelected;
         public Project CostumerSelected
@@ -75,13 +85,16 @@ namespace Extras.Models
             get => _CostumerSelected;
             set
             {
-                if (_CostumerSelected != value)
+                if (value != null)
                 {
-                    if (_CostumerSelected != null) _CostumerSelected.IsChecked = false;
-                    _CostumerSelected = value;
-                    OnPropertyChanged();
-                    _CostumerSelected.IsChecked = true;
-                }
+                    if (_CostumerSelected != value)
+                    {
+                        if (_CostumerSelected != null) _CostumerSelected.IsChecked = false;
+                        _CostumerSelected = value;
+                        OnPropertyChanged();
+                        _CostumerSelected.IsChecked = true;
+                    }
+                }               
             }
         }
 
@@ -94,6 +107,7 @@ namespace Extras.Models
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 
                 _CostumerSelected.IsCurrent = true;
+                _CostumerSelected.IsChecked = true;
                 App.Database.SaveProjectAsync(_CostumerSelected);
                 var all = await App.Database.GetProjectsAsync();
                 all.Where(x => x.MyId != _CostumerSelected.MyId).ToList().ForEach(x => setToUnChecked(x));

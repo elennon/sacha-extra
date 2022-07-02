@@ -42,48 +42,48 @@ map_aname.7:
 
 	.type	map_aname.8, @object
 map_aname.8:
-	.asciz	"Plugin.Media"
+	.asciz	"Mono.Android"
 	.size	map_aname.8, 13
 
 	.type	map_aname.9, @object
 map_aname.9:
-	.asciz	"Xamarin.AndroidX.Activity"
-	.size	map_aname.9, 26
+	.asciz	"Plugin.Media"
+	.size	map_aname.9, 13
 
 	.type	map_aname.10, @object
 map_aname.10:
-	.asciz	"SkiaSharp.Views.Forms"
-	.size	map_aname.10, 22
+	.asciz	"Xamarin.AndroidX.Activity"
+	.size	map_aname.10, 26
 
 	.type	map_aname.11, @object
 map_aname.11:
-	.asciz	"Xamarin.AndroidX.AppCompat.AppCompatResources"
-	.size	map_aname.11, 46
+	.asciz	"SkiaSharp.Views.Forms"
+	.size	map_aname.11, 22
 
 	.type	map_aname.12, @object
 map_aname.12:
-	.asciz	"FFImageLoading.Forms.Platform"
-	.size	map_aname.12, 30
+	.asciz	"Xamarin.AndroidX.AppCompat.AppCompatResources"
+	.size	map_aname.12, 46
 
 	.type	map_aname.13, @object
 map_aname.13:
-	.asciz	"FFImageLoading.Platform"
-	.size	map_aname.13, 24
+	.asciz	"FFImageLoading.Forms.Platform"
+	.size	map_aname.13, 30
 
 	.type	map_aname.14, @object
 map_aname.14:
-	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
-	.size	map_aname.14, 41
+	.asciz	"FFImageLoading.Platform"
+	.size	map_aname.14, 24
 
 	.type	map_aname.15, @object
 map_aname.15:
-	.asciz	"Com.Android.DeskClock"
-	.size	map_aname.15, 22
+	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
+	.size	map_aname.15, 41
 
 	.type	map_aname.16, @object
 map_aname.16:
-	.asciz	"Extras.Android"
-	.size	map_aname.16, 15
+	.asciz	"Com.Android.DeskClock"
+	.size	map_aname.16, 22
 
 	.type	map_aname.17, @object
 map_aname.17:
@@ -112,43 +112,43 @@ map_aname.21:
 
 	.type	map_aname.22, @object
 map_aname.22:
-	.asciz	"Xamarin.Essentials"
-	.size	map_aname.22, 19
+	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.size	map_aname.22, 30
 
 	.type	map_aname.23, @object
 map_aname.23:
-	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.asciz	"Xamarin.AndroidX.RecyclerView"
 	.size	map_aname.23, 30
 
 	.type	map_aname.24, @object
 map_aname.24:
-	.asciz	"Xamarin.AndroidX.RecyclerView"
-	.size	map_aname.24, 30
+	.asciz	"Xamarin.AndroidX.AppCompat"
+	.size	map_aname.24, 27
 
 	.type	map_aname.25, @object
 map_aname.25:
-	.asciz	"Xamarin.AndroidX.AppCompat"
-	.size	map_aname.25, 27
+	.asciz	"FormsViewGroup"
+	.size	map_aname.25, 15
 
 	.type	map_aname.26, @object
 map_aname.26:
-	.asciz	"FormsViewGroup"
-	.size	map_aname.26, 15
+	.asciz	"Xamarin.Google.Guava.ListenableFuture"
+	.size	map_aname.26, 38
 
 	.type	map_aname.27, @object
 map_aname.27:
-	.asciz	"Xamarin.Google.Guava.ListenableFuture"
-	.size	map_aname.27, 38
+	.asciz	"Xamarin.AndroidX.CustomView"
+	.size	map_aname.27, 28
 
 	.type	map_aname.28, @object
 map_aname.28:
-	.asciz	"Xamarin.AndroidX.CustomView"
-	.size	map_aname.28, 28
+	.asciz	"Xamarin.AndroidX.CoordinatorLayout"
+	.size	map_aname.28, 35
 
 	.type	map_aname.29, @object
 map_aname.29:
-	.asciz	"Xamarin.AndroidX.CoordinatorLayout"
-	.size	map_aname.29, 35
+	.asciz	"Extras.Android"
+	.size	map_aname.29, 15
 
 	.type	map_aname.30, @object
 map_aname.30:
@@ -157,13 +157,13 @@ map_aname.30:
 
 	.type	map_aname.31, @object
 map_aname.31:
-	.asciz	"Com.ViewPagerIndicator"
-	.size	map_aname.31, 23
+	.asciz	"Xamarin.Essentials"
+	.size	map_aname.31, 19
 
 	.type	map_aname.32, @object
 map_aname.32:
-	.asciz	"Mono.Android"
-	.size	map_aname.32, 13
+	.asciz	"Com.ViewPagerIndicator"
+	.size	map_aname.32, 23
 
 	.type	map_aname.33, @object
 map_aname.33:

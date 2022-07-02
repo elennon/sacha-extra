@@ -1,13 +1,10 @@
 ﻿using Extras.Models;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using Extras.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Extras.Helpers;
 
 namespace Extras.Views
 {
@@ -19,12 +16,15 @@ namespace Extras.Views
         public ProjectsPage()
         {
             InitializeComponent();
+            //BindingContext = new DetailsPageViewModel(Navigation);
+            BindingContext = new Projects();
         }
         protected override async void OnAppearing()
         {
             base.OnAppearing();
             var prjs = await App.Database.GetProjectsAsync();
             projs = new Projects(prjs);
+            BindingContext = projs;
             prjsView.ItemsSource = projs;
         }
 
@@ -38,11 +38,17 @@ namespace Extras.Views
                 prj.ProjectName = siteName.Text;
                 prj.Address = siteAddress.Text;
                 prj.IsCurrent = ckbCurrent.IsChecked;
-
+                prj.IsChecked = ckbCurrent.IsChecked;           
+                
+                var prjs = await App.Database.GetProjectsAsync();
+                if (ckbCurrent.IsChecked)
+                {
+                    prjs.ForEach(x => setToUnChecked(x));
+                }
                 var iid = App.Database.SaveProjectAsync(prj);
-                var dc = new List<Project>() { prj };
+                projs.Clear();
+                prjs.ForEach(x => projs.Add(x));
                 projs.Add(prj);
-
                 await DisplayAlert("Saved", "", "OK");
             }
             catch (Exception)
@@ -50,11 +56,21 @@ namespace Extras.Views
                 await DisplayAlert("Alert", "Exception: " + e.ToString(), "OK");
             }
         }
-        async void OnLogoutButtonClicked(object sender, EventArgs e)
+        private void setToUnChecked(Project x)
         {
-            Application.Current.Properties["IsLoggedIn"] = Boolean.FalseString;
-            Navigation.InsertPageBefore(new LoginPage(), this);
-            await Navigation.PopAsync();
+            x.IsChecked = false;
+            x.IsCurrent = false;
+            App.Database.SaveProjectAsync(x);
+        }
+        private void ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            //var f = new DetailsPageViewModel(Navigation);
+            if (UserLogin.passWd != null)
+            {
+                UserLogin.passWd.Text = "";
+            }
+            Navigation.PushAsync(new UserLogin());
+            UserSettings.ClearAllData();
         }
     }
 }

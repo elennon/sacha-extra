@@ -17,7 +17,7 @@ namespace Extras.Views
     public partial class NewExtra : ContentPage
     {
 
-        //private ClosedExcelService excelService;
+        private Project currentProject = new Project();
         public List<string> Pics { get; set; }
         public NewExtra()
         {
@@ -30,8 +30,15 @@ namespace Extras.Views
         {
             base.OnAppearing();
             exDate.Date = DateTime.Today;
-            //excelService = new ClosedExcelService();
-           // var exfile = excelService.Export(await App.Database.GetExtrasAsync());
+            currentProject = await App.Database.GetCurrentProjectAsync();
+            if (currentProject == null)
+            {
+                await DisplayAlert("Alert", "There is no project selected as current project. Please add a project and set it as current project.", "OK");
+            }
+            else
+            {
+                siteName.Text = currentProject.ProjectName;
+            }
         }
         
         async void OnSaveButtonClicked(object sender, EventArgs e)
@@ -47,7 +54,7 @@ namespace Extras.Views
                 ext.Rate = Convert.ToDouble(rate.Text);
                 ext.JobSite = siteName.Text;
                 ext.SiteArea = siteArea.Text;
-                ext.ProjectId = App.Database.GetCurrentProjectAsync().Result.MyId;
+                ext.ProjectId = currentProject.MyId;
 
                 var iid = App.Database.SaveExtraAsync(ext);
                 if (Pics != null)

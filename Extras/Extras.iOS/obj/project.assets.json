@@ -356,6 +356,17 @@
           "lib/xamarinios10/Plugin.Media.dll": {}
         }
       },
+      "Xam.Plugins.Settings/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -539,6 +550,7 @@
           "SkiaSharp.Views.Forms": "2.88.0",
           "System.Drawing.Common": "6.0.0",
           "Xam.Plugin.Media": "5.0.1",
+          "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "5.0.0.2196",
@@ -883,6 +895,17 @@
           "lib/xamarinios10/Plugin.Media.dll": {}
         }
       },
+      "Xam.Plugins.Settings/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -1066,6 +1089,7 @@
           "SkiaSharp.Views.Forms": "2.88.0",
           "System.Drawing.Common": "6.0.0",
           "Xam.Plugin.Media": "5.0.1",
+          "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "5.0.0.2196",
@@ -1410,6 +1434,17 @@
           "lib/xamarinios10/Plugin.Media.dll": {}
         }
       },
+      "Xam.Plugins.Settings/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -1593,6 +1628,7 @@
           "SkiaSharp.Views.Forms": "2.88.0",
           "System.Drawing.Common": "6.0.0",
           "Xam.Plugin.Media": "5.0.1",
+          "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "5.0.0.2196",
@@ -1937,6 +1973,17 @@
           "lib/xamarinios10/Plugin.Media.dll": {}
         }
       },
+      "Xam.Plugins.Settings/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -2120,6 +2167,7 @@
           "SkiaSharp.Views.Forms": "2.88.0",
           "System.Drawing.Common": "6.0.0",
           "Xam.Plugin.Media": "5.0.1",
+          "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "5.0.0.2196",
@@ -2960,6 +3008,76 @@
         "xam.plugin.media.nuspec"
       ]
     },
+    "Xam.Plugins.Settings/3.1.1": {
+      "sha512": "EQEYQJ64ZLqui5GWkLMavgqitHxwUHZHryTzUD1021UBuz1XwDSjPL45W0K4pPXjz9oKbg7YpRXKPR1luPr/5Q==",
+      "type": "package",
+      "path": "xam.plugins.settings/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/MonoAndroid10/Helpers/Settings.cs.pp",
+        "content/UAP10/Helpers/Settings.cs.pp",
+        "content/Xamarin.Mac20/Helpers/Settings.cs.pp",
+        "content/Xamarin.iOS10/Helpers/Settings.cs.pp",
+        "content/net45/Helpers/Settings.cs.pp",
+        "content/netstandard1.0/Helpers/Settings.cs.pp",
+        "content/xamarintvOS/Helpers/Settings.cs.pp",
+        "content/xamarinwatchOS/Helpers/Settings.cs.pp",
+        "lib/MonoAndroid10/Plugin.Settings.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Settings.Abstractions.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Settings.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Settings.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Settings.dll",
+        "lib/MonoAndroid10/Plugin.Settings.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Settings.pdb",
+        "lib/MonoAndroid10/Plugin.Settings.xml",
+        "lib/UAP10/Plugin.Settings.Abstractions.dll",
+        "lib/UAP10/Plugin.Settings.Abstractions.pdb",
+        "lib/UAP10/Plugin.Settings.Abstractions.xml",
+        "lib/UAP10/Plugin.Settings.XML",
+        "lib/UAP10/Plugin.Settings.dll",
+        "lib/UAP10/Plugin.Settings.pdb",
+        "lib/UAP10/Plugin.Settings.pri",
+        "lib/Xamarin.Mac20/Plugin.Settings.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.Settings.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.Settings.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.Settings.XML",
+        "lib/Xamarin.Mac20/Plugin.Settings.dll",
+        "lib/Xamarin.Mac20/Plugin.Settings.pdb",
+        "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Settings.dll",
+        "lib/Xamarin.iOS10/Plugin.Settings.xml",
+        "lib/net45/Plugin.Settings.Abstractions.dll",
+        "lib/net45/Plugin.Settings.Abstractions.pdb",
+        "lib/net45/Plugin.Settings.Abstractions.xml",
+        "lib/net45/Plugin.Settings.XML",
+        "lib/net45/Plugin.Settings.dll",
+        "lib/net45/Plugin.Settings.pdb",
+        "lib/netstandard1.0/Plugin.Settings.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Settings.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Settings.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Settings.deps.json",
+        "lib/netstandard1.0/Plugin.Settings.dll",
+        "lib/netstandard1.0/Plugin.Settings.xml",
+        "lib/xamarintvOS/Plugin.Settings.Abstractions.dll",
+        "lib/xamarintvOS/Plugin.Settings.Abstractions.pdb",
+        "lib/xamarintvOS/Plugin.Settings.Abstractions.xml",
+        "lib/xamarintvOS/Plugin.Settings.dll",
+        "lib/xamarintvOS/Plugin.Settings.pdb",
+        "lib/xamarintvOS/Plugin.Settings.xml",
+        "lib/xamarinwatchOS/Plugin.Settings.Abstractions.dll",
+        "lib/xamarinwatchOS/Plugin.Settings.Abstractions.pdb",
+        "lib/xamarinwatchOS/Plugin.Settings.Abstractions.xml",
+        "lib/xamarinwatchOS/Plugin.Settings.dll",
+        "lib/xamarinwatchOS/Plugin.Settings.pdb",
+        "lib/xamarinwatchOS/Plugin.Settings.xml",
+        "readme.txt",
+        "xam.plugins.settings.3.1.1.nupkg.sha512",
+        "xam.plugins.settings.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.7.0": {
       "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
       "type": "package",
@@ -3347,6 +3465,7 @@
       "SkiaSharp.Views.Forms >= 2.88.0",
       "System.Drawing.Common >= 6.0.0",
       "Xam.Plugin.Media >= 5.0.1",
+      "Xam.Plugins.Settings >= 3.1.1",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
       "Xamarin.Forms >= 5.0.0.2196",
@@ -3355,7 +3474,8 @@
   },
   "packageFolders": {
     "C:\\Users\\Asus\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3368,12 +3488,14 @@
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -3434,6 +3556,10 @@
           "Xam.Plugin.Media": {
             "target": "Package",
             "version": "[5.0.1, )"
+          },
+          "Xam.Plugins.Settings": {
+            "target": "Package",
+            "version": "[3.1.1, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

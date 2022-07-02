@@ -5,6 +5,11 @@
        Title="Extras"
        x:Class="Extras.AppShell">
 
+    <FlyoutItem IsVisible="False">
+        <ShellContent 
+                  Shell.FlyoutBehavior="Disabled"
+                  ContentTemplate="{DataTemplate local:UserLogin}"/>
+    </FlyoutItem>
     <FlyoutItem Title="Projects">
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate local:ProjectsPage}" />
@@ -15,9 +20,14 @@
             <ShellContent ContentTemplate="{DataTemplate local:NewExtra}" />
         </Tab>
     </FlyoutItem>
-    <FlyoutItem Title="Veiw all">
+    <FlyoutItem Title="Veiw ready to send">
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate local:VeiwAll}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Veiw previously sent">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:PreviousBatches}" />
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="About">
@@ -25,5 +35,5 @@
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
     </FlyoutItem>
-
+    
 </Shell>

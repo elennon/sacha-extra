@@ -13,13 +13,15 @@ namespace Extras.Data
         {
             database = new SQLiteAsyncConnection(dbPath);
 
-            database.DropTableAsync<Extra>().Wait();
-            database.DropTableAsync<Pics>().Wait();
-            database.DropTableAsync<Project>().Wait();
+            //database.DropTableAsync<Extra>().Wait();
+            //database.DropTableAsync<Pics>().Wait();
+            //database.DropTableAsync<Project>().Wait();
+            //database.DropTableAsync<Batch>().Wait();
 
             database.CreateTableAsync<Extra>().Wait();
             database.CreateTableAsync<Pics>().Wait();
             database.CreateTableAsync<Project>().Wait();
+            database.CreateTableAsync<Batch>().Wait();
         }
 
         public Task<List<Extra>> GetExtrasAsync(string prjId)
@@ -131,5 +133,23 @@ namespace Extras.Data
             // Delete a note.
             return database.DeleteAsync(note);
         }
+
+        public Task<List<Batch>> GetBatchesAsync()
+        {
+            return database.Table<Batch>().ToListAsync();
+        }
+        public int SaveBatchAsync(Batch note)
+        {
+            if (note.ID != 0)
+            {
+                database.UpdateAsync(note);
+            }
+            else
+            {
+                database.InsertAsync(note);
+            }
+            return note.ID;
+        }
+
     }
 }

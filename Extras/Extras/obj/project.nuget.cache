@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O58na5nmcUR7mgOmvo4aEvFETA3JQTzb/ZFUzsDFE90YAIXlE+yHl7D1K+dnPVKrFT1f/AJgJFQbNPEj45irEA==",
+  "dgSpecHash": "nj40TuCbDsdVaLrYUiPZIXwAU1IF7DwLyWOSlwRS7UQZ6GRI8CRViPN9s623uXDzX+6eM0mcLsT+wZ7WuxA0bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras\\Extras.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\Asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\xam.plugins.settings\\3.1.1\\xam.plugins.settings.3.1.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
