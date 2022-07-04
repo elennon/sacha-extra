@@ -42,33 +42,33 @@ map_aname.7:
 
 	.type	map_aname.8, %object
 map_aname.8:
-	.asciz	"Mono.Android"
+	.asciz	"Plugin.Media"
 	.size	map_aname.8, 13
 
 	.type	map_aname.9, %object
 map_aname.9:
-	.asciz	"Plugin.Media"
-	.size	map_aname.9, 13
+	.asciz	"Xamarin.AndroidX.Activity"
+	.size	map_aname.9, 26
 
 	.type	map_aname.10, %object
 map_aname.10:
-	.asciz	"Xamarin.AndroidX.Activity"
-	.size	map_aname.10, 26
+	.asciz	"SkiaSharp.Views.Forms"
+	.size	map_aname.10, 22
 
 	.type	map_aname.11, %object
 map_aname.11:
-	.asciz	"SkiaSharp.Views.Forms"
-	.size	map_aname.11, 22
+	.asciz	"Xamarin.AndroidX.AppCompat.AppCompatResources"
+	.size	map_aname.11, 46
 
 	.type	map_aname.12, %object
 map_aname.12:
-	.asciz	"Xamarin.AndroidX.AppCompat.AppCompatResources"
-	.size	map_aname.12, 46
+	.asciz	"FFImageLoading.Forms.Platform"
+	.size	map_aname.12, 30
 
 	.type	map_aname.13, %object
 map_aname.13:
-	.asciz	"FFImageLoading.Forms.Platform"
-	.size	map_aname.13, 30
+	.asciz	"Extras.Android"
+	.size	map_aname.13, 15
 
 	.type	map_aname.14, %object
 map_aname.14:
@@ -132,23 +132,23 @@ map_aname.25:
 
 	.type	map_aname.26, %object
 map_aname.26:
-	.asciz	"Xamarin.Google.Guava.ListenableFuture"
-	.size	map_aname.26, 38
+	.asciz	"Mono.Android"
+	.size	map_aname.26, 13
 
 	.type	map_aname.27, %object
 map_aname.27:
-	.asciz	"Xamarin.AndroidX.CustomView"
-	.size	map_aname.27, 28
+	.asciz	"Xamarin.Google.Guava.ListenableFuture"
+	.size	map_aname.27, 38
 
 	.type	map_aname.28, %object
 map_aname.28:
-	.asciz	"Xamarin.AndroidX.CoordinatorLayout"
-	.size	map_aname.28, 35
+	.asciz	"Xamarin.AndroidX.CustomView"
+	.size	map_aname.28, 28
 
 	.type	map_aname.29, %object
 map_aname.29:
-	.asciz	"Extras.Android"
-	.size	map_aname.29, 15
+	.asciz	"Xamarin.AndroidX.CoordinatorLayout"
+	.size	map_aname.29, 35
 
 	.type	map_aname.30, %object
 map_aname.30:

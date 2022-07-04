@@ -34,15 +34,20 @@ namespace Extras.Views
             if(currentProject != null)
             {
                 extrs = await App.Database.GetExtrasAsync(currentProject.MyId);
-                collectionView.ItemsSource = extrs;
+                collectionView.ItemsSource = extrs.Where(x => x.WasSent == false);
                 gemmer = new Gemmers();
+                if (extrs.Count == 0)
+                {
+                    emptyLabel.Text = "No extras to send...";
+                    emptyLabel.IsVisible = true;
+                }               
             }
             else
             {
                 await DisplayAlert("Alert", "There is no project selected as current project. Please add a project and set it as current project.", "OK");
-            }
-            
-        }
+                await Shell.Current.GoToAsync(nameof(ProjectsPage));
+            }            
+        }      
         async void OnBackupButtonClicked(object sender, EventArgs e)
         {
             try
@@ -77,7 +82,7 @@ namespace Extras.Views
                 message.Attachments.Add(new EmailAttachment(filename));
                 var zipFile = Path.Combine(AppFolder, @"Dayworks-images.zip");
                 if (File.Exists(zipFile)) { File.Delete(zipFile); }
-              
+                var hasPics = false;
                 using (var archive = ZipFile.Open(zipFile, ZipArchiveMode.Create))
                 {
                     foreach (var earia in extrs.GroupBy(x => x.SiteArea))
@@ -85,8 +90,9 @@ namespace Extras.Views
                         foreach (var item in earia)
                         {
                             var pics = await App.Database.GetPicsAsync(item.MyId);
-                            if (pics != null)
+                            if (pics.Count != 0)
                             {
+                                hasPics = true;
                                 var count = 1;
                                 foreach (var pc in pics)
                                 {
@@ -99,7 +105,7 @@ namespace Extras.Views
                         }
                     }
                 }               
-                message.Attachments.Add(new EmailAttachment(zipFile));
+                if(hasPics) message.Attachments.Add(new EmailAttachment(zipFile));
                 await Email.ComposeAsync(message);                              
             }
             catch (FeatureNotSupportedException fbsEx)
@@ -115,16 +121,20 @@ namespace Extras.Views
         {
             if (extrs.Count != 0)
             {
-
+                batch = new Batch();
                 batch.ProjectName = currentProject.ProjectName;
                 batch.DateSent = DateTime.Now;
-                batch.BatchId = new Guid().ToString();
+                batch.BatchId = Guid.NewGuid().ToString();
                 var b = App.Database.SaveBatchAsync(batch);
-                extrs.ForEach(x => x.BatchId = batch.BatchId);
+                
                 var exfile = gemmer.GetGemmer(extrs);
                 List<string> toAddress = new List<string>();
                 toAddress.Add(emailto.Text);
                 await SendEmail(subject.Text, body.Text, toAddress, exfile, extrs);
+                File.Delete(exfile);               
+                extrs.ForEach(x => x.BatchId = batch.BatchId);
+                extrs.ForEach(x => x.WasSent = true);
+                extrs.ForEach(x => App.Database.SaveExtraAsync(x));
             }
             else
             {

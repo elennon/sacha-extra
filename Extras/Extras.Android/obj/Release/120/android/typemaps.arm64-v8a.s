@@ -133,23 +133,12 @@ map_modules:
 	.zero	4
 	.xword	0x0	// java_map
 
-	.byte	0x3a, 0x36, 0x29, 0x53, 0x64, 0xeb, 0xad, 0x4f, 0x9d, 0xca, 0x54, 0x65, 0xb5, 0x41, 0xd2, 0x7d	// module_uuid: 5329363a-eb64-4fad-9dca-5465b541d27d
-	.word	0x23d	// entry_count
-	.word	0x100	// duplicate_count
-	.xword	.L.module8_managed_to_java	// map
-	.xword	.L.module8_managed_to_java_duplicates	// duplicate_map
-	.xword	map_aname.8	// assembly_name: Mono.Android
-	.xword	0x0	// image
-	.word	0x0	// java_name_width
-	.zero	4
-	.xword	0x0	// java_map
-
 	.byte	0x44, 0x37, 0x57, 0x2e, 0xa1, 0x47, 0x20, 0x4d, 0x8e, 0x73, 0x92, 0x71, 0x73, 0x9c, 0x1d, 0x8f	// module_uuid: 2e573744-47a1-4d20-8e73-9271739c1d8f
 	.word	0x1	// entry_count
 	.word	0x0	// duplicate_count
-	.xword	.L.module9_managed_to_java	// map
+	.xword	.L.module8_managed_to_java	// map
 	.xword	0	// duplicate_map
-	.xword	map_aname.9	// assembly_name: Plugin.Media
+	.xword	map_aname.8	// assembly_name: Plugin.Media
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -158,9 +147,9 @@ map_modules:
 	.byte	0x4a, 0xd3, 0xc0, 0xe2, 0x41, 0xdd, 0xd1, 0x46, 0x85, 0xa7, 0xe1, 0xda, 0xca, 0x93, 0x6d, 0x88	// module_uuid: e2c0d34a-dd41-46d1-85a7-e1daca936d88
 	.word	0xe	// entry_count
 	.word	0xa	// duplicate_count
-	.xword	.L.module10_managed_to_java	// map
-	.xword	.L.module10_managed_to_java_duplicates	// duplicate_map
-	.xword	map_aname.10	// assembly_name: Xamarin.AndroidX.Activity
+	.xword	.L.module9_managed_to_java	// map
+	.xword	.L.module9_managed_to_java_duplicates	// duplicate_map
+	.xword	map_aname.9	// assembly_name: Xamarin.AndroidX.Activity
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -169,9 +158,9 @@ map_modules:
 	.byte	0x57, 0xf5, 0x48, 0x83, 0x24, 0xd9, 0x27, 0x4f, 0xa1, 0x25, 0xdf, 0x7d, 0x3d, 0xa6, 0x2d, 0xe7	// module_uuid: 8348f557-d924-4f27-a125-df7d3da62de7
 	.word	0x4	// entry_count
 	.word	0x0	// duplicate_count
-	.xword	.L.module11_managed_to_java	// map
+	.xword	.L.module10_managed_to_java	// map
 	.xword	0	// duplicate_map
-	.xword	map_aname.11	// assembly_name: SkiaSharp.Views.Forms
+	.xword	map_aname.10	// assembly_name: SkiaSharp.Views.Forms
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -180,9 +169,9 @@ map_modules:
 	.byte	0x67, 0x31, 0xb3, 0x45, 0xa9, 0x3c, 0xbd, 0x4d, 0xbf, 0x22, 0x8a, 0x27, 0x98, 0x57, 0x26, 0x2d	// module_uuid: 45b33167-3ca9-4dbd-bf22-8a279857262d
 	.word	0x2	// entry_count
 	.word	0x0	// duplicate_count
-	.xword	.L.module12_managed_to_java	// map
+	.xword	.L.module11_managed_to_java	// map
 	.xword	0	// duplicate_map
-	.xword	map_aname.12	// assembly_name: Xamarin.AndroidX.AppCompat.AppCompatResources
+	.xword	map_aname.11	// assembly_name: Xamarin.AndroidX.AppCompat.AppCompatResources
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -191,9 +180,20 @@ map_modules:
 	.byte	0x71, 0xa8, 0x78, 0x2e, 0x12, 0x8b, 0xb5, 0x48, 0x8c, 0x88, 0x79, 0x12, 0xda, 0xcc, 0x1a, 0xe5	// module_uuid: 2e78a871-8b12-48b5-8c88-7912dacc1ae5
 	.word	0x3	// entry_count
 	.word	0x0	// duplicate_count
+	.xword	.L.module12_managed_to_java	// map
+	.xword	0	// duplicate_map
+	.xword	map_aname.12	// assembly_name: FFImageLoading.Forms.Platform
+	.xword	0x0	// image
+	.word	0x0	// java_name_width
+	.zero	4
+	.xword	0x0	// java_map
+
+	.byte	0x75, 0xea, 0x30, 0x81, 0x5f, 0xa6, 0x8f, 0x42, 0xb5, 0xbd, 0x2b, 0x3d, 0xdd, 0xcc, 0x5d, 0x5	// module_uuid: 8130ea75-a65f-428f-b5bd-2b3dddcc5d05
+	.word	0x2	// entry_count
+	.word	0x0	// duplicate_count
 	.xword	.L.module13_managed_to_java	// map
 	.xword	0	// duplicate_map
-	.xword	map_aname.13	// assembly_name: FFImageLoading.Forms.Platform
+	.xword	map_aname.13	// assembly_name: Extras.Android
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -331,12 +331,23 @@ map_modules:
 	.zero	4
 	.xword	0x0	// java_map
 
+	.byte	0xc9, 0x95, 0x59, 0x16, 0x35, 0x1e, 0x38, 0x46, 0xbb, 0xdb, 0xb2, 0xfb, 0xf0, 0xbd, 0x2b, 0x7d	// module_uuid: 165995c9-1e35-4638-bbdb-b2fbf0bd2b7d
+	.word	0x23d	// entry_count
+	.word	0x100	// duplicate_count
+	.xword	.L.module26_managed_to_java	// map
+	.xword	.L.module26_managed_to_java_duplicates	// duplicate_map
+	.xword	map_aname.26	// assembly_name: Mono.Android
+	.xword	0x0	// image
+	.word	0x0	// java_name_width
+	.zero	4
+	.xword	0x0	// java_map
+
 	.byte	0xd9, 0x85, 0xab, 0x22, 0xc, 0xc4, 0x39, 0x47, 0xb6, 0xfe, 0xc7, 0xac, 0x6c, 0xfd, 0x2, 0x2e	// module_uuid: 22ab85d9-c40c-4739-b6fe-c7ac6cfd022e
 	.word	0x1	// entry_count
 	.word	0x1	// duplicate_count
-	.xword	.L.module26_managed_to_java	// map
-	.xword	.L.module26_managed_to_java_duplicates	// duplicate_map
-	.xword	map_aname.26	// assembly_name: Xamarin.Google.Guava.ListenableFuture
+	.xword	.L.module27_managed_to_java	// map
+	.xword	.L.module27_managed_to_java_duplicates	// duplicate_map
+	.xword	map_aname.27	// assembly_name: Xamarin.Google.Guava.ListenableFuture
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -345,9 +356,9 @@ map_modules:
 	.byte	0xe0, 0xaa, 0xf2, 0xc1, 0x69, 0xe2, 0x60, 0x42, 0xa3, 0xe9, 0x91, 0x29, 0xd7, 0xf3, 0xa, 0x4b	// module_uuid: c1f2aae0-e269-4260-a3e9-9129d7f30a4b
 	.word	0x1	// entry_count
 	.word	0x1	// duplicate_count
-	.xword	.L.module27_managed_to_java	// map
-	.xword	.L.module27_managed_to_java_duplicates	// duplicate_map
-	.xword	map_aname.27	// assembly_name: Xamarin.AndroidX.CustomView
+	.xword	.L.module28_managed_to_java	// map
+	.xword	.L.module28_managed_to_java_duplicates	// duplicate_map
+	.xword	map_aname.28	// assembly_name: Xamarin.AndroidX.CustomView
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -356,20 +367,9 @@ map_modules:
 	.byte	0xe5, 0x97, 0x74, 0x2a, 0xdc, 0xbc, 0x4f, 0x4c, 0xa2, 0xc5, 0x76, 0x24, 0x90, 0x90, 0x76, 0x6e	// module_uuid: 2a7497e5-bcdc-4c4f-a2c5-76249090766e
 	.word	0x4	// entry_count
 	.word	0x2	// duplicate_count
-	.xword	.L.module28_managed_to_java	// map
-	.xword	.L.module28_managed_to_java_duplicates	// duplicate_map
-	.xword	map_aname.28	// assembly_name: Xamarin.AndroidX.CoordinatorLayout
-	.xword	0x0	// image
-	.word	0x0	// java_name_width
-	.zero	4
-	.xword	0x0	// java_map
-
-	.byte	0xe9, 0x9c, 0x43, 0xc5, 0x49, 0x82, 0x17, 0x4d, 0x8d, 0xd, 0xc7, 0x3d, 0xc1, 0x99, 0x16, 0x4b	// module_uuid: c5439ce9-8249-4d17-8d0d-c73dc199164b
-	.word	0x2	// entry_count
-	.word	0x0	// duplicate_count
 	.xword	.L.module29_managed_to_java	// map
-	.xword	0	// duplicate_map
-	.xword	map_aname.29	// assembly_name: Extras.Android
+	.xword	.L.module29_managed_to_java_duplicates	// duplicate_map
+	.xword	map_aname.29	// assembly_name: Xamarin.AndroidX.CoordinatorLayout
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -430,2287 +430,2287 @@ map_modules:
 	.global	map_java
 	.p2align	2
 map_java:
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200030e	// type_token_id
 	.ascii	"android/animation/Animator"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/animation/Animator$AnimatorListener"	// java_name
 	.zero	58	// byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/animation/Animator$AnimatorPauseListener"	// java_name
 	.zero	53	// byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200031c	// type_token_id
 	.ascii	"android/animation/AnimatorListenerAdapter"	// java_name
 	.zero	60	// byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/animation/TimeInterpolator"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000314	// type_token_id
 	.ascii	"android/animation/ValueAnimator"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/animation/ValueAnimator$AnimatorUpdateListener"	// java_name
 	.zero	47	// byteCount == 54; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000321	// type_token_id
 	.ascii	"android/app/ActionBar"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000323	// type_token_id
 	.ascii	"android/app/ActionBar$Tab"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/app/ActionBar$TabListener"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000328	// type_token_id
 	.ascii	"android/app/Activity"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000329	// type_token_id
 	.ascii	"android/app/ActivityManager"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200032a	// type_token_id
 	.ascii	"android/app/ActivityManager$MemoryInfo"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200032b	// type_token_id
 	.ascii	"android/app/AlertDialog"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200032c	// type_token_id
 	.ascii	"android/app/AlertDialog$Builder"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200032d	// type_token_id
 	.ascii	"android/app/Application"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/app/Application$ActivityLifecycleCallbacks"	// java_name
 	.zero	51	// byteCount == 50; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000330	// type_token_id
 	.ascii	"android/app/DatePickerDialog"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/app/DatePickerDialog$OnDateSetListener"	// java_name
 	.zero	55	// byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000335	// type_token_id
 	.ascii	"android/app/Dialog"	// java_name
 	.zero	83	// byteCount == 18; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000347	// type_token_id
 	.ascii	"android/app/FragmentTransaction"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000349	// type_token_id
 	.ascii	"android/app/PendingIntent"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200033e	// type_token_id
 	.ascii	"android/app/TimePickerDialog"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/app/TimePickerDialog$OnTimeSetListener"	// java_name
 	.zero	55	// byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000341	// type_token_id
 	.ascii	"android/app/UiModeManager"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000352	// type_token_id
 	.ascii	"android/content/BroadcastReceiver"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000354	// type_token_id
 	.ascii	"android/content/ClipData"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000355	// type_token_id
 	.ascii	"android/content/ClipData$Item"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000356	// type_token_id
 	.ascii	"android/content/ClipDescription"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/ComponentCallbacks"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/ComponentCallbacks2"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000357	// type_token_id
 	.ascii	"android/content/ComponentName"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200034d	// type_token_id
 	.ascii	"android/content/ContentProvider"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000359	// type_token_id
 	.ascii	"android/content/ContentResolver"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200034e	// type_token_id
 	.ascii	"android/content/ContentValues"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200034f	// type_token_id
 	.ascii	"android/content/Context"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200035c	// type_token_id
 	.ascii	"android/content/ContextWrapper"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/DialogInterface"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/DialogInterface$OnCancelListener"	// java_name
 	.zero	53	// byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/DialogInterface$OnClickListener"	// java_name
 	.zero	54	// byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/DialogInterface$OnDismissListener"	// java_name
 	.zero	52	// byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/DialogInterface$OnKeyListener"	// java_name
 	.zero	56	// byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/DialogInterface$OnMultiChoiceClickListener"	// java_name
 	.zero	43	// byteCount == 58; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000350	// type_token_id
 	.ascii	"android/content/Intent"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000373	// type_token_id
 	.ascii	"android/content/IntentFilter"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000374	// type_token_id
 	.ascii	"android/content/IntentSender"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/ServiceConnection"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/SharedPreferences"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/SharedPreferences$Editor"	// java_name
 	.zero	61	// byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/SharedPreferences$OnSharedPreferenceChangeListener"	// java_name
 	.zero	35	// byteCount == 66; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200037e	// type_token_id
 	.ascii	"android/content/pm/ActivityInfo"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200037f	// type_token_id
 	.ascii	"android/content/pm/ApplicationInfo"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000381	// type_token_id
 	.ascii	"android/content/pm/ComponentInfo"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000383	// type_token_id
 	.ascii	"android/content/pm/ConfigurationInfo"	// java_name
 	.zero	65	// byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000384	// type_token_id
 	.ascii	"android/content/pm/PackageInfo"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000386	// type_token_id
 	.ascii	"android/content/pm/PackageItemInfo"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000387	// type_token_id
 	.ascii	"android/content/pm/PackageManager"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200038a	// type_token_id
 	.ascii	"android/content/pm/ResolveInfo"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200038b	// type_token_id
 	.ascii	"android/content/pm/Signature"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200038e	// type_token_id
 	.ascii	"android/content/res/AssetManager"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200038f	// type_token_id
 	.ascii	"android/content/res/ColorStateList"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000390	// type_token_id
 	.ascii	"android/content/res/Configuration"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000393	// type_token_id
 	.ascii	"android/content/res/Resources"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000394	// type_token_id
 	.ascii	"android/content/res/Resources$Theme"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000395	// type_token_id
 	.ascii	"android/content/res/TypedArray"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/content/res/XmlResourceParser"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200011c	// type_token_id
 	.ascii	"android/database/CharArrayBuffer"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200011d	// type_token_id
 	.ascii	"android/database/ContentObserver"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/database/Cursor"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200011f	// type_token_id
 	.ascii	"android/database/DataSetObserver"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002ba	// type_token_id
 	.ascii	"android/graphics/Bitmap"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002bc	// type_token_id
 	.ascii	"android/graphics/Bitmap$CompressFormat"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002bd	// type_token_id
 	.ascii	"android/graphics/Bitmap$Config"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002c2	// type_token_id
 	.ascii	"android/graphics/BitmapFactory"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002c3	// type_token_id
 	.ascii	"android/graphics/BitmapFactory$Options"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002c9	// type_token_id
 	.ascii	"android/graphics/BlendMode"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002ca	// type_token_id
 	.ascii	"android/graphics/BlendModeColorFilter"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002bf	// type_token_id
 	.ascii	"android/graphics/Canvas"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002cc	// type_token_id
 	.ascii	"android/graphics/Color"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002cb	// type_token_id
 	.ascii	"android/graphics/ColorFilter"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002cd	// type_token_id
 	.ascii	"android/graphics/DashPathEffect"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002cf	// type_token_id
 	.ascii	"android/graphics/LinearGradient"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002d0	// type_token_id
 	.ascii	"android/graphics/Matrix"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002d1	// type_token_id
 	.ascii	"android/graphics/Matrix$ScaleToFit"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002d2	// type_token_id
 	.ascii	"android/graphics/Paint"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002d3	// type_token_id
 	.ascii	"android/graphics/Paint$Align"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002d4	// type_token_id
 	.ascii	"android/graphics/Paint$Cap"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002d5	// type_token_id
 	.ascii	"android/graphics/Paint$FontMetricsInt"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002d6	// type_token_id
 	.ascii	"android/graphics/Paint$Join"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002d7	// type_token_id
 	.ascii	"android/graphics/Paint$Style"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002d9	// type_token_id
 	.ascii	"android/graphics/Path"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002da	// type_token_id
 	.ascii	"android/graphics/Path$Direction"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002db	// type_token_id
 	.ascii	"android/graphics/Path$FillType"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002dc	// type_token_id
 	.ascii	"android/graphics/PathEffect"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002dd	// type_token_id
 	.ascii	"android/graphics/Point"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002de	// type_token_id
 	.ascii	"android/graphics/PointF"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002df	// type_token_id
 	.ascii	"android/graphics/PorterDuff"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002e0	// type_token_id
 	.ascii	"android/graphics/PorterDuff$Mode"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002e1	// type_token_id
 	.ascii	"android/graphics/PorterDuffColorFilter"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002e2	// type_token_id
 	.ascii	"android/graphics/PorterDuffXfermode"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002e3	// type_token_id
 	.ascii	"android/graphics/RadialGradient"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002e4	// type_token_id
 	.ascii	"android/graphics/Rect"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002e5	// type_token_id
 	.ascii	"android/graphics/RectF"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002e6	// type_token_id
 	.ascii	"android/graphics/Region"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002e7	// type_token_id
 	.ascii	"android/graphics/Shader"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002e8	// type_token_id
 	.ascii	"android/graphics/Shader$TileMode"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002e9	// type_token_id
 	.ascii	"android/graphics/SurfaceTexture"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002ea	// type_token_id
 	.ascii	"android/graphics/Typeface"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002ec	// type_token_id
 	.ascii	"android/graphics/Xfermode"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/graphics/drawable/Animatable"	// java_name
 	.zero	65	// byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/graphics/drawable/Animatable2"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002fe	// type_token_id
 	.ascii	"android/graphics/drawable/Animatable2$AnimationCallback"	// java_name
 	.zero	46	// byteCount == 55; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002f4	// type_token_id
 	.ascii	"android/graphics/drawable/AnimatedVectorDrawable"	// java_name
 	.zero	53	// byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002f5	// type_token_id
 	.ascii	"android/graphics/drawable/AnimationDrawable"	// java_name
 	.zero	58	// byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002f6	// type_token_id
 	.ascii	"android/graphics/drawable/BitmapDrawable"	// java_name
 	.zero	61	// byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002f7	// type_token_id
 	.ascii	"android/graphics/drawable/ColorDrawable"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002ed	// type_token_id
 	.ascii	"android/graphics/drawable/Drawable"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/graphics/drawable/Drawable$Callback"	// java_name
 	.zero	58	// byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002f0	// type_token_id
 	.ascii	"android/graphics/drawable/Drawable$ConstantState"	// java_name
 	.zero	53	// byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002f2	// type_token_id
 	.ascii	"android/graphics/drawable/DrawableContainer"	// java_name
 	.zero	58	// byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002f9	// type_token_id
 	.ascii	"android/graphics/drawable/GradientDrawable"	// java_name
 	.zero	59	// byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002fa	// type_token_id
 	.ascii	"android/graphics/drawable/GradientDrawable$Orientation"	// java_name
 	.zero	47	// byteCount == 54; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002f3	// type_token_id
 	.ascii	"android/graphics/drawable/LayerDrawable"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000302	// type_token_id
 	.ascii	"android/graphics/drawable/PaintDrawable"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000303	// type_token_id
 	.ascii	"android/graphics/drawable/RippleDrawable"	// java_name
 	.zero	61	// byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000304	// type_token_id
 	.ascii	"android/graphics/drawable/ShapeDrawable"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000305	// type_token_id
 	.ascii	"android/graphics/drawable/ShapeDrawable$ShaderFactory"	// java_name
 	.zero	48	// byteCount == 53; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000308	// type_token_id
 	.ascii	"android/graphics/drawable/StateListDrawable"	// java_name
 	.zero	58	// byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000309	// type_token_id
 	.ascii	"android/graphics/drawable/shapes/OvalShape"	// java_name
 	.zero	59	// byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200030a	// type_token_id
 	.ascii	"android/graphics/drawable/shapes/PathShape"	// java_name
 	.zero	59	// byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200030b	// type_token_id
 	.ascii	"android/graphics/drawable/shapes/RectShape"	// java_name
 	.zero	59	// byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200030c	// type_token_id
 	.ascii	"android/graphics/drawable/shapes/Shape"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002b3	// type_token_id
 	.ascii	"android/media/ExifInterface"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002b2	// type_token_id
 	.ascii	"android/media/MediaMetadataRetriever"	// java_name
 	.zero	65	// byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002b4	// type_token_id
 	.ascii	"android/media/MediaScannerConnection"	// java_name
 	.zero	65	// byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/media/MediaScannerConnection$OnScanCompletedListener"	// java_name
 	.zero	41	// byteCount == 60; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002b0	// type_token_id
 	.ascii	"android/net/Uri"	// java_name
 	.zero	86	// byteCount == 15; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000291	// type_token_id
 	.ascii	"android/opengl/GLDebugHelper"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000292	// type_token_id
 	.ascii	"android/opengl/GLES10"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000293	// type_token_id
 	.ascii	"android/opengl/GLES20"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200028d	// type_token_id
 	.ascii	"android/opengl/GLSurfaceView"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/opengl/GLSurfaceView$Renderer"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000298	// type_token_id
 	.ascii	"android/os/BaseBundle"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000299	// type_token_id
 	.ascii	"android/os/Build"	// java_name
 	.zero	85	// byteCount == 16; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200029a	// type_token_id
 	.ascii	"android/os/Build$VERSION"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200029c	// type_token_id
 	.ascii	"android/os/Bundle"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200029d	// type_token_id
 	.ascii	"android/os/CancellationSignal"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200029e	// type_token_id
 	.ascii	"android/os/Environment"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000295	// type_token_id
 	.ascii	"android/os/Handler"	// java_name
 	.zero	83	// byteCount == 18; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/os/IBinder"	// java_name
 	.zero	83	// byteCount == 18; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/os/IBinder$DeathRecipient"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/os/IInterface"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002a9	// type_token_id
 	.ascii	"android/os/LocaleList"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002aa	// type_token_id
 	.ascii	"android/os/Looper"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000296	// type_token_id
 	.ascii	"android/os/Message"	// java_name
 	.zero	83	// byteCount == 18; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002ab	// type_token_id
 	.ascii	"android/os/Parcel"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/os/Parcelable"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/os/Parcelable$Creator"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000297	// type_token_id
 	.ascii	"android/os/PowerManager"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002ad	// type_token_id
 	.ascii	"android/os/Process"	// java_name
 	.zero	83	// byteCount == 18; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20002ae	// type_token_id
 	.ascii	"android/os/SystemClock"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200028c	// type_token_id
 	.ascii	"android/preference/PreferenceManager"	// java_name
 	.zero	65	// byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000114	// type_token_id
 	.ascii	"android/provider/DocumentsContract"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000115	// type_token_id
 	.ascii	"android/provider/MediaStore"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000116	// type_token_id
 	.ascii	"android/provider/MediaStore$Images"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000117	// type_token_id
 	.ascii	"android/provider/MediaStore$Images$Media"	// java_name
 	.zero	61	// byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000118	// type_token_id
 	.ascii	"android/provider/Settings"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000119	// type_token_id
 	.ascii	"android/provider/Settings$Global"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200011a	// type_token_id
 	.ascii	"android/provider/Settings$NameValueTable"	// java_name
 	.zero	61	// byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200011b	// type_token_id
 	.ascii	"android/provider/Settings$System"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003bf	// type_token_id
 	.ascii	"android/runtime/JavaProxyThrowable"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003da	// type_token_id
 	.ascii	"android/runtime/XmlReaderPullParser"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200010f	// type_token_id
 	.ascii	"android/security/KeyPairGeneratorSpec"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000110	// type_token_id
 	.ascii	"android/security/KeyPairGeneratorSpec$Builder"	// java_name
 	.zero	56	// byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000111	// type_token_id
 	.ascii	"android/security/keystore/KeyGenParameterSpec"	// java_name
 	.zero	56	// byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000112	// type_token_id
 	.ascii	"android/security/keystore/KeyGenParameterSpec$Builder"	// java_name
 	.zero	48	// byteCount == 53; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/Editable"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/GetChars"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000249	// type_token_id
 	.ascii	"android/text/Html"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/InputFilter"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000250	// type_token_id
 	.ascii	"android/text/InputFilter$LengthFilter"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000262	// type_token_id
 	.ascii	"android/text/Layout"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/NoCopySpan"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/ParcelableSpan"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/Spannable"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000264	// type_token_id
 	.ascii	"android/text/SpannableString"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000266	// type_token_id
 	.ascii	"android/text/SpannableStringBuilder"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000268	// type_token_id
 	.ascii	"android/text/SpannableStringInternal"	// java_name
 	.zero	65	// byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/Spanned"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/TextDirectionHeuristic"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200026b	// type_token_id
 	.ascii	"android/text/TextPaint"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200026c	// type_token_id
 	.ascii	"android/text/TextUtils"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200026d	// type_token_id
 	.ascii	"android/text/TextUtils$TruncateAt"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/TextWatcher"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200028b	// type_token_id
 	.ascii	"android/text/format/DateFormat"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000280	// type_token_id
 	.ascii	"android/text/method/BaseKeyListener"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000282	// type_token_id
 	.ascii	"android/text/method/DigitsKeyListener"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/method/KeyListener"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000287	// type_token_id
 	.ascii	"android/text/method/MetaKeyKeyListener"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000289	// type_token_id
 	.ascii	"android/text/method/NumberKeyListener"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/method/TransformationMethod"	// java_name
 	.zero	61	// byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200026e	// type_token_id
 	.ascii	"android/text/style/BackgroundColorSpan"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200026f	// type_token_id
 	.ascii	"android/text/style/CharacterStyle"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000271	// type_token_id
 	.ascii	"android/text/style/ClickableSpan"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000273	// type_token_id
 	.ascii	"android/text/style/ForegroundColorSpan"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/style/LineHeightSpan"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200027e	// type_token_id
 	.ascii	"android/text/style/MetricAffectingSpan"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/style/ParagraphStyle"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/style/UpdateAppearance"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/style/UpdateLayout"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/text/style/WrapTogetherSpan"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/util/AttributeSet"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200023f	// type_token_id
 	.ascii	"android/util/DisplayMetrics"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200023d	// type_token_id
 	.ascii	"android/util/Log"	// java_name
 	.zero	85	// byteCount == 16; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000243	// type_token_id
 	.ascii	"android/util/LruCache"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000244	// type_token_id
 	.ascii	"android/util/Pair"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000245	// type_token_id
 	.ascii	"android/util/SparseArray"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000246	// type_token_id
 	.ascii	"android/util/StateSet"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000247	// type_token_id
 	.ascii	"android/util/TypedValue"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001bd	// type_token_id
 	.ascii	"android/view/ActionMode"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/ActionMode$Callback"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001c2	// type_token_id
 	.ascii	"android/view/ActionProvider"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/CollapsibleActionView"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/ContextMenu"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/ContextMenu$ContextMenuInfo"	// java_name
 	.zero	61	// byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001c5	// type_token_id
 	.ascii	"android/view/ContextThemeWrapper"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001c7	// type_token_id
 	.ascii	"android/view/Display"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001c9	// type_token_id
 	.ascii	"android/view/DragEvent"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001cc	// type_token_id
 	.ascii	"android/view/GestureDetector"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/GestureDetector$OnDoubleTapListener"	// java_name
 	.zero	53	// byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/GestureDetector$OnGestureListener"	// java_name
 	.zero	55	// byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001e3	// type_token_id
 	.ascii	"android/view/InflateException"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001e4	// type_token_id
 	.ascii	"android/view/InputEvent"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001a8	// type_token_id
 	.ascii	"android/view/KeyEvent"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/KeyEvent$Callback"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001f5	// type_token_id
 	.ascii	"android/view/KeyboardShortcutGroup"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001ab	// type_token_id
 	.ascii	"android/view/LayoutInflater"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/LayoutInflater$Factory"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/LayoutInflater$Factory2"	// java_name
 	.zero	65	// byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/Menu"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001fd	// type_token_id
 	.ascii	"android/view/MenuInflater"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/MenuItem"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/MenuItem$OnActionExpandListener"	// java_name
 	.zero	57	// byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/MenuItem$OnMenuItemClickListener"	// java_name
 	.zero	56	// byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001b0	// type_token_id
 	.ascii	"android/view/MotionEvent"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000204	// type_token_id
 	.ascii	"android/view/ScaleGestureDetector"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/ScaleGestureDetector$OnScaleGestureListener"	// java_name
 	.zero	45	// byteCount == 56; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000207	// type_token_id
 	.ascii	"android/view/ScaleGestureDetector$SimpleOnScaleGestureListener"	// java_name
 	.zero	39	// byteCount == 62; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000209	// type_token_id
 	.ascii	"android/view/SearchEvent"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/SubMenu"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200020c	// type_token_id
 	.ascii	"android/view/Surface"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/SurfaceHolder"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/SurfaceHolder$Callback"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/SurfaceHolder$Callback2"	// java_name
 	.zero	65	// byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200020f	// type_token_id
 	.ascii	"android/view/SurfaceView"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000212	// type_token_id
 	.ascii	"android/view/TextureView"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/TextureView$SurfaceTextureListener"	// java_name
 	.zero	54	// byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000180	// type_token_id
 	.ascii	"android/view/View"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000181	// type_token_id
 	.ascii	"android/view/View$AccessibilityDelegate"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000182	// type_token_id
 	.ascii	"android/view/View$DragShadowBuilder"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000183	// type_token_id
 	.ascii	"android/view/View$MeasureSpec"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/View$OnAttachStateChangeListener"	// java_name
 	.zero	56	// byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/View$OnClickListener"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/View$OnCreateContextMenuListener"	// java_name
 	.zero	56	// byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/View$OnDragListener"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/View$OnFocusChangeListener"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/View$OnKeyListener"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/View$OnLayoutChangeListener"	// java_name
 	.zero	61	// byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/View$OnTouchListener"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000215	// type_token_id
 	.ascii	"android/view/ViewConfiguration"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000216	// type_token_id
 	.ascii	"android/view/ViewGroup"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000217	// type_token_id
 	.ascii	"android/view/ViewGroup$LayoutParams"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000218	// type_token_id
 	.ascii	"android/view/ViewGroup$MarginLayoutParams"	// java_name
 	.zero	60	// byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/ViewGroup$OnHierarchyChangeListener"	// java_name
 	.zero	53	// byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/ViewManager"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/ViewParent"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200021c	// type_token_id
 	.ascii	"android/view/ViewPropertyAnimator"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001b1	// type_token_id
 	.ascii	"android/view/ViewTreeObserver"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/ViewTreeObserver$OnGlobalFocusChangeListener"	// java_name
 	.zero	44	// byteCount == 57; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/ViewTreeObserver$OnGlobalLayoutListener"	// java_name
 	.zero	49	// byteCount == 52; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/ViewTreeObserver$OnPreDrawListener"	// java_name
 	.zero	54	// byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/ViewTreeObserver$OnTouchModeChangeListener"	// java_name
 	.zero	46	// byteCount == 55; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001ba	// type_token_id
 	.ascii	"android/view/Window"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/Window$Callback"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000220	// type_token_id
 	.ascii	"android/view/WindowInsets"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/WindowManager"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20001f2	// type_token_id
 	.ascii	"android/view/WindowManager$LayoutParams"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000222	// type_token_id
 	.ascii	"android/view/WindowMetrics"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000234	// type_token_id
 	.ascii	"android/view/accessibility/AccessibilityEvent"	// java_name
 	.zero	56	// byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/accessibility/AccessibilityEventSource"	// java_name
 	.zero	50	// byteCount == 51; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000235	// type_token_id
 	.ascii	"android/view/accessibility/AccessibilityManager"	// java_name
 	.zero	54	// byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000236	// type_token_id
 	.ascii	"android/view/accessibility/AccessibilityNodeInfo"	// java_name
 	.zero	53	// byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000237	// type_token_id
 	.ascii	"android/view/accessibility/AccessibilityRecord"	// java_name
 	.zero	55	// byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000223	// type_token_id
 	.ascii	"android/view/animation/AccelerateInterpolator"	// java_name
 	.zero	56	// byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000224	// type_token_id
 	.ascii	"android/view/animation/Animation"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/animation/Animation$AnimationListener"	// java_name
 	.zero	51	// byteCount == 50; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000228	// type_token_id
 	.ascii	"android/view/animation/AnimationSet"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000229	// type_token_id
 	.ascii	"android/view/animation/AnimationUtils"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200022a	// type_token_id
 	.ascii	"android/view/animation/BaseInterpolator"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200022c	// type_token_id
 	.ascii	"android/view/animation/DecelerateInterpolator"	// java_name
 	.zero	56	// byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/view/animation/Interpolator"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200022f	// type_token_id
 	.ascii	"android/view/animation/LinearInterpolator"	// java_name
 	.zero	60	// byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000230	// type_token_id
 	.ascii	"android/view/inputmethod/InputMethodManager"	// java_name
 	.zero	58	// byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000ff	// type_token_id
 	.ascii	"android/webkit/CookieManager"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/webkit/ValueCallback"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000106	// type_token_id
 	.ascii	"android/webkit/WebChromeClient"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000107	// type_token_id
 	.ascii	"android/webkit/WebChromeClient$FileChooserParams"	// java_name
 	.zero	53	// byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000109	// type_token_id
 	.ascii	"android/webkit/WebResourceError"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/webkit/WebResourceRequest"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200010b	// type_token_id
 	.ascii	"android/webkit/WebSettings"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200010d	// type_token_id
 	.ascii	"android/webkit/WebView"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200010e	// type_token_id
 	.ascii	"android/webkit/WebViewClient"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000124	// type_token_id
 	.ascii	"android/widget/AbsListView"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/AbsListView$OnScrollListener"	// java_name
 	.zero	58	// byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000142	// type_token_id
 	.ascii	"android/widget/AbsSeekBar"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000140	// type_token_id
 	.ascii	"android/widget/AbsoluteLayout"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000141	// type_token_id
 	.ascii	"android/widget/AbsoluteLayout$LayoutParams"	// java_name
 	.zero	59	// byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/Adapter"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000128	// type_token_id
 	.ascii	"android/widget/AdapterView"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/AdapterView$OnItemClickListener"	// java_name
 	.zero	55	// byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/AdapterView$OnItemLongClickListener"	// java_name
 	.zero	51	// byteCount == 50; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/AdapterView$OnItemSelectedListener"	// java_name
 	.zero	52	// byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000132	// type_token_id
 	.ascii	"android/widget/AutoCompleteTextView"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/BaseAdapter"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000148	// type_token_id
 	.ascii	"android/widget/Button"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000149	// type_token_id
 	.ascii	"android/widget/CheckBox"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/Checkable"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200014b	// type_token_id
 	.ascii	"android/widget/CompoundButton"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/CompoundButton$OnCheckedChangeListener"	// java_name
 	.zero	48	// byteCount == 53; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000136	// type_token_id
 	.ascii	"android/widget/DatePicker"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/DatePicker$OnDateChangedListener"	// java_name
 	.zero	54	// byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200014f	// type_token_id
 	.ascii	"android/widget/EdgeEffect"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000150	// type_token_id
 	.ascii	"android/widget/EditText"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000151	// type_token_id
 	.ascii	"android/widget/Filter"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/Filter$FilterListener"	// java_name
 	.zero	65	// byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000154	// type_token_id
 	.ascii	"android/widget/Filter$FilterResults"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/Filterable"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000156	// type_token_id
 	.ascii	"android/widget/FrameLayout"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000157	// type_token_id
 	.ascii	"android/widget/FrameLayout$LayoutParams"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000158	// type_token_id
 	.ascii	"android/widget/HorizontalScrollView"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000161	// type_token_id
 	.ascii	"android/widget/ImageButton"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000162	// type_token_id
 	.ascii	"android/widget/ImageView"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000163	// type_token_id
 	.ascii	"android/widget/ImageView$ScaleType"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000169	// type_token_id
 	.ascii	"android/widget/LinearLayout"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200016a	// type_token_id
 	.ascii	"android/widget/LinearLayout$LayoutParams"	// java_name
 	.zero	61	// byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/ListAdapter"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200016b	// type_token_id
 	.ascii	"android/widget/ListView"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000139	// type_token_id
 	.ascii	"android/widget/MediaController"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/MediaController$MediaPlayerControl"	// java_name
 	.zero	52	// byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200016c	// type_token_id
 	.ascii	"android/widget/NumberPicker"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200016e	// type_token_id
 	.ascii	"android/widget/ProgressBar"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200016f	// type_token_id
 	.ascii	"android/widget/RadioButton"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000170	// type_token_id
 	.ascii	"android/widget/RelativeLayout"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000171	// type_token_id
 	.ascii	"android/widget/RelativeLayout$LayoutParams"	// java_name
 	.zero	59	// byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000173	// type_token_id
 	.ascii	"android/widget/SearchView"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/SearchView$OnQueryTextListener"	// java_name
 	.zero	56	// byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/SectionIndexer"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000176	// type_token_id
 	.ascii	"android/widget/SeekBar"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/SeekBar$OnSeekBarChangeListener"	// java_name
 	.zero	55	// byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/SpinnerAdapter"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000179	// type_token_id
 	.ascii	"android/widget/Switch"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200013c	// type_token_id
 	.ascii	"android/widget/TextView"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200013d	// type_token_id
 	.ascii	"android/widget/TextView$BufferType"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/TextView$OnEditorActionListener"	// java_name
 	.zero	55	// byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200017a	// type_token_id
 	.ascii	"android/widget/TimePicker"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"android/widget/TimePicker$OnTimeChangedListener"	// java_name
 	.zero	54	// byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200017d	// type_token_id
 	.ascii	"android/widget/Toast"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200017f	// type_token_id
 	.ascii	"android/widget/VideoView"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x200000a	// type_token_id
 	.ascii	"androidx/activity/ComponentActivity"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x200000f	// type_token_id
 	.ascii	"androidx/activity/OnBackPressedCallback"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x2000011	// type_token_id
 	.ascii	"androidx/activity/OnBackPressedDispatcher"	// java_name
 	.zero	60	// byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/activity/OnBackPressedDispatcherOwner"	// java_name
 	.zero	55	// byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/activity/contextaware/ContextAware"	// java_name
 	.zero	58	// byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/activity/contextaware/OnContextAvailableListener"	// java_name
 	.zero	44	// byteCount == 57; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/activity/result/ActivityResultCallback"	// java_name
 	.zero	54	// byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/activity/result/ActivityResultCaller"	// java_name
 	.zero	56	// byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x2000018	// type_token_id
 	.ascii	"androidx/activity/result/ActivityResultLauncher"	// java_name
 	.zero	54	// byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x200001a	// type_token_id
 	.ascii	"androidx/activity/result/ActivityResultRegistry"	// java_name
 	.zero	54	// byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/activity/result/ActivityResultRegistryOwner"	// java_name
 	.zero	49	// byteCount == 52; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x2000023	// type_token_id
 	.ascii	"androidx/activity/result/contract/ActivityResultContract"	// java_name
 	.zero	45	// byteCount == 56; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x2000024	// type_token_id
 	.ascii	"androidx/activity/result/contract/ActivityResultContract$SynchronousResult"	// java_name
 	.zero	27	// byteCount == 74; fixedWidth == 101; returned size == 101
@@ -2824,13 +2824,13 @@ map_java:
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xc	// module_index
+	.word	0xb	// module_index
 	.word	0x2000009	// type_token_id
 	.ascii	"androidx/appcompat/content/res/AppCompatResources"	// java_name
 	.zero	52	// byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xc	// module_index
+	.word	0xb	// module_index
 	.word	0x2000008	// type_token_id
 	.ascii	"androidx/appcompat/graphics/drawable/DrawableWrapper"	// java_name
 	.zero	49	// byteCount == 52; fixedWidth == 101; returned size == 101
@@ -2992,25 +2992,25 @@ map_java:
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x1c	// module_index
+	.word	0x1d	// module_index
 	.word	0x2000027	// type_token_id
 	.ascii	"androidx/coordinatorlayout/widget/CoordinatorLayout"	// java_name
 	.zero	50	// byteCount == 51; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x1c	// module_index
+	.word	0x1d	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/coordinatorlayout/widget/CoordinatorLayout$AttachedBehavior"	// java_name
 	.zero	33	// byteCount == 68; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x1c	// module_index
+	.word	0x1d	// module_index
 	.word	0x200002a	// type_token_id
 	.ascii	"androidx/coordinatorlayout/widget/CoordinatorLayout$Behavior"	// java_name
 	.zero	41	// byteCount == 60; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x1c	// module_index
+	.word	0x1d	// module_index
 	.word	0x200002c	// type_token_id
 	.ascii	"androidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams"	// java_name
 	.zero	37	// byteCount == 64; fixedWidth == 101; returned size == 101
@@ -3484,7 +3484,7 @@ map_java:
 	.zero	57	// byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x1b	// module_index
+	.word	0x1c	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/customview/widget/Openable"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
@@ -4186,7 +4186,7 @@ map_java:
 	.zero	51	// byteCount == 50; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x1a	// module_index
+	.word	0x1b	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"com/google/common/util/concurrent/ListenableFuture"	// java_name
 	.zero	51	// byteCount == 50; fixedWidth == 101; returned size == 101
@@ -4216,19 +4216,19 @@ map_java:
 	.zero	51	// byteCount == 50; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xd	// module_index
+	.word	0xc	// module_index
 	.word	0x2000005	// type_token_id
 	.ascii	"crc6414fa209700c2b9f3/CachedImageFastRenderer"	// java_name
 	.zero	56	// byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xd	// module_index
+	.word	0xc	// module_index
 	.word	0x2000002	// type_token_id
 	.ascii	"crc6414fa209700c2b9f3/CachedImageRenderer"	// java_name
 	.zero	60	// byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xd	// module_index
+	.word	0xc	// module_index
 	.word	0x2000003	// type_token_id
 	.ascii	"crc6414fa209700c2b9f3/CachedImageView"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
@@ -5404,7 +5404,7 @@ map_java:
 	.zero	52	// byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x9	// module_index
+	.word	0x8	// module_index
 	.word	0x2000016	// type_token_id
 	.ascii	"crc646957603ea1820544/MediaPickerActivity"	// java_name
 	.zero	60	// byteCount == 41; fixedWidth == 101; returned size == 101
@@ -5530,13 +5530,13 @@ map_java:
 	.zero	65	// byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x1d	// module_index
+	.word	0xd	// module_index
 	.word	0x2000002	// type_token_id
 	.ascii	"crc648004318c24f327ca/MainActivity"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x1d	// module_index
+	.word	0xd	// module_index
 	.word	0x2000003	// type_token_id
 	.ascii	"crc648004318c24f327ca/MediaService"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
@@ -5614,25 +5614,25 @@ map_java:
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xb	// module_index
+	.word	0xa	// module_index
 	.word	0x2000006	// type_token_id
 	.ascii	"crc64bb223c2be3a01e03/SKCanvasViewRenderer"	// java_name
 	.zero	59	// byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xb	// module_index
+	.word	0xa	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc64bb223c2be3a01e03/SKCanvasViewRendererBase_2"	// java_name
 	.zero	53	// byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xb	// module_index
+	.word	0xa	// module_index
 	.word	0x2000007	// type_token_id
 	.ascii	"crc64bb223c2be3a01e03/SKGLViewRenderer"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xb	// module_index
+	.word	0xa	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc64bb223c2be3a01e03/SKGLViewRendererBase_2"	// java_name
 	.zero	57	// byteCount == 44; fixedWidth == 101; returned size == 101
@@ -5722,1207 +5722,1207 @@ map_java:
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/io/Closeable"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004ac	// type_token_id
 	.ascii	"java/io/File"	// java_name
 	.zero	89	// byteCount == 12; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004ad	// type_token_id
 	.ascii	"java/io/FileDescriptor"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004ae	// type_token_id
 	.ascii	"java/io/FileInputStream"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004af	// type_token_id
 	.ascii	"java/io/FileNotFoundException"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/io/Flushable"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004b7	// type_token_id
 	.ascii	"java/io/IOException"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004b4	// type_token_id
 	.ascii	"java/io/InputStream"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004b6	// type_token_id
 	.ascii	"java/io/InterruptedIOException"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004ba	// type_token_id
 	.ascii	"java/io/OutputStream"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004bc	// type_token_id
 	.ascii	"java/io/PrintWriter"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004bd	// type_token_id
 	.ascii	"java/io/Reader"	// java_name
 	.zero	87	// byteCount == 14; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/io/Serializable"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004bf	// type_token_id
 	.ascii	"java/io/StringWriter"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004c0	// type_token_id
 	.ascii	"java/io/Writer"	// java_name
 	.zero	87	// byteCount == 14; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000470	// type_token_id
 	.ascii	"java/lang/AbstractMethodError"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000471	// type_token_id
 	.ascii	"java/lang/AbstractStringBuilder"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/Appendable"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/AutoCloseable"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200045a	// type_token_id
 	.ascii	"java/lang/Boolean"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200045b	// type_token_id
 	.ascii	"java/lang/Byte"	// java_name
 	.zero	87	// byteCount == 14; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/CharSequence"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200045c	// type_token_id
 	.ascii	"java/lang/Character"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200045d	// type_token_id
 	.ascii	"java/lang/Class"	// java_name
 	.zero	86	// byteCount == 15; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000474	// type_token_id
 	.ascii	"java/lang/ClassCastException"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000475	// type_token_id
 	.ascii	"java/lang/ClassLoader"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200045e	// type_token_id
 	.ascii	"java/lang/ClassNotFoundException"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/Cloneable"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/Comparable"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200045f	// type_token_id
 	.ascii	"java/lang/Double"	// java_name
 	.zero	85	// byteCount == 16; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000477	// type_token_id
 	.ascii	"java/lang/Enum"	// java_name
 	.zero	87	// byteCount == 14; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000479	// type_token_id
 	.ascii	"java/lang/Error"	// java_name
 	.zero	86	// byteCount == 15; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000460	// type_token_id
 	.ascii	"java/lang/Exception"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000461	// type_token_id
 	.ascii	"java/lang/Float"	// java_name
 	.zero	86	// byteCount == 15; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000486	// type_token_id
 	.ascii	"java/lang/IllegalArgumentException"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000487	// type_token_id
 	.ascii	"java/lang/IllegalStateException"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000488	// type_token_id
 	.ascii	"java/lang/IncompatibleClassChangeError"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000489	// type_token_id
 	.ascii	"java/lang/IndexOutOfBoundsException"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000463	// type_token_id
 	.ascii	"java/lang/Integer"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/Iterable"	// java_name
 	.zero	83	// byteCount == 18; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200048f	// type_token_id
 	.ascii	"java/lang/LinkageError"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000464	// type_token_id
 	.ascii	"java/lang/Long"	// java_name
 	.zero	87	// byteCount == 14; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000490	// type_token_id
 	.ascii	"java/lang/Math"	// java_name
 	.zero	87	// byteCount == 14; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000491	// type_token_id
 	.ascii	"java/lang/NoClassDefFoundError"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000492	// type_token_id
 	.ascii	"java/lang/NullPointerException"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000493	// type_token_id
 	.ascii	"java/lang/Number"	// java_name
 	.zero	85	// byteCount == 16; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000465	// type_token_id
 	.ascii	"java/lang/Object"	// java_name
 	.zero	85	// byteCount == 16; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000495	// type_token_id
 	.ascii	"java/lang/OutOfMemoryError"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/Readable"	// java_name
 	.zero	83	// byteCount == 18; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000496	// type_token_id
 	.ascii	"java/lang/ReflectiveOperationException"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/Runnable"	// java_name
 	.zero	83	// byteCount == 18; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000497	// type_token_id
 	.ascii	"java/lang/Runtime"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000467	// type_token_id
 	.ascii	"java/lang/RuntimeException"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000498	// type_token_id
 	.ascii	"java/lang/SecurityException"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000468	// type_token_id
 	.ascii	"java/lang/Short"	// java_name
 	.zero	86	// byteCount == 15; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000469	// type_token_id
 	.ascii	"java/lang/String"	// java_name
 	.zero	85	// byteCount == 16; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200046b	// type_token_id
 	.ascii	"java/lang/StringBuilder"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200048e	// type_token_id
 	.ascii	"java/lang/System"	// java_name
 	.zero	85	// byteCount == 16; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200046d	// type_token_id
 	.ascii	"java/lang/Thread"	// java_name
 	.zero	85	// byteCount == 16; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200046f	// type_token_id
 	.ascii	"java/lang/Throwable"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000499	// type_token_id
 	.ascii	"java/lang/UnsupportedOperationException"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200049a	// type_token_id
 	.ascii	"java/lang/VirtualMachineError"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/annotation/Annotation"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200049e	// type_token_id
 	.ascii	"java/lang/reflect/AccessibleObject"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/reflect/AnnotatedElement"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200049f	// type_token_id
 	.ascii	"java/lang/reflect/Executable"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/reflect/GenericDeclaration"	// java_name
 	.zero	65	// byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/reflect/Member"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004ab	// type_token_id
 	.ascii	"java/lang/reflect/Method"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/reflect/Type"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/lang/reflect/TypeVariable"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003f4	// type_token_id
 	.ascii	"java/math/BigInteger"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003e1	// type_token_id
 	.ascii	"java/net/ConnectException"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003e3	// type_token_id
 	.ascii	"java/net/HttpURLConnection"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003e5	// type_token_id
 	.ascii	"java/net/InetSocketAddress"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003e6	// type_token_id
 	.ascii	"java/net/ProtocolException"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003e7	// type_token_id
 	.ascii	"java/net/Proxy"	// java_name
 	.zero	87	// byteCount == 14; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003e8	// type_token_id
 	.ascii	"java/net/Proxy$Type"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003e9	// type_token_id
 	.ascii	"java/net/ProxySelector"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003eb	// type_token_id
 	.ascii	"java/net/SocketAddress"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003ed	// type_token_id
 	.ascii	"java/net/SocketException"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003ee	// type_token_id
 	.ascii	"java/net/SocketTimeoutException"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003f0	// type_token_id
 	.ascii	"java/net/URI"	// java_name
 	.zero	89	// byteCount == 12; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003f1	// type_token_id
 	.ascii	"java/net/URL"	// java_name
 	.zero	89	// byteCount == 12; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003f2	// type_token_id
 	.ascii	"java/net/URLConnection"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003ef	// type_token_id
 	.ascii	"java/net/UnknownServiceException"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200043b	// type_token_id
 	.ascii	"java/nio/Buffer"	// java_name
 	.zero	86	// byteCount == 15; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200043f	// type_token_id
 	.ascii	"java/nio/ByteBuffer"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200043c	// type_token_id
 	.ascii	"java/nio/CharBuffer"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000442	// type_token_id
 	.ascii	"java/nio/FloatBuffer"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000444	// type_token_id
 	.ascii	"java/nio/IntBuffer"	// java_name
 	.zero	83	// byteCount == 18; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/nio/channels/ByteChannel"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/nio/channels/Channel"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000446	// type_token_id
 	.ascii	"java/nio/channels/FileChannel"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/nio/channels/GatheringByteChannel"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/nio/channels/InterruptibleChannel"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/nio/channels/ReadableByteChannel"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/nio/channels/ScatteringByteChannel"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/nio/channels/SeekableByteChannel"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/nio/channels/WritableByteChannel"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000458	// type_token_id
 	.ascii	"java/nio/channels/spi/AbstractInterruptibleChannel"	// java_name
 	.zero	51	// byteCount == 50; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200041b	// type_token_id
 	.ascii	"java/security/GeneralSecurityException"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200041e	// type_token_id
 	.ascii	"java/security/InvalidAlgorithmParameterException"	// java_name
 	.zero	53	// byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200041f	// type_token_id
 	.ascii	"java/security/InvalidKeyException"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/security/Key"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000426	// type_token_id
 	.ascii	"java/security/KeyException"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000427	// type_token_id
 	.ascii	"java/security/KeyPair"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000428	// type_token_id
 	.ascii	"java/security/KeyPairGenerator"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200042a	// type_token_id
 	.ascii	"java/security/KeyPairGeneratorSpi"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200042c	// type_token_id
 	.ascii	"java/security/KeyStore"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/security/KeyStore$LoadStoreParameter"	// java_name
 	.zero	60	// byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/security/KeyStore$ProtectionParameter"	// java_name
 	.zero	59	// byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/security/Principal"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/security/PrivateKey"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/security/PublicKey"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000431	// type_token_id
 	.ascii	"java/security/SecureRandom"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000434	// type_token_id
 	.ascii	"java/security/cert/Certificate"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000436	// type_token_id
 	.ascii	"java/security/cert/CertificateFactory"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000439	// type_token_id
 	.ascii	"java/security/cert/X509Certificate"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/security/cert/X509Extension"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/security/spec/AlgorithmParameterSpec"	// java_name
 	.zero	60	// byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003db	// type_token_id
 	.ascii	"java/text/DecimalFormat"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003dc	// type_token_id
 	.ascii	"java/text/DecimalFormatSymbols"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003df	// type_token_id
 	.ascii	"java/text/Format"	// java_name
 	.zero	85	// byteCount == 16; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003dd	// type_token_id
 	.ascii	"java/text/NumberFormat"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003bb	// type_token_id
 	.ascii	"java/util/ArrayList"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003b0	// type_token_id
 	.ascii	"java/util/Collection"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/Comparator"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003f5	// type_token_id
 	.ascii	"java/util/Date"	// java_name
 	.zero	87	// byteCount == 14; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003f6	// type_token_id
 	.ascii	"java/util/Dictionary"	// java_name
 	.zero	81	// byteCount == 20; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/Enumeration"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003b2	// type_token_id
 	.ascii	"java/util/HashMap"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003c0	// type_token_id
 	.ascii	"java/util/HashSet"	// java_name
 	.zero	84	// byteCount == 17; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003f8	// type_token_id
 	.ascii	"java/util/Hashtable"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/Iterator"	// java_name
 	.zero	83	// byteCount == 18; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000405	// type_token_id
 	.ascii	"java/util/Locale"	// java_name
 	.zero	85	// byteCount == 16; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/Map"	// java_name
 	.zero	88	// byteCount == 13; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/Map$Entry"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000406	// type_token_id
 	.ascii	"java/util/Random"	// java_name
 	.zero	85	// byteCount == 16; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/Spliterator"	// java_name
 	.zero	80	// byteCount == 21; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/concurrent/Executor"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/concurrent/Future"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200041a	// type_token_id
 	.ascii	"java/util/concurrent/TimeUnit"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/function/BiConsumer"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/function/BiFunction"	// java_name
 	.zero	72	// byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/function/Consumer"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/function/Function"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/function/ToDoubleFunction"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/function/ToIntFunction"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"java/util/function/ToLongFunction"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000da	// type_token_id
 	.ascii	"javax/crypto/AEADBadTagException"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000db	// type_token_id
 	.ascii	"javax/crypto/BadPaddingException"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000dc	// type_token_id
 	.ascii	"javax/crypto/Cipher"	// java_name
 	.zero	82	// byteCount == 19; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000de	// type_token_id
 	.ascii	"javax/crypto/IllegalBlockSizeException"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000e1	// type_token_id
 	.ascii	"javax/crypto/KeyGenerator"	// java_name
 	.zero	76	// byteCount == 25; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"javax/crypto/SecretKey"	// java_name
 	.zero	79	// byteCount == 22; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000e3	// type_token_id
 	.ascii	"javax/crypto/spec/GCMParameterSpec"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000e4	// type_token_id
 	.ascii	"javax/crypto/spec/IvParameterSpec"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"javax/microedition/khronos/egl/EGL"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000f3	// type_token_id
 	.ascii	"javax/microedition/khronos/egl/EGL10"	// java_name
 	.zero	65	// byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000ea	// type_token_id
 	.ascii	"javax/microedition/khronos/egl/EGLConfig"	// java_name
 	.zero	61	// byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000e9	// type_token_id
 	.ascii	"javax/microedition/khronos/egl/EGLContext"	// java_name
 	.zero	60	// byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000ed	// type_token_id
 	.ascii	"javax/microedition/khronos/egl/EGLDisplay"	// java_name
 	.zero	60	// byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000ef	// type_token_id
 	.ascii	"javax/microedition/khronos/egl/EGLSurface"	// java_name
 	.zero	60	// byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"javax/microedition/khronos/opengles/GL"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"javax/microedition/khronos/opengles/GL10"	// java_name
 	.zero	61	// byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000c5	// type_token_id
 	.ascii	"javax/net/SocketFactory"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"javax/net/ssl/HostnameVerifier"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000c7	// type_token_id
 	.ascii	"javax/net/ssl/HttpsURLConnection"	// java_name
 	.zero	69	// byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"javax/net/ssl/KeyManager"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000d5	// type_token_id
 	.ascii	"javax/net/ssl/KeyManagerFactory"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000d6	// type_token_id
 	.ascii	"javax/net/ssl/SSLContext"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"javax/net/ssl/SSLSession"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"javax/net/ssl/SSLSessionContext"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000d7	// type_token_id
 	.ascii	"javax/net/ssl/SSLSocketFactory"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"javax/net/ssl/TrustManager"	// java_name
 	.zero	75	// byteCount == 26; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000d9	// type_token_id
 	.ascii	"javax/net/ssl/TrustManagerFactory"	// java_name
 	.zero	68	// byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"javax/net/ssl/X509TrustManager"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000c3	// type_token_id
 	.ascii	"javax/security/auth/Subject"	// java_name
 	.zero	74	// byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000c4	// type_token_id
 	.ascii	"javax/security/auth/x500/X500Principal"	// java_name
 	.zero	63	// byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000bf	// type_token_id
 	.ascii	"javax/security/cert/Certificate"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000c1	// type_token_id
 	.ascii	"javax/security/cert/X509Certificate"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20004d7	// type_token_id
 	.ascii	"mono/android/TypeManager"	// java_name
 	.zero	77	// byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000313	// type_token_id
 	.ascii	"mono/android/animation/AnimatorEventDispatcher"	// java_name
 	.zero	55	// byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000318	// type_token_id
 	.ascii	"mono/android/animation/ValueAnimator_AnimatorUpdateListenerImplementor"	// java_name
 	.zero	31	// byteCount == 70; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000334	// type_token_id
 	.ascii	"mono/android/app/DatePickerDialog_OnDateSetListenerImplementor"	// java_name
 	.zero	39	// byteCount == 62; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000327	// type_token_id
 	.ascii	"mono/android/app/TabEventDispatcher"	// java_name
 	.zero	66	// byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000364	// type_token_id
 	.ascii	"mono/android/content/DialogInterface_OnCancelListenerImplementor"	// java_name
 	.zero	37	// byteCount == 64; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000368	// type_token_id
 	.ascii	"mono/android/content/DialogInterface_OnClickListenerImplementor"	// java_name
 	.zero	38	// byteCount == 63; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200036b	// type_token_id
 	.ascii	"mono/android/content/DialogInterface_OnDismissListenerImplementor"	// java_name
 	.zero	36	// byteCount == 65; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003ac	// type_token_id
 	.ascii	"mono/android/runtime/InputStreamAdapter"	// java_name
 	.zero	62	// byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"mono/android/runtime/JavaArray"	// java_name
 	.zero	71	// byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003bd	// type_token_id
 	.ascii	"mono/android/runtime/JavaObject"	// java_name
 	.zero	70	// byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20003cf	// type_token_id
 	.ascii	"mono/android/runtime/OutputStreamAdapter"	// java_name
 	.zero	61	// byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000188	// type_token_id
 	.ascii	"mono/android/view/View_OnAttachStateChangeListenerImplementor"	// java_name
 	.zero	40	// byteCount == 61; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200018b	// type_token_id
 	.ascii	"mono/android/view/View_OnClickListenerImplementor"	// java_name
 	.zero	52	// byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000195	// type_token_id
 	.ascii	"mono/android/view/View_OnKeyListenerImplementor"	// java_name
 	.zero	54	// byteCount == 47; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000199	// type_token_id
 	.ascii	"mono/android/view/View_OnLayoutChangeListenerImplementor"	// java_name
 	.zero	45	// byteCount == 56; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200019d	// type_token_id
 	.ascii	"mono/android/view/View_OnTouchListenerImplementor"	// java_name
 	.zero	52	// byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200012c	// type_token_id
 	.ascii	"mono/android/widget/AdapterView_OnItemClickListenerImplementor"	// java_name
 	.zero	39	// byteCount == 62; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0xa	// module_index
+	.word	0x9	// module_index
 	.word	0x2000017	// type_token_id
 	.ascii	"mono/androidx/activity/contextaware/OnContextAvailableListenerImplementor"	// java_name
 	.zero	28	// byteCount == 73; fixedWidth == 101; returned size == 101
@@ -7042,31 +7042,31 @@ map_java:
 	.zero	17	// byteCount == 84; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000466	// type_token_id
 	.ascii	"mono/java/lang/Runnable"	// java_name
 	.zero	78	// byteCount == 23; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x200046e	// type_token_id
 	.ascii	"mono/java/lang/RunnableImplementor"	// java_name
 	.zero	67	// byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"org/xmlpull/v1/XmlPullParser"	// java_name
 	.zero	73	// byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000bd	// type_token_id
 	.ascii	"org/xmlpull/v1/XmlPullParserException"	// java_name
 	.zero	64	// byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.word	0x8	// module_index
+	.word	0x1a	// module_index
 	.word	0x20000ba	// type_token_id
 	.ascii	"xamarin/android/net/OldAndroidSSLSocketFactory"	// java_name
 	.zero	55	// byteCount == 46; fixedWidth == 101; returned size == 101
@@ -7081,4 +7081,4 @@ map_java:
 	.size	map_java, 124096
 	// Java to managed map: END
 
-	.ident	"Xamarin.Android remotes/origin/d17-2 @ bbba5a21f3b649a761b22d83959758b4d30df672"
+	.ident	"Xamarin.Android remotes/origin/d17-2 @ 4e061b739747f624ccb03c98940d8900548a98ad"

@@ -283,6 +283,1305 @@
 	.type	.L.module8_managed_to_java, @object
 	.p2align	2
 .L.module8_managed_to_java:
+	.word	0x2000016	// type_token_id
+	.word	0x33d	// java_map_index
+
+	.size	.L.module8_managed_to_java, 8
+
+	.section	.rodata.module9_managed_to_java, "a", @progbits
+
+	.type	.L.module9_managed_to_java, @object
+	.p2align	2
+.L.module9_managed_to_java:
+	.word	0x200000a	// type_token_id
+	.word	0x170	// java_map_index
+
+	.word	0x200000d	// type_token_id
+	.word	0x173	// java_map_index
+
+	.word	0x200000f	// type_token_id
+	.word	0x171	// java_map_index
+
+	.word	0x2000011	// type_token_id
+	.word	0x172	// java_map_index
+
+	.word	0x2000012	// type_token_id
+	.word	0x174	// java_map_index
+
+	.word	0x2000014	// type_token_id
+	.word	0x175	// java_map_index
+
+	.word	0x2000017	// type_token_id
+	.word	0x43a	// java_map_index
+
+	.word	0x2000018	// type_token_id
+	.word	0x178	// java_map_index
+
+	.word	0x200001a	// type_token_id
+	.word	0x179	// java_map_index
+
+	.word	0x200001c	// type_token_id
+	.word	0x176	// java_map_index
+
+	.word	0x200001e	// type_token_id
+	.word	0x177	// java_map_index
+
+	.word	0x2000020	// type_token_id
+	.word	0x17a	// java_map_index
+
+	.word	0x2000023	// type_token_id
+	.word	0x17b	// java_map_index
+
+	.word	0x2000024	// type_token_id
+	.word	0x17c	// java_map_index
+
+	.size	.L.module9_managed_to_java, 112
+
+	.section	.rodata.module9_managed_to_java_duplicates, "a", @progbits
+
+	.type	.L.module9_managed_to_java_duplicates, @object
+	.p2align	2
+.L.module9_managed_to_java_duplicates:
+	.word	0x200000e	// type_token_id
+	.word	0x173	// java_map_index
+
+	.word	0x2000010	// type_token_id
+	.word	0x171	// java_map_index
+
+	.word	0x2000013	// type_token_id
+	.word	0x174	// java_map_index
+
+	.word	0x2000015	// type_token_id
+	.word	0x175	// java_map_index
+
+	.word	0x2000019	// type_token_id
+	.word	0x178	// java_map_index
+
+	.word	0x200001b	// type_token_id
+	.word	0x179	// java_map_index
+
+	.word	0x200001d	// type_token_id
+	.word	0x176	// java_map_index
+
+	.word	0x200001f	// type_token_id
+	.word	0x177	// java_map_index
+
+	.word	0x2000021	// type_token_id
+	.word	0x17a	// java_map_index
+
+	.word	0x2000025	// type_token_id
+	.word	0x17b	// java_map_index
+
+	.size	.L.module9_managed_to_java_duplicates, 80
+
+	.section	.rodata.module10_managed_to_java, "a", @progbits
+
+	.type	.L.module10_managed_to_java, @object
+	.p2align	2
+.L.module10_managed_to_java:
+	.word	0x2000006	// type_token_id
+	.word	0x360	// java_map_index
+
+	.word	0x2000007	// type_token_id
+	.word	0x362	// java_map_index
+
+	.word	0x200001b	// type_token_id
+	.word	0x361	// java_map_index
+
+	.word	0x200001c	// type_token_id
+	.word	0x363	// java_map_index
+
+	.size	.L.module10_managed_to_java, 32
+
+	.section	.rodata.module11_managed_to_java, "a", @progbits
+
+	.type	.L.module11_managed_to_java, @object
+	.p2align	2
+.L.module11_managed_to_java:
+	.word	0x2000008	// type_token_id
+	.word	0x190	// java_map_index
+
+	.word	0x2000009	// type_token_id
+	.word	0x18f	// java_map_index
+
+	.size	.L.module11_managed_to_java, 16
+
+	.section	.rodata.module12_managed_to_java, "a", @progbits
+
+	.type	.L.module12_managed_to_java, @object
+	.p2align	2
+.L.module12_managed_to_java:
+	.word	0x2000002	// type_token_id
+	.word	0x278	// java_map_index
+
+	.word	0x2000003	// type_token_id
+	.word	0x279	// java_map_index
+
+	.word	0x2000005	// type_token_id
+	.word	0x277	// java_map_index
+
+	.size	.L.module12_managed_to_java, 24
+
+	.section	.rodata.module13_managed_to_java, "a", @progbits
+
+	.type	.L.module13_managed_to_java, @object
+	.p2align	2
+.L.module13_managed_to_java:
+	.word	0x2000002	// type_token_id
+	.word	0x352	// java_map_index
+
+	.word	0x2000003	// type_token_id
+	.word	0x353	// java_map_index
+
+	.size	.L.module13_managed_to_java, 16
+
+	.section	.rodata.module14_managed_to_java, "a", @progbits
+
+	.type	.L.module14_managed_to_java, @object
+	.p2align	2
+.L.module14_managed_to_java:
+	.word	0x2000014	// type_token_id
+	.word	0x33c	// java_map_index
+
+	.word	0x2000015	// type_token_id
+	.word	0x33b	// java_map_index
+
+	.word	0x2000017	// type_token_id
+	.word	0x33a	// java_map_index
+
+	.word	0x200001e	// type_token_id
+	.word	0x371	// java_map_index
+
+	.word	0x2000020	// type_token_id
+	.word	0x370	// java_map_index
+
+	.word	0x2000027	// type_token_id
+	.word	0x35f	// java_map_index
+
+	.size	.L.module14_managed_to_java, 48
+
+	.section	.rodata.module15_managed_to_java, "a", @progbits
+
+	.type	.L.module15_managed_to_java, @object
+	.p2align	2
+.L.module15_managed_to_java:
+	.word	0x2000007	// type_token_id
+	.word	0x215	// java_map_index
+
+	.word	0x2000009	// type_token_id
+	.word	0x214	// java_map_index
+
+	.size	.L.module15_managed_to_java, 16
+
+	.section	.rodata.module15_managed_to_java_duplicates, "a", @progbits
+
+	.type	.L.module15_managed_to_java_duplicates, @object
+	.p2align	2
+.L.module15_managed_to_java_duplicates:
+	.word	0x2000008	// type_token_id
+	.word	0x215	// java_map_index
+
+	.word	0x200000a	// type_token_id
+	.word	0x214	// java_map_index
+
+	.size	.L.module15_managed_to_java_duplicates, 16
+
+	.section	.rodata.module16_managed_to_java, "a", @progbits
+
+	.type	.L.module16_managed_to_java, @object
+	.p2align	2
+.L.module16_managed_to_java:
+	.word	0x200000d	// type_token_id
+	.word	0x36a	// java_map_index
+
+	.word	0x200000e	// type_token_id
+	.word	0x36b	// java_map_index
+
+	.size	.L.module16_managed_to_java, 16
+
+	.section	.rodata.module17_managed_to_java, "a", @progbits
+
+	.type	.L.module17_managed_to_java, @object
+	.p2align	2
+.L.module17_managed_to_java:
+	.word	0x2000009	// type_token_id
+	.word	0x20e	// java_map_index
+
+	.size	.L.module17_managed_to_java, 8
+
+	.section	.rodata.module18_managed_to_java, "a", @progbits
+
+	.type	.L.module18_managed_to_java, @object
+	.p2align	2
+.L.module18_managed_to_java:
+	.word	0x2000003	// type_token_id
+	.word	0x24a	// java_map_index
+
+	.word	0x2000005	// type_token_id
+	.word	0x248	// java_map_index
+
+	.word	0x2000006	// type_token_id
+	.word	0x249	// java_map_index
+
+	.size	.L.module18_managed_to_java, 24
+
+	.section	.rodata.module18_managed_to_java_duplicates, "a", @progbits
+
+	.type	.L.module18_managed_to_java_duplicates, @object
+	.p2align	2
+.L.module18_managed_to_java_duplicates:
+	.word	0x2000004	// type_token_id
+	.word	0x24a	// java_map_index
+
+	.word	0x2000007	// type_token_id
+	.word	0x249	// java_map_index
+
+	.size	.L.module18_managed_to_java_duplicates, 16
+
+	.section	.rodata.module19_managed_to_java, "a", @progbits
+
+	.type	.L.module19_managed_to_java, @object
+	.p2align	2
+.L.module19_managed_to_java:
+	.word	0x200001b	// type_token_id
+	.word	0x24e	// java_map_index
+
+	.word	0x200001d	// type_token_id
+	.word	0x24f	// java_map_index
+
+	.word	0x200001e	// type_token_id
+	.word	0x250	// java_map_index
+
+	.word	0x2000021	// type_token_id
+	.word	0x448	// java_map_index
+
+	.word	0x2000022	// type_token_id
+	.word	0x251	// java_map_index
+
+	.word	0x2000027	// type_token_id
+	.word	0x449	// java_map_index
+
+	.word	0x2000028	// type_token_id
+	.word	0x252	// java_map_index
+
+	.size	.L.module19_managed_to_java, 56
+
+	.section	.rodata.module19_managed_to_java_duplicates, "a", @progbits
+
+	.type	.L.module19_managed_to_java_duplicates, @object
+	.p2align	2
+.L.module19_managed_to_java_duplicates:
+	.word	0x200001c	// type_token_id
+	.word	0x24e	// java_map_index
+
+	.word	0x200001f	// type_token_id
+	.word	0x250	// java_map_index
+
+	.word	0x2000023	// type_token_id
+	.word	0x251	// java_map_index
+
+	.word	0x2000029	// type_token_id
+	.word	0x252	// java_map_index
+
+	.size	.L.module19_managed_to_java_duplicates, 32
+
+	.section	.rodata.module20_managed_to_java, "a", @progbits
+
+	.type	.L.module20_managed_to_java, @object
+	.p2align	2
+.L.module20_managed_to_java:
+	.word	0x2000048	// type_token_id
+	.word	0x1c6	// java_map_index
+
+	.word	0x200004a	// type_token_id
+	.word	0x1c5	// java_map_index
+
+	.word	0x200004b	// type_token_id
+	.word	0x1c1	// java_map_index
+
+	.word	0x200004d	// type_token_id
+	.word	0x1c2	// java_map_index
+
+	.word	0x200004f	// type_token_id
+	.word	0x1bf	// java_map_index
+
+	.word	0x2000050	// type_token_id
+	.word	0x1c0	// java_map_index
+
+	.word	0x2000051	// type_token_id
+	.word	0x1ba	// java_map_index
+
+	.word	0x2000052	// type_token_id
+	.word	0x1bb	// java_map_index
+
+	.word	0x2000053	// type_token_id
+	.word	0x1bc	// java_map_index
+
+	.word	0x2000054	// type_token_id
+	.word	0x1bd	// java_map_index
+
+	.word	0x2000055	// type_token_id
+	.word	0x1be	// java_map_index
+
+	.word	0x2000056	// type_token_id
+	.word	0x1af	// java_map_index
+
+	.word	0x2000057	// type_token_id
+	.word	0x1b0	// java_map_index
+
+	.word	0x2000059	// type_token_id
+	.word	0x1b1	// java_map_index
+
+	.word	0x200005b	// type_token_id
+	.word	0x1b2	// java_map_index
+
+	.word	0x200005d	// type_token_id
+	.word	0x1b3	// java_map_index
+
+	.word	0x200005e	// type_token_id
+	.word	0x1b4	// java_map_index
+
+	.word	0x200005f	// type_token_id
+	.word	0x1b5	// java_map_index
+
+	.word	0x2000060	// type_token_id
+	.word	0x1b6	// java_map_index
+
+	.word	0x2000061	// type_token_id
+	.word	0x1b7	// java_map_index
+
+	.word	0x2000064	// type_token_id
+	.word	0x1b8	// java_map_index
+
+	.word	0x2000065	// type_token_id
+	.word	0x1b9	// java_map_index
+
+	.word	0x2000067	// type_token_id
+	.word	0x1f7	// java_map_index
+
+	.word	0x2000068	// type_token_id
+	.word	0x1f8	// java_map_index
+
+	.word	0x200006b	// type_token_id
+	.word	0x440	// java_map_index
+
+	.word	0x200006e	// type_token_id
+	.word	0x1f6	// java_map_index
+
+	.word	0x200006f	// type_token_id
+	.word	0x1f5	// java_map_index
+
+	.word	0x2000071	// type_token_id
+	.word	0x1fa	// java_map_index
+
+	.word	0x2000073	// type_token_id
+	.word	0x1fb	// java_map_index
+
+	.word	0x2000075	// type_token_id
+	.word	0x1fc	// java_map_index
+
+	.word	0x2000077	// type_token_id
+	.word	0x1f9	// java_map_index
+
+	.word	0x2000078	// type_token_id
+	.word	0x1d6	// java_map_index
+
+	.word	0x2000079	// type_token_id
+	.word	0x1c7	// java_map_index
+
+	.word	0x200007a	// type_token_id
+	.word	0x1c8	// java_map_index
+
+	.word	0x200007b	// type_token_id
+	.word	0x1c9	// java_map_index
+
+	.word	0x200007e	// type_token_id
+	.word	0x43d	// java_map_index
+
+	.word	0x200007f	// type_token_id
+	.word	0x1ca	// java_map_index
+
+	.word	0x2000082	// type_token_id
+	.word	0x43e	// java_map_index
+
+	.word	0x2000088	// type_token_id
+	.word	0x1cb	// java_map_index
+
+	.word	0x2000089	// type_token_id
+	.word	0x1cc	// java_map_index
+
+	.word	0x200008a	// type_token_id
+	.word	0x1cd	// java_map_index
+
+	.word	0x200008b	// type_token_id
+	.word	0x1d2	// java_map_index
+
+	.word	0x200008d	// type_token_id
+	.word	0x1d3	// java_map_index
+
+	.word	0x200008f	// type_token_id
+	.word	0x1d4	// java_map_index
+
+	.word	0x2000091	// type_token_id
+	.word	0x1d5	// java_map_index
+
+	.word	0x2000094	// type_token_id
+	.word	0x1d7	// java_map_index
+
+	.word	0x2000096	// type_token_id
+	.word	0x1d8	// java_map_index
+
+	.word	0x2000098	// type_token_id
+	.word	0x1d9	// java_map_index
+
+	.word	0x200009a	// type_token_id
+	.word	0x1dc	// java_map_index
+
+	.word	0x200009c	// type_token_id
+	.word	0x1dd	// java_map_index
+
+	.word	0x200009e	// type_token_id
+	.word	0x1e1	// java_map_index
+
+	.word	0x20000a0	// type_token_id
+	.word	0x1e2	// java_map_index
+
+	.word	0x20000a2	// type_token_id
+	.word	0x1e6	// java_map_index
+
+	.word	0x20000a4	// type_token_id
+	.word	0x1ce	// java_map_index
+
+	.word	0x20000a5	// type_token_id
+	.word	0x1cf	// java_map_index
+
+	.word	0x20000a7	// type_token_id
+	.word	0x1d0	// java_map_index
+
+	.word	0x20000a8	// type_token_id
+	.word	0x1d1	// java_map_index
+
+	.word	0x20000aa	// type_token_id
+	.word	0x1da	// java_map_index
+
+	.word	0x20000ab	// type_token_id
+	.word	0x1db	// java_map_index
+
+	.word	0x20000ac	// type_token_id
+	.word	0x1de	// java_map_index
+
+	.word	0x20000ad	// type_token_id
+	.word	0x1df	// java_map_index
+
+	.word	0x20000af	// type_token_id
+	.word	0x1e0	// java_map_index
+
+	.word	0x20000b0	// type_token_id
+	.word	0x1e3	// java_map_index
+
+	.word	0x20000b1	// type_token_id
+	.word	0x1e4	// java_map_index
+
+	.word	0x20000b2	// type_token_id
+	.word	0x1e5	// java_map_index
+
+	.word	0x20000b4	// type_token_id
+	.word	0x1e7	// java_map_index
+
+	.word	0x20000b5	// type_token_id
+	.word	0x1e8	// java_map_index
+
+	.word	0x20000b6	// type_token_id
+	.word	0x1e9	// java_map_index
+
+	.word	0x20000b7	// type_token_id
+	.word	0x1ea	// java_map_index
+
+	.word	0x20000ba	// type_token_id
+	.word	0x43f	// java_map_index
+
+	.word	0x20000bd	// type_token_id
+	.word	0x1eb	// java_map_index
+
+	.word	0x20000be	// type_token_id
+	.word	0x1ec	// java_map_index
+
+	.word	0x20000bf	// type_token_id
+	.word	0x1ed	// java_map_index
+
+	.word	0x20000c0	// type_token_id
+	.word	0x1ee	// java_map_index
+
+	.word	0x20000c1	// type_token_id
+	.word	0x1ef	// java_map_index
+
+	.word	0x20000c2	// type_token_id
+	.word	0x1f0	// java_map_index
+
+	.word	0x20000c3	// type_token_id
+	.word	0x1f1	// java_map_index
+
+	.word	0x20000c4	// type_token_id
+	.word	0x1f4	// java_map_index
+
+	.word	0x20000c5	// type_token_id
+	.word	0x1f3	// java_map_index
+
+	.word	0x20000c7	// type_token_id
+	.word	0x1f2	// java_map_index
+
+	.word	0x20000c9	// type_token_id
+	.word	0x1c3	// java_map_index
+
+	.word	0x20000ca	// type_token_id
+	.word	0x1c4	// java_map_index
+
+	.size	.L.module20_managed_to_java, 656
+
+	.section	.rodata.module20_managed_to_java_duplicates, "a", @progbits
+
+	.type	.L.module20_managed_to_java_duplicates, @object
+	.p2align	2
+.L.module20_managed_to_java_duplicates:
+	.word	0x2000049	// type_token_id
+	.word	0x1c6	// java_map_index
+
+	.word	0x200004c	// type_token_id
+	.word	0x1c1	// java_map_index
+
+	.word	0x200004e	// type_token_id
+	.word	0x1c2	// java_map_index
+
+	.word	0x2000058	// type_token_id
+	.word	0x1b0	// java_map_index
+
+	.word	0x200005a	// type_token_id
+	.word	0x1b1	// java_map_index
+
+	.word	0x200005c	// type_token_id
+	.word	0x1b2	// java_map_index
+
+	.word	0x2000062	// type_token_id
+	.word	0x1b7	// java_map_index
+
+	.word	0x2000063	// type_token_id
+	.word	0x1b6	// java_map_index
+
+	.word	0x2000066	// type_token_id
+	.word	0x1b9	// java_map_index
+
+	.word	0x2000069	// type_token_id
+	.word	0x1f8	// java_map_index
+
+	.word	0x2000070	// type_token_id
+	.word	0x1f5	// java_map_index
+
+	.word	0x2000072	// type_token_id
+	.word	0x1fa	// java_map_index
+
+	.word	0x2000074	// type_token_id
+	.word	0x1fb	// java_map_index
+
+	.word	0x2000076	// type_token_id
+	.word	0x1fc	// java_map_index
+
+	.word	0x200007c	// type_token_id
+	.word	0x1c9	// java_map_index
+
+	.word	0x2000080	// type_token_id
+	.word	0x1ca	// java_map_index
+
+	.word	0x2000087	// type_token_id
+	.word	0x1c8	// java_map_index
+
+	.word	0x200008c	// type_token_id
+	.word	0x1d2	// java_map_index
+
+	.word	0x200008e	// type_token_id
+	.word	0x1d3	// java_map_index
+
+	.word	0x2000090	// type_token_id
+	.word	0x1d4	// java_map_index
+
+	.word	0x2000092	// type_token_id
+	.word	0x1d5	// java_map_index
+
+	.word	0x2000093	// type_token_id
+	.word	0x1d6	// java_map_index
+
+	.word	0x2000095	// type_token_id
+	.word	0x1d7	// java_map_index
+
+	.word	0x2000097	// type_token_id
+	.word	0x1d8	// java_map_index
+
+	.word	0x2000099	// type_token_id
+	.word	0x1d9	// java_map_index
+
+	.word	0x200009b	// type_token_id
+	.word	0x1dc	// java_map_index
+
+	.word	0x200009d	// type_token_id
+	.word	0x1dd	// java_map_index
+
+	.word	0x200009f	// type_token_id
+	.word	0x1e1	// java_map_index
+
+	.word	0x20000a1	// type_token_id
+	.word	0x1e2	// java_map_index
+
+	.word	0x20000a3	// type_token_id
+	.word	0x1e6	// java_map_index
+
+	.word	0x20000a6	// type_token_id
+	.word	0x1cf	// java_map_index
+
+	.word	0x20000a9	// type_token_id
+	.word	0x1d1	// java_map_index
+
+	.word	0x20000ae	// type_token_id
+	.word	0x1df	// java_map_index
+
+	.word	0x20000b3	// type_token_id
+	.word	0x1e5	// java_map_index
+
+	.word	0x20000b8	// type_token_id
+	.word	0x1ea	// java_map_index
+
+	.word	0x20000c6	// type_token_id
+	.word	0x1f3	// java_map_index
+
+	.word	0x20000c8	// type_token_id
+	.word	0x1f2	// java_map_index
+
+	.size	.L.module20_managed_to_java_duplicates, 296
+
+	.section	.rodata.module21_managed_to_java, "a", @progbits
+
+	.type	.L.module21_managed_to_java, @object
+	.p2align	2
+.L.module21_managed_to_java:
+	.word	0x200002a	// type_token_id
+	.word	0x26b	// java_map_index
+
+	.word	0x200002b	// type_token_id
+	.word	0x26c	// java_map_index
+
+	.word	0x200002d	// type_token_id
+	.word	0x260	// java_map_index
+
+	.word	0x200002e	// type_token_id
+	.word	0x261	// java_map_index
+
+	.word	0x2000030	// type_token_id
+	.word	0x262	// java_map_index
+
+	.word	0x2000031	// type_token_id
+	.word	0x259	// java_map_index
+
+	.word	0x2000032	// type_token_id
+	.word	0x25a	// java_map_index
+
+	.word	0x2000033	// type_token_id
+	.word	0x268	// java_map_index
+
+	.word	0x2000036	// type_token_id
+	.word	0x269	// java_map_index
+
+	.word	0x2000038	// type_token_id
+	.word	0x44b	// java_map_index
+
+	.word	0x2000039	// type_token_id
+	.word	0x26a	// java_map_index
+
+	.word	0x200003b	// type_token_id
+	.word	0x44c	// java_map_index
+
+	.word	0x2000040	// type_token_id
+	.word	0x265	// java_map_index
+
+	.word	0x2000042	// type_token_id
+	.word	0x266	// java_map_index
+
+	.word	0x2000044	// type_token_id
+	.word	0x267	// java_map_index
+
+	.word	0x2000046	// type_token_id
+	.word	0x26d	// java_map_index
+
+	.word	0x2000047	// type_token_id
+	.word	0x271	// java_map_index
+
+	.word	0x2000048	// type_token_id
+	.word	0x26e	// java_map_index
+
+	.word	0x200004d	// type_token_id
+	.word	0x44d	// java_map_index
+
+	.word	0x200004e	// type_token_id
+	.word	0x26f	// java_map_index
+
+	.word	0x2000050	// type_token_id
+	.word	0x270	// java_map_index
+
+	.word	0x2000057	// type_token_id
+	.word	0x263	// java_map_index
+
+	.word	0x2000058	// type_token_id
+	.word	0x264	// java_map_index
+
+	.word	0x200005a	// type_token_id
+	.word	0x25b	// java_map_index
+
+	.word	0x200005b	// type_token_id
+	.word	0x25c	// java_map_index
+
+	.word	0x200005c	// type_token_id
+	.word	0x25d	// java_map_index
+
+	.word	0x200005d	// type_token_id
+	.word	0x25e	// java_map_index
+
+	.word	0x200005f	// type_token_id
+	.word	0x25f	// java_map_index
+
+	.word	0x2000061	// type_token_id
+	.word	0x253	// java_map_index
+
+	.word	0x2000062	// type_token_id
+	.word	0x254	// java_map_index
+
+	.word	0x2000063	// type_token_id
+	.word	0x255	// java_map_index
+
+	.word	0x2000066	// type_token_id
+	.word	0x44a	// java_map_index
+
+	.word	0x2000067	// type_token_id
+	.word	0x256	// java_map_index
+
+	.word	0x200006a	// type_token_id
+	.word	0x257	// java_map_index
+
+	.word	0x200006c	// type_token_id
+	.word	0x258	// java_map_index
+
+	.size	.L.module21_managed_to_java, 280
+
+	.section	.rodata.module21_managed_to_java_duplicates, "a", @progbits
+
+	.type	.L.module21_managed_to_java_duplicates, @object
+	.p2align	2
+.L.module21_managed_to_java_duplicates:
+	.word	0x200002c	// type_token_id
+	.word	0x26c	// java_map_index
+
+	.word	0x200002f	// type_token_id
+	.word	0x261	// java_map_index
+
+	.word	0x2000037	// type_token_id
+	.word	0x269	// java_map_index
+
+	.word	0x200003a	// type_token_id
+	.word	0x26a	// java_map_index
+
+	.word	0x2000041	// type_token_id
+	.word	0x265	// java_map_index
+
+	.word	0x2000043	// type_token_id
+	.word	0x266	// java_map_index
+
+	.word	0x2000045	// type_token_id
+	.word	0x268	// java_map_index
+
+	.word	0x2000049	// type_token_id
+	.word	0x26e	// java_map_index
+
+	.word	0x200004f	// type_token_id
+	.word	0x26f	// java_map_index
+
+	.word	0x2000059	// type_token_id
+	.word	0x264	// java_map_index
+
+	.word	0x200005e	// type_token_id
+	.word	0x25e	// java_map_index
+
+	.word	0x2000060	// type_token_id
+	.word	0x25f	// java_map_index
+
+	.word	0x2000064	// type_token_id
+	.word	0x255	// java_map_index
+
+	.word	0x200006b	// type_token_id
+	.word	0x257	// java_map_index
+
+	.size	.L.module21_managed_to_java_duplicates, 112
+
+	.section	.rodata.module22_managed_to_java, "a", @progbits
+
+	.type	.L.module22_managed_to_java, @object
+	.p2align	2
+.L.module22_managed_to_java:
+	.word	0x2000016	// type_token_id
+	.word	0x1fe	// java_map_index
+
+	.word	0x2000017	// type_token_id
+	.word	0x1ff	// java_map_index
+
+	.word	0x200001d	// type_token_id
+	.word	0x441	// java_map_index
+
+	.word	0x200001e	// type_token_id
+	.word	0x200	// java_map_index
+
+	.size	.L.module22_managed_to_java, 32
+
+	.section	.rodata.module22_managed_to_java_duplicates, "a", @progbits
+
+	.type	.L.module22_managed_to_java_duplicates, @object
+	.p2align	2
+.L.module22_managed_to_java_duplicates:
+	.word	0x2000018	// type_token_id
+	.word	0x1ff	// java_map_index
+
+	.size	.L.module22_managed_to_java_duplicates, 8
+
+	.section	.rodata.module23_managed_to_java, "a", @progbits
+
+	.type	.L.module23_managed_to_java, @object
+	.p2align	2
+.L.module23_managed_to_java:
+	.word	0x200004b	// type_token_id
+	.word	0x21f	// java_map_index
+
+	.word	0x200004c	// type_token_id
+	.word	0x220	// java_map_index
+
+	.word	0x200004d	// type_token_id
+	.word	0x221	// java_map_index
+
+	.word	0x200004f	// type_token_id
+	.word	0x225	// java_map_index
+
+	.word	0x2000051	// type_token_id
+	.word	0x222	// java_map_index
+
+	.word	0x2000052	// type_token_id
+	.word	0x223	// java_map_index
+
+	.word	0x2000054	// type_token_id
+	.word	0x224	// java_map_index
+
+	.word	0x2000056	// type_token_id
+	.word	0x226	// java_map_index
+
+	.word	0x2000057	// type_token_id
+	.word	0x227	// java_map_index
+
+	.word	0x2000058	// type_token_id
+	.word	0x228	// java_map_index
+
+	.word	0x2000059	// type_token_id
+	.word	0x229	// java_map_index
+
+	.word	0x200005b	// type_token_id
+	.word	0x22a	// java_map_index
+
+	.word	0x200005c	// type_token_id
+	.word	0x22b	// java_map_index
+
+	.word	0x200005d	// type_token_id
+	.word	0x22c	// java_map_index
+
+	.word	0x200005e	// type_token_id
+	.word	0x22d	// java_map_index
+
+	.word	0x2000060	// type_token_id
+	.word	0x22e	// java_map_index
+
+	.word	0x2000062	// type_token_id
+	.word	0x22f	// java_map_index
+
+	.word	0x2000064	// type_token_id
+	.word	0x230	// java_map_index
+
+	.word	0x2000065	// type_token_id
+	.word	0x231	// java_map_index
+
+	.word	0x2000066	// type_token_id
+	.word	0x232	// java_map_index
+
+	.word	0x2000068	// type_token_id
+	.word	0x233	// java_map_index
+
+	.word	0x200006a	// type_token_id
+	.word	0x234	// java_map_index
+
+	.word	0x200006c	// type_token_id
+	.word	0x235	// java_map_index
+
+	.word	0x200006d	// type_token_id
+	.word	0x236	// java_map_index
+
+	.word	0x200006f	// type_token_id
+	.word	0x237	// java_map_index
+
+	.word	0x2000071	// type_token_id
+	.word	0x238	// java_map_index
+
+	.word	0x2000072	// type_token_id
+	.word	0x239	// java_map_index
+
+	.word	0x2000076	// type_token_id
+	.word	0x444	// java_map_index
+
+	.word	0x2000077	// type_token_id
+	.word	0x23a	// java_map_index
+
+	.word	0x2000079	// type_token_id
+	.word	0x23b	// java_map_index
+
+	.word	0x200007e	// type_token_id
+	.word	0x445	// java_map_index
+
+	.word	0x200007f	// type_token_id
+	.word	0x23c	// java_map_index
+
+	.word	0x2000081	// type_token_id
+	.word	0x23d	// java_map_index
+
+	.word	0x2000082	// type_token_id
+	.word	0x23e	// java_map_index
+
+	.word	0x2000083	// type_token_id
+	.word	0x23f	// java_map_index
+
+	.word	0x2000086	// type_token_id
+	.word	0x446	// java_map_index
+
+	.word	0x2000087	// type_token_id
+	.word	0x240	// java_map_index
+
+	.word	0x2000088	// type_token_id
+	.word	0x241	// java_map_index
+
+	.word	0x2000089	// type_token_id
+	.word	0x242	// java_map_index
+
+	.word	0x200008c	// type_token_id
+	.word	0x243	// java_map_index
+
+	.word	0x200008d	// type_token_id
+	.word	0x244	// java_map_index
+
+	.word	0x200008f	// type_token_id
+	.word	0x245	// java_map_index
+
+	.word	0x200009d	// type_token_id
+	.word	0x246	// java_map_index
+
+	.word	0x200009e	// type_token_id
+	.word	0x247	// java_map_index
+
+	.size	.L.module23_managed_to_java, 352
+
+	.section	.rodata.module23_managed_to_java_duplicates, "a", @progbits
+
+	.type	.L.module23_managed_to_java_duplicates, @object
+	.p2align	2
+.L.module23_managed_to_java_duplicates:
+	.word	0x200004e	// type_token_id
+	.word	0x221	// java_map_index
+
+	.word	0x2000050	// type_token_id
+	.word	0x225	// java_map_index
+
+	.word	0x2000053	// type_token_id
+	.word	0x223	// java_map_index
+
+	.word	0x2000055	// type_token_id
+	.word	0x224	// java_map_index
+
+	.word	0x200005a	// type_token_id
+	.word	0x229	// java_map_index
+
+	.word	0x200005f	// type_token_id
+	.word	0x22c	// java_map_index
+
+	.word	0x2000061	// type_token_id
+	.word	0x22e	// java_map_index
+
+	.word	0x2000063	// type_token_id
+	.word	0x22f	// java_map_index
+
+	.word	0x2000067	// type_token_id
+	.word	0x232	// java_map_index
+
+	.word	0x2000069	// type_token_id
+	.word	0x231	// java_map_index
+
+	.word	0x200006b	// type_token_id
+	.word	0x234	// java_map_index
+
+	.word	0x200006e	// type_token_id
+	.word	0x236	// java_map_index
+
+	.word	0x2000070	// type_token_id
+	.word	0x235	// java_map_index
+
+	.word	0x2000073	// type_token_id
+	.word	0x239	// java_map_index
+
+	.word	0x2000078	// type_token_id
+	.word	0x23a	// java_map_index
+
+	.word	0x200007a	// type_token_id
+	.word	0x23b	// java_map_index
+
+	.word	0x2000080	// type_token_id
+	.word	0x23c	// java_map_index
+
+	.word	0x2000084	// type_token_id
+	.word	0x23f	// java_map_index
+
+	.word	0x200008a	// type_token_id
+	.word	0x242	// java_map_index
+
+	.word	0x200008b	// type_token_id
+	.word	0x240	// java_map_index
+
+	.word	0x200008e	// type_token_id
+	.word	0x244	// java_map_index
+
+	.word	0x2000090	// type_token_id
+	.word	0x245	// java_map_index
+
+	.word	0x200009f	// type_token_id
+	.word	0x247	// java_map_index
+
+	.size	.L.module23_managed_to_java_duplicates, 184
+
+	.section	.rodata.module24_managed_to_java, "a", @progbits
+
+	.type	.L.module24_managed_to_java, @object
+	.p2align	2
+.L.module24_managed_to_java:
+	.word	0x2000036	// type_token_id
+	.word	0x191	// java_map_index
+
+	.word	0x2000037	// type_token_id
+	.word	0x186	// java_map_index
+
+	.word	0x2000038	// type_token_id
+	.word	0x187	// java_map_index
+
+	.word	0x2000039	// type_token_id
+	.word	0x189	// java_map_index
+
+	.word	0x200003a	// type_token_id
+	.word	0x188	// java_map_index
+
+	.word	0x200003b	// type_token_id
+	.word	0x18a	// java_map_index
+
+	.word	0x200003c	// type_token_id
+	.word	0x17d	// java_map_index
+
+	.word	0x200003d	// type_token_id
+	.word	0x17e	// java_map_index
+
+	.word	0x200003e	// type_token_id
+	.word	0x17f	// java_map_index
+
+	.word	0x2000041	// type_token_id
+	.word	0x43b	// java_map_index
+
+	.word	0x2000042	// type_token_id
+	.word	0x180	// java_map_index
+
+	.word	0x2000044	// type_token_id
+	.word	0x181	// java_map_index
+
+	.word	0x2000046	// type_token_id
+	.word	0x182	// java_map_index
+
+	.word	0x200004b	// type_token_id
+	.word	0x183	// java_map_index
+
+	.word	0x200004c	// type_token_id
+	.word	0x184	// java_map_index
+
+	.word	0x200004e	// type_token_id
+	.word	0x185	// java_map_index
+
+	.word	0x2000050	// type_token_id
+	.word	0x18b	// java_map_index
+
+	.word	0x2000051	// type_token_id
+	.word	0x18d	// java_map_index
+
+	.word	0x2000053	// type_token_id
+	.word	0x18e	// java_map_index
+
+	.word	0x2000054	// type_token_id
+	.word	0x18c	// java_map_index
+
+	.word	0x2000056	// type_token_id
+	.word	0x1a6	// java_map_index
+
+	.word	0x2000057	// type_token_id
+	.word	0x1a9	// java_map_index
+
+	.word	0x2000059	// type_token_id
+	.word	0x1a7	// java_map_index
+
+	.word	0x200005a	// type_token_id
+	.word	0x1a8	// java_map_index
+
+	.word	0x200005d	// type_token_id
+	.word	0x43c	// java_map_index
+
+	.word	0x2000060	// type_token_id
+	.word	0x19c	// java_map_index
+
+	.word	0x2000061	// type_token_id
+	.word	0x19d	// java_map_index
+
+	.word	0x2000062	// type_token_id
+	.word	0x19e	// java_map_index
+
+	.word	0x2000063	// type_token_id
+	.word	0x19f	// java_map_index
+
+	.word	0x2000064	// type_token_id
+	.word	0x1a0	// java_map_index
+
+	.word	0x2000065	// type_token_id
+	.word	0x1a1	// java_map_index
+
+	.word	0x2000067	// type_token_id
+	.word	0x1a2	// java_map_index
+
+	.word	0x2000068	// type_token_id
+	.word	0x1a3	// java_map_index
+
+	.word	0x2000069	// type_token_id
+	.word	0x1a4	// java_map_index
+
+	.word	0x200006a	// type_token_id
+	.word	0x1a5	// java_map_index
+
+	.word	0x200006b	// type_token_id
+	.word	0x192	// java_map_index
+
+	.word	0x200006c	// type_token_id
+	.word	0x193	// java_map_index
+
+	.word	0x200006f	// type_token_id
+	.word	0x194	// java_map_index
+
+	.word	0x2000070	// type_token_id
+	.word	0x195	// java_map_index
+
+	.word	0x2000072	// type_token_id
+	.word	0x198	// java_map_index
+
+	.word	0x2000074	// type_token_id
+	.word	0x197	// java_map_index
+
+	.word	0x2000076	// type_token_id
+	.word	0x19a	// java_map_index
+
+	.word	0x2000078	// type_token_id
+	.word	0x199	// java_map_index
+
+	.word	0x200007a	// type_token_id
+	.word	0x196	// java_map_index
+
+	.word	0x200007b	// type_token_id
+	.word	0x19b	// java_map_index
+
+	.size	.L.module24_managed_to_java, 360
+
+	.section	.rodata.module24_managed_to_java_duplicates, "a", @progbits
+
+	.type	.L.module24_managed_to_java_duplicates, @object
+	.p2align	2
+.L.module24_managed_to_java_duplicates:
+	.word	0x200003f	// type_token_id
+	.word	0x17f	// java_map_index
+
+	.word	0x2000043	// type_token_id
+	.word	0x180	// java_map_index
+
+	.word	0x2000045	// type_token_id
+	.word	0x181	// java_map_index
+
+	.word	0x2000047	// type_token_id
+	.word	0x182	// java_map_index
+
+	.word	0x200004a	// type_token_id
+	.word	0x17d	// java_map_index
+
+	.word	0x200004d	// type_token_id
+	.word	0x184	// java_map_index
+
+	.word	0x200004f	// type_token_id
+	.word	0x185	// java_map_index
+
+	.word	0x2000052	// type_token_id
+	.word	0x18d	// java_map_index
+
+	.word	0x2000055	// type_token_id
+	.word	0x18c	// java_map_index
+
+	.word	0x200005b	// type_token_id
+	.word	0x1a8	// java_map_index
+
+	.word	0x2000066	// type_token_id
+	.word	0x1a1	// java_map_index
+
+	.word	0x200006d	// type_token_id
+	.word	0x193	// java_map_index
+
+	.word	0x200006e	// type_token_id
+	.word	0x192	// java_map_index
+
+	.word	0x2000071	// type_token_id
+	.word	0x195	// java_map_index
+
+	.word	0x2000073	// type_token_id
+	.word	0x198	// java_map_index
+
+	.word	0x2000075	// type_token_id
+	.word	0x197	// java_map_index
+
+	.word	0x2000077	// type_token_id
+	.word	0x19a	// java_map_index
+
+	.word	0x2000079	// type_token_id
+	.word	0x199	// java_map_index
+
+	.size	.L.module24_managed_to_java_duplicates, 144
+
+	.section	.rodata.module25_managed_to_java, "a", @progbits
+
+	.type	.L.module25_managed_to_java, @object
+	.p2align	2
+.L.module25_managed_to_java:
+	.word	0x200000c	// type_token_id
+	.word	0x273	// java_map_index
+
+	.word	0x200000e	// type_token_id
+	.word	0x274	// java_map_index
+
+	.size	.L.module25_managed_to_java, 16
+
+	.section	.rodata.module26_managed_to_java, "a", @progbits
+
+	.type	.L.module26_managed_to_java, @object
+	.p2align	2
+.L.module26_managed_to_java:
 	.word	0x20000ba	// type_token_id
 	.word	0x452	// java_map_index
 
@@ -2002,13 +3301,13 @@
 	.word	0x20004d7	// type_token_id
 	.word	0x428	// java_map_index
 
-	.size	.L.module8_managed_to_java, 4584
+	.size	.L.module26_managed_to_java, 4584
 
-	.section	.rodata.module8_managed_to_java_duplicates, "a", @progbits
+	.section	.rodata.module26_managed_to_java_duplicates, "a", @progbits
 
-	.type	.L.module8_managed_to_java_duplicates, @object
+	.type	.L.module26_managed_to_java_duplicates, @object
 	.p2align	2
-.L.module8_managed_to_java_duplicates:
+.L.module26_managed_to_java_duplicates:
 	.word	0x20000bc	// type_token_id
 	.word	0x450	// java_map_index
 
@@ -2777,1321 +4076,15 @@
 	.word	0x20004c1	// type_token_id
 	.word	0x380	// java_map_index
 
-	.size	.L.module8_managed_to_java_duplicates, 2048
-
-	.section	.rodata.module9_managed_to_java, "a", @progbits
-
-	.type	.L.module9_managed_to_java, @object
-	.p2align	2
-.L.module9_managed_to_java:
-	.word	0x2000016	// type_token_id
-	.word	0x33d	// java_map_index
-
-	.size	.L.module9_managed_to_java, 8
-
-	.section	.rodata.module10_managed_to_java, "a", @progbits
-
-	.type	.L.module10_managed_to_java, @object
-	.p2align	2
-.L.module10_managed_to_java:
-	.word	0x200000a	// type_token_id
-	.word	0x170	// java_map_index
-
-	.word	0x200000d	// type_token_id
-	.word	0x173	// java_map_index
-
-	.word	0x200000f	// type_token_id
-	.word	0x171	// java_map_index
-
-	.word	0x2000011	// type_token_id
-	.word	0x172	// java_map_index
-
-	.word	0x2000012	// type_token_id
-	.word	0x174	// java_map_index
-
-	.word	0x2000014	// type_token_id
-	.word	0x175	// java_map_index
-
-	.word	0x2000017	// type_token_id
-	.word	0x43a	// java_map_index
-
-	.word	0x2000018	// type_token_id
-	.word	0x178	// java_map_index
-
-	.word	0x200001a	// type_token_id
-	.word	0x179	// java_map_index
-
-	.word	0x200001c	// type_token_id
-	.word	0x176	// java_map_index
-
-	.word	0x200001e	// type_token_id
-	.word	0x177	// java_map_index
-
-	.word	0x2000020	// type_token_id
-	.word	0x17a	// java_map_index
-
-	.word	0x2000023	// type_token_id
-	.word	0x17b	// java_map_index
-
-	.word	0x2000024	// type_token_id
-	.word	0x17c	// java_map_index
-
-	.size	.L.module10_managed_to_java, 112
-
-	.section	.rodata.module10_managed_to_java_duplicates, "a", @progbits
-
-	.type	.L.module10_managed_to_java_duplicates, @object
-	.p2align	2
-.L.module10_managed_to_java_duplicates:
-	.word	0x200000e	// type_token_id
-	.word	0x173	// java_map_index
-
-	.word	0x2000010	// type_token_id
-	.word	0x171	// java_map_index
-
-	.word	0x2000013	// type_token_id
-	.word	0x174	// java_map_index
-
-	.word	0x2000015	// type_token_id
-	.word	0x175	// java_map_index
-
-	.word	0x2000019	// type_token_id
-	.word	0x178	// java_map_index
-
-	.word	0x200001b	// type_token_id
-	.word	0x179	// java_map_index
-
-	.word	0x200001d	// type_token_id
-	.word	0x176	// java_map_index
-
-	.word	0x200001f	// type_token_id
-	.word	0x177	// java_map_index
-
-	.word	0x2000021	// type_token_id
-	.word	0x17a	// java_map_index
-
-	.word	0x2000025	// type_token_id
-	.word	0x17b	// java_map_index
-
-	.size	.L.module10_managed_to_java_duplicates, 80
-
-	.section	.rodata.module11_managed_to_java, "a", @progbits
-
-	.type	.L.module11_managed_to_java, @object
-	.p2align	2
-.L.module11_managed_to_java:
-	.word	0x2000006	// type_token_id
-	.word	0x360	// java_map_index
-
-	.word	0x2000007	// type_token_id
-	.word	0x362	// java_map_index
-
-	.word	0x200001b	// type_token_id
-	.word	0x361	// java_map_index
-
-	.word	0x200001c	// type_token_id
-	.word	0x363	// java_map_index
-
-	.size	.L.module11_managed_to_java, 32
-
-	.section	.rodata.module12_managed_to_java, "a", @progbits
-
-	.type	.L.module12_managed_to_java, @object
-	.p2align	2
-.L.module12_managed_to_java:
-	.word	0x2000008	// type_token_id
-	.word	0x190	// java_map_index
-
-	.word	0x2000009	// type_token_id
-	.word	0x18f	// java_map_index
-
-	.size	.L.module12_managed_to_java, 16
-
-	.section	.rodata.module13_managed_to_java, "a", @progbits
-
-	.type	.L.module13_managed_to_java, @object
-	.p2align	2
-.L.module13_managed_to_java:
-	.word	0x2000002	// type_token_id
-	.word	0x278	// java_map_index
-
-	.word	0x2000003	// type_token_id
-	.word	0x279	// java_map_index
-
-	.word	0x2000005	// type_token_id
-	.word	0x277	// java_map_index
-
-	.size	.L.module13_managed_to_java, 24
-
-	.section	.rodata.module14_managed_to_java, "a", @progbits
-
-	.type	.L.module14_managed_to_java, @object
-	.p2align	2
-.L.module14_managed_to_java:
-	.word	0x2000014	// type_token_id
-	.word	0x33c	// java_map_index
-
-	.word	0x2000015	// type_token_id
-	.word	0x33b	// java_map_index
-
-	.word	0x2000017	// type_token_id
-	.word	0x33a	// java_map_index
-
-	.word	0x200001e	// type_token_id
-	.word	0x371	// java_map_index
-
-	.word	0x2000020	// type_token_id
-	.word	0x370	// java_map_index
-
-	.word	0x2000027	// type_token_id
-	.word	0x35f	// java_map_index
-
-	.size	.L.module14_managed_to_java, 48
-
-	.section	.rodata.module15_managed_to_java, "a", @progbits
-
-	.type	.L.module15_managed_to_java, @object
-	.p2align	2
-.L.module15_managed_to_java:
-	.word	0x2000007	// type_token_id
-	.word	0x215	// java_map_index
-
-	.word	0x2000009	// type_token_id
-	.word	0x214	// java_map_index
-
-	.size	.L.module15_managed_to_java, 16
-
-	.section	.rodata.module15_managed_to_java_duplicates, "a", @progbits
-
-	.type	.L.module15_managed_to_java_duplicates, @object
-	.p2align	2
-.L.module15_managed_to_java_duplicates:
-	.word	0x2000008	// type_token_id
-	.word	0x215	// java_map_index
-
-	.word	0x200000a	// type_token_id
-	.word	0x214	// java_map_index
-
-	.size	.L.module15_managed_to_java_duplicates, 16
-
-	.section	.rodata.module16_managed_to_java, "a", @progbits
-
-	.type	.L.module16_managed_to_java, @object
-	.p2align	2
-.L.module16_managed_to_java:
-	.word	0x200000d	// type_token_id
-	.word	0x36a	// java_map_index
-
-	.word	0x200000e	// type_token_id
-	.word	0x36b	// java_map_index
-
-	.size	.L.module16_managed_to_java, 16
-
-	.section	.rodata.module17_managed_to_java, "a", @progbits
-
-	.type	.L.module17_managed_to_java, @object
-	.p2align	2
-.L.module17_managed_to_java:
-	.word	0x2000009	// type_token_id
-	.word	0x20e	// java_map_index
-
-	.size	.L.module17_managed_to_java, 8
-
-	.section	.rodata.module18_managed_to_java, "a", @progbits
-
-	.type	.L.module18_managed_to_java, @object
-	.p2align	2
-.L.module18_managed_to_java:
-	.word	0x2000003	// type_token_id
-	.word	0x24a	// java_map_index
-
-	.word	0x2000005	// type_token_id
-	.word	0x248	// java_map_index
-
-	.word	0x2000006	// type_token_id
-	.word	0x249	// java_map_index
-
-	.size	.L.module18_managed_to_java, 24
-
-	.section	.rodata.module18_managed_to_java_duplicates, "a", @progbits
-
-	.type	.L.module18_managed_to_java_duplicates, @object
-	.p2align	2
-.L.module18_managed_to_java_duplicates:
-	.word	0x2000004	// type_token_id
-	.word	0x24a	// java_map_index
-
-	.word	0x2000007	// type_token_id
-	.word	0x249	// java_map_index
-
-	.size	.L.module18_managed_to_java_duplicates, 16
-
-	.section	.rodata.module19_managed_to_java, "a", @progbits
-
-	.type	.L.module19_managed_to_java, @object
-	.p2align	2
-.L.module19_managed_to_java:
-	.word	0x200001b	// type_token_id
-	.word	0x24e	// java_map_index
-
-	.word	0x200001d	// type_token_id
-	.word	0x24f	// java_map_index
-
-	.word	0x200001e	// type_token_id
-	.word	0x250	// java_map_index
-
-	.word	0x2000021	// type_token_id
-	.word	0x448	// java_map_index
-
-	.word	0x2000022	// type_token_id
-	.word	0x251	// java_map_index
-
-	.word	0x2000027	// type_token_id
-	.word	0x449	// java_map_index
-
-	.word	0x2000028	// type_token_id
-	.word	0x252	// java_map_index
-
-	.size	.L.module19_managed_to_java, 56
-
-	.section	.rodata.module19_managed_to_java_duplicates, "a", @progbits
-
-	.type	.L.module19_managed_to_java_duplicates, @object
-	.p2align	2
-.L.module19_managed_to_java_duplicates:
-	.word	0x200001c	// type_token_id
-	.word	0x24e	// java_map_index
-
-	.word	0x200001f	// type_token_id
-	.word	0x250	// java_map_index
-
-	.word	0x2000023	// type_token_id
-	.word	0x251	// java_map_index
-
-	.word	0x2000029	// type_token_id
-	.word	0x252	// java_map_index
-
-	.size	.L.module19_managed_to_java_duplicates, 32
-
-	.section	.rodata.module20_managed_to_java, "a", @progbits
-
-	.type	.L.module20_managed_to_java, @object
-	.p2align	2
-.L.module20_managed_to_java:
-	.word	0x2000048	// type_token_id
-	.word	0x1c6	// java_map_index
-
-	.word	0x200004a	// type_token_id
-	.word	0x1c5	// java_map_index
-
-	.word	0x200004b	// type_token_id
-	.word	0x1c1	// java_map_index
-
-	.word	0x200004d	// type_token_id
-	.word	0x1c2	// java_map_index
-
-	.word	0x200004f	// type_token_id
-	.word	0x1bf	// java_map_index
-
-	.word	0x2000050	// type_token_id
-	.word	0x1c0	// java_map_index
-
-	.word	0x2000051	// type_token_id
-	.word	0x1ba	// java_map_index
-
-	.word	0x2000052	// type_token_id
-	.word	0x1bb	// java_map_index
-
-	.word	0x2000053	// type_token_id
-	.word	0x1bc	// java_map_index
-
-	.word	0x2000054	// type_token_id
-	.word	0x1bd	// java_map_index
-
-	.word	0x2000055	// type_token_id
-	.word	0x1be	// java_map_index
-
-	.word	0x2000056	// type_token_id
-	.word	0x1af	// java_map_index
-
-	.word	0x2000057	// type_token_id
-	.word	0x1b0	// java_map_index
-
-	.word	0x2000059	// type_token_id
-	.word	0x1b1	// java_map_index
-
-	.word	0x200005b	// type_token_id
-	.word	0x1b2	// java_map_index
-
-	.word	0x200005d	// type_token_id
-	.word	0x1b3	// java_map_index
-
-	.word	0x200005e	// type_token_id
-	.word	0x1b4	// java_map_index
-
-	.word	0x200005f	// type_token_id
-	.word	0x1b5	// java_map_index
-
-	.word	0x2000060	// type_token_id
-	.word	0x1b6	// java_map_index
-
-	.word	0x2000061	// type_token_id
-	.word	0x1b7	// java_map_index
-
-	.word	0x2000064	// type_token_id
-	.word	0x1b8	// java_map_index
-
-	.word	0x2000065	// type_token_id
-	.word	0x1b9	// java_map_index
-
-	.word	0x2000067	// type_token_id
-	.word	0x1f7	// java_map_index
-
-	.word	0x2000068	// type_token_id
-	.word	0x1f8	// java_map_index
-
-	.word	0x200006b	// type_token_id
-	.word	0x440	// java_map_index
-
-	.word	0x200006e	// type_token_id
-	.word	0x1f6	// java_map_index
-
-	.word	0x200006f	// type_token_id
-	.word	0x1f5	// java_map_index
-
-	.word	0x2000071	// type_token_id
-	.word	0x1fa	// java_map_index
-
-	.word	0x2000073	// type_token_id
-	.word	0x1fb	// java_map_index
-
-	.word	0x2000075	// type_token_id
-	.word	0x1fc	// java_map_index
-
-	.word	0x2000077	// type_token_id
-	.word	0x1f9	// java_map_index
-
-	.word	0x2000078	// type_token_id
-	.word	0x1d6	// java_map_index
-
-	.word	0x2000079	// type_token_id
-	.word	0x1c7	// java_map_index
-
-	.word	0x200007a	// type_token_id
-	.word	0x1c8	// java_map_index
-
-	.word	0x200007b	// type_token_id
-	.word	0x1c9	// java_map_index
-
-	.word	0x200007e	// type_token_id
-	.word	0x43d	// java_map_index
-
-	.word	0x200007f	// type_token_id
-	.word	0x1ca	// java_map_index
-
-	.word	0x2000082	// type_token_id
-	.word	0x43e	// java_map_index
-
-	.word	0x2000088	// type_token_id
-	.word	0x1cb	// java_map_index
-
-	.word	0x2000089	// type_token_id
-	.word	0x1cc	// java_map_index
-
-	.word	0x200008a	// type_token_id
-	.word	0x1cd	// java_map_index
-
-	.word	0x200008b	// type_token_id
-	.word	0x1d2	// java_map_index
-
-	.word	0x200008d	// type_token_id
-	.word	0x1d3	// java_map_index
-
-	.word	0x200008f	// type_token_id
-	.word	0x1d4	// java_map_index
-
-	.word	0x2000091	// type_token_id
-	.word	0x1d5	// java_map_index
-
-	.word	0x2000094	// type_token_id
-	.word	0x1d7	// java_map_index
-
-	.word	0x2000096	// type_token_id
-	.word	0x1d8	// java_map_index
-
-	.word	0x2000098	// type_token_id
-	.word	0x1d9	// java_map_index
-
-	.word	0x200009a	// type_token_id
-	.word	0x1dc	// java_map_index
-
-	.word	0x200009c	// type_token_id
-	.word	0x1dd	// java_map_index
-
-	.word	0x200009e	// type_token_id
-	.word	0x1e1	// java_map_index
-
-	.word	0x20000a0	// type_token_id
-	.word	0x1e2	// java_map_index
-
-	.word	0x20000a2	// type_token_id
-	.word	0x1e6	// java_map_index
-
-	.word	0x20000a4	// type_token_id
-	.word	0x1ce	// java_map_index
-
-	.word	0x20000a5	// type_token_id
-	.word	0x1cf	// java_map_index
-
-	.word	0x20000a7	// type_token_id
-	.word	0x1d0	// java_map_index
-
-	.word	0x20000a8	// type_token_id
-	.word	0x1d1	// java_map_index
-
-	.word	0x20000aa	// type_token_id
-	.word	0x1da	// java_map_index
-
-	.word	0x20000ab	// type_token_id
-	.word	0x1db	// java_map_index
-
-	.word	0x20000ac	// type_token_id
-	.word	0x1de	// java_map_index
-
-	.word	0x20000ad	// type_token_id
-	.word	0x1df	// java_map_index
-
-	.word	0x20000af	// type_token_id
-	.word	0x1e0	// java_map_index
-
-	.word	0x20000b0	// type_token_id
-	.word	0x1e3	// java_map_index
-
-	.word	0x20000b1	// type_token_id
-	.word	0x1e4	// java_map_index
-
-	.word	0x20000b2	// type_token_id
-	.word	0x1e5	// java_map_index
-
-	.word	0x20000b4	// type_token_id
-	.word	0x1e7	// java_map_index
-
-	.word	0x20000b5	// type_token_id
-	.word	0x1e8	// java_map_index
-
-	.word	0x20000b6	// type_token_id
-	.word	0x1e9	// java_map_index
-
-	.word	0x20000b7	// type_token_id
-	.word	0x1ea	// java_map_index
-
-	.word	0x20000ba	// type_token_id
-	.word	0x43f	// java_map_index
-
-	.word	0x20000bd	// type_token_id
-	.word	0x1eb	// java_map_index
-
-	.word	0x20000be	// type_token_id
-	.word	0x1ec	// java_map_index
-
-	.word	0x20000bf	// type_token_id
-	.word	0x1ed	// java_map_index
-
-	.word	0x20000c0	// type_token_id
-	.word	0x1ee	// java_map_index
-
-	.word	0x20000c1	// type_token_id
-	.word	0x1ef	// java_map_index
-
-	.word	0x20000c2	// type_token_id
-	.word	0x1f0	// java_map_index
-
-	.word	0x20000c3	// type_token_id
-	.word	0x1f1	// java_map_index
-
-	.word	0x20000c4	// type_token_id
-	.word	0x1f4	// java_map_index
-
-	.word	0x20000c5	// type_token_id
-	.word	0x1f3	// java_map_index
-
-	.word	0x20000c7	// type_token_id
-	.word	0x1f2	// java_map_index
-
-	.word	0x20000c9	// type_token_id
-	.word	0x1c3	// java_map_index
-
-	.word	0x20000ca	// type_token_id
-	.word	0x1c4	// java_map_index
-
-	.size	.L.module20_managed_to_java, 656
-
-	.section	.rodata.module20_managed_to_java_duplicates, "a", @progbits
-
-	.type	.L.module20_managed_to_java_duplicates, @object
-	.p2align	2
-.L.module20_managed_to_java_duplicates:
-	.word	0x2000049	// type_token_id
-	.word	0x1c6	// java_map_index
-
-	.word	0x200004c	// type_token_id
-	.word	0x1c1	// java_map_index
-
-	.word	0x200004e	// type_token_id
-	.word	0x1c2	// java_map_index
-
-	.word	0x2000058	// type_token_id
-	.word	0x1b0	// java_map_index
-
-	.word	0x200005a	// type_token_id
-	.word	0x1b1	// java_map_index
-
-	.word	0x200005c	// type_token_id
-	.word	0x1b2	// java_map_index
-
-	.word	0x2000062	// type_token_id
-	.word	0x1b7	// java_map_index
-
-	.word	0x2000063	// type_token_id
-	.word	0x1b6	// java_map_index
-
-	.word	0x2000066	// type_token_id
-	.word	0x1b9	// java_map_index
-
-	.word	0x2000069	// type_token_id
-	.word	0x1f8	// java_map_index
-
-	.word	0x2000070	// type_token_id
-	.word	0x1f5	// java_map_index
-
-	.word	0x2000072	// type_token_id
-	.word	0x1fa	// java_map_index
-
-	.word	0x2000074	// type_token_id
-	.word	0x1fb	// java_map_index
-
-	.word	0x2000076	// type_token_id
-	.word	0x1fc	// java_map_index
-
-	.word	0x200007c	// type_token_id
-	.word	0x1c9	// java_map_index
-
-	.word	0x2000080	// type_token_id
-	.word	0x1ca	// java_map_index
-
-	.word	0x2000087	// type_token_id
-	.word	0x1c8	// java_map_index
-
-	.word	0x200008c	// type_token_id
-	.word	0x1d2	// java_map_index
-
-	.word	0x200008e	// type_token_id
-	.word	0x1d3	// java_map_index
-
-	.word	0x2000090	// type_token_id
-	.word	0x1d4	// java_map_index
-
-	.word	0x2000092	// type_token_id
-	.word	0x1d5	// java_map_index
-
-	.word	0x2000093	// type_token_id
-	.word	0x1d6	// java_map_index
-
-	.word	0x2000095	// type_token_id
-	.word	0x1d7	// java_map_index
-
-	.word	0x2000097	// type_token_id
-	.word	0x1d8	// java_map_index
-
-	.word	0x2000099	// type_token_id
-	.word	0x1d9	// java_map_index
-
-	.word	0x200009b	// type_token_id
-	.word	0x1dc	// java_map_index
-
-	.word	0x200009d	// type_token_id
-	.word	0x1dd	// java_map_index
-
-	.word	0x200009f	// type_token_id
-	.word	0x1e1	// java_map_index
-
-	.word	0x20000a1	// type_token_id
-	.word	0x1e2	// java_map_index
-
-	.word	0x20000a3	// type_token_id
-	.word	0x1e6	// java_map_index
-
-	.word	0x20000a6	// type_token_id
-	.word	0x1cf	// java_map_index
-
-	.word	0x20000a9	// type_token_id
-	.word	0x1d1	// java_map_index
-
-	.word	0x20000ae	// type_token_id
-	.word	0x1df	// java_map_index
-
-	.word	0x20000b3	// type_token_id
-	.word	0x1e5	// java_map_index
-
-	.word	0x20000b8	// type_token_id
-	.word	0x1ea	// java_map_index
-
-	.word	0x20000c6	// type_token_id
-	.word	0x1f3	// java_map_index
-
-	.word	0x20000c8	// type_token_id
-	.word	0x1f2	// java_map_index
-
-	.size	.L.module20_managed_to_java_duplicates, 296
-
-	.section	.rodata.module21_managed_to_java, "a", @progbits
-
-	.type	.L.module21_managed_to_java, @object
-	.p2align	2
-.L.module21_managed_to_java:
-	.word	0x200002a	// type_token_id
-	.word	0x26b	// java_map_index
-
-	.word	0x200002b	// type_token_id
-	.word	0x26c	// java_map_index
-
-	.word	0x200002d	// type_token_id
-	.word	0x260	// java_map_index
-
-	.word	0x200002e	// type_token_id
-	.word	0x261	// java_map_index
-
-	.word	0x2000030	// type_token_id
-	.word	0x262	// java_map_index
-
-	.word	0x2000031	// type_token_id
-	.word	0x259	// java_map_index
-
-	.word	0x2000032	// type_token_id
-	.word	0x25a	// java_map_index
-
-	.word	0x2000033	// type_token_id
-	.word	0x268	// java_map_index
-
-	.word	0x2000036	// type_token_id
-	.word	0x269	// java_map_index
-
-	.word	0x2000038	// type_token_id
-	.word	0x44b	// java_map_index
-
-	.word	0x2000039	// type_token_id
-	.word	0x26a	// java_map_index
-
-	.word	0x200003b	// type_token_id
-	.word	0x44c	// java_map_index
-
-	.word	0x2000040	// type_token_id
-	.word	0x265	// java_map_index
-
-	.word	0x2000042	// type_token_id
-	.word	0x266	// java_map_index
-
-	.word	0x2000044	// type_token_id
-	.word	0x267	// java_map_index
-
-	.word	0x2000046	// type_token_id
-	.word	0x26d	// java_map_index
-
-	.word	0x2000047	// type_token_id
-	.word	0x271	// java_map_index
-
-	.word	0x2000048	// type_token_id
-	.word	0x26e	// java_map_index
-
-	.word	0x200004d	// type_token_id
-	.word	0x44d	// java_map_index
-
-	.word	0x200004e	// type_token_id
-	.word	0x26f	// java_map_index
-
-	.word	0x2000050	// type_token_id
-	.word	0x270	// java_map_index
-
-	.word	0x2000057	// type_token_id
-	.word	0x263	// java_map_index
-
-	.word	0x2000058	// type_token_id
-	.word	0x264	// java_map_index
-
-	.word	0x200005a	// type_token_id
-	.word	0x25b	// java_map_index
-
-	.word	0x200005b	// type_token_id
-	.word	0x25c	// java_map_index
-
-	.word	0x200005c	// type_token_id
-	.word	0x25d	// java_map_index
-
-	.word	0x200005d	// type_token_id
-	.word	0x25e	// java_map_index
-
-	.word	0x200005f	// type_token_id
-	.word	0x25f	// java_map_index
-
-	.word	0x2000061	// type_token_id
-	.word	0x253	// java_map_index
-
-	.word	0x2000062	// type_token_id
-	.word	0x254	// java_map_index
-
-	.word	0x2000063	// type_token_id
-	.word	0x255	// java_map_index
-
-	.word	0x2000066	// type_token_id
-	.word	0x44a	// java_map_index
-
-	.word	0x2000067	// type_token_id
-	.word	0x256	// java_map_index
-
-	.word	0x200006a	// type_token_id
-	.word	0x257	// java_map_index
-
-	.word	0x200006c	// type_token_id
-	.word	0x258	// java_map_index
-
-	.size	.L.module21_managed_to_java, 280
-
-	.section	.rodata.module21_managed_to_java_duplicates, "a", @progbits
-
-	.type	.L.module21_managed_to_java_duplicates, @object
-	.p2align	2
-.L.module21_managed_to_java_duplicates:
-	.word	0x200002c	// type_token_id
-	.word	0x26c	// java_map_index
-
-	.word	0x200002f	// type_token_id
-	.word	0x261	// java_map_index
-
-	.word	0x2000037	// type_token_id
-	.word	0x269	// java_map_index
-
-	.word	0x200003a	// type_token_id
-	.word	0x26a	// java_map_index
-
-	.word	0x2000041	// type_token_id
-	.word	0x265	// java_map_index
-
-	.word	0x2000043	// type_token_id
-	.word	0x266	// java_map_index
-
-	.word	0x2000045	// type_token_id
-	.word	0x268	// java_map_index
-
-	.word	0x2000049	// type_token_id
-	.word	0x26e	// java_map_index
-
-	.word	0x200004f	// type_token_id
-	.word	0x26f	// java_map_index
-
-	.word	0x2000059	// type_token_id
-	.word	0x264	// java_map_index
-
-	.word	0x200005e	// type_token_id
-	.word	0x25e	// java_map_index
-
-	.word	0x2000060	// type_token_id
-	.word	0x25f	// java_map_index
-
-	.word	0x2000064	// type_token_id
-	.word	0x255	// java_map_index
-
-	.word	0x200006b	// type_token_id
-	.word	0x257	// java_map_index
-
-	.size	.L.module21_managed_to_java_duplicates, 112
-
-	.section	.rodata.module22_managed_to_java, "a", @progbits
-
-	.type	.L.module22_managed_to_java, @object
-	.p2align	2
-.L.module22_managed_to_java:
-	.word	0x2000016	// type_token_id
-	.word	0x1fe	// java_map_index
-
-	.word	0x2000017	// type_token_id
-	.word	0x1ff	// java_map_index
-
-	.word	0x200001d	// type_token_id
-	.word	0x441	// java_map_index
-
-	.word	0x200001e	// type_token_id
-	.word	0x200	// java_map_index
-
-	.size	.L.module22_managed_to_java, 32
-
-	.section	.rodata.module22_managed_to_java_duplicates, "a", @progbits
-
-	.type	.L.module22_managed_to_java_duplicates, @object
-	.p2align	2
-.L.module22_managed_to_java_duplicates:
-	.word	0x2000018	// type_token_id
-	.word	0x1ff	// java_map_index
-
-	.size	.L.module22_managed_to_java_duplicates, 8
-
-	.section	.rodata.module23_managed_to_java, "a", @progbits
-
-	.type	.L.module23_managed_to_java, @object
-	.p2align	2
-.L.module23_managed_to_java:
-	.word	0x200004b	// type_token_id
-	.word	0x21f	// java_map_index
-
-	.word	0x200004c	// type_token_id
-	.word	0x220	// java_map_index
-
-	.word	0x200004d	// type_token_id
-	.word	0x221	// java_map_index
-
-	.word	0x200004f	// type_token_id
-	.word	0x225	// java_map_index
-
-	.word	0x2000051	// type_token_id
-	.word	0x222	// java_map_index
-
-	.word	0x2000052	// type_token_id
-	.word	0x223	// java_map_index
-
-	.word	0x2000054	// type_token_id
-	.word	0x224	// java_map_index
-
-	.word	0x2000056	// type_token_id
-	.word	0x226	// java_map_index
-
-	.word	0x2000057	// type_token_id
-	.word	0x227	// java_map_index
-
-	.word	0x2000058	// type_token_id
-	.word	0x228	// java_map_index
-
-	.word	0x2000059	// type_token_id
-	.word	0x229	// java_map_index
-
-	.word	0x200005b	// type_token_id
-	.word	0x22a	// java_map_index
-
-	.word	0x200005c	// type_token_id
-	.word	0x22b	// java_map_index
-
-	.word	0x200005d	// type_token_id
-	.word	0x22c	// java_map_index
-
-	.word	0x200005e	// type_token_id
-	.word	0x22d	// java_map_index
-
-	.word	0x2000060	// type_token_id
-	.word	0x22e	// java_map_index
-
-	.word	0x2000062	// type_token_id
-	.word	0x22f	// java_map_index
-
-	.word	0x2000064	// type_token_id
-	.word	0x230	// java_map_index
-
-	.word	0x2000065	// type_token_id
-	.word	0x231	// java_map_index
-
-	.word	0x2000066	// type_token_id
-	.word	0x232	// java_map_index
-
-	.word	0x2000068	// type_token_id
-	.word	0x233	// java_map_index
-
-	.word	0x200006a	// type_token_id
-	.word	0x234	// java_map_index
-
-	.word	0x200006c	// type_token_id
-	.word	0x235	// java_map_index
-
-	.word	0x200006d	// type_token_id
-	.word	0x236	// java_map_index
-
-	.word	0x200006f	// type_token_id
-	.word	0x237	// java_map_index
-
-	.word	0x2000071	// type_token_id
-	.word	0x238	// java_map_index
-
-	.word	0x2000072	// type_token_id
-	.word	0x239	// java_map_index
-
-	.word	0x2000076	// type_token_id
-	.word	0x444	// java_map_index
-
-	.word	0x2000077	// type_token_id
-	.word	0x23a	// java_map_index
-
-	.word	0x2000079	// type_token_id
-	.word	0x23b	// java_map_index
-
-	.word	0x200007e	// type_token_id
-	.word	0x445	// java_map_index
-
-	.word	0x200007f	// type_token_id
-	.word	0x23c	// java_map_index
-
-	.word	0x2000081	// type_token_id
-	.word	0x23d	// java_map_index
-
-	.word	0x2000082	// type_token_id
-	.word	0x23e	// java_map_index
-
-	.word	0x2000083	// type_token_id
-	.word	0x23f	// java_map_index
-
-	.word	0x2000086	// type_token_id
-	.word	0x446	// java_map_index
-
-	.word	0x2000087	// type_token_id
-	.word	0x240	// java_map_index
-
-	.word	0x2000088	// type_token_id
-	.word	0x241	// java_map_index
-
-	.word	0x2000089	// type_token_id
-	.word	0x242	// java_map_index
-
-	.word	0x200008c	// type_token_id
-	.word	0x243	// java_map_index
-
-	.word	0x200008d	// type_token_id
-	.word	0x244	// java_map_index
-
-	.word	0x200008f	// type_token_id
-	.word	0x245	// java_map_index
-
-	.word	0x200009d	// type_token_id
-	.word	0x246	// java_map_index
-
-	.word	0x200009e	// type_token_id
-	.word	0x247	// java_map_index
-
-	.size	.L.module23_managed_to_java, 352
-
-	.section	.rodata.module23_managed_to_java_duplicates, "a", @progbits
-
-	.type	.L.module23_managed_to_java_duplicates, @object
-	.p2align	2
-.L.module23_managed_to_java_duplicates:
-	.word	0x200004e	// type_token_id
-	.word	0x221	// java_map_index
-
-	.word	0x2000050	// type_token_id
-	.word	0x225	// java_map_index
-
-	.word	0x2000053	// type_token_id
-	.word	0x223	// java_map_index
-
-	.word	0x2000055	// type_token_id
-	.word	0x224	// java_map_index
-
-	.word	0x200005a	// type_token_id
-	.word	0x229	// java_map_index
-
-	.word	0x200005f	// type_token_id
-	.word	0x22c	// java_map_index
-
-	.word	0x2000061	// type_token_id
-	.word	0x22e	// java_map_index
-
-	.word	0x2000063	// type_token_id
-	.word	0x22f	// java_map_index
-
-	.word	0x2000067	// type_token_id
-	.word	0x232	// java_map_index
-
-	.word	0x2000069	// type_token_id
-	.word	0x231	// java_map_index
-
-	.word	0x200006b	// type_token_id
-	.word	0x234	// java_map_index
-
-	.word	0x200006e	// type_token_id
-	.word	0x236	// java_map_index
-
-	.word	0x2000070	// type_token_id
-	.word	0x235	// java_map_index
-
-	.word	0x2000073	// type_token_id
-	.word	0x239	// java_map_index
-
-	.word	0x2000078	// type_token_id
-	.word	0x23a	// java_map_index
-
-	.word	0x200007a	// type_token_id
-	.word	0x23b	// java_map_index
-
-	.word	0x2000080	// type_token_id
-	.word	0x23c	// java_map_index
-
-	.word	0x2000084	// type_token_id
-	.word	0x23f	// java_map_index
-
-	.word	0x200008a	// type_token_id
-	.word	0x242	// java_map_index
-
-	.word	0x200008b	// type_token_id
-	.word	0x240	// java_map_index
-
-	.word	0x200008e	// type_token_id
-	.word	0x244	// java_map_index
-
-	.word	0x2000090	// type_token_id
-	.word	0x245	// java_map_index
-
-	.word	0x200009f	// type_token_id
-	.word	0x247	// java_map_index
-
-	.size	.L.module23_managed_to_java_duplicates, 184
-
-	.section	.rodata.module24_managed_to_java, "a", @progbits
-
-	.type	.L.module24_managed_to_java, @object
-	.p2align	2
-.L.module24_managed_to_java:
-	.word	0x2000036	// type_token_id
-	.word	0x191	// java_map_index
-
-	.word	0x2000037	// type_token_id
-	.word	0x186	// java_map_index
-
-	.word	0x2000038	// type_token_id
-	.word	0x187	// java_map_index
-
-	.word	0x2000039	// type_token_id
-	.word	0x189	// java_map_index
-
-	.word	0x200003a	// type_token_id
-	.word	0x188	// java_map_index
-
-	.word	0x200003b	// type_token_id
-	.word	0x18a	// java_map_index
-
-	.word	0x200003c	// type_token_id
-	.word	0x17d	// java_map_index
-
-	.word	0x200003d	// type_token_id
-	.word	0x17e	// java_map_index
-
-	.word	0x200003e	// type_token_id
-	.word	0x17f	// java_map_index
-
-	.word	0x2000041	// type_token_id
-	.word	0x43b	// java_map_index
-
-	.word	0x2000042	// type_token_id
-	.word	0x180	// java_map_index
-
-	.word	0x2000044	// type_token_id
-	.word	0x181	// java_map_index
-
-	.word	0x2000046	// type_token_id
-	.word	0x182	// java_map_index
-
-	.word	0x200004b	// type_token_id
-	.word	0x183	// java_map_index
-
-	.word	0x200004c	// type_token_id
-	.word	0x184	// java_map_index
-
-	.word	0x200004e	// type_token_id
-	.word	0x185	// java_map_index
-
-	.word	0x2000050	// type_token_id
-	.word	0x18b	// java_map_index
-
-	.word	0x2000051	// type_token_id
-	.word	0x18d	// java_map_index
-
-	.word	0x2000053	// type_token_id
-	.word	0x18e	// java_map_index
-
-	.word	0x2000054	// type_token_id
-	.word	0x18c	// java_map_index
-
-	.word	0x2000056	// type_token_id
-	.word	0x1a6	// java_map_index
-
-	.word	0x2000057	// type_token_id
-	.word	0x1a9	// java_map_index
-
-	.word	0x2000059	// type_token_id
-	.word	0x1a7	// java_map_index
-
-	.word	0x200005a	// type_token_id
-	.word	0x1a8	// java_map_index
-
-	.word	0x200005d	// type_token_id
-	.word	0x43c	// java_map_index
-
-	.word	0x2000060	// type_token_id
-	.word	0x19c	// java_map_index
-
-	.word	0x2000061	// type_token_id
-	.word	0x19d	// java_map_index
-
-	.word	0x2000062	// type_token_id
-	.word	0x19e	// java_map_index
-
-	.word	0x2000063	// type_token_id
-	.word	0x19f	// java_map_index
-
-	.word	0x2000064	// type_token_id
-	.word	0x1a0	// java_map_index
-
-	.word	0x2000065	// type_token_id
-	.word	0x1a1	// java_map_index
-
-	.word	0x2000067	// type_token_id
-	.word	0x1a2	// java_map_index
-
-	.word	0x2000068	// type_token_id
-	.word	0x1a3	// java_map_index
-
-	.word	0x2000069	// type_token_id
-	.word	0x1a4	// java_map_index
-
-	.word	0x200006a	// type_token_id
-	.word	0x1a5	// java_map_index
-
-	.word	0x200006b	// type_token_id
-	.word	0x192	// java_map_index
-
-	.word	0x200006c	// type_token_id
-	.word	0x193	// java_map_index
-
-	.word	0x200006f	// type_token_id
-	.word	0x194	// java_map_index
-
-	.word	0x2000070	// type_token_id
-	.word	0x195	// java_map_index
-
-	.word	0x2000072	// type_token_id
-	.word	0x198	// java_map_index
-
-	.word	0x2000074	// type_token_id
-	.word	0x197	// java_map_index
-
-	.word	0x2000076	// type_token_id
-	.word	0x19a	// java_map_index
-
-	.word	0x2000078	// type_token_id
-	.word	0x199	// java_map_index
-
-	.word	0x200007a	// type_token_id
-	.word	0x196	// java_map_index
-
-	.word	0x200007b	// type_token_id
-	.word	0x19b	// java_map_index
-
-	.size	.L.module24_managed_to_java, 360
-
-	.section	.rodata.module24_managed_to_java_duplicates, "a", @progbits
-
-	.type	.L.module24_managed_to_java_duplicates, @object
-	.p2align	2
-.L.module24_managed_to_java_duplicates:
-	.word	0x200003f	// type_token_id
-	.word	0x17f	// java_map_index
-
-	.word	0x2000043	// type_token_id
-	.word	0x180	// java_map_index
-
-	.word	0x2000045	// type_token_id
-	.word	0x181	// java_map_index
-
-	.word	0x2000047	// type_token_id
-	.word	0x182	// java_map_index
-
-	.word	0x200004a	// type_token_id
-	.word	0x17d	// java_map_index
-
-	.word	0x200004d	// type_token_id
-	.word	0x184	// java_map_index
-
-	.word	0x200004f	// type_token_id
-	.word	0x185	// java_map_index
-
-	.word	0x2000052	// type_token_id
-	.word	0x18d	// java_map_index
-
-	.word	0x2000055	// type_token_id
-	.word	0x18c	// java_map_index
-
-	.word	0x200005b	// type_token_id
-	.word	0x1a8	// java_map_index
-
-	.word	0x2000066	// type_token_id
-	.word	0x1a1	// java_map_index
-
-	.word	0x200006d	// type_token_id
-	.word	0x193	// java_map_index
-
-	.word	0x200006e	// type_token_id
-	.word	0x192	// java_map_index
-
-	.word	0x2000071	// type_token_id
-	.word	0x195	// java_map_index
-
-	.word	0x2000073	// type_token_id
-	.word	0x198	// java_map_index
-
-	.word	0x2000075	// type_token_id
-	.word	0x197	// java_map_index
-
-	.word	0x2000077	// type_token_id
-	.word	0x19a	// java_map_index
-
-	.word	0x2000079	// type_token_id
-	.word	0x199	// java_map_index
-
-	.size	.L.module24_managed_to_java_duplicates, 144
-
-	.section	.rodata.module25_managed_to_java, "a", @progbits
-
-	.type	.L.module25_managed_to_java, @object
-	.p2align	2
-.L.module25_managed_to_java:
-	.word	0x200000c	// type_token_id
-	.word	0x273	// java_map_index
-
-	.word	0x200000e	// type_token_id
-	.word	0x274	// java_map_index
-
-	.size	.L.module25_managed_to_java, 16
-
-	.section	.rodata.module26_managed_to_java, "a", @progbits
-
-	.type	.L.module26_managed_to_java, @object
-	.p2align	2
-.L.module26_managed_to_java:
-	.word	0x2000003	// type_token_id
-	.word	0x272	// java_map_index
-
-	.size	.L.module26_managed_to_java, 8
-
-	.section	.rodata.module26_managed_to_java_duplicates, "a", @progbits
-
-	.type	.L.module26_managed_to_java_duplicates, @object
-	.p2align	2
-.L.module26_managed_to_java_duplicates:
-	.word	0x2000004	// type_token_id
-	.word	0x272	// java_map_index
-
-	.size	.L.module26_managed_to_java_duplicates, 8
+	.size	.L.module26_managed_to_java_duplicates, 2048
 
 	.section	.rodata.module27_managed_to_java, "a", @progbits
 
 	.type	.L.module27_managed_to_java, @object
 	.p2align	2
 .L.module27_managed_to_java:
-	.word	0x2000004	// type_token_id
-	.word	0x1fd	// java_map_index
+	.word	0x2000003	// type_token_id
+	.word	0x272	// java_map_index
 
 	.size	.L.module27_managed_to_java, 8
 
@@ -4100,8 +4093,8 @@
 	.type	.L.module27_managed_to_java_duplicates, @object
 	.p2align	2
 .L.module27_managed_to_java_duplicates:
-	.word	0x2000005	// type_token_id
-	.word	0x1fd	// java_map_index
+	.word	0x2000004	// type_token_id
+	.word	0x272	// java_map_index
 
 	.size	.L.module27_managed_to_java_duplicates, 8
 
@@ -4110,6 +4103,26 @@
 	.type	.L.module28_managed_to_java, @object
 	.p2align	2
 .L.module28_managed_to_java:
+	.word	0x2000004	// type_token_id
+	.word	0x1fd	// java_map_index
+
+	.size	.L.module28_managed_to_java, 8
+
+	.section	.rodata.module28_managed_to_java_duplicates, "a", @progbits
+
+	.type	.L.module28_managed_to_java_duplicates, @object
+	.p2align	2
+.L.module28_managed_to_java_duplicates:
+	.word	0x2000005	// type_token_id
+	.word	0x1fd	// java_map_index
+
+	.size	.L.module28_managed_to_java_duplicates, 8
+
+	.section	.rodata.module29_managed_to_java, "a", @progbits
+
+	.type	.L.module29_managed_to_java, @object
+	.p2align	2
+.L.module29_managed_to_java:
 	.word	0x2000027	// type_token_id
 	.word	0x1ab	// java_map_index
 
@@ -4122,33 +4135,20 @@
 	.word	0x200002c	// type_token_id
 	.word	0x1ae	// java_map_index
 
-	.size	.L.module28_managed_to_java, 32
+	.size	.L.module29_managed_to_java, 32
 
-	.section	.rodata.module28_managed_to_java_duplicates, "a", @progbits
+	.section	.rodata.module29_managed_to_java_duplicates, "a", @progbits
 
-	.type	.L.module28_managed_to_java_duplicates, @object
+	.type	.L.module29_managed_to_java_duplicates, @object
 	.p2align	2
-.L.module28_managed_to_java_duplicates:
+.L.module29_managed_to_java_duplicates:
 	.word	0x2000029	// type_token_id
 	.word	0x1ac	// java_map_index
 
 	.word	0x200002b	// type_token_id
 	.word	0x1ad	// java_map_index
 
-	.size	.L.module28_managed_to_java_duplicates, 16
-
-	.section	.rodata.module29_managed_to_java, "a", @progbits
-
-	.type	.L.module29_managed_to_java, @object
-	.p2align	2
-.L.module29_managed_to_java:
-	.word	0x2000002	// type_token_id
-	.word	0x352	// java_map_index
-
-	.word	0x2000003	// type_token_id
-	.word	0x353	// java_map_index
-
-	.size	.L.module29_managed_to_java, 16
+	.size	.L.module29_managed_to_java_duplicates, 16
 
 	.section	.rodata.module30_managed_to_java, "a", @progbits
 

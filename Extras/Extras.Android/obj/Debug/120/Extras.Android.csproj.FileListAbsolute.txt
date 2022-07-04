@@ -736,3 +736,13 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\s
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\res\mipmap-anydpi-v26\logo.png
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\res\mipmap-mdpi\logo.png
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\res\mipmap-xhdpi\logo.png
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\res\mipmap-xxhdpi\logo.png
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\res\mipmap-xxxhdpi\logo.png
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\res\mipmap-hdpi\logo_transparent.png
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\res\mipmap-mdpi\logo_transparent.png
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\res\mipmap-xhdpi\logo_transparent.png
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\res\mipmap-xxhdpi\logo_transparent.png
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\res\mipmap-xxxhdpi\logo_transparent.png

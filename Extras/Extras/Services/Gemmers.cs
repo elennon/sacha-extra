@@ -44,7 +44,7 @@ namespace Extras.Services
 
 
             // Write title to Excel cell.
-            var range = worksheet.Cells.GetSubrange("A1:F1");
+            var range = worksheet.Cells.GetSubrange("A1:G1");
             range.Merged = true;
 
             range.Value = App.Database.GetCurrentProjectAsync().Result.ProjectName +  " - Dayworks";

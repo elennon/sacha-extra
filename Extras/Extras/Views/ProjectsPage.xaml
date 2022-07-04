@@ -57,12 +57,12 @@
             <StackLayout Orientation="Horizontal">
                 <Label Text="Site" HeightRequest="60" VerticalTextAlignment="Center" />
                 <Editor Placeholder="Project Name" x:Name="siteName" HeightRequest="60" 
-                        HorizontalOptions="CenterAndExpand" Text="Intel"  WidthRequest="200"/>
+                        HorizontalOptions="CenterAndExpand"  WidthRequest="200"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Address" HeightRequest="60" VerticalTextAlignment="Center" />
                 <Editor Placeholder="Site area" x:Name="siteAddress" HeightRequest="60" 
-                        HorizontalOptions="CenterAndExpand" Text="Roof"  WidthRequest="200"/>
+                        HorizontalOptions="CenterAndExpand"  WidthRequest="200"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Set as current Project" HeightRequest="60" VerticalTextAlignment="Center" />

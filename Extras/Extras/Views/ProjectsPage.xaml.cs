@@ -27,7 +27,14 @@ namespace Extras.Views
             BindingContext = projs;
             prjsView.ItemsSource = projs;
         }
-
+        //protected override async void OnDisappearing()
+        //{
+        //    var currentProject = await App.Database.GetCurrentProjectAsync();
+        //    if (currentProject == null)
+        //    {
+        //        await DisplayAlert("Alert", "There is no project selected as current project. Please add a project and set it as current project.", "OK");
+        //    }
+        //}
 
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
@@ -45,9 +52,15 @@ namespace Extras.Views
                 {
                     prjs.ForEach(x => setToUnChecked(x));
                 }
+                if (projs.Count == 0)
+                {
+                    prj.IsCurrent = true;
+                    prj.IsChecked = true;
+                }
                 var iid = App.Database.SaveProjectAsync(prj);
                 projs.Clear();
                 prjs.ForEach(x => projs.Add(x));
+                
                 projs.Add(prj);
                 await DisplayAlert("Saved", "", "OK");
             }

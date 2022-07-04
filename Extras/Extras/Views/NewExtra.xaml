@@ -52,8 +52,8 @@
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Area" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Site area" x:Name="siteArea" HeightRequest="60" 
-                        HorizontalOptions="CenterAndExpand" Text="Roof"  WidthRequest="200"/>
+                <Editor Placeholder="Site area" x:Name="siteArea" HeightRequest="60" Text="bla"
+                        HorizontalOptions="CenterAndExpand"  WidthRequest="200"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Date" HeightRequest="60" VerticalTextAlignment="Center" />
@@ -63,23 +63,23 @@
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Men" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Number of men" x:Name="menNo" HeightRequest="60" Text="2"
+                <Editor Placeholder="Number of men" x:Name="menNo" HeightRequest="60" Text="3"
                         HorizontalOptions="CenterAndExpand" WidthRequest="200"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HeightRequest="200">
                 <Label Text="Desc." HeightRequest="60" VerticalTextAlignment="Start" />
-                <Editor Placeholder="description" x:Name="description" HeightRequest="60" WidthRequest="200" Text="Joe laid an egg"
+                <Editor Placeholder="description" x:Name="description" HeightRequest="60" WidthRequest="200" Text="bla"
                         AutoSize="TextChanges" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Hours" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Hours" x:Name="hours" HeightRequest="60" WidthRequest="200" Text="6"
+                <Editor Placeholder="Hours" x:Name="hours" HeightRequest="60" WidthRequest="200" Text="3"
                         HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Rate" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Rate" x:Name="rate" HeightRequest="60" WidthRequest="200" 
-                        HorizontalOptions="CenterAndExpand" Text="18" />
+                <Editor Placeholder="Rate" x:Name="rate" HeightRequest="60" WidthRequest="200" Text="3"
+                        HorizontalOptions="CenterAndExpand" />
             </StackLayout>
 
             <StackLayout>

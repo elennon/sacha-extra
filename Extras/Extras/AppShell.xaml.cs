@@ -14,6 +14,7 @@ namespace Extras
             Routing.RegisterRoute(nameof(CloseUp), typeof(CloseUp));
             Routing.RegisterRoute(nameof(ProjectsPage), typeof(ProjectsPage));
             Routing.RegisterRoute(nameof(UserLogin), typeof(UserLogin));
+            Routing.RegisterRoute(nameof(ViewBatchContent), typeof(ViewBatchContent));
         }
 
     }

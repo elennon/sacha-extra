@@ -5,11 +5,11 @@
              xmlns:vm="clr-namespace:Extras.Views"
              Title="About">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Clear db"
-                     Clicked="ToolbarItem_Clicked" />
+        <!--<ToolbarItem Text="Clear db"
+                     Clicked="ToolbarItem_Clicked" />-->
     </ContentPage.ToolbarItems>
     <StackLayout>
-        <Label Text="This an app to record any extras that build up on a job site. &#10;Photos can be added to the extra. When you want to send them off fill in an email address, subject and email body. &#10;Click send and an excel sheet along with a zip file of the photos will be sent to that email."
+        <Label Text="This an app to record any day work extras that build up on a job site. &#10;Photos can be added to the extra. When you want to send them off fill in an email address, subject and email body. &#10;Click send and an excel sheet along with a zip file of the photos will be sent to that email."
                 VerticalOptions="StartAndExpand"  FontSize="Medium" Margin="40" 
                 HorizontalOptions="CenterAndExpand" />
         

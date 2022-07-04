@@ -14,7 +14,7 @@ namespace Extras.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.3.0.26")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.3.3.31")]
 	public partial class Resource
 	{
 		
@@ -25106,6 +25106,12 @@ namespace Extras.Droid
 			
 			// aapt resource value: 0x7F0C0002
 			public const int launcher_foreground = 2131492866;
+			
+			// aapt resource value: 0x7F0C0003
+			public const int logo = 2131492867;
+			
+			// aapt resource value: 0x7F0C0004
+			public const int logo_transparent = 2131492868;
 			
 			static Mipmap()
 			{

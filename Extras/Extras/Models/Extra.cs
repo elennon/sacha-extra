@@ -20,7 +20,7 @@ namespace Extras.Models
         public double Rate { get; set; }
         public Nullable<System.DateTime> Date { get; set; }
 
-        //public List<string> Images { get; set; }
+        public bool WasSent { get; set; }
 
         public double LaborCost
         {

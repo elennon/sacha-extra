@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 using Extras.Services;
 using Plugin.Permissions.Abstractions;
 using System.Reflection;
+using System.IO.Compression;
 
 namespace Extras.Views
 {
@@ -18,6 +19,7 @@ namespace Extras.Views
     {
 
         private Project currentProject = new Project();
+        private string AppFolder => Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
         public List<string> Pics { get; set; }
         public NewExtra()
         {
@@ -33,7 +35,8 @@ namespace Extras.Views
             currentProject = await App.Database.GetCurrentProjectAsync();
             if (currentProject == null)
             {
-                await DisplayAlert("Alert", "There is no project selected as current project. Please add a project and set it as current project.", "OK");
+                await DisplayAlert("", "There is no project selected as current project. Please add a project and set it as current project.", "OK");
+                await Shell.Current.GoToAsync(nameof(ProjectsPage));
             }
             else
             {
@@ -55,32 +58,68 @@ namespace Extras.Views
                 ext.JobSite = siteName.Text;
                 ext.SiteArea = siteArea.Text;
                 ext.ProjectId = currentProject.MyId;
+                ext.WasSent = false;
 
-                var iid = App.Database.SaveExtraAsync(ext);
-                if (Pics != null)
+                var extrs = await App.Database.GetExtrasAsync(currentProject.MyId);
+                var tooBig = await CheckPhotosSize(extrs.FindAll(x => x.WasSent == false));
+                if (tooBig)
                 {
-                    var piks = getPics(Pics);
-                    int counter = 0;
-                    foreach (var pik in piks.Item1)
+                    await DisplayAlert("Not Saved", "You need to go to 'Veiw ready to send' and send off that list before adding any more because the images zip file will be too big to email.", "OK");
+                }
+                else
+                {
+                    var iid = App.Database.SaveExtraAsync(ext);
+                    if (Pics != null)
                     {
-                        Pics pc = new Pics
+                        var piks = getPics(Pics);
+                        int counter = 0;
+                        foreach (var pik in piks.Item1)
                         {
-                            Pic = pik,
-                            ExtraId = ext.MyId,
-                            FileName = piks.Item2[counter]
-                        };
-                        await App.Database.SavePicAsync(pc);
-                        counter++;
+                            Pics pc = new Pics
+                            {
+                                //Pic = pik,
+                                ExtraId = ext.MyId,
+                                FileName = piks.Item2[counter]
+                            };
+                            await App.Database.SavePicAsync(pc);
+                            counter++;
+                        }
                     }
-                }               
-                await DisplayAlert("Saved", "", "OK");
+                    await DisplayAlert("Saved", "", "OK");
+                }                
             }
             catch (Exception)
             {
                 await DisplayAlert("Alert", "Exception: " + e.ToString(), "OK");
             }
         }
-
+        private async Task<bool> CheckPhotosSize(List<Extra> extrs)
+        {           
+            Environment.SetEnvironmentVariable("MONO_URI_DOTNETRELATIVEORABSOLUTE", "true");
+            var zipFile = Path.Combine(AppFolder, @"temp.zip");
+            if (File.Exists(zipFile)) { File.Delete(zipFile); }
+            using (var archive = ZipFile.Open(zipFile, ZipArchiveMode.Create))
+            {
+                int count = 0;
+                foreach (var ext in extrs)
+                {
+                    var phts = await App.Database.GetPicsAsync(ext.MyId);
+                    foreach (var pc in phts)
+                    {
+                        var et = pc.FileName.Split('.');
+                        var nme = "tmp" + count.ToString() + "." + et[et.Length - 1];
+                        archive.CreateEntryFromFile(pc.FileName, nme);
+                        count++;
+                    }
+                }
+            }
+            var fi = new FileInfo(zipFile);
+            if (fi.Length > 24000000)
+            {
+                return true;
+            }
+            return false;
+        }
         private (List<byte[]>, List<string>) getPics(List<string> pics)
         {
             List<string> fnames = new List<string>();
@@ -121,9 +160,11 @@ namespace Extras.Views
                         if (images.Count > 0)
                         {
                             //Pics = images;
-                            var compressed = CompressAllImages(images);
-                            Pics = compressed;
-                            ImgCarouselView.ItemsSource = compressed;
+                            //var compressed = CompressAllImages(images);
+                            //Pics = compressed;
+                            //ImgCarouselView.ItemsSource = compressed;
+                            Pics = images;
+                            ImgCarouselView.ItemsSource = images;
                         }
                     });
                 }
@@ -162,69 +203,6 @@ namespace Extras.Views
             }
             return allBytees;
         }
-        //private async void UploadImagesButton_Clicked(object sender, EventArgs e)
-        //{
-        //    // Get the list of images we have selected.
-        //    List<string> imagePaths = ImgCarouselView.ItemsSource as List<string>;
-
-        //    // If user is using Android, compress the images. (Optional)
-        //    if (Device.RuntimePlatform == Device.Android)
-        //    {
-        //        imagePaths = CompressAllImages(imagePaths);
-        //    }
-
-        //    // Retrieve storage account from connection string.
-        //    CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=your_account_name_here;AccountKey=your_account_key_here");
-
-        //    // Create the blob client.
-        //    CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
-
-        //    // Retrieve reference to a previously created container.
-        //    CloudBlobContainer container = blobClient.GetContainerReference("multiimagepickercontainer");
-
-        //    // Create the container if it doesn't already exist.
-        //    await container.CreateIfNotExistsAsync();
-
-        //    // Set the container access permissions (Optional)
-        //    BlobContainerPermissions blobPermissions = new BlobContainerPermissions();
-        //    blobPermissions.PublicAccess = BlobContainerPublicAccessType.Blob;
-        //    await container.SetPermissionsAsync(blobPermissions);
-
-        //    // Change info text. (Optional)
-        //    InfoText.Text = "Uploading to Azure Blob Storage...";
-
-        //    // Upload all the selected images to Azure Blob Storage.
-        //    int count = 1;
-        //    foreach (string img in imagePaths)
-        //    {
-        //        // Retrieve reference to a blob named "newphoto#.jpg".
-        //        CloudBlockBlob blockBlob = container.GetBlockBlobReference("newphoto" + count + ".jpg");
-
-        //        // Create the "newphoto#.jpg" blob with the current image in our list.
-        //        await blockBlob.UploadFromFileAsync(img);
-
-        //        count++;
-        //    }
-
-        //    // Change info text. (Optional)
-        //    InfoText.Text = "Upload complete.";
-
-        //    // Clear temp files after upload.
-        //    if (Device.RuntimePlatform == Device.Android)
-        //    {
-        //        DependencyService.Get<IMediaService>().ClearFileDirectory();
-        //    }
-        //    if (Device.RuntimePlatform == Device.iOS)
-        //    {
-        //        GMMultiImagePicker.Current.ClearFileDirectory();
-        //    }
-        //}
-
-        ///// <summary>
-        /////     Compress Android images before uploading them to Azure Blob Storage.
-        ///// </summary>
-        ///// <param name="totalImages"></param>
-        ///// <returns></returns>
         private List<string> CompressAllImages(List<string> totalImages)
         {
             int displayCount = 1;

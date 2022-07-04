@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Extras.Views.ViewBatchContent"
+             Title="Previous Batch">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="label1" FontSize="Medium"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <CollectionView x:Name="collectionView" SelectionMode="Single" 
+                    Margin="20" SelectionChanged="collectionView_SelectionChanged">
+
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical"
+                               ItemSpacing="10" />
+                </CollectionView.ItemsLayout>
+                <!-- Define the appearance of each item in the list -->
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding MyId}" IsVisible="false"  FontSize="Small"/>
+                            <Label Text="{Binding JobSite}" FontSize="Small"/>
+                            <Label Text="{Binding SiteArea}" FontSize="Small"/>
+                            <Label Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}" FontSize="Small"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

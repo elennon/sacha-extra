@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using CarouselView.FormsPlugin.iOS;
+using FFImageLoading;
+using FFImageLoading.Forms.Platform;
 using Foundation;
 using UIKit;
 
@@ -23,6 +25,16 @@ namespace Extras.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            //NuGet Initializations
+            CarouselViewRenderer.Init();
+            CachedImageRenderer.Init();
+            var config = new FFImageLoading.Config.Configuration()
+            {
+                MaxMemoryCacheSize = (int)(NSProcessInfo.ProcessInfo.PhysicalMemory * 0.0001d),
+                ClearMemoryCacheOnOutOfMemory = true,
+                DiskCacheDuration = TimeSpan.FromSeconds(2)
+            };
+            ImageService.Instance.Initialize(config);
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

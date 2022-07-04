@@ -53,7 +53,7 @@
 	.zero	3
 	.quad	.L.compressed_assembly_data.8	# data
 
-	.long	0x1c000	# uncompressed_file_size
+	.long	0x1ea00	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.quad	.L.compressed_assembly_data.9	# data
@@ -183,7 +183,7 @@
 	.zero	3
 	.quad	.L.compressed_assembly_data.34	# data
 
-	.long	0x3990	# uncompressed_file_size
+	.long	0x39a8	# uncompressed_file_size
 	.byte	0x0	# loaded
 	.zero	3
 	.quad	.L.compressed_assembly_data.35	# data
@@ -398,7 +398,7 @@
 	.section	.data, "aw", @progbits
 
 	#
-	# Generated from instance of: Xamarin.Android.Tasks.CompressedAssembliesNativeAssemblyGenerator+CompressedAssemblies, Xamarin.Android.Build.Tasks, Version=12.3.0.26, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
+	# Generated from instance of: Xamarin.Android.Tasks.CompressedAssembliesNativeAssemblyGenerator+CompressedAssemblies, Xamarin.Android.Build.Tasks, Version=12.3.3.31, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
 	#
 	.type	compressed_assemblies, @object
 	.global	compressed_assemblies
@@ -411,4 +411,4 @@ compressed_assemblies:
 	.quad	.L.compressed_assembly_descriptors.0	# descriptors
 	.size	compressed_assemblies, 16
 
-	.ident	"Xamarin.Android remotes/origin/d17-2 @ bbba5a21f3b649a761b22d83959758b4d30df672"
+	.ident	"Xamarin.Android remotes/origin/d17-2 @ 4e061b739747f624ccb03c98940d8900548a98ad"
