@@ -154,6 +154,10 @@ namespace Extras.Views
         }
         private async void sendAsEmailClicked(object sender, EventArgs e)
         {
+            if (subject.Text == null || emailto.Text == null || body.Text == null)
+            {
+                await DisplayAlert("Alert", "Please fill in email address, subject and body", "OK");
+            }
             SetPw("EmailSubject", subject.Text).Wait();
             SetPw("EmailBody", body.Text).Wait();
             if (extrs.Count != 0)

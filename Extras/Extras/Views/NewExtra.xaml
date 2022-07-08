@@ -63,7 +63,7 @@
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Men" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Number of men" x:Name="menNo" HeightRequest="60"
+                <Editor Placeholder="Number of men" x:Name="menNo" HeightRequest="60" Keyboard="Numeric"
                         HorizontalOptions="CenterAndExpand" WidthRequest="200"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HeightRequest="200">
@@ -74,12 +74,12 @@
             <StackLayout Orientation="Horizontal">
                 <Label Text="Hours" HeightRequest="60" VerticalTextAlignment="Center" />
                 <Editor Placeholder="Hours" x:Name="hours" HeightRequest="60" WidthRequest="200"
-                        HorizontalOptions="CenterAndExpand"/>
+                        HorizontalOptions="CenterAndExpand" Keyboard="Numeric"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Rate" HeightRequest="60" VerticalTextAlignment="Center" />
                 <Editor Placeholder="Rate" x:Name="rate" HeightRequest="60" WidthRequest="200"
-                        HorizontalOptions="CenterAndExpand" />
+                        HorizontalOptions="CenterAndExpand" Keyboard="Numeric"/>
             </StackLayout>
 
             <StackLayout>
