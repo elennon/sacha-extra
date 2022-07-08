@@ -19,7 +19,7 @@ using Extras.Views;
 
 namespace Extras.Droid
 {
-    [Activity(Label = "Extras", Icon = "@mipmap/logo_transparent", Theme = "@style/MainTheme", MainLauncher = true, 
+    [Activity(Label = "Extras", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, 
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {

@@ -34,20 +34,55 @@ namespace Extras.Views
             if(currentProject != null)
             {
                 extrs = await App.Database.GetExtrasAsync(currentProject.MyId);
-                collectionView.ItemsSource = extrs.Where(x => x.WasSent == false);
+                extrs = extrs.Where(x => x.WasSent == false).ToList();
+                collectionView.ItemsSource = extrs;
                 gemmer = new Gemmers();
                 if (extrs.Count == 0)
                 {
                     emptyLabel.Text = "No extras to send...";
                     emptyLabel.IsVisible = true;
-                }               
+                }
+                var sub = GetPw("EmailSubject").Result;
+                if (sub != null)
+                {
+                    subject.Text = sub;
+                }
+                var ebody = GetPw("EmailBody").Result;
+                if (ebody != null)
+                {
+                    body.Text = ebody;
+                }
             }
             else
             {
                 await DisplayAlert("Alert", "There is no project selected as current project. Please add a project and set it as current project.", "OK");
                 await Shell.Current.GoToAsync(nameof(ProjectsPage));
             }            
-        }      
+        }
+        private async Task<string> GetPw(string key)
+        {
+            string oauthToken = null;
+            try
+            {
+                oauthToken = await SecureStorage.GetAsync(key);
+            }
+            catch (Exception ex)
+            {
+                // Possible that device doesn't support secure storage on device.
+            }
+            return oauthToken;
+        }
+        private async Task SetPw(string key, string value)
+        {
+            try
+            {
+                await SecureStorage.SetAsync(key, value);
+            }
+            catch (Exception ex)
+            {
+                // Possible that device doesn't support secure storage on device.
+            }
+        }
         async void OnBackupButtonClicked(object sender, EventArgs e)
         {
             try
@@ -119,6 +154,8 @@ namespace Extras.Views
         }
         private async void sendAsEmailClicked(object sender, EventArgs e)
         {
+            SetPw("EmailSubject", subject.Text).Wait();
+            SetPw("EmailBody", body.Text).Wait();
             if (extrs.Count != 0)
             {
                 batch = new Batch();

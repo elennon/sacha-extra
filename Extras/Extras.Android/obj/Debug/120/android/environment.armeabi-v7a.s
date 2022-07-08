@@ -1923,7 +1923,7 @@ application_config:
 
 	.type	.L.autostr.6, %object
 .L.autostr.6:
-	.asciz	"1ff19471-47b3-4224-a50d-c510d15ce865"
+	.asciz	"0d471139-c744-410e-953a-22be110d82a4"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, %object

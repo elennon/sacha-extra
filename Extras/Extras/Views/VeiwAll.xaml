@@ -12,17 +12,17 @@
             <StackLayout Orientation="Horizontal">
                 <Label Text="send to email" HeightRequest="60" VerticalTextAlignment="Center" Margin="8" />
                 <Editor Placeholder="Enter email" x:Name="emailto" HeightRequest="60" WidthRequest="200" FontSize="Small"
-                        HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="eee_lennon@yahoo.com" />
+                        HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="email subject" HeightRequest="60" VerticalTextAlignment="Center" Margin="8"/>
                 <Editor Placeholder="Email subject" x:Name="subject" HeightRequest="60" WidthRequest="200" FontSize="Small"
-                        HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="bla" />
+                        HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="email body" HeightRequest="60" VerticalTextAlignment="Center" Margin="8"/>
                 <Editor Placeholder="Email body" x:Name="body" WidthRequest="200" FontSize="Small" AutoSize="TextChanges"
-                        HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="bla"/>
+                        HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
             </StackLayout>
             <Label x:Name="emptyLabel" IsVisible="false" HeightRequest="60" VerticalTextAlignment="Center" Margin="8"/>
             <ScrollView VerticalScrollBarVisibility="Always">

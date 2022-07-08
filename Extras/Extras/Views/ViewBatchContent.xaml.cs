@@ -39,7 +39,7 @@ namespace Extras.Views
                 Console.WriteLine("Failed to load Batch.");
             }
         }
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
             base.OnAppearing();         
         }

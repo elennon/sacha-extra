@@ -67,43 +67,43 @@ map_aname.12:
 
 	.type	map_aname.13, %object
 map_aname.13:
-	.asciz	"Extras.Android"
-	.size	map_aname.13, 15
+	.asciz	"FFImageLoading.Platform"
+	.size	map_aname.13, 24
 
 	.type	map_aname.14, %object
 map_aname.14:
-	.asciz	"FFImageLoading.Platform"
-	.size	map_aname.14, 24
+	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
+	.size	map_aname.14, 41
 
 	.type	map_aname.15, %object
 map_aname.15:
-	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
-	.size	map_aname.15, 41
+	.asciz	"Com.Android.DeskClock"
+	.size	map_aname.15, 22
 
 	.type	map_aname.16, %object
 map_aname.16:
-	.asciz	"Com.Android.DeskClock"
-	.size	map_aname.16, 22
+	.asciz	"Xamarin.AndroidX.Legacy.Support.Core.UI"
+	.size	map_aname.16, 40
 
 	.type	map_aname.17, %object
 map_aname.17:
-	.asciz	"Xamarin.AndroidX.Legacy.Support.Core.UI"
-	.size	map_aname.17, 40
+	.asciz	"Xamarin.AndroidX.SavedState"
+	.size	map_aname.17, 28
 
 	.type	map_aname.18, %object
 map_aname.18:
-	.asciz	"Xamarin.AndroidX.SavedState"
-	.size	map_aname.18, 28
+	.asciz	"Xamarin.AndroidX.ViewPager"
+	.size	map_aname.18, 27
 
 	.type	map_aname.19, %object
 map_aname.19:
-	.asciz	"Xamarin.AndroidX.ViewPager"
-	.size	map_aname.19, 27
+	.asciz	"Xamarin.AndroidX.Core"
+	.size	map_aname.19, 22
 
 	.type	map_aname.20, %object
 map_aname.20:
-	.asciz	"Xamarin.AndroidX.Core"
-	.size	map_aname.20, 22
+	.asciz	"Extras.Android"
+	.size	map_aname.20, 15
 
 	.type	map_aname.21, %object
 map_aname.21:
