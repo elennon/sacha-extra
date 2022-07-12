@@ -16,6 +16,7 @@ using Android.Provider;
 using CarouselView.FormsPlugin.Droid;
 using Plugin.Permissions;
 using Extras.Views;
+using Acr.UserDialogs;
 
 namespace Extras.Droid
 {
@@ -40,7 +41,7 @@ namespace Extras.Droid
             CrossCurrentActivity.Current.Init(this, savedInstanceState);
             CarouselViewRenderer.Init();
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: false);
-
+            UserDialogs.Init(this);
         }
 
         // Field, property, and method for Picture Picker

@@ -5,6 +5,7 @@ using Extras.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Extras.Helpers;
+using Acr.UserDialogs;
 
 namespace Extras.Views
 {
@@ -13,6 +14,7 @@ namespace Extras.Views
     {
         //private List<Project> projects = new List<Project>();
         Projects projs;// = new Projects();
+        
         public ProjectsPage()
         {
             InitializeComponent();
@@ -26,6 +28,7 @@ namespace Extras.Views
             projs = new Projects(prjs);
             BindingContext = projs;
             prjsView.ItemsSource = projs;
+
         }
         //protected override async void OnDisappearing()
         //{
@@ -35,9 +38,33 @@ namespace Extras.Views
         //        await DisplayAlert("Alert", "There is no project selected as current project. Please add a project and set it as current project.", "OK");
         //    }
         //}
-
+        async void OnImageNameTapped(object sender, EventArgs e)
+        {
+            try
+            {
+                var result = await Acr.UserDialogs.UserDialogs.Instance.ConfirmAsync("Are you sure you want to delete this Project?", "Confirm Delete", "Yes", "No");
+                if (result)
+                {
+                    Project prj = (Project)(sender as Image).BindingContext;
+                    if (prj != null)
+                    {                        
+                        await App.Database.DeleteProjectAsync(prj);
+                        projs.Remove(prj);  
+                    }                   
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
+            if (siteName.Text == null)
+            {
+                await DisplayAlert("Not Saved", "You need to add a Project name", "OK");
+                return;
+            }
             try
             {
                 var prj = new Project();
@@ -45,8 +72,8 @@ namespace Extras.Views
                 prj.ProjectName = siteName.Text;
                 prj.Address = siteAddress.Text;
                 prj.IsCurrent = ckbCurrent.IsChecked;
-                prj.IsChecked = ckbCurrent.IsChecked;           
-                
+                prj.IsChecked = ckbCurrent.IsChecked;
+
                 var prjs = await App.Database.GetProjectsAsync();
                 if (ckbCurrent.IsChecked)
                 {
@@ -60,13 +87,13 @@ namespace Extras.Views
                 var iid = App.Database.SaveProjectAsync(prj);
                 projs.Clear();
                 prjs.ForEach(x => projs.Add(x));
-                
+
                 projs.Add(prj);
-                await DisplayAlert("Saved", "", "OK");
+                Acr.UserDialogs.UserDialogs.Instance.Toast("Project saved!");
             }
             catch (Exception)
             {
-                await DisplayAlert("Alert", "Exception: " + e.ToString(), "OK");
+                Acr.UserDialogs.UserDialogs.Instance.Toast("Exception:" + e.ToString());
             }
         }
         private void setToUnChecked(Project x)
@@ -85,5 +112,6 @@ namespace Extras.Views
             Navigation.PushAsync(new UserLogin());
             UserSettings.ClearAllData();
         }
+        
     }
 }

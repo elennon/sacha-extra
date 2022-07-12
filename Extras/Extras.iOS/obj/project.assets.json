@@ -2,6 +2,33 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Acr.UserDialogs/7.2.0.564": {
+        "type": "package",
+        "dependencies": {
+          "BTProgressHUD": "1.3.5"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {}
+        }
+      },
+      "BTProgressHUD/1.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BTProgressHUD.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/BTProgressHUD.dll": {}
+        }
+      },
       "CarouselView.FormsPlugin/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -540,6 +567,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "7.2.0.564",
           "CarouselView.FormsPlugin": "6.0.0",
           "ClosedXML": "0.95.4",
           "DocumentFormat.OpenXml": "2.16.0",
@@ -565,6 +593,33 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Acr.UserDialogs/7.2.0.564": {
+        "type": "package",
+        "dependencies": {
+          "BTProgressHUD": "1.3.5"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {}
+        }
+      },
+      "BTProgressHUD/1.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BTProgressHUD.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/BTProgressHUD.dll": {}
+        }
+      },
       "CarouselView.FormsPlugin/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -1079,6 +1134,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "7.2.0.564",
           "CarouselView.FormsPlugin": "6.0.0",
           "ClosedXML": "0.95.4",
           "DocumentFormat.OpenXml": "2.16.0",
@@ -1104,6 +1160,33 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Acr.UserDialogs/7.2.0.564": {
+        "type": "package",
+        "dependencies": {
+          "BTProgressHUD": "1.3.5"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {}
+        }
+      },
+      "BTProgressHUD/1.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BTProgressHUD.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/BTProgressHUD.dll": {}
+        }
+      },
       "CarouselView.FormsPlugin/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -1618,6 +1701,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "7.2.0.564",
           "CarouselView.FormsPlugin": "6.0.0",
           "ClosedXML": "0.95.4",
           "DocumentFormat.OpenXml": "2.16.0",
@@ -1643,6 +1727,33 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Acr.UserDialogs/7.2.0.564": {
+        "type": "package",
+        "dependencies": {
+          "BTProgressHUD": "1.3.5"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Acr.UserDialogs.dll": {}
+        }
+      },
+      "BTProgressHUD/1.3.5": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/BTProgressHUD.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/BTProgressHUD.dll": {}
+        }
+      },
       "CarouselView.FormsPlugin/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -2157,6 +2268,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "7.2.0.564",
           "CarouselView.FormsPlugin": "6.0.0",
           "ClosedXML": "0.95.4",
           "DocumentFormat.OpenXml": "2.16.0",
@@ -2183,6 +2295,49 @@
     }
   },
   "libraries": {
+    "Acr.UserDialogs/7.2.0.564": {
+      "sha512": "RH+DT3EO/l12EyvOlhhilFizbVMOervE6bepyTccLlSWS+7m828huXefLBYgJ31PGCdiShteXIIkeIdUTRF4iQ==",
+      "type": "package",
+      "path": "acr.userdialogs/7.2.0.564",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "acr.userdialogs.7.2.0.564.nupkg.sha512",
+        "acr.userdialogs.nuspec",
+        "lib/monoandroid10.0/Acr.UserDialogs.dll",
+        "lib/monoandroid10.0/Acr.UserDialogs.xml",
+        "lib/netstandard2.0/Acr.UserDialogs.dll",
+        "lib/netstandard2.0/Acr.UserDialogs.xml",
+        "lib/uap10.0.19041/Acr.UserDialogs.dll",
+        "lib/uap10.0.19041/Acr.UserDialogs.pri",
+        "lib/uap10.0.19041/Acr.UserDialogs.xml",
+        "lib/uap10.0.19041/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
+        "lib/xamarinios10/Acr.UserDialogs.dll",
+        "lib/xamarinios10/Acr.UserDialogs.xml",
+        "lib/xamarinmac20/Acr.UserDialogs.dll",
+        "lib/xamarinmac20/Acr.UserDialogs.xml",
+        "lib/xamarintvos10/Acr.UserDialogs.dll",
+        "lib/xamarintvos10/Acr.UserDialogs.xml",
+        "readme.txt"
+      ]
+    },
+    "BTProgressHUD/1.3.5": {
+      "sha512": "ePARDST+mV/MISU9aLqeWRv7jNM5AGbAbB2ax+x1ctSPcQEAtOyXwjahLkJD1e6YRmuE4k0WiuCpkF44GZlVAw==",
+      "type": "package",
+      "path": "btprogresshud/1.3.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NOTICE",
+        "btprogresshud.1.3.5.nupkg.sha512",
+        "btprogresshud.nuspec",
+        "icon.png",
+        "lib/xamarinios10/BTProgressHUD.dll",
+        "lib/xamarinios10/BTProgressHUD.pdb",
+        "lib/xamarinios10/BTProgressHUD.xml"
+      ]
+    },
     "CarouselView.FormsPlugin/6.0.0": {
       "sha512": "6O+/NNod+u5bO8EwNJOq2D2bHfV0NdarAUjrIBn4q6bsxgtX+ONo4JmKL2yBtRmKizoDOjM+r5GwO9ewePTGZg==",
       "type": "package",
@@ -3454,6 +3609,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Acr.UserDialogs >= 7.2.0.564",
       "CarouselView.FormsPlugin >= 6.0.0",
       "ClosedXML >= 0.95.4",
       "DocumentFormat.OpenXml >= 2.16.0",
@@ -3517,6 +3673,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Acr.UserDialogs": {
+            "target": "Package",
+            "version": "[7.2.0.564, )"
+          },
           "CarouselView.FormsPlugin": {
             "target": "Package",
             "version": "[6.0.0, )"

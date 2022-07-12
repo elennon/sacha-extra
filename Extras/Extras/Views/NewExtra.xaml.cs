@@ -105,7 +105,7 @@ namespace Extras.Views
                             counter++;
                         }
                     }
-                    await DisplayAlert("Saved", "", "OK");
+                    await DisplayAlert("Saved!", "", "OK");
                 }                
             }
             catch (Exception)

@@ -36,12 +36,27 @@
                     <!-- Define the appearance of each item in the list -->
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <StackLayout Orientation="Horizontal">
-                                <Label Text="{Binding MyId}" IsVisible="false"  FontSize="Small"/>
-                                <Label Text="{Binding JobSite}" FontSize="Small"/>
-                                <Label Text="{Binding SiteArea}" FontSize="Small"/>
-                                <Label Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}" FontSize="Small"/>
-                            </StackLayout>
+                            <Grid Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="35" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="90" />
+                                    <ColumnDefinition Width="60" />
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding MyId}" IsVisible="false" FontSize="Small"/>
+                                <Label Text="{Binding SiteArea}" VerticalOptions="Center" Grid.Column="0" FontSize="Small"/>
+                                <Label Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}" VerticalOptions="Center" Grid.Column="1" FontSize="Small"/>
+                                <Image x:Name="deletePrg" Source="deletePhoto.jpg" Grid.Column="2" HorizontalOptions="End" 
+                                       Margin="0,0,0,0" VerticalOptions="Center" >
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer
+                                                        Tapped="OnImageNameTapped"
+                                                        NumberOfTapsRequired="1" />
+                                    </Image.GestureRecognizers>
+                                </Image>
+                            </Grid>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>

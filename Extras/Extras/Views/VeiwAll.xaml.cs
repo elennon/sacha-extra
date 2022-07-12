@@ -42,6 +42,11 @@ namespace Extras.Views
                     emptyLabel.Text = "No extras to send...";
                     emptyLabel.IsVisible = true;
                 }
+                else
+                {
+                    emptyLabel.Text = "No extras to send...";
+                    emptyLabel.IsVisible = false;
+                }
                 var sub = GetPw("EmailSubject").Result;
                 if (sub != null)
                 {
@@ -182,6 +187,26 @@ namespace Extras.Views
                 await DisplayAlert("Alert", "Please add some extras before sending", "OK");
             }
             
+        }
+        async void OnImageNameTapped(object sender, EventArgs e)
+        {
+            try
+            {
+                var result = await Acr.UserDialogs.UserDialogs.Instance.ConfirmAsync("Are you sure you want to delete this Extra?", "Confirm Delete", "Yes", "No");
+                if (result)
+                {
+                    Extra ext = (Extra)(sender as Image).BindingContext;
+                    if (ext != null)
+                    {
+                        await App.Database.DeleteExtraAsync(ext);
+                        extrs.Remove(ext);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         private async void collectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)

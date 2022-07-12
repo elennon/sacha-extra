@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Extras.Views.ProjectsPage"
              Title="Projects">
-
+    
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Logout" Clicked="ToolbarItem_Clicked"  />
     </ContentPage.ToolbarItems>
@@ -39,11 +39,25 @@
                             <CollectionView.ItemTemplate>
                                 <DataTemplate>
                                     <Grid Padding="10">
-                                        <StackLayout Orientation="Horizontal">
-                                            <CheckBox IsChecked="{Binding IsChecked}" IsEnabled="False" />
-                                            <Label Text="{Binding ProjectName}"
-                                           VerticalOptions="Center" />
-                                        </StackLayout>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="35" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="60" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="60" />
+                                        </Grid.ColumnDefinitions>
+                                        <CheckBox IsChecked="{Binding IsChecked}" IsEnabled="False" Grid.Column="0"/>
+                                        <Label Text="{Binding ProjectName}" VerticalOptions="Center" Grid.Column="1" />
+
+                                        <Image x:Name="deletePrg" Source="deletePhoto.jpg" HorizontalOptions="End" 
+                                            Grid.Column="2" Margin="0,0,0,0">
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer
+                                                        Tapped="OnImageNameTapped"
+                                                        NumberOfTapsRequired="1" />
+                                            </Image.GestureRecognizers>
+                                        </Image>
                                     </Grid>
                                 </DataTemplate>
                             </CollectionView.ItemTemplate>

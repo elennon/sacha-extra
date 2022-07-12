@@ -27,5 +27,10 @@ namespace Extras.Views
                 await App.Database.DeleteExtraAsync(item);
             }
         }
+
+        private void LongPressBehavior_LongPressed(object sender, EventArgs e)
+        {
+            var fdf = sender.ToString();
+        }
     }
 }

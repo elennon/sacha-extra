@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ebaAsh3OMC/UU0OQOduZM/12UQS3rtL6PTYlqmV7uJI2radA4jWCYO+c+lE+yKW/Vsum9vy8MNtsAaqlwfu5Uw==",
+  "dgSpecHash": "tkB4OUy+oLMNToR5tNbkiS4JTzvbc7q2VD7ekvWEMLypnJV/TadPtLsyRMRIgCO/tiqRi1JFAQ8/auekDx9+7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras.iOS\\Extras.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\acr.userdialogs\\7.2.0.564\\acr.userdialogs.7.2.0.564.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\btprogresshud\\1.3.5\\btprogresshud.1.3.5.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",
