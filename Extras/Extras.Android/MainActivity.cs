@@ -17,10 +17,12 @@ using CarouselView.FormsPlugin.Droid;
 using Plugin.Permissions;
 using Extras.Views;
 using Acr.UserDialogs;
+using AndroidX.AppCompat.App;
 
 namespace Extras.Droid
+    
 {
-    [Activity(Label = "Extras", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, 
+    [Activity(Label = "Extras", Icon = "@mipmap/ic_launcher", Theme = "@style/MainTheme", MainLauncher = true, 
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
@@ -42,6 +44,7 @@ namespace Extras.Droid
             CarouselViewRenderer.Init();
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: false);
             UserDialogs.Init(this);
+            AppCompatDelegate.DefaultNightMode = AppCompatDelegate.ModeNightNo;
         }
 
         // Field, property, and method for Picture Picker

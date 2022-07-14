@@ -28,9 +28,14 @@ namespace Extras.Views
             }
         }
 
-        private void LongPressBehavior_LongPressed(object sender, EventArgs e)
-        {
-            var fdf = sender.ToString();
-        }
+        //private void LongPressBehavior_LongPressed(object sender, EventArgs e)
+        //{
+        //    var fdf = sender.ToString();
+        //}
+        //<Button x:Name="MyButton" Text="Long Press Me!">
+        //    <Button.Behaviors>
+        //        <behaviors:LongPressBehavior LongPressed = "LongPressBehavior_LongPressed" />
+        //    </ Button.Behaviors >
+        //</ Button >
     }
 }

@@ -62,38 +62,38 @@ map_aname.11:
 
 	.type	map_aname.12, @object
 map_aname.12:
-	.asciz	"Extras.Android"
-	.size	map_aname.12, 15
+	.asciz	"Plugin.Media"
+	.size	map_aname.12, 13
 
 	.type	map_aname.13, @object
 map_aname.13:
-	.asciz	"Plugin.Media"
-	.size	map_aname.13, 13
+	.asciz	"Xamarin.AndroidX.SavedState"
+	.size	map_aname.13, 28
 
 	.type	map_aname.14, @object
 map_aname.14:
-	.asciz	"Xamarin.AndroidX.SavedState"
-	.size	map_aname.14, 28
+	.asciz	"Xamarin.AndroidX.RecyclerView"
+	.size	map_aname.14, 30
 
 	.type	map_aname.15, @object
 map_aname.15:
-	.asciz	"Xamarin.AndroidX.RecyclerView"
-	.size	map_aname.15, 30
+	.asciz	"SkiaSharp.Views.Forms"
+	.size	map_aname.15, 22
 
 	.type	map_aname.16, @object
 map_aname.16:
-	.asciz	"SkiaSharp.Views.Forms"
-	.size	map_aname.16, 22
+	.asciz	"Xamarin.AndroidX.CardView"
+	.size	map_aname.16, 26
 
 	.type	map_aname.17, @object
 map_aname.17:
-	.asciz	"Xamarin.AndroidX.CardView"
-	.size	map_aname.17, 26
+	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.size	map_aname.17, 30
 
 	.type	map_aname.18, @object
 map_aname.18:
-	.asciz	"Xamarin.AndroidX.DrawerLayout"
-	.size	map_aname.18, 30
+	.asciz	"Extras.Android"
+	.size	map_aname.18, 15
 
 	.type	map_aname.19, @object
 map_aname.19:

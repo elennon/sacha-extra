@@ -12,11 +12,11 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-feature android:name="android.hardware.camera" android:required="false" />
   <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
-  <application android:requestLegacyExternalStorage="true" android:label="Extras.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:extractNativeLibs="true">
+  <application android:requestLegacyExternalStorage="true" android:label="Extras.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:extractNativeLibs="true">
     <provider android:name="androidx.core.content.FileProvider" android:authorities="com.companyname.extras.fileprovider" android:exported="false" android:grantUriPermissions="true">
-      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
-    </provider>
-    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="Extras" android:theme="@style/MainTheme" android:name="crc648004318c24f327ca.MainActivity" android:exported="true">
+			android:icon="@mipmap/ic_launcher"
+			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data></provider>
+    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/ic_launcher" android:label="Extras" android:theme="@style/MainTheme" android:name="crc648004318c24f327ca.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
@@ -29,6 +29,10 @@
     <receiver android:enabled="true" android:exported="false" android:name="crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.extras.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
+  <!--<application android:label="Extras"
+               android:icon="@mipmap/ic_launcher"
+               
+               android:appCategory="productivity"></application>-->
   <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
   <queries>
     <intent>

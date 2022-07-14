@@ -59,12 +59,12 @@
 	.zero	3
 	.xword	.L.compressed_assembly_data.9	// data
 
-	.word	0x9de00	// uncompressed_file_size
+	.word	0x9e000	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.10	// data
 
-	.word	0x21200	// uncompressed_file_size
+	.word	0x21000	// uncompressed_file_size
 	.byte	0x0	// loaded
 	.zero	3
 	.xword	.L.compressed_assembly_data.11	// data

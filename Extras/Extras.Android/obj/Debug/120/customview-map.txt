@@ -1,4 +1,5 @@
 @string/appbar_scrolling_view_behavior;C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\69\jl\res\layout\rootlayout.xml
+adaptive-icon;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Debug\120\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\120\res\mipmap-anydpi-v26\icon_round.xml
 alpha;C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\69\jl\res\anim\enterfromleft.xml
@@ -14,6 +15,7 @@ attr;C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\
 attr;C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\13\jl\res\values\attrs.xml
 attr;C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\4\jl\res\values\vpi__attrs.xml
 attr;C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\69\jl\res\values\attrs.xml
+background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\120\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\120\res\mipmap-anydpi-v26\icon_round.xml
 bool;C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\4\jl\res\values\vpi__defaults.xml
@@ -43,6 +45,7 @@ enum;C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\
 external-cache-path;C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\68\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-files-path;obj\Debug\120\res\xml\file_paths.xml
 external-path;C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\68\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\120\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\120\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\lp\69\jl\res\layout\bottomtablayout.xml

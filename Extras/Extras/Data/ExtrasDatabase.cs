@@ -13,10 +13,10 @@ namespace Extras.Data
         {
             database = new SQLiteAsyncConnection(dbPath);
 
-            database.DropTableAsync<Extra>().Wait();
-            database.DropTableAsync<Pics>().Wait();
+            //database.DropTableAsync<Extra>().Wait();
+            //database.DropTableAsync<Pics>().Wait();
             //database.DropTableAsync<Project>().Wait();
-            database.DropTableAsync<Batch>().Wait();
+            //database.DropTableAsync<Batch>().Wait();
 
             database.CreateTableAsync<Extra>().Wait();
             database.CreateTableAsync<Pics>().Wait();

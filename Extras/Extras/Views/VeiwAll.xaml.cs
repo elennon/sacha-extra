@@ -11,6 +11,7 @@ using Extras.Models;
 using System.Linq;
 using System.IO.Compression;
 using System.Reflection;
+using System.Collections.ObjectModel;
 
 namespace Extras.Views
 {
@@ -21,6 +22,7 @@ namespace Extras.Views
         private Gemmers gemmer;
         private Batch batch = new Batch();
         private Project currentProject = new Project();
+        ObservableCollection<Extra> myCollection;
         private string AppFolder => Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
         public VeiwAll()
         {
@@ -35,7 +37,8 @@ namespace Extras.Views
             {
                 extrs = await App.Database.GetExtrasAsync(currentProject.MyId);
                 extrs = extrs.Where(x => x.WasSent == false).ToList();
-                collectionView.ItemsSource = extrs;
+                myCollection = new ObservableCollection<Extra>(extrs);
+                collectionView.ItemsSource = myCollection;
                 gemmer = new Gemmers();
                 if (extrs.Count == 0)
                 {
@@ -199,7 +202,7 @@ namespace Extras.Views
                     if (ext != null)
                     {
                         await App.Database.DeleteExtraAsync(ext);
-                        extrs.Remove(ext);
+                        myCollection.Remove(ext);                        
                     }
                 }
             }

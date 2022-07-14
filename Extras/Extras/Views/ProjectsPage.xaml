@@ -35,7 +35,7 @@
                     <Frame >
                         <CollectionView VerticalScrollBarVisibility="Always" ItemsSource="{Binding .}" x:Name="prjsView"
                                     SelectedItem="{Binding CostumerSelected}"
-                                    SelectionMode="Single">
+                                    SelectionMode="Single" EmptyView="No Projects have been selected yet. Fill in the fields below to add a Project." >
                             <CollectionView.ItemTemplate>
                                 <DataTemplate>
                                     <Grid Padding="10">
@@ -75,7 +75,7 @@
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Address" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Site area" x:Name="siteAddress" HeightRequest="60" 
+                <Editor Placeholder="Site address" x:Name="siteAddress" HeightRequest="60" 
                         HorizontalOptions="CenterAndExpand"  WidthRequest="200"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
