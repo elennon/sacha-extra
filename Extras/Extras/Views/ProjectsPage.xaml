@@ -17,18 +17,22 @@
                         <VisualState x:Name="Selected">
                             <VisualState.Setters>
                                 <Setter Property="BackgroundColor"
-                                        Value="LightGray" />
+                                        Value="BlanchedAlmond" />
                             </VisualState.Setters>
                         </VisualState>
                     </VisualStateGroup>
                 </VisualStateGroupList>
             </Setter>
         </Style>
+        <Style x:Key="labelDarkStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="DarkSlateGray" />
+        </Style>
     </ContentPage.Resources>
     <ScrollView >
         <StackLayout Margin="20">
             <StackLayout Orientation="Horizontal">
-                <Label Text="Select a Project from this list to set as your current project. This will set that project as the one the app will work with." HeightRequest="80" HorizontalOptions="Center" FontSize="Medium" />
+                <Label FontSize="18" Style="{StaticResource labelDarkStyle}" Text="Select a Project from this list to set as your current project. This will set that project as the one the app will work with." 
+                       HeightRequest="80" HorizontalOptions="Center" />
             </StackLayout>
             <ScrollView VerticalScrollBarVisibility="Always">
                 <StackLayout Orientation="Horizontal" HeightRequest="270">
@@ -48,8 +52,8 @@
                                             <ColumnDefinition Width="60" />
                                         </Grid.ColumnDefinitions>
                                         <CheckBox IsChecked="{Binding IsChecked}" IsEnabled="False" Grid.Column="0"/>
-                                        <Label Text="{Binding ProjectName}" VerticalOptions="Center" Grid.Column="1" />
-
+                                        <Label Text="{Binding ProjectName}" VerticalOptions="Center" Grid.Column="1" 
+                                               FontSize="18" Style="{StaticResource labelDarkStyle}"/>
                                         <Image x:Name="deletePrg" Source="deletePhoto.jpg" HorizontalOptions="End" 
                                             Grid.Column="2" Margin="0,0,0,0">
                                             <Image.GestureRecognizers>
@@ -66,21 +70,27 @@
                 </StackLayout>
             </ScrollView>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Add new Project" HeightRequest="60" HorizontalOptions="Center" FontSize="Medium" />
+                <Label Text="Add new Project" HeightRequest="60" HorizontalOptions="Center" FontSize="18"
+                       Style="{StaticResource labelDarkStyle}"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Site" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Label Text="Site" HeightRequest="60" VerticalTextAlignment="Center" Style="{StaticResource labelDarkStyle}" 
+                        FontSize="18" />
                 <Editor Placeholder="Project Name" x:Name="siteName" HeightRequest="60" 
-                        HorizontalOptions="CenterAndExpand"  WidthRequest="200"/>
+                        HorizontalOptions="CenterAndExpand"  WidthRequest="200"
+                        Style="{StaticResource labelDarkStyle}" FontSize="18"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Address" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Label Text="Address" HeightRequest="60" VerticalTextAlignment="Center" 
+                        Style="{StaticResource labelDarkStyle}" FontSize="18"/>
                 <Editor Placeholder="Site address" x:Name="siteAddress" HeightRequest="60" 
-                        HorizontalOptions="CenterAndExpand"  WidthRequest="200"/>
+                        HorizontalOptions="CenterAndExpand"  WidthRequest="200" 
+                        Style="{StaticResource labelDarkStyle}" FontSize="18"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Set as current Project" HeightRequest="60" VerticalTextAlignment="Center" />
-                <CheckBox  x:Name="ckbCurrent" />
+                <Label Text="Set as current Project" HeightRequest="60" VerticalTextAlignment="Center" 
+                        Style="{StaticResource labelDarkStyle}" FontSize="18"/>
+                <CheckBox  x:Name="ckbCurrent" HeightRequest="60" WidthRequest="60"/>
             </StackLayout>
             <Button Text="Save Project" TextColor="White" BackgroundColor="#533F95" FontAttributes="Bold"
                         BorderColor="White" BorderWidth="0.5" BorderRadius="10" HorizontalOptions="FillAndExpand" 

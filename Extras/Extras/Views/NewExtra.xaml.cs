@@ -50,28 +50,32 @@ namespace Extras.Views
             {
                 var ext = new Extra();// = (Extra)BindingContext;
                 ext.MyId = Guid.NewGuid().ToString();
-                if (menNo.Text == null)
+                if (menNo.Text == null || menNo.Text == "")
                 {
                     await DisplayAlert("Not Saved", "You need to add number of men", "OK");
                     return;
                 }
                 ext.Men = Convert.ToInt16(menNo.Text);
-                if (description.Text == null)
+                if (description.Text == null || description.Text == "")
                 {
                     await DisplayAlert("Not Saved", "You need to add a description", "OK");
                     return;
                 }
                 ext.Description = description.Text;
                 ext.Date =  exDate.Date;
-                if (hours.Text == null)
+                if (hours.Text == null || hours.Text == "")
                 {
                     await DisplayAlert("Not Saved", "You need to add number of hours", "OK");
                     return;
                 }
                 ext.Hours = Convert.ToDouble(hours.Text);
+                if (rate.Text == null || rate.Text == "")
+                {
+                    ext.Rate = 0;
+                }
                 ext.Rate = Convert.ToDouble(rate.Text);
                 ext.JobSite = siteName.Text;
-                if (siteArea.Text == null)
+                if (siteArea.Text == null || siteArea.Text == "")
                 {
                     await DisplayAlert("Not Saved", "You need to add the site area", "OK");
                     return;

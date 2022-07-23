@@ -37,62 +37,63 @@
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
-    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save Changes"
+                     Clicked="OnSaveButtonClicked" />
+    </ContentPage.ToolbarItems>
     <!-- Layout children vertically -->
     <ScrollView>
         <StackLayout Margin="20">
             <StackLayout Orientation="Horizontal">
-                <Label Text="Site" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Job site" x:Name="siteName" HeightRequest="60" 
-                        HorizontalOptions="CenterAndExpand" Text="Intel"  WidthRequest="200"/>
+                <Label Text="Site" HeightRequest="60" VerticalTextAlignment="Center" TextColor="DarkSlateGray" FontSize="18" />
+                <Editor Placeholder="Job site" x:Name="siteName" HeightRequest="60" TextColor="DarkSlateGray" FontSize="18"
+                        HorizontalOptions="CenterAndExpand" WidthRequest="200" IsEnabled="False"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Area" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Site area" x:Name="siteArea" HeightRequest="60" 
-                        HorizontalOptions="CenterAndExpand" Text="Roof"  WidthRequest="200"/>
+                <Label Text="Area" HeightRequest="60" VerticalTextAlignment="Center" TextColor="DarkSlateGray" FontSize="18"/>
+                <Editor Placeholder="Site area" x:Name="siteArea" HeightRequest="60" TextColor="DarkSlateGray" FontSize="18"
+                        HorizontalOptions="CenterAndExpand"  WidthRequest="200"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Date" HeightRequest="60" VerticalTextAlignment="Center" />
+                <Label Text="Date" HeightRequest="60" VerticalTextAlignment="Center" TextColor="SlateGray" FontSize="18"/>
                 <DatePicker MinimumDate="01/01/2020" x:Name="exDate" HeightRequest="60" HorizontalOptions="CenterAndExpand"
-                    MaximumDate="12/31/2023" WidthRequest="200"
+                    MaximumDate="12/31/2023" WidthRequest="200" TextColor="SlateGray" FontSize="18"
                     Date="{Binding}" />
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Men" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Number of men" x:Name="menNo" HeightRequest="60" Text="2"
-                        HorizontalOptions="CenterAndExpand" WidthRequest="200"/>
+                <Label Text="Men" HeightRequest="60" VerticalTextAlignment="Center" TextColor="SlateGray" FontSize="18"/>
+                <Editor Placeholder="Number of men" x:Name="menNo" HeightRequest="60" Keyboard="Numeric"
+                        HorizontalOptions="CenterAndExpand" WidthRequest="200" TextColor="SlateGray" FontSize="18"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HeightRequest="200">
-                <Label Text="Desc." HeightRequest="60" VerticalTextAlignment="Start" />
-                <Editor Placeholder="description" x:Name="description" HeightRequest="60" WidthRequest="200" Text="Joe laid an egg"
-                        AutoSize="TextChanges" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Desc." HeightRequest="60" VerticalTextAlignment="Start" TextColor="SlateGray" FontSize="18"/>
+                <Editor Placeholder="Description" x:Name="description" HeightRequest="60" WidthRequest="200"
+                        AutoSize="TextChanges" HorizontalOptions="CenterAndExpand" TextColor="SlateGray" FontSize="18"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Hours" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Hours" x:Name="hours" HeightRequest="60" WidthRequest="200" Text="6"
-                        HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Hours" HeightRequest="60" VerticalTextAlignment="Center" TextColor="SlateGray" FontSize="18" />
+                <Editor Placeholder="Hours" x:Name="hours" HeightRequest="60" WidthRequest="200"
+                        HorizontalOptions="CenterAndExpand" Keyboard="Numeric" TextColor="SlateGray" FontSize="18"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Rate" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Rate" x:Name="rate" HeightRequest="60" WidthRequest="200" 
-                        HorizontalOptions="CenterAndExpand" Text="18" />
+                <Label Text="Rate" HeightRequest="60" VerticalTextAlignment="Center" TextColor="SlateGray" FontSize="18" />
+                <Editor Placeholder="Rate" x:Name="rate" HeightRequest="60" WidthRequest="200"
+                        HorizontalOptions="CenterAndExpand" Keyboard="Numeric" TextColor="SlateGray" FontSize="18"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Total" HeightRequest="60" VerticalTextAlignment="Center" />
-                <Editor Placeholder="Hours" x:Name="total" HeightRequest="60" WidthRequest="200" Text="6"
+                <Editor Placeholder="Hours" x:Name="total" HeightRequest="60" WidthRequest="200"
                         HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
             <StackLayout>
                 <Label Text="Photos"
                    HorizontalOptions="CenterAndExpand"
-                   TextColor="Black"
+                   TextColor="SlateGray"
                    FontSize="Large"
                    FontAttributes="Bold" />
-                
                 <!-- The CarouselView inside of a StackLayout. -->
                 <StackLayout Margin="0,0,0,20" >
-                    <CV:CarouselViewControl x:Name="ImgCarouselView" Style="{StaticResource CarouselViewStyle}" 
-                                            HeightRequest="{StaticResource imageHeight}">
+                    <CV:CarouselViewControl x:Name="ImgCarouselView" Style="{StaticResource CarouselViewStyle}" HeightRequest="{StaticResource imageHeight}">
                         <CV:CarouselViewControl.ItemTemplate>
                             <DataTemplate>
                                 <FFImage:CachedImage Style="{StaticResource CarouselViewPictureStyle}"/>
@@ -100,6 +101,7 @@
                         </CV:CarouselViewControl.ItemTemplate>
                     </CV:CarouselViewControl>
                 </StackLayout>
+
             </StackLayout>
 
         </StackLayout>

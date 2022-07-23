@@ -245,22 +245,12 @@ map_modules:
 	.long	0x0	@ java_name_width
 	.long	0x0	@ java_map
 
-	.byte	0x6b, 0x94, 0xc, 0xd4, 0x4, 0xbb, 0xa7, 0x4c, 0xb8, 0xd3, 0x5e, 0xf5, 0x1, 0xfa, 0xc8, 0x3f	@ module_uuid: d40c946b-bb04-4ca7-b8d3-5ef501fac83f
-	.long	0x2	@ entry_count
-	.long	0x0	@ duplicate_count
-	.long	.L.module18_managed_to_java	@ map
-	.long	0	@ duplicate_map
-	.long	map_aname.18	@ assembly_name: Extras.Android
-	.long	0x0	@ image
-	.long	0x0	@ java_name_width
-	.long	0x0	@ java_map
-
 	.byte	0x71, 0xa8, 0x78, 0x2e, 0x12, 0x8b, 0xb5, 0x48, 0x8c, 0x88, 0x79, 0x12, 0xda, 0xcc, 0x1a, 0xe5	@ module_uuid: 2e78a871-8b12-48b5-8c88-7912dacc1ae5
 	.long	0x3	@ entry_count
 	.long	0x0	@ duplicate_count
-	.long	.L.module19_managed_to_java	@ map
+	.long	.L.module18_managed_to_java	@ map
 	.long	0	@ duplicate_map
-	.long	map_aname.19	@ assembly_name: FFImageLoading.Forms.Platform
+	.long	map_aname.18	@ assembly_name: FFImageLoading.Forms.Platform
 	.long	0x0	@ image
 	.long	0x0	@ java_name_width
 	.long	0x0	@ java_map
@@ -268,9 +258,9 @@ map_modules:
 	.byte	0x79, 0x86, 0xa6, 0xe4, 0xa4, 0xa2, 0x46, 0x4c, 0x94, 0xe0, 0x41, 0x40, 0xbb, 0x60, 0x9f, 0x9a	@ module_uuid: e4a68679-a2a4-4c46-94e0-4140bb609f9a
 	.long	0x6	@ entry_count
 	.long	0x0	@ duplicate_count
-	.long	.L.module20_managed_to_java	@ map
+	.long	.L.module19_managed_to_java	@ map
 	.long	0	@ duplicate_map
-	.long	map_aname.20	@ assembly_name: FFImageLoading.Platform
+	.long	map_aname.19	@ assembly_name: FFImageLoading.Platform
 	.long	0x0	@ image
 	.long	0x0	@ java_name_width
 	.long	0x0	@ java_map
@@ -278,9 +268,9 @@ map_modules:
 	.byte	0x7f, 0x61, 0xcc, 0x69, 0x26, 0x85, 0x8, 0x4b, 0xb2, 0x34, 0xcc, 0x15, 0x14, 0xd3, 0x98, 0x36	@ module_uuid: 69cc617f-8526-4b08-b234-cc1514d39836
 	.long	0x2	@ entry_count
 	.long	0x0	@ duplicate_count
-	.long	.L.module21_managed_to_java	@ map
+	.long	.L.module20_managed_to_java	@ map
 	.long	0	@ duplicate_map
-	.long	map_aname.21	@ assembly_name: Com.Android.DeskClock
+	.long	map_aname.20	@ assembly_name: Com.Android.DeskClock
 	.long	0x0	@ image
 	.long	0x0	@ java_name_width
 	.long	0x0	@ java_map
@@ -288,9 +278,9 @@ map_modules:
 	.byte	0x8a, 0xb, 0x73, 0x97, 0x93, 0x11, 0x72, 0x45, 0x9d, 0x38, 0x49, 0xfe, 0x19, 0x8, 0x3e, 0xce	@ module_uuid: 97730b8a-1193-4572-9d38-49fe19083ece
 	.long	0x1	@ entry_count
 	.long	0x0	@ duplicate_count
-	.long	.L.module22_managed_to_java	@ map
+	.long	.L.module21_managed_to_java	@ map
 	.long	0	@ duplicate_map
-	.long	map_aname.22	@ assembly_name: Xamarin.AndroidX.Legacy.Support.Core.UI
+	.long	map_aname.21	@ assembly_name: Xamarin.AndroidX.Legacy.Support.Core.UI
 	.long	0x0	@ image
 	.long	0x0	@ java_name_width
 	.long	0x0	@ java_map
@@ -298,9 +288,19 @@ map_modules:
 	.byte	0xa3, 0x5d, 0xab, 0x15, 0x6d, 0x9, 0x10, 0x45, 0x83, 0x35, 0xbc, 0x6a, 0xef, 0x95, 0xdd, 0x79	@ module_uuid: 15ab5da3-096d-4510-8335-bc6aef95dd79
 	.long	0x2	@ entry_count
 	.long	0x2	@ duplicate_count
+	.long	.L.module22_managed_to_java	@ map
+	.long	.L.module22_managed_to_java_duplicates	@ duplicate_map
+	.long	map_aname.22	@ assembly_name: Xamarin.AndroidX.Lifecycle.LiveData.Core
+	.long	0x0	@ image
+	.long	0x0	@ java_name_width
+	.long	0x0	@ java_map
+
+	.byte	0xb2, 0xa6, 0x81, 0x73, 0xdb, 0xef, 0xbd, 0x46, 0xa7, 0xab, 0x23, 0xb2, 0x7d, 0x54, 0x55, 0x1e	@ module_uuid: 7381a6b2-efdb-46bd-a7ab-23b27d54551e
+	.long	0x2	@ entry_count
+	.long	0x0	@ duplicate_count
 	.long	.L.module23_managed_to_java	@ map
-	.long	.L.module23_managed_to_java_duplicates	@ duplicate_map
-	.long	map_aname.23	@ assembly_name: Xamarin.AndroidX.Lifecycle.LiveData.Core
+	.long	0	@ duplicate_map
+	.long	map_aname.23	@ assembly_name: Extras.Android
 	.long	0x0	@ image
 	.long	0x0	@ java_name_width
 	.long	0x0	@ java_map
@@ -3658,7 +3658,7 @@ map_java:
 	.zero	60	@ byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x16	@ module_index
+	.long	0x15	@ module_index
 	.long	0x2000009	@ type_token_id
 	.ascii	"androidx/legacy/app/ActionBarDrawerToggle"	@ java_name
 	.zero	60	@ byteCount == 41; fixedWidth == 101; returned size == 101
@@ -3694,13 +3694,13 @@ map_java:
 	.zero	68	@ byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x17	@ module_index
+	.long	0x16	@ module_index
 	.long	0x2000009	@ type_token_id
 	.ascii	"androidx/lifecycle/LiveData"	@ java_name
 	.zero	74	@ byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x17	@ module_index
+	.long	0x16	@ module_index
 	.long	0x0	@ type_token_id
 	.ascii	"androidx/lifecycle/Observer"	@ java_name
 	.zero	74	@ byteCount == 27; fixedWidth == 101; returned size == 101
@@ -4342,19 +4342,19 @@ map_java:
 	.zero	51	@ byteCount == 50; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x13	@ module_index
+	.long	0x12	@ module_index
 	.long	0x2000005	@ type_token_id
 	.ascii	"crc6414fa209700c2b9f3/CachedImageFastRenderer"	@ java_name
 	.zero	56	@ byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x13	@ module_index
+	.long	0x12	@ module_index
 	.long	0x2000002	@ type_token_id
 	.ascii	"crc6414fa209700c2b9f3/CachedImageRenderer"	@ java_name
 	.zero	60	@ byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x13	@ module_index
+	.long	0x12	@ module_index
 	.long	0x2000003	@ type_token_id
 	.ascii	"crc6414fa209700c2b9f3/CachedImageView"	@ java_name
 	.zero	64	@ byteCount == 37; fixedWidth == 101; returned size == 101
@@ -5518,19 +5518,19 @@ map_java:
 	.zero	47	@ byteCount == 54; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x14	@ module_index
+	.long	0x13	@ module_index
 	.long	0x2000017	@ type_token_id
 	.ascii	"crc644bcdcf6d99873ace/FFAnimatedDrawable"	@ java_name
 	.zero	61	@ byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x14	@ module_index
+	.long	0x13	@ module_index
 	.long	0x2000015	@ type_token_id
 	.ascii	"crc644bcdcf6d99873ace/FFBitmapDrawable"	@ java_name
 	.zero	63	@ byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x14	@ module_index
+	.long	0x13	@ module_index
 	.long	0x2000014	@ type_token_id
 	.ascii	"crc644bcdcf6d99873ace/SelfDisposingBitmapDrawable"	@ java_name
 	.zero	52	@ byteCount == 49; fixedWidth == 101; returned size == 101
@@ -5668,13 +5668,13 @@ map_java:
 	.zero	65	@ byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x12	@ module_index
+	.long	0x17	@ module_index
 	.long	0x2000002	@ type_token_id
 	.ascii	"crc648004318c24f327ca/MainActivity"	@ java_name
 	.zero	67	@ byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x12	@ module_index
+	.long	0x17	@ module_index
 	.long	0x2000003	@ type_token_id
 	.ascii	"crc648004318c24f327ca/MediaService"	@ java_name
 	.zero	67	@ byteCount == 34; fixedWidth == 101; returned size == 101
@@ -5746,7 +5746,7 @@ map_java:
 	.zero	47	@ byteCount == 54; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x14	@ module_index
+	.long	0x13	@ module_index
 	.long	0x2000027	@ type_token_id
 	.ascii	"crc64b75d9ddab39d6c30/LRUCache"	@ java_name
 	.zero	71	@ byteCount == 30; fixedWidth == 101; returned size == 101
@@ -5866,13 +5866,13 @@ map_java:
 	.zero	62	@ byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x15	@ module_index
+	.long	0x14	@ module_index
 	.long	0x200000d	@ type_token_id
 	.ascii	"crc64e18a7d9a87d4f5ff/VerticalViewPager"	@ java_name
 	.zero	62	@ byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x15	@ module_index
+	.long	0x14	@ module_index
 	.long	0x200000e	@ type_token_id
 	.ascii	"crc64e18a7d9a87d4f5ff/VerticalViewPager_VerticalPageTransformer"	@ java_name
 	.zero	38	@ byteCount == 63; fixedWidth == 101; returned size == 101
@@ -5902,13 +5902,13 @@ map_java:
 	.zero	66	@ byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x14	@ module_index
+	.long	0x13	@ module_index
 	.long	0x2000020	@ type_token_id
 	.ascii	"ffimageloading/cross/MvxCachedImageView"	@ java_name
 	.zero	62	@ byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x14	@ module_index
+	.long	0x13	@ module_index
 	.long	0x200001e	@ type_token_id
 	.ascii	"ffimageloading/views/ImageViewAsync"	@ java_name
 	.zero	66	@ byteCount == 35; fixedWidth == 101; returned size == 101

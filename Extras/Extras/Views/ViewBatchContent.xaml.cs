@@ -41,7 +41,7 @@ namespace Extras.Views
         }
         protected override void OnAppearing()
         {
-            base.OnAppearing();         
+            base.OnAppearing();
         }
         private async void collectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

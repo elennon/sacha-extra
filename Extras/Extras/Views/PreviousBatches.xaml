@@ -3,9 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Extras.Views.PreviousBatches"
              Title="All previously sent">
+    <ContentPage.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor"
+                                        Value="BlanchedAlmond" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+        <Style x:Key="labelDarkStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="DarkSlateGray" />
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="HeightRequest" Value="60" />
+        </Style>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
-            <Label x:Name="label1" FontSize="Medium" IsVisible="false"
+            <Label x:Name="label1" FontSize="Medium" IsVisible="false" Margin="20"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <CollectionView x:Name="collectionView" SelectionMode="Single" 
@@ -18,12 +40,33 @@
                 <!-- Define the appearance of each item in the list -->
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text="{Binding ProjectName}" FontSize="Medium"/>
-                            <Label Text="{Binding DateSent, StringFormat='{0:dd/MM/yyyy}'}"  FontSize="Medium"/>
-                        </StackLayout>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="35" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="105" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding ProjectName}" Style="{StaticResource labelDarkStyle}" Grid.Column="0"/>
+                            <Label Text="{Binding DateSent, StringFormat='{0:dd/MM/yyyy}'}" HorizontalOptions="End" 
+                                   Grid.Column="1" Style="{StaticResource labelDarkStyle}"/>
+                        </Grid>
                     </DataTemplate>
+                    
                 </CollectionView.ItemTemplate>
+                <CollectionView.EmptyView>
+                    <ContentView>
+                        <StackLayout HorizontalOptions="CenterAndExpand"
+                             VerticalOptions="StartAndExpand">
+                            <Label Text="No Extras have been sent yet. When you fill the details and save an extra it will move to 'ready to send'. Fill in the email details and any extras will be sent to that email in an Excel sheet along with an photos. A list of previously sent batches will then appear here."
+                                   Margin="10,25,10,10"                          
+                                   FontSize="18"
+                                   HorizontalOptions="Fill"
+                                   HorizontalTextAlignment="Center" />
+                        </StackLayout>
+                    </ContentView>
+                </CollectionView.EmptyView>
             </CollectionView>
         </StackLayout>
     </ContentPage.Content>

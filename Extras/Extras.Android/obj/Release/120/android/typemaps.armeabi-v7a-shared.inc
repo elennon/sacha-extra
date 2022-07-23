@@ -92,33 +92,33 @@ map_aname.17:
 
 	.type	map_aname.18, %object
 map_aname.18:
-	.asciz	"Extras.Android"
-	.size	map_aname.18, 15
+	.asciz	"FFImageLoading.Forms.Platform"
+	.size	map_aname.18, 30
 
 	.type	map_aname.19, %object
 map_aname.19:
-	.asciz	"FFImageLoading.Forms.Platform"
-	.size	map_aname.19, 30
+	.asciz	"FFImageLoading.Platform"
+	.size	map_aname.19, 24
 
 	.type	map_aname.20, %object
 map_aname.20:
-	.asciz	"FFImageLoading.Platform"
-	.size	map_aname.20, 24
+	.asciz	"Com.Android.DeskClock"
+	.size	map_aname.20, 22
 
 	.type	map_aname.21, %object
 map_aname.21:
-	.asciz	"Com.Android.DeskClock"
-	.size	map_aname.21, 22
+	.asciz	"Xamarin.AndroidX.Legacy.Support.Core.UI"
+	.size	map_aname.21, 40
 
 	.type	map_aname.22, %object
 map_aname.22:
-	.asciz	"Xamarin.AndroidX.Legacy.Support.Core.UI"
-	.size	map_aname.22, 40
+	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
+	.size	map_aname.22, 41
 
 	.type	map_aname.23, %object
 map_aname.23:
-	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
-	.size	map_aname.23, 41
+	.asciz	"Extras.Android"
+	.size	map_aname.23, 15
 
 	.type	map_aname.24, %object
 map_aname.24:
