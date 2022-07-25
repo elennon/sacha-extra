@@ -117,43 +117,43 @@ map_aname.22:
 
 	.type	map_aname.23, @object
 map_aname.23:
-	.asciz	"Extras.Android"
-	.size	map_aname.23, 15
+	.asciz	"AndHUD"
+	.size	map_aname.23, 7
 
 	.type	map_aname.24, @object
 map_aname.24:
-	.asciz	"AndHUD"
-	.size	map_aname.24, 7
+	.asciz	"FormsViewGroup"
+	.size	map_aname.24, 15
 
 	.type	map_aname.25, @object
 map_aname.25:
-	.asciz	"FormsViewGroup"
-	.size	map_aname.25, 15
+	.asciz	"Xamarin.AndroidX.Loader"
+	.size	map_aname.25, 24
 
 	.type	map_aname.26, @object
 map_aname.26:
-	.asciz	"Xamarin.AndroidX.Loader"
-	.size	map_aname.26, 24
+	.asciz	"Xamarin.Google.Guava.ListenableFuture"
+	.size	map_aname.26, 38
 
 	.type	map_aname.27, @object
 map_aname.27:
-	.asciz	"Xamarin.Google.Guava.ListenableFuture"
-	.size	map_aname.27, 38
+	.asciz	"Xamarin.AndroidX.ViewPager"
+	.size	map_aname.27, 27
 
 	.type	map_aname.28, @object
 map_aname.28:
-	.asciz	"Xamarin.AndroidX.ViewPager"
-	.size	map_aname.28, 27
+	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
+	.size	map_aname.28, 37
 
 	.type	map_aname.29, @object
 map_aname.29:
-	.asciz	"Xamarin.AndroidX.Lifecycle.ViewModel"
-	.size	map_aname.29, 37
+	.asciz	"Xamarin.AndroidX.Fragment"
+	.size	map_aname.29, 26
 
 	.type	map_aname.30, @object
 map_aname.30:
-	.asciz	"Xamarin.AndroidX.Fragment"
-	.size	map_aname.30, 26
+	.asciz	"Extras.Android"
+	.size	map_aname.30, 15
 
 	.type	map_aname.31, @object
 map_aname.31:

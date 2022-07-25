@@ -274,22 +274,12 @@ map_modules:
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
 
-	.byte	0xb2, 0xa6, 0x81, 0x73, 0xdb, 0xef, 0xbd, 0x46, 0xa7, 0xab, 0x23, 0xb2, 0x7d, 0x54, 0x55, 0x1e	# module_uuid: 7381a6b2-efdb-46bd-a7ab-23b27d54551e
+	.byte	0xbb, 0xee, 0xf5, 0x34, 0xd8, 0xe1, 0x28, 0x41, 0xb4, 0x30, 0x10, 0xa6, 0xee, 0x1f, 0xe9, 0x2b	# module_uuid: 34f5eebb-e1d8-4128-b430-10a6ee1fe92b
 	.long	0x2	# entry_count
 	.long	0x0	# duplicate_count
 	.long	.L.module23_managed_to_java	# map
 	.long	0	# duplicate_map
-	.long	map_aname.23	# assembly_name: Extras.Android
-	.long	0x0	# image
-	.long	0x0	# java_name_width
-	.long	0x0	# java_map
-
-	.byte	0xbb, 0xee, 0xf5, 0x34, 0xd8, 0xe1, 0x28, 0x41, 0xb4, 0x30, 0x10, 0xa6, 0xee, 0x1f, 0xe9, 0x2b	# module_uuid: 34f5eebb-e1d8-4128-b430-10a6ee1fe92b
-	.long	0x2	# entry_count
-	.long	0x0	# duplicate_count
-	.long	.L.module24_managed_to_java	# map
-	.long	0	# duplicate_map
-	.long	map_aname.24	# assembly_name: AndHUD
+	.long	map_aname.23	# assembly_name: AndHUD
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -297,9 +287,9 @@ map_modules:
 	.byte	0xc1, 0x9c, 0xb, 0x5, 0x39, 0xe9, 0x56, 0x48, 0xb3, 0xf4, 0x47, 0xdf, 0x20, 0xc9, 0x6e, 0x27	# module_uuid: 050b9cc1-e939-4856-b3f4-47df20c96e27
 	.long	0x2	# entry_count
 	.long	0x0	# duplicate_count
-	.long	.L.module25_managed_to_java	# map
+	.long	.L.module24_managed_to_java	# map
 	.long	0	# duplicate_map
-	.long	map_aname.25	# assembly_name: FormsViewGroup
+	.long	map_aname.24	# assembly_name: FormsViewGroup
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -307,9 +297,9 @@ map_modules:
 	.byte	0xd2, 0x53, 0xec, 0xb1, 0x1b, 0x57, 0x1d, 0x46, 0xb0, 0xa2, 0x1d, 0x53, 0x8d, 0xec, 0x73, 0x21	# module_uuid: b1ec53d2-571b-461d-b0a2-1d538dec7321
 	.long	0x5	# entry_count
 	.long	0x4	# duplicate_count
-	.long	.L.module26_managed_to_java	# map
-	.long	.L.module26_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.26	# assembly_name: Xamarin.AndroidX.Loader
+	.long	.L.module25_managed_to_java	# map
+	.long	.L.module25_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.25	# assembly_name: Xamarin.AndroidX.Loader
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -317,9 +307,9 @@ map_modules:
 	.byte	0xd9, 0x85, 0xab, 0x22, 0xc, 0xc4, 0x39, 0x47, 0xb6, 0xfe, 0xc7, 0xac, 0x6c, 0xfd, 0x2, 0x2e	# module_uuid: 22ab85d9-c40c-4739-b6fe-c7ac6cfd022e
 	.long	0x1	# entry_count
 	.long	0x1	# duplicate_count
-	.long	.L.module27_managed_to_java	# map
-	.long	.L.module27_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.27	# assembly_name: Xamarin.Google.Guava.ListenableFuture
+	.long	.L.module26_managed_to_java	# map
+	.long	.L.module26_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.26	# assembly_name: Xamarin.Google.Guava.ListenableFuture
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -327,9 +317,9 @@ map_modules:
 	.byte	0xda, 0xa2, 0x33, 0xac, 0xc6, 0x4e, 0x79, 0x45, 0xab, 0xf0, 0xa3, 0x19, 0x81, 0xb, 0xc2, 0x1f	# module_uuid: ac33a2da-4ec6-4579-abf0-a319810bc21f
 	.long	0x7	# entry_count
 	.long	0x4	# duplicate_count
-	.long	.L.module28_managed_to_java	# map
-	.long	.L.module28_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.28	# assembly_name: Xamarin.AndroidX.ViewPager
+	.long	.L.module27_managed_to_java	# map
+	.long	.L.module27_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.27	# assembly_name: Xamarin.AndroidX.ViewPager
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -337,9 +327,9 @@ map_modules:
 	.byte	0xda, 0xb0, 0x72, 0xb0, 0xe7, 0x82, 0xe5, 0x48, 0xb9, 0x55, 0xc8, 0xc, 0xae, 0x65, 0xa7, 0x92	# module_uuid: b072b0da-82e7-48e5-b955-c80cae65a792
 	.long	0x5	# entry_count
 	.long	0x3	# duplicate_count
-	.long	.L.module29_managed_to_java	# map
-	.long	.L.module29_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.29	# assembly_name: Xamarin.AndroidX.Lifecycle.ViewModel
+	.long	.L.module28_managed_to_java	# map
+	.long	.L.module28_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.28	# assembly_name: Xamarin.AndroidX.Lifecycle.ViewModel
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -347,9 +337,19 @@ map_modules:
 	.byte	0xe2, 0x9e, 0xd2, 0xa4, 0xfc, 0x17, 0x91, 0x44, 0x98, 0xc3, 0x27, 0x4d, 0xac, 0xfb, 0x76, 0x4d	# module_uuid: a4d29ee2-17fc-4491-98c3-274dacfb764d
 	.long	0x10	# entry_count
 	.long	0x9	# duplicate_count
+	.long	.L.module29_managed_to_java	# map
+	.long	.L.module29_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.29	# assembly_name: Xamarin.AndroidX.Fragment
+	.long	0x0	# image
+	.long	0x0	# java_name_width
+	.long	0x0	# java_map
+
+	.byte	0xe5, 0xf6, 0xa4, 0x34, 0x8, 0xb5, 0x8a, 0x4e, 0xae, 0xdd, 0xd0, 0xff, 0x54, 0x91, 0xf2, 0x7d	# module_uuid: 34a4f6e5-b508-4e8a-aedd-d0ff5491f27d
+	.long	0x2	# entry_count
+	.long	0x0	# duplicate_count
 	.long	.L.module30_managed_to_java	# map
-	.long	.L.module30_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.30	# assembly_name: Xamarin.AndroidX.Fragment
+	.long	0	# duplicate_map
+	.long	map_aname.30	# assembly_name: Extras.Android
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -2665,13 +2665,13 @@ map_java:
 	.zero	77	# byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x18	# module_index
+	.long	0x17	# module_index
 	.long	0x200000d	# type_token_id
 	.ascii	"androidhud/ProgressWheel"	# java_name
 	.zero	77	# byteCount == 24; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x18	# module_index
+	.long	0x17	# module_index
 	.long	0x200000e	# type_token_id
 	.ascii	"androidhud/ProgressWheel_SpinHandler"	# java_name
 	.zero	65	# byteCount == 36; fixedWidth == 101; returned size == 101
@@ -3553,85 +3553,85 @@ map_java:
 	.zero	47	# byteCount == 54; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000026	# type_token_id
 	.ascii	"androidx/fragment/app/DialogFragment"	# java_name
 	.zero	65	# byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000027	# type_token_id
 	.ascii	"androidx/fragment/app/Fragment"	# java_name
 	.zero	71	# byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000028	# type_token_id
 	.ascii	"androidx/fragment/app/Fragment$SavedState"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000025	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentActivity"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000029	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentFactory"	# java_name
 	.zero	64	# byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x200002a	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentManager"	# java_name
 	.zero	64	# byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentManager$BackStackEntry"	# java_name
 	.zero	49	# byteCount == 52; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x200002d	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks"	# java_name
 	.zero	37	# byteCount == 64; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentManager$OnBackStackChangedListener"	# java_name
 	.zero	37	# byteCount == 64; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentOnAttachListener"	# java_name
 	.zero	55	# byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000037	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentPagerAdapter"	# java_name
 	.zero	59	# byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentResultListener"	# java_name
 	.zero	57	# byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentResultOwner"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000039	# type_token_id
 	.ascii	"androidx/fragment/app/FragmentTransaction"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
@@ -3643,7 +3643,7 @@ map_java:
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/lifecycle/HasDefaultViewModelProviderFactory"	# java_name
 	.zero	48	# byteCount == 53; fixedWidth == 101; returned size == 101
@@ -3685,55 +3685,55 @@ map_java:
 	.zero	74	# byteCount == 27; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000009	# type_token_id
 	.ascii	"androidx/lifecycle/ViewModelProvider"	# java_name
 	.zero	65	# byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/lifecycle/ViewModelProvider$Factory"	# java_name
 	.zero	57	# byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200000c	# type_token_id
 	.ascii	"androidx/lifecycle/ViewModelStore"	# java_name
 	.zero	68	# byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/lifecycle/ViewModelStoreOwner"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1a	# module_index
+	.long	0x19	# module_index
 	.long	0x2000014	# type_token_id
 	.ascii	"androidx/loader/app/LoaderManager"	# java_name
 	.zero	68	# byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1a	# module_index
+	.long	0x19	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/loader/app/LoaderManager$LoaderCallbacks"	# java_name
 	.zero	52	# byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1a	# module_index
+	.long	0x19	# module_index
 	.long	0x200000f	# type_token_id
 	.ascii	"androidx/loader/content/Loader"	# java_name
 	.zero	71	# byteCount == 30; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1a	# module_index
+	.long	0x19	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/loader/content/Loader$OnLoadCanceledListener"	# java_name
 	.zero	48	# byteCount == 53; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1a	# module_index
+	.long	0x19	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/loader/content/Loader$OnLoadCompleteListener"	# java_name
 	.zero	48	# byteCount == 53; fixedWidth == 101; returned size == 101
@@ -4021,31 +4021,31 @@ map_java:
 	.zero	30	# byteCount == 71; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1c	# module_index
+	.long	0x1b	# module_index
 	.long	0x200001b	# type_token_id
 	.ascii	"androidx/viewpager/widget/PagerAdapter"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1c	# module_index
+	.long	0x1b	# module_index
 	.long	0x200001d	# type_token_id
 	.ascii	"androidx/viewpager/widget/ViewPager"	# java_name
 	.zero	66	# byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1c	# module_index
+	.long	0x1b	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/viewpager/widget/ViewPager$OnAdapterChangeListener"	# java_name
 	.zero	42	# byteCount == 59; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1c	# module_index
+	.long	0x1b	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/viewpager/widget/ViewPager$OnPageChangeListener"	# java_name
 	.zero	45	# byteCount == 56; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1c	# module_index
+	.long	0x1b	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/viewpager/widget/ViewPager$PageTransformer"	# java_name
 	.zero	50	# byteCount == 51; fixedWidth == 101; returned size == 101
@@ -4291,19 +4291,19 @@ map_java:
 	.zero	51	# byteCount == 50; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1b	# module_index
+	.long	0x1a	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"com/google/common/util/concurrent/ListenableFuture"	# java_name
 	.zero	51	# byteCount == 50; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x19	# module_index
+	.long	0x18	# module_index
 	.long	0x200000c	# type_token_id
 	.ascii	"com/xamarin/forms/platform/android/FormsViewGroup"	# java_name
 	.zero	52	# byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x19	# module_index
+	.long	0x18	# module_index
 	.long	0x200000e	# type_token_id
 	.ascii	"com/xamarin/formsviewgroup/BuildConfig"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
@@ -5647,13 +5647,13 @@ map_java:
 	.zero	65	# byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x17	# module_index
+	.long	0x1e	# module_index
 	.long	0x2000002	# type_token_id
 	.ascii	"crc648004318c24f327ca/MainActivity"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x17	# module_index
+	.long	0x1e	# module_index
 	.long	0x2000003	# type_token_id
 	.ascii	"crc648004318c24f327ca/MediaService"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
@@ -7159,13 +7159,13 @@ map_java:
 	.zero	29	# byteCount == 72; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000031	# type_token_id
 	.ascii	"mono/androidx/fragment/app/FragmentManager_OnBackStackChangedListenerImplementor"	# java_name
 	.zero	21	# byteCount == 80; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x200003e	# type_token_id
 	.ascii	"mono/androidx/fragment/app/FragmentOnAttachListenerImplementor"	# java_name
 	.zero	39	# byteCount == 62; fixedWidth == 101; returned size == 101
@@ -7195,13 +7195,13 @@ map_java:
 	.zero	14	# byteCount == 87; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1c	# module_index
+	.long	0x1b	# module_index
 	.long	0x2000021	# type_token_id
 	.ascii	"mono/androidx/viewpager/widget/ViewPager_OnAdapterChangeListenerImplementor"	# java_name
 	.zero	26	# byteCount == 75; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1c	# module_index
+	.long	0x1b	# module_index
 	.long	0x2000027	# type_token_id
 	.ascii	"mono/androidx/viewpager/widget/ViewPager_OnPageChangeListenerImplementor"	# java_name
 	.zero	29	# byteCount == 72; fixedWidth == 101; returned size == 101
