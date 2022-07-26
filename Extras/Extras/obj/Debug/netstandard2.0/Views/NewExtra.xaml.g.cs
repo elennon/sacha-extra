@@ -13,7 +13,7 @@
 namespace Extras.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\NewExtra.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/NewExtra.xaml")]
     public partial class NewExtra : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -13,7 +13,7 @@
 namespace Extras.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ViewBatchContent.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ViewBatchContent.xaml")]
     public partial class ViewBatchContent : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

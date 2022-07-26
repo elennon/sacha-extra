@@ -13,7 +13,7 @@
 namespace Extras.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\CloseUp.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/CloseUp.xaml")]
     public partial class CloseUp : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

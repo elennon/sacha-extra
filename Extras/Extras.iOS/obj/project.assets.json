@@ -3629,42 +3629,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/donallennon/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras.iOS\\Extras.iOS.csproj",
+      "projectUniqueName": "/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/Extras.iOS.csproj",
       "projectName": "Extras.iOS",
-      "projectPath": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras.iOS\\Extras.iOS.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras.iOS\\obj\\",
+      "projectPath": "/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/Extras.iOS.csproj",
+      "packagesPath": "/Users/donallennon/.nuget/packages/",
+      "outputPath": "/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/donallennon/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras\\Extras.csproj": {
-              "projectPath": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras\\Extras.csproj"
+            "/Users/donallennon/Desktop/ed/Extras/Extras/Extras/Extras.csproj": {
+              "projectPath": "/Users/donallennon/Desktop/ed/Extras/Extras/Extras/Extras.csproj"
             }
           }
         }

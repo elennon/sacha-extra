@@ -1,23 +1,45 @@
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\bin\Debug\netstandard2.0\Extras.deps.json
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\bin\Debug\netstandard2.0\Extras.dll
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\bin\Debug\netstandard2.0\Extras.pdb
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.csproj.AssemblyReference.cache
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\CloseUp.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\NewExtra.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\PreviousBatches.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\ProjectsPage.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\UserLogin.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\VeiwAll.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Views\ViewBatchContent.xaml.g.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.AssemblyInfoInputs.cache
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.AssemblyInfo.cs
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.csproj.CoreCompileInputs.cache
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.dll
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\refint\Extras.dll
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\Extras.pdb
-C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras\obj\Debug\netstandard2.0\ref\Extras.dll
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/bin/Debug/netstandard2.0/Extras.deps.json
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/bin/Debug/netstandard2.0/Extras.dll
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/bin/Debug/netstandard2.0/Extras.pdb
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.csproj.AssemblyReference.cache
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/CloseUp.xaml.g.cs
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/NewExtra.xaml.g.cs
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/PreviousBatches.xaml.g.cs
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/ProjectsPage.xaml.g.cs
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/UserLogin.xaml.g.cs
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/VeiwAll.xaml.g.cs
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/ViewBatchContent.xaml.g.cs
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.AssemblyInfoInputs.cache
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.AssemblyInfo.cs
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.csproj.CoreCompileInputs.cache
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.dll
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/refint/Extras.dll
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.pdb
+C:/Users/Asus/Documents/c# projects/Extras/Extras/Extras/obj/Debug/netstandard2.0/ref/Extras.dll
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/bin/Debug/netstandard2.0/Extras.deps.json
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/bin/Debug/netstandard2.0/Extras.dll
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/bin/Debug/netstandard2.0/ref/Extras.dll
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/bin/Debug/netstandard2.0/Extras.pdb
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/CloseUp.xaml.g.cs
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/NewExtra.xaml.g.cs
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/PreviousBatches.xaml.g.cs
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/ProjectsPage.xaml.g.cs
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/UserLogin.xaml.g.cs
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/VeiwAll.xaml.g.cs
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Views/ViewBatchContent.xaml.g.cs
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.AssemblyInfoInputs.cache
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.AssemblyInfo.cs
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.csproj.CoreCompileInputs.cache
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.dll
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/ref/Extras.dll
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.pdb
+/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/Debug/netstandard2.0/Extras.csproj.AssemblyReference.cache
