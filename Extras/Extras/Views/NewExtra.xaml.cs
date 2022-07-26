@@ -73,7 +73,10 @@ namespace Extras.Views
                 {
                     ext.Rate = 0;
                 }
-                ext.Rate = Convert.ToDouble(rate.Text);
+                else
+                {
+                    ext.Rate = Convert.ToDouble(rate.Text);
+                }
                 ext.JobSite = siteName.Text;
                 if (siteArea.Text == null || siteArea.Text == "")
                 {
