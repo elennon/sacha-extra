@@ -31,7 +31,7 @@ namespace Extras.ViewModels
             var pw = GetPw("Password").Result;
             if (pw != UserSettings.Password)
             {
-                UserLogin.label.Text = "wrong bloody password";
+                UserLogin.label.Text = "wrong password";
             }
             else 
             {
