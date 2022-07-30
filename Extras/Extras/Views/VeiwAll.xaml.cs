@@ -139,8 +139,15 @@ namespace Extras.Views
                                 var count = 1;
                                 foreach (var pc in pics)
                                 {
-                                    var ext = pc.FileName.Split('.');
-                                    var nme = "Excel Ref Num " + item.ID + " - " + count + "." + ext[ext.Length - 1];
+                                    string nme = "";
+                                    if (Device.RuntimePlatform == Device.iOS)
+                                    {
+                                        nme = "Excel Ref Num " + item.ID + " - " + count + ".jpg";
+                                    } else
+                                    {
+                                        var ext = pc.FileName.Split('.');
+                                        nme = "Excel Ref Num " + item.ID + " - " + count + "." + ext[ext.Length - 1];                                       
+                                    }
                                     archive.CreateEntryFromFile(pc.FileName, nme);
                                     count++;
                                 }
