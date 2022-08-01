@@ -1,112 +1,4 @@
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Extras.iOS.exe
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Extras.iOS.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Acr.UserDialogs.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/BTProgressHUD.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/BTProgressHUD.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/CarouselView.FormsPlugin.Abstractions.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/CarouselView.FormsPlugin.iOS.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/ClosedXML.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/ClosedXML.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/DocumentFormat.OpenXml.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/ExcelNumberFormat.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/GemBox.Spreadsheet.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/GMImagePicker.Xamarin.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/GMImagePicker.Xamarin.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Newtonsoft.Json.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Plugin.Permissions.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Plugin.Permissions.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/BouncyCastle.Crypto.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SkiaSharp.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SkiaSharp.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SkiaSharp.Views.iOS.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SkiaSharp.Views.iOS.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SkiaSharp.Views.Forms.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SkiaSharp.Views.Forms.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SQLite-net.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SQLiteNetExtensions.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SQLiteNetExtensions.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SQLitePCLRaw.batteries_v2.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SQLitePCLRaw.nativelibrary.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SQLitePCLRaw.core.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/System.IO.Packaging.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/System.Runtime.CompilerServices.Unsafe.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/System.Text.Encoding.CodePages.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/WebP.Touch.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Plugin.Media.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Plugin.Media.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Plugin.Settings.Abstractions.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Plugin.Settings.Abstractions.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Plugin.Settings.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Xamarin.Essentials.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Xamarin.Essentials.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/FFImageLoading.Platform.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/FFImageLoading.Platform.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/FFImageLoading.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/FFImageLoading.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/FFImageLoading.Forms.Platform.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/FFImageLoading.Forms.Platform.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/FFImageLoading.Forms.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/FFImageLoading.Forms.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Xamarin.Forms.Core.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Xamarin.Forms.Core.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Extras.dll
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/bin/iPhone/Debug/Extras.pdb
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/device-builds/iphone10.1-15.5/actool/_PartialAppManifest.items
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/device-builds/iphone10.1-15.5/actool/_BundleResourceWithLogicalName.items
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/device-builds/iphone10.1-15.5/actool/_ProcessedImageAssetsPath.items
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/device-builds/iphone10.1-15.5/ibtool/_BundleResourceWithLogicalName.items
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/device-builds/iphone10.1-15.5/ibtool/_ProcessedInterfaceDefinitionsPath.items
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/device-builds/iphone10.1-15.5/coremlc/_PartialAppManifest.items
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/device-builds/iphone10.1-15.5/coremlc/_BundleResourceWithLogicalName.items
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/device-builds/iphone10.1-15.5/coremlc/_ProcessedCoreMLModelsPath.items
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/device-builds/iphone10.1-15.5/_ProcessedBundleResourcesPath.items
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/device-builds/iphone10.1-15.5/_ProcessedContentPath.items
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/device-builds/iphone10.1-15.5/optimized/
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/Extras.iOS.csproj.AssemblyReference.cache
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/Extras.iOS.csproj.CoreCompileInputs.cache
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/Extras.iOS.csproj.CopyComplete
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/Extras.iOS.exe
-/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/iPhone/Debug/Extras.iOS.pdb
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Extras.iOS.exe.config
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Extras.iOS.exe
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Extras.iOS.pdb
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\bin\iPhone\Debug\Acr.UserDialogs.dll
@@ -214,6 +106,8 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\_P
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\optimized\
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.csproj.AssemblyReference.cache
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.exe.config
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.csproj.CoreCompileInputs.cache
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.csproj.CopyComplete
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.iOS\obj\iPhone\Debug\Extras.iOS.exe

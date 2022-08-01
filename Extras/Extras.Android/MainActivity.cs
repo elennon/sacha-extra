@@ -150,7 +150,7 @@ namespace Extras.Droid
                 }
                 return fullPathToImage;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 Toast.MakeText(Android.App.Application.Context, "Unable to get path", ToastLength.Long).Show();
             }

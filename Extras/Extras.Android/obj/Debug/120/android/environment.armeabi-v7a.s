@@ -1945,7 +1945,7 @@ application_config:
 
 	.type	.L.autostr.6, %object
 .L.autostr.6:
-	.asciz	"45f92b17-4bcf-44f3-aaa0-ae27477e847c"
+	.asciz	"342b4e78-d7ec-4717-91f5-af4547989fd6"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, %object
