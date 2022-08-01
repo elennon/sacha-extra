@@ -1,33 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/Extras.iOS.csproj": {}
+    "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras.iOS\\Extras.iOS.csproj": {}
   },
   "projects": {
-    "/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/Extras.iOS.csproj": {
+    "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras.iOS\\Extras.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/Extras.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras.iOS\\Extras.iOS.csproj",
         "projectName": "Extras.iOS",
-        "projectPath": "/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/Extras.iOS.csproj",
-        "packagesPath": "/Users/donallennon/.nuget/packages/",
-        "outputPath": "/Users/donallennon/Desktop/ed/Extras/Extras/Extras.iOS/obj/",
+        "projectPath": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras.iOS\\Extras.iOS.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/donallennon/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/donallennon/Desktop/ed/Extras/Extras/Extras/Extras.csproj": {
-                "projectPath": "/Users/donallennon/Desktop/ed/Extras/Extras/Extras/Extras.csproj"
+              "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras\\Extras.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras\\Extras.csproj"
               }
             }
           }
@@ -46,11 +54,11 @@
             },
             "ClosedXML": {
               "target": "Package",
-              "version": "[0.95.4, )"
+              "version": "[0.96.0, )"
             },
             "DocumentFormat.OpenXml": {
               "target": "Package",
-              "version": "[2.16.0, )"
+              "version": "[2.17.1, )"
             },
             "GMImagePicker.Xamarin": {
               "target": "Package",
@@ -58,7 +66,7 @@
             },
             "GemBox.Spreadsheet": {
               "target": "Package",
-              "version": "[49.0.1039, )"
+              "version": "[49.0.1067, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -86,7 +94,7 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[1.7.3, )"
             },
             "Xamarin.FFImageLoading.Forms": {
               "target": "Package",
@@ -94,7 +102,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[5.0.0.2515, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -115,22 +123,30 @@
         }
       }
     },
-    "/Users/donallennon/Desktop/ed/Extras/Extras/Extras/Extras.csproj": {
+    "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras\\Extras.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/donallennon/Desktop/ed/Extras/Extras/Extras/Extras.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras\\Extras.csproj",
         "projectName": "Extras",
-        "projectPath": "/Users/donallennon/Desktop/ed/Extras/Extras/Extras/Extras.csproj",
-        "packagesPath": "/Users/donallennon/.nuget/packages/",
-        "outputPath": "/Users/donallennon/Desktop/ed/Extras/Extras/Extras/obj/",
+        "projectPath": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras\\Extras.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Documents\\c# projects\\Extras\\Extras\\Extras\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/donallennon/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -159,15 +175,15 @@
             },
             "ClosedXML": {
               "target": "Package",
-              "version": "[0.95.4, )"
+              "version": "[0.96.0, )"
             },
             "DocumentFormat.OpenXml": {
               "target": "Package",
-              "version": "[2.16.0, )"
+              "version": "[2.17.1, )"
             },
             "GemBox.Spreadsheet": {
               "target": "Package",
-              "version": "[49.0.1039, )"
+              "version": "[49.0.1067, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -205,7 +221,7 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[1.7.3, )"
             },
             "Xamarin.FFImageLoading.Forms": {
               "target": "Package",
@@ -213,7 +229,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[5.0.0.2515, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -230,7 +246,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.420/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

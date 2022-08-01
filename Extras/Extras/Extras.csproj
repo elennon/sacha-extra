@@ -21,9 +21,9 @@
   <ItemGroup>
     <PackageReference Include="Acr.UserDialogs" Version="7.2.0.564" />
     <PackageReference Include="CarouselView.FormsPlugin" Version="6.0.0" />
-    <PackageReference Include="ClosedXML" Version="0.95.4" />
-    <PackageReference Include="DocumentFormat.OpenXml" Version="2.16.0" />
-    <PackageReference Include="GemBox.Spreadsheet" Version="49.0.1039" />
+    <PackageReference Include="ClosedXML" Version="0.96.0" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.17.1" />
+    <PackageReference Include="GemBox.Spreadsheet" Version="49.0.1067" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Plugin.Permissions" Version="6.0.1" />
     <PackageReference Include="SkiaSharp.Views.Forms" Version="2.88.0" />
@@ -33,8 +33,8 @@
     <PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
     <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
   </ItemGroup>
 
   <ItemGroup>

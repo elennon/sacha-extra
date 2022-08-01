@@ -388,6 +388,7 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\a
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\ActivityIndicatorRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\AHorizontalScrollView.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\AndroidActivity.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\BaseCellAppCompatView.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\BaseCellView.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\BorderDrawable.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\BoxRenderer.java
@@ -418,6 +419,8 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\a
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\DragAndDropGestureHandler.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\DragAndDropGestureHandler_CustomLocalStateData.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EdgeSnapHelper.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EditorAppCompatEditText.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EditorAppCompatRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EditorEditText.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EditorRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EditorRendererBase_1.java
@@ -427,6 +430,10 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\a
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EndSingleSnapHelper.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EndSnapHelper.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EntryAccessibilityDelegate.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EntryAppCompatEditText.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EntryAppCompatRenderer.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EntryCellAppCompatEditText.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EntryCellAppCompatView.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EntryCellEditText.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EntryCellView.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\EntryEditText.java
@@ -440,6 +447,9 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\a
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\FormattedStringExtensions_TextDecorationSpan.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\FormsAnimationDrawable.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\FormsAppCompatActivity.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\FormsAppCompatEditText.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\FormsAppCompatEditTextBase.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\FormsAppCompatTextView.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\FormsApplicationActivity.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\FormsEditText.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\FormsEditTextBase.java
@@ -495,6 +505,7 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\a
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\PageRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\PathRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\PathView.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\PickerAppCompatEditText.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\PickerEditText.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\PickerManager_PickerListener.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\PickerRenderer.java
@@ -516,6 +527,7 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\a
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\ScrollLayoutManager.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\ScrollViewContainer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\ScrollViewRenderer.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\SearchBarAppCompatRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\SearchBarRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\SelectableItemsViewAdapter_2.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\SelectableItemsViewRenderer_3.java
@@ -555,12 +567,14 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\a
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\StructuredItemsViewAdapter_2.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\StructuredItemsViewRenderer_3.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\SwipeViewRenderer.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\SwitchCellAppCompatView.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\SwitchCellView.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\SwitchRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\TabbedRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\TableViewModelRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\TableViewRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\TemplatedItemViewHolder.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\TextCellAppCompatRenderer_TextCellAppCompatView.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\TextCellRenderer_TextCellView.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\TextViewHolder.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc643f46942d9dd1fff9\TimePickerRenderer.java
@@ -592,6 +606,8 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\a
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64720bb2db43a66fe9\NavigationPageRenderer_ClickListener.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64720bb2db43a66fe9\NavigationPageRenderer_Container.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64720bb2db43a66fe9\NavigationPageRenderer_DrawerMultiplexedListener.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64720bb2db43a66fe9\PickerAppCompatRenderer.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64720bb2db43a66fe9\PickerAppCompatRendererBase_1.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64720bb2db43a66fe9\PickerRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64720bb2db43a66fe9\PickerRendererBase_1.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64720bb2db43a66fe9\Platform_ModalContainer.java
@@ -617,6 +633,7 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\a
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64a0e0a82d0db9a07d\BatteryBroadcastReceiver.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64a0e0a82d0db9a07d\ClipboardChangeListener.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64a0e0a82d0db9a07d\ConnectivityBroadcastReceiver.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64a0e0a82d0db9a07d\Connectivity_EssentialsNetworkCallback.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64a0e0a82d0db9a07d\EnergySaverBroadcastReceiver.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64a0e0a82d0db9a07d\GyroscopeListener.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64a0e0a82d0db9a07d\IntermediateActivity.java
@@ -657,6 +674,7 @@ C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\a
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64ee486da937c010f4\ButtonRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64ee486da937c010f4\FrameRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64ee486da937c010f4\ImageRenderer.java
+C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64ee486da937c010f4\LabelAppCompatRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\crc64ee486da937c010f4\LabelRenderer.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\ffimageloading\cross\MvxCachedImageView.java
 C:\Users\Asus\Documents\c# projects\Extras\Extras\Extras.Android\obj\Debug\120\android\src\ffimageloading\views\ImageViewAsync.java

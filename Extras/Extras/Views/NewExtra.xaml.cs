@@ -287,9 +287,8 @@ namespace Extras.Views
                 var photoPermissions = await CrossPermissions.Current.CheckPermissionStatusAsync<PhotosPermission>();
                 if (storagePermissions != PermissionStatus.Granted || photoPermissions != PermissionStatus.Granted)
                 {
-                    var results = await CrossPermissions.Current.RequestPermissionsAsync(new[] { Permission.Storage, Permission.Photos });
-                    storagePermissions = results[Permission.Storage];
-                    photoPermissions = results[Permission.Photos];
+                    storagePermissions = await CrossPermissions.Current.RequestPermissionAsync<StoragePermission>();
+                    photoPermissions = await CrossPermissions.Current.RequestPermissionAsync<PhotosPermission>();
                 }
 
                 if (storagePermissions != PermissionStatus.Granted || photoPermissions != PermissionStatus.Granted)
