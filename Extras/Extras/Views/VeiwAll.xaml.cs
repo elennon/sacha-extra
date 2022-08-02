@@ -10,8 +10,8 @@ using Extras.Services;
 using Extras.Models;
 using System.Linq;
 using System.IO.Compression;
-using System.Reflection;
 using System.Collections.ObjectModel;
+using System.Text.RegularExpressions;
 
 namespace Extras.Views
 {
@@ -24,6 +24,7 @@ namespace Extras.Views
         private Project currentProject = new Project();
         ObservableCollection<Extra> myCollection;
         private string AppFolder => Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+        
         public VeiwAll()
         {
             InitializeComponent();
@@ -169,9 +170,16 @@ namespace Extras.Views
         }
         private async void sendAsEmailClicked(object sender, EventArgs e)
         {
-            if (subject.Text == null || emailto.Text == null || body.Text == null)
+            if (subject.Text == null || emailto.Text == null || body.Text == null || subject.Text == "" || emailto.Text == "" || body.Text == "")
             {
-                await DisplayAlert("Alert", "Please fill in email address, subject and body", "OK");
+                await DisplayAlert("Not Sent", "Please fill in email address, subject and body", "OK");
+                return;
+            }
+            
+            if(!ValidateEmail(emailto.Text))
+            {
+                await DisplayAlert("", "Please enter a valid email address", "OK");
+                return;
             }
             SetPw("EmailSubject", subject.Text).Wait();
             SetPw("EmailBody", body.Text).Wait();
@@ -194,7 +202,8 @@ namespace Extras.Views
             }
             else
             {
-                await DisplayAlert("Alert", "Please add some extras before sending", "OK");
+                await DisplayAlert("Not Sent", "Please add some extras before sending", "OK");
+                return;
             }
             
         }
@@ -218,7 +227,14 @@ namespace Extras.Views
                 throw ex;
             }
         }
+        Regex EmailRegex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
+        public bool ValidateEmail(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+                return false;
 
+            return EmailRegex.IsMatch(email);
+        }
         private async void collectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (e.CurrentSelection != null)
