@@ -52,14 +52,6 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
-            "ClosedXML": {
-              "target": "Package",
-              "version": "[0.96.0, )"
-            },
-            "DocumentFormat.OpenXml": {
-              "target": "Package",
-              "version": "[2.17.1, )"
-            },
             "GMImagePicker.Xamarin": {
               "target": "Package",
               "version": "[2.5.1, )"
@@ -172,14 +164,6 @@
             "CarouselView.FormsPlugin": {
               "target": "Package",
               "version": "[6.0.0, )"
-            },
-            "ClosedXML": {
-              "target": "Package",
-              "version": "[0.96.0, )"
-            },
-            "DocumentFormat.OpenXml": {
-              "target": "Package",
-              "version": "[2.17.1, )"
             },
             "GemBox.Spreadsheet": {
               "target": "Package",

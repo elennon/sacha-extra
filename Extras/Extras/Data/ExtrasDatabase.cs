@@ -22,6 +22,7 @@ namespace Extras.Data
             database.CreateTableAsync<Pics>().Wait();
             database.CreateTableAsync<Project>().Wait();
             database.CreateTableAsync<Batch>().Wait();
+            database.CreateTableAsync<User>().Wait();
         }
 
         public Task<List<Extra>> GetExtrasAsync(string prjId)
